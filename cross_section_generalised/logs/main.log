@@ -1,0 +1,394 @@
+2025-04-14 16:34:11,743 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:34:11,743 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:34:11,743 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:34:11,743 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:34:11,743 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:34:11,743 - MAIN - INFO - Resolution: 5
+2025-04-14 16:34:11,743 - MAIN - INFO - Resolution: 10
+2025-04-14 16:34:11,743 - MAIN - INFO - Resolution: 20
+2025-04-14 16:34:11,743 - MAIN - INFO - Resolution: 40
+2025-04-14 16:34:11,743 - MAIN - INFO - Resolution: 80
+2025-04-14 16:34:11,743 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:34:11,743 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:34:11,877 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:34:11,877 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:34:11,877 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:34:11,894 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:34:11,894 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:34:11,913 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:34:11,913 - MAIN - INFO - Displaying plots
+2025-04-14 16:34:15,942 - MAIN - INFO - Execution completed successfully
+2025-04-14 16:41:33,920 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:41:33,920 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:41:33,922 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:41:33,922 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:41:33,922 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:41:33,922 - MAIN - INFO - Resolution: 5
+2025-04-14 16:41:33,926 - MAIN - INFO - Resolution: 10
+2025-04-14 16:41:33,927 - MAIN - INFO - Resolution: 20
+2025-04-14 16:41:33,929 - MAIN - INFO - Resolution: 40
+2025-04-14 16:41:33,930 - MAIN - INFO - Resolution: 80
+2025-04-14 16:41:33,931 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:41:33,931 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:41:34,072 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:41:34,073 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:41:34,073 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:41:34,081 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:41:34,089 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:41:34,096 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:41:34,104 - MAIN - INFO - Displaying plots
+2025-04-14 16:41:35,874 - MAIN - INFO - Execution completed successfully
+2025-04-14 16:41:47,007 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:41:47,007 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:41:47,010 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:41:47,010 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:41:47,010 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:41:47,010 - MAIN - INFO - Resolution: 5
+2025-04-14 16:41:47,014 - MAIN - INFO - Resolution: 10
+2025-04-14 16:41:47,017 - MAIN - INFO - Resolution: 20
+2025-04-14 16:41:47,019 - MAIN - INFO - Resolution: 40
+2025-04-14 16:41:47,020 - MAIN - INFO - Resolution: 80
+2025-04-14 16:41:47,022 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:41:47,022 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:41:47,161 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:41:47,161 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:41:47,161 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:41:47,169 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:41:47,177 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:41:47,184 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:41:47,192 - MAIN - INFO - Displaying plots
+2025-04-14 16:45:11,729 - MAIN - INFO - Execution completed successfully
+2025-04-14 16:45:13,734 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:45:13,734 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:45:13,736 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:45:13,737 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:45:13,738 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:45:13,738 - MAIN - INFO - Resolution: 5
+2025-04-14 16:45:13,741 - MAIN - INFO - Resolution: 10
+2025-04-14 16:45:13,744 - MAIN - INFO - Resolution: 20
+2025-04-14 16:45:13,745 - MAIN - INFO - Resolution: 40
+2025-04-14 16:45:13,747 - MAIN - INFO - Resolution: 80
+2025-04-14 16:45:13,748 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:45:13,748 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:45:13,875 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:45:13,876 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:45:13,876 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:45:13,880 - MAIN - ERROR - Unhandled exception occurred during execution.
+Traceback (most recent call last):
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\main.py", line 93, in main
+    add_shape_inset(ax, final_shape, angle, xlim, ylim, AXIS_LEN_FACTOR)
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\visualisation.py", line 68, in add_shape_inset
+    inset = inset_axes(ax, width="30%", height="30%", loc='lower center',
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\s1834431\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpl_toolkits\axes_grid1\inset_locator.py", line 367, in inset_axes
+    raise ValueError("Using relative units for width or height "
+ValueError: Using relative units for width or height requires to provide a 4-tuple or a `Bbox` instance to `bbox_to_anchor.
+2025-04-14 16:45:20,125 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:45:20,125 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:45:20,128 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:45:20,129 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:45:20,129 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:45:20,129 - MAIN - INFO - Resolution: 5
+2025-04-14 16:45:20,132 - MAIN - INFO - Resolution: 10
+2025-04-14 16:45:20,134 - MAIN - INFO - Resolution: 20
+2025-04-14 16:45:20,136 - MAIN - INFO - Resolution: 40
+2025-04-14 16:45:20,137 - MAIN - INFO - Resolution: 80
+2025-04-14 16:45:20,139 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:45:20,139 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:45:20,264 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:45:20,265 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:45:20,265 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:45:20,268 - MAIN - ERROR - Unhandled exception occurred during execution.
+Traceback (most recent call last):
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\main.py", line 93, in main
+    add_shape_inset(ax, final_shape, angle, xlim, ylim, AXIS_LEN_FACTOR)
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\visualisation.py", line 68, in add_shape_inset
+    inset = inset_axes(ax, width="30%", height="30%", loc='lower center',
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\s1834431\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpl_toolkits\axes_grid1\inset_locator.py", line 367, in inset_axes
+    raise ValueError("Using relative units for width or height "
+ValueError: Using relative units for width or height requires to provide a 4-tuple or a `Bbox` instance to `bbox_to_anchor.
+2025-04-14 16:46:03,642 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:46:03,642 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:46:03,645 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:46:03,646 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:46:03,646 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:46:03,646 - MAIN - INFO - Resolution: 5
+2025-04-14 16:46:03,650 - MAIN - INFO - Resolution: 10
+2025-04-14 16:46:03,652 - MAIN - INFO - Resolution: 20
+2025-04-14 16:46:03,654 - MAIN - INFO - Resolution: 40
+2025-04-14 16:46:03,656 - MAIN - INFO - Resolution: 80
+2025-04-14 16:46:03,658 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:46:03,658 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:46:03,779 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:46:03,780 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:46:03,780 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:46:03,783 - MAIN - ERROR - Unhandled exception occurred during execution.
+Traceback (most recent call last):
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\main.py", line 93, in main
+    add_shape_inset(ax, final_shape, angle, xlim, ylim, AXIS_LEN_FACTOR)
+  File "c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\visualisation.py", line 68, in add_shape_inset
+    inset = inset_axes(ax, width="30%", height="30%", loc='lower center',
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\s1834431\AppData\Local\Programs\Python\Python312\Lib\site-packages\mpl_toolkits\axes_grid1\inset_locator.py", line 367, in inset_axes
+    raise ValueError("Using relative units for width or height "
+ValueError: Using relative units for width or height requires to provide a 4-tuple or a `Bbox` instance to `bbox_to_anchor.
+2025-04-14 16:46:08,910 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:46:08,911 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:46:08,913 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:46:08,914 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:46:08,914 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:46:08,914 - MAIN - INFO - Resolution: 5
+2025-04-14 16:46:08,915 - MAIN - INFO - Resolution: 10
+2025-04-14 16:46:08,917 - MAIN - INFO - Resolution: 20
+2025-04-14 16:46:08,918 - MAIN - INFO - Resolution: 40
+2025-04-14 16:46:08,920 - MAIN - INFO - Resolution: 80
+2025-04-14 16:46:08,920 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:46:08,920 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:46:09,042 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:46:09,043 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:46:09,043 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:46:09,050 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:46:09,058 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:46:09,064 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:46:09,072 - MAIN - INFO - Displaying plots
+2025-04-14 16:52:16,985 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:52:16,985 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:52:16,988 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:52:16,989 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:52:16,989 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:52:16,989 - MAIN - INFO - Resolution: 5
+2025-04-14 16:52:16,993 - MAIN - INFO - Resolution: 10
+2025-04-14 16:52:16,995 - MAIN - INFO - Resolution: 20
+2025-04-14 16:52:16,996 - MAIN - INFO - Resolution: 40
+2025-04-14 16:52:16,997 - MAIN - INFO - Resolution: 80
+2025-04-14 16:52:16,998 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:52:16,998 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:52:17,118 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:52:17,119 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:52:17,119 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:52:17,127 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:52:17,135 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:52:17,141 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:52:17,147 - MAIN - INFO - Displaying plots
+2025-04-14 16:55:35,263 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:55:35,264 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:55:35,267 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:55:35,267 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:55:35,268 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:55:35,268 - MAIN - INFO - Resolution: 5
+2025-04-14 16:55:35,270 - MAIN - INFO - Resolution: 10
+2025-04-14 16:55:35,272 - MAIN - INFO - Resolution: 20
+2025-04-14 16:55:35,273 - MAIN - INFO - Resolution: 40
+2025-04-14 16:55:35,274 - MAIN - INFO - Resolution: 80
+2025-04-14 16:55:35,276 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:55:35,276 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:55:35,399 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:55:35,400 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:55:35,400 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:55:35,407 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:55:35,415 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:55:35,422 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:55:35,430 - MAIN - INFO - Displaying plots
+2025-04-14 16:57:55,585 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:57:55,585 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:57:55,588 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:57:55,589 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:57:55,589 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:57:55,589 - MAIN - INFO - Resolution: 5
+2025-04-14 16:57:55,591 - MAIN - INFO - Resolution: 10
+2025-04-14 16:57:55,593 - MAIN - INFO - Resolution: 20
+2025-04-14 16:57:55,595 - MAIN - INFO - Resolution: 40
+2025-04-14 16:57:55,597 - MAIN - INFO - Resolution: 80
+2025-04-14 16:57:55,598 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:57:55,598 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:57:55,724 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:57:55,725 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:57:55,725 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:57:55,734 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:57:55,741 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:57:55,750 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:57:55,758 - MAIN - INFO - Displaying plots
+2025-04-14 16:58:03,797 - MAIN - INFO - Execution completed successfully
+2025-04-14 16:58:58,796 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:58:58,796 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:58:58,799 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:58:58,799 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:58:58,800 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:58:58,800 - MAIN - INFO - Resolution: 5
+2025-04-14 16:58:58,803 - MAIN - INFO - Resolution: 10
+2025-04-14 16:58:58,807 - MAIN - INFO - Resolution: 20
+2025-04-14 16:58:58,808 - MAIN - INFO - Resolution: 40
+2025-04-14 16:58:58,810 - MAIN - INFO - Resolution: 80
+2025-04-14 16:58:58,811 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:58:58,811 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:58:58,926 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:58:58,926 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:58:58,926 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:58:58,934 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:58:58,942 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:58:58,948 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:58:58,957 - MAIN - INFO - Displaying plots
+2025-04-14 16:59:03,617 - MAIN - INFO - Execution completed successfully
+2025-04-14 16:59:08,236 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 16:59:08,237 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 16:59:08,240 - MAIN - INFO - Loaded 12 points
+2025-04-14 16:59:08,241 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 16:59:08,241 - MAIN - INFO - Beginning convergence study
+2025-04-14 16:59:08,241 - MAIN - INFO - Resolution: 5
+2025-04-14 16:59:08,244 - MAIN - INFO - Resolution: 10
+2025-04-14 16:59:08,247 - MAIN - INFO - Resolution: 20
+2025-04-14 16:59:08,248 - MAIN - INFO - Resolution: 40
+2025-04-14 16:59:08,249 - MAIN - INFO - Resolution: 80
+2025-04-14 16:59:08,251 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 16:59:08,251 - MAIN - INFO - Setting up convergence plots
+2025-04-14 16:59:08,379 - MAIN - INFO - Computing global plot bounds
+2025-04-14 16:59:08,379 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 16:59:08,379 - MAIN - INFO - Plotting angle 0°
+2025-04-14 16:59:08,387 - MAIN - INFO - Plotting angle 90°
+2025-04-14 16:59:08,395 - MAIN - INFO - Plotting angle 180°
+2025-04-14 16:59:08,402 - MAIN - INFO - Plotting angle 270°
+2025-04-14 16:59:08,409 - MAIN - INFO - Displaying plots
+2025-04-14 17:03:53,398 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:03:53,399 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:03:53,401 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:03:53,402 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:03:53,402 - MAIN - INFO - Beginning convergence study
+2025-04-14 17:03:53,402 - MAIN - INFO - Resolution: 5
+2025-04-14 17:03:53,406 - MAIN - INFO - Resolution: 10
+2025-04-14 17:03:53,408 - MAIN - INFO - Resolution: 20
+2025-04-14 17:03:53,409 - MAIN - INFO - Resolution: 40
+2025-04-14 17:03:53,410 - MAIN - INFO - Resolution: 80
+2025-04-14 17:03:53,412 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:03:53,412 - MAIN - INFO - Setting up convergence plots
+2025-04-14 17:03:53,541 - MAIN - INFO - Computing global plot bounds
+2025-04-14 17:03:53,542 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 17:03:53,542 - MAIN - INFO - Plotting angle 0°
+2025-04-14 17:03:53,550 - MAIN - INFO - Plotting angle 90°
+2025-04-14 17:03:53,558 - MAIN - INFO - Plotting angle 180°
+2025-04-14 17:03:53,565 - MAIN - INFO - Plotting angle 270°
+2025-04-14 17:03:53,574 - MAIN - INFO - Displaying plots
+2025-04-14 17:05:29,084 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:05:29,084 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:05:29,087 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:05:29,088 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:05:29,088 - MAIN - INFO - Beginning convergence study
+2025-04-14 17:05:29,088 - MAIN - INFO - Resolution: 5
+2025-04-14 17:05:29,091 - MAIN - INFO - Resolution: 10
+2025-04-14 17:05:29,093 - MAIN - INFO - Resolution: 20
+2025-04-14 17:05:29,095 - MAIN - INFO - Resolution: 40
+2025-04-14 17:05:29,097 - MAIN - INFO - Resolution: 80
+2025-04-14 17:05:29,098 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:05:29,098 - MAIN - INFO - Setting up convergence plots
+2025-04-14 17:05:29,223 - MAIN - INFO - Computing global plot bounds
+2025-04-14 17:05:29,223 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 17:05:29,223 - MAIN - INFO - Plotting angle 0°
+2025-04-14 17:05:29,232 - MAIN - INFO - Plotting angle 90°
+2025-04-14 17:05:29,241 - MAIN - INFO - Plotting angle 180°
+2025-04-14 17:05:29,248 - MAIN - INFO - Plotting angle 270°
+2025-04-14 17:05:29,256 - MAIN - INFO - Displaying plots
+2025-04-14 17:05:33,021 - MAIN - INFO - Execution completed successfully
+2025-04-14 17:06:02,928 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:06:02,928 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:06:02,931 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:06:02,932 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:06:02,932 - MAIN - INFO - Beginning convergence study
+2025-04-14 17:06:02,932 - MAIN - INFO - Resolution: 5
+2025-04-14 17:06:02,936 - MAIN - INFO - Resolution: 10
+2025-04-14 17:06:02,941 - MAIN - INFO - Resolution: 20
+2025-04-14 17:06:02,943 - MAIN - INFO - Resolution: 40
+2025-04-14 17:06:02,945 - MAIN - INFO - Resolution: 80
+2025-04-14 17:06:02,946 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:06:02,947 - MAIN - INFO - Setting up convergence plots
+2025-04-14 17:06:03,086 - MAIN - INFO - Computing global plot bounds
+2025-04-14 17:06:03,087 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 17:06:03,087 - MAIN - INFO - Plotting angle 0°
+2025-04-14 17:06:03,095 - MAIN - INFO - Plotting angle 90°
+2025-04-14 17:06:03,103 - MAIN - INFO - Plotting angle 180°
+2025-04-14 17:06:03,110 - MAIN - INFO - Plotting angle 270°
+2025-04-14 17:06:03,117 - MAIN - INFO - Displaying plots
+2025-04-14 17:06:32,621 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:06:32,621 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:06:32,623 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:06:32,624 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:06:32,624 - MAIN - INFO - Beginning convergence study
+2025-04-14 17:06:32,624 - MAIN - INFO - Resolution: 5
+2025-04-14 17:06:32,627 - MAIN - INFO - Resolution: 10
+2025-04-14 17:06:32,630 - MAIN - INFO - Resolution: 20
+2025-04-14 17:06:32,631 - MAIN - INFO - Resolution: 40
+2025-04-14 17:06:32,632 - MAIN - INFO - Resolution: 80
+2025-04-14 17:06:32,636 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:06:32,636 - MAIN - INFO - Setting up convergence plots
+2025-04-14 17:06:32,761 - MAIN - INFO - Computing global plot bounds
+2025-04-14 17:06:32,761 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 17:06:32,762 - MAIN - INFO - Plotting angle 0°
+2025-04-14 17:06:32,769 - MAIN - INFO - Plotting angle 90°
+2025-04-14 17:06:32,777 - MAIN - INFO - Plotting angle 180°
+2025-04-14 17:06:32,785 - MAIN - INFO - Plotting angle 270°
+2025-04-14 17:06:32,793 - MAIN - INFO - Displaying plots
+2025-04-14 17:06:37,218 - MAIN - INFO - Execution completed successfully
+2025-04-14 17:07:03,658 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:07:03,659 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:07:03,661 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:07:03,662 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:07:03,662 - MAIN - INFO - Beginning convergence study
+2025-04-14 17:07:03,662 - MAIN - INFO - Resolution: 5
+2025-04-14 17:07:03,666 - MAIN - INFO - Resolution: 10
+2025-04-14 17:07:03,669 - MAIN - INFO - Resolution: 20
+2025-04-14 17:07:03,671 - MAIN - INFO - Resolution: 40
+2025-04-14 17:07:03,673 - MAIN - INFO - Resolution: 80
+2025-04-14 17:07:03,674 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:07:03,675 - MAIN - INFO - Setting up convergence plots
+2025-04-14 17:07:03,799 - MAIN - INFO - Computing global plot bounds
+2025-04-14 17:07:03,800 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 17:07:03,800 - MAIN - INFO - Plotting angle 0°
+2025-04-14 17:07:03,808 - MAIN - INFO - Plotting angle 90°
+2025-04-14 17:07:03,815 - MAIN - INFO - Plotting angle 180°
+2025-04-14 17:07:03,823 - MAIN - INFO - Plotting angle 270°
+2025-04-14 17:07:03,830 - MAIN - INFO - Displaying plots
+2025-04-14 17:07:09,961 - MAIN - INFO - Execution completed successfully
+2025-04-14 17:18:39,851 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:18:39,852 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:18:39,854 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:18:39,855 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:18:39,855 - MAIN - INFO - Generating enhanced geometry across resolutions
+2025-04-14 17:18:39,855 - MAIN - INFO - Enhancing geometry at resolution 5
+2025-04-14 17:18:39,858 - MAIN - INFO - Enhancing geometry at resolution 10
+2025-04-14 17:18:39,861 - MAIN - INFO - Enhancing geometry at resolution 20
+2025-04-14 17:18:39,863 - MAIN - INFO - Enhancing geometry at resolution 40
+2025-04-14 17:18:39,864 - MAIN - INFO - Enhancing geometry at resolution 80
+2025-04-14 17:18:39,866 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:18:39,866 - MAIN - INFO - Plotting geometry transformation stages
+2025-04-14 17:21:24,134 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 17:21:24,135 - MAIN - INFO - Reading input points from: c:\Users\s1834431\OneDrive - University of Edinburgh\PhD\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 17:21:24,138 - MAIN - INFO - Loaded 12 points
+2025-04-14 17:21:24,139 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 17:21:24,139 - MAIN - INFO - Generating enhanced geometry across resolutions
+2025-04-14 17:21:24,139 - MAIN - INFO - Enhancing geometry at resolution 5
+2025-04-14 17:21:24,143 - MAIN - INFO - Enhancing geometry at resolution 10
+2025-04-14 17:21:24,145 - MAIN - INFO - Enhancing geometry at resolution 20
+2025-04-14 17:21:24,146 - MAIN - INFO - Enhancing geometry at resolution 40
+2025-04-14 17:21:24,148 - MAIN - INFO - Enhancing geometry at resolution 80
+2025-04-14 17:21:24,149 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 17:21:24,149 - MAIN - INFO - Plotting geometry transformation stages
+2025-04-14 18:34:07,558 - MAIN - INFO - Starting cross-section analysis pipeline
+2025-04-14 18:34:07,559 - MAIN - INFO - Reading input points from: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\cross_section_generalised\src\..\input.csv
+2025-04-14 18:34:07,569 - MAIN - INFO - Loaded 12 points
+2025-04-14 18:34:07,571 - MAIN - INFO - Centroid computed: (Z=48.2500, Y=-34.7285)
+2025-04-14 18:34:07,572 - MAIN - INFO - Generating enhanced geometry across resolutions
+2025-04-14 18:34:07,573 - MAIN - INFO - Enhancing geometry at resolution 5
+2025-04-14 18:34:07,593 - MAIN - INFO - Enhancing geometry at resolution 10
+2025-04-14 18:34:07,616 - MAIN - INFO - Enhancing geometry at resolution 20
+2025-04-14 18:34:07,639 - MAIN - INFO - Enhancing geometry at resolution 40
+2025-04-14 18:34:07,660 - MAIN - INFO - Enhancing geometry at resolution 80
+2025-04-14 18:34:07,681 - MAIN - INFO - Stored final (max-resolution) shape for inset plots
+2025-04-14 18:34:07,682 - MAIN - INFO - Plotting geometry transformation stages
+2025-04-14 18:34:10,990 - MAIN - INFO - Setting up convergence plots
+2025-04-14 18:34:11,061 - MAIN - INFO - Computing global plot bounds
+2025-04-14 18:34:11,066 - MAIN - INFO - Plotting results for each rotation angle
+2025-04-14 18:34:11,067 - MAIN - INFO - Plotting angle 0°
+2025-04-14 18:34:11,078 - MAIN - INFO - Plotting angle 90°
+2025-04-14 18:34:11,089 - MAIN - INFO - Plotting angle 180°
+2025-04-14 18:34:11,099 - MAIN - INFO - Plotting angle 270°
+2025-04-14 18:34:11,109 - MAIN - INFO - Displaying plots
+2025-04-14 18:34:15,432 - MAIN - INFO - Execution completed successfully

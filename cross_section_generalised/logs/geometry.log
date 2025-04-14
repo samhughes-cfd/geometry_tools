@@ -1,0 +1,969 @@
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:33,922 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:41:33,923 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:33,923 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:41:33,925 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:33,925 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:41:33,925 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:33,926 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:41:33,927 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:41:33,927 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:41:33,928 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:41:33,929 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:41:33,930 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:41:47,010 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:41:47,010 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:41:47,011 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:47,014 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:41:47,015 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:47,015 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:41:47,015 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:41:47,017 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:47,018 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:41:47,018 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:47,018 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:41:47,018 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:41:47,019 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:41:47,020 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:41:47,020 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:41:47,020 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:41:47,020 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:41:47,021 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:45:13,738 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:13,739 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:45:13,739 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:13,739 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:45:13,739 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:45:13,741 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:13,741 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:13,741 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:45:13,742 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:45:13,744 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:45:13,745 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:13,745 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:45:13,746 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:45:13,747 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:45:20,129 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:45:20,129 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:20,129 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:20,129 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:45:20,129 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:45:20,130 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:45:20,132 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:45:20,134 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:20,134 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:45:20,135 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:45:20,136 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:45:20,137 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:45:20,138 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:45:20,138 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:45:20,138 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:45:20,138 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:46:03,646 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:46:03,646 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:03,646 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:03,646 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:46:03,646 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:46:03,647 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:03,650 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:46:03,651 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:46:03,653 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:46:03,654 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:03,654 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:46:03,655 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:46:03,656 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:03,656 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:03,656 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:46:03,656 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:03,656 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:46:03,657 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:03,657 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:46:03,657 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:03,657 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:46:03,657 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:46:08,914 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:46:08,915 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:46:08,916 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:46:08,917 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:46:08,918 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:46:08,920 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:52:16,989 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:52:16,990 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:52:16,990 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:52:16,991 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:52:16,993 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:52:16,994 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:52:16,994 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:52:16,994 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:52:16,994 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:52:16,995 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:52:16,996 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:52:16,997 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:52:16,998 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:52:16,998 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:55:35,267 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:55:35,268 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:55:35,269 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:55:35,271 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:55:35,272 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:55:35,273 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:55:35,274 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:55:35,274 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:55:35,274 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:55:35,275 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:57:55,589 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:57:55,590 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:57:55,590 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:57:55,591 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:57:55,591 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:57:55,592 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:57:55,593 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:57:55,593 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:57:55,593 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:57:55,594 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:57:55,595 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:57:55,595 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:57:55,596 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:57:55,597 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:57:55,598 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:57:55,598 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:58:58,800 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:58:58,801 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:58:58,801 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:58:58,803 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:58:58,803 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:58:58,803 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:58:58,803 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:58:58,803 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:58:58,804 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:58:58,804 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:58:58,804 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:58:58,804 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:58:58,804 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:58:58,807 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:58:58,809 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:58:58,810 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:59:08,241 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 16:59:08,242 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:59:08,242 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 16:59:08,242 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:59:08,242 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 16:59:08,242 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 16:59:08,244 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 16:59:08,245 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 16:59:08,247 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 16:59:08,248 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:59:08,249 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 16:59:08,249 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 16:59:08,250 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:03:53,402 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:03:53,402 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:03:53,402 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:03:53,403 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:03:53,406 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:03:53,407 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:03:53,408 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:03:53,409 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:03:53,410 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:03:53,410 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:03:53,410 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:03:53,410 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:03:53,410 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:03:53,411 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:03:53,411 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:03:53,411 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:03:53,411 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:03:53,411 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:05:29,088 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:05:29,089 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:05:29,089 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:05:29,089 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:05:29,089 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:05:29,089 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:05:29,091 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:05:29,092 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:05:29,092 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:05:29,093 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:05:29,095 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:05:29,096 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:05:29,097 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:06:02,932 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:06:02,932 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:02,932 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:02,932 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:06:02,933 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:06:02,936 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:02,937 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:06:02,937 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:02,937 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:06:02,937 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:02,941 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:06:02,942 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:06:02,944 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:06:02,945 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:06:32,624 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:06:32,625 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:06:32,627 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:32,627 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:32,627 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:06:32,628 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:06:32,630 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:06:32,631 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:32,632 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:06:32,632 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:06:32,633 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:06:32,634 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:07:03,662 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:07:03,662 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:07:03,662 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:07:03,662 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:07:03,663 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:07:03,664 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:07:03,666 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:07:03,666 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:07:03,667 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:07:03,669 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:07:03,669 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:07:03,669 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:07:03,669 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:07:03,669 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:07:03,670 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:07:03,670 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:07:03,670 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:07:03,670 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:07:03,670 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:07:03,671 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:07:03,671 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:07:03,671 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:07:03,671 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:07:03,671 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:07:03,672 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:07:03,672 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:07:03,672 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:07:03,672 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:07:03,672 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:07:03,673 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:18:39,855 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:18:39,855 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:18:39,855 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:18:39,856 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:18:39,859 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:18:39,860 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:18:39,861 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:18:39,862 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:18:39,862 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:18:39,862 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:18:39,863 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:18:39,864 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:18:39,865 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:18:39,865 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:18:39,865 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 17:21:24,139 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 17:21:24,139 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:21:24,139 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:21:24,139 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 17:21:24,140 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 17:21:24,143 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 17:21:24,144 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 17:21:24,145 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 17:21:24,146 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:21:24,146 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:21:24,146 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 17:21:24,147 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 17:21:24,148 - GEOMETRY - INFO - Total enhanced points generated: 340
+2025-04-14 18:34:07,571 - GEOMETRY - INFO - Translating geometry to centroid
+2025-04-14 18:34:07,573 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 18:34:07,574 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 18:34:07,575 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=5
+2025-04-14 18:34:07,575 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 18:34:07,576 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=5
+2025-04-14 18:34:07,577 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 18:34:07,577 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=5
+2025-04-14 18:34:07,578 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 18:34:07,579 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=5
+2025-04-14 18:34:07,579 - GEOMETRY - INFO - Total enhanced points generated: 40
+2025-04-14 18:34:07,594 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 18:34:07,595 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 18:34:07,595 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=10
+2025-04-14 18:34:07,596 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 18:34:07,597 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=10
+2025-04-14 18:34:07,597 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 18:34:07,598 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=10
+2025-04-14 18:34:07,599 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 18:34:07,600 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=10
+2025-04-14 18:34:07,601 - GEOMETRY - INFO - Total enhanced points generated: 60
+2025-04-14 18:34:07,616 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 18:34:07,618 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 18:34:07,619 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=20
+2025-04-14 18:34:07,619 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 18:34:07,620 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=20
+2025-04-14 18:34:07,621 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 18:34:07,622 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=20
+2025-04-14 18:34:07,622 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 18:34:07,623 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=20
+2025-04-14 18:34:07,624 - GEOMETRY - INFO - Total enhanced points generated: 100
+2025-04-14 18:34:07,639 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 18:34:07,640 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 18:34:07,641 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=40
+2025-04-14 18:34:07,641 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 18:34:07,642 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=40
+2025-04-14 18:34:07,643 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 18:34:07,643 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=40
+2025-04-14 18:34:07,643 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 18:34:07,644 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=40
+2025-04-14 18:34:07,645 - GEOMETRY - INFO - Total enhanced points generated: 180
+2025-04-14 18:34:07,661 - GEOMETRY - INFO - Generating enhanced geometry with 12 connections
+2025-04-14 18:34:07,661 - GEOMETRY - INFO - Adding arc between points 2 and 3
+2025-04-14 18:34:07,662 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=7.5, start=180°, end=270°, resolution=80
+2025-04-14 18:34:07,663 - GEOMETRY - INFO - Adding arc between points 4 and 5
+2025-04-14 18:34:07,663 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=7.5, start=270°, end=360°, resolution=80
+2025-04-14 18:34:07,664 - GEOMETRY - INFO - Adding arc between points 8 and 9
+2025-04-14 18:34:07,665 - GEOMETRY - INFO - Generating arc: center=(40.75, -12.5), radius=2.5, start=270°, end=360°, resolution=80
+2025-04-14 18:34:07,666 - GEOMETRY - INFO - Adding arc between points 10 and 11
+2025-04-14 18:34:07,666 - GEOMETRY - INFO - Generating arc: center=(-40.75, -12.5), radius=2.5, start=180°, end=270°, resolution=80
+2025-04-14 18:34:07,667 - GEOMETRY - INFO - Total enhanced points generated: 340

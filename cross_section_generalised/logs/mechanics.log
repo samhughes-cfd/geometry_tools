@@ -1,0 +1,1908 @@
+2025-04-14 16:41:33,922 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:33,922 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:41:33,922 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:33,925 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,926 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,927 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:33,928 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:33,929 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,930 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:41:33,931 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:33,931 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:33,931 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:33,931 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:41:34,072 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:34,072 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:34,072 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:34,072 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:34,078 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:34,078 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:34,078 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:41:34,087 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:34,087 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:34,087 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:41:34,094 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:34,095 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:34,095 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:41:34,102 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:34,102 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:34,102 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:41:47,010 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:47,010 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:41:47,010 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:41:47,011 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,012 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:47,013 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,014 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,014 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:47,015 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:47,016 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,017 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,017 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:41:47,018 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:47,018 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:47,018 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,019 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,020 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:41:47,021 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,022 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:41:47,022 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:41:47,161 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,161 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,161 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,161 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,167 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:41:47,168 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:47,168 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:41:47,176 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:41:47,176 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:47,176 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:41:47,182 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:41:47,183 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:47,183 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:41:47,190 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:41:47,190 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:41:47,190 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:45:13,737 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:45:13,737 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:45:13,737 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:45:13,739 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:13,739 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:13,739 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,739 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,739 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,740 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,741 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:45:13,741 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:13,741 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:13,741 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,741 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:45:13,742 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:13,742 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:13,742 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,743 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:45:13,744 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,745 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:13,746 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:13,747 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:13,748 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:45:13,875 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:13,876 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:13,876 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:13,876 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,128 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:45:20,128 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:45:20,129 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:45:20,130 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:20,130 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:20,130 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,130 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:20,131 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:20,132 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,134 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:20,135 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,136 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,137 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:45:20,138 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:45:20,139 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:45:20,139 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:45:20,265 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:45:20,265 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:45:20,265 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:45:20,265 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,645 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:03,645 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:46:03,646 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:46:03,647 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:03,647 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:03,647 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,648 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,649 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,651 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,652 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,654 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:46:03,655 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:03,655 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:03,655 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,655 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,656 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:03,657 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:03,658 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:03,658 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:46:03,779 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:03,779 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:03,780 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:03,780 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,913 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:08,913 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:46:08,914 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:46:08,914 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:08,914 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:08,914 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,915 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,916 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:08,917 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:08,918 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,919 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:46:08,920 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:46:09,042 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:09,042 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:09,042 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:09,042 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:09,048 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:46:09,049 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:09,049 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:46:09,056 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:46:09,056 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:09,056 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:46:09,063 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:46:09,063 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:09,063 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:46:09,070 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:46:09,070 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:46:09,070 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:52:16,988 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:52:16,988 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:52:16,988 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:52:16,991 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:52:16,992 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:52:16,993 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:16,993 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,993 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:52:16,994 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:52:16,995 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:52:16,996 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,997 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:52:16,998 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:52:17,118 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:17,119 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:17,119 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:17,119 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:17,125 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:52:17,126 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:52:17,126 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:52:17,133 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:52:17,133 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:52:17,133 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:52:17,139 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:52:17,140 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:52:17,140 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:52:17,145 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:52:17,146 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:52:17,146 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:55:35,267 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:55:35,267 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:55:35,267 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:55:35,269 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,270 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,271 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,272 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:55:35,273 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,274 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:55:35,275 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:55:35,276 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,276 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:55:35,276 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:55:35,399 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,399 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,399 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,399 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,405 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:55:35,406 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:55:35,406 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:55:35,413 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:55:35,413 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:55:35,413 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:55:35,420 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:55:35,421 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:55:35,421 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:55:35,428 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:55:35,428 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:55:35,428 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:57:55,588 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:57:55,588 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:57:55,589 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:57:55,590 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:57:55,590 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:57:55,590 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,590 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,591 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:57:55,592 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:57:55,592 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:57:55,592 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,592 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,593 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:57:55,594 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:57:55,594 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:57:55,594 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,594 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,595 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,596 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,597 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:57:55,598 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:57:55,725 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,725 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,725 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,725 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,732 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:57:55,732 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:57:55,733 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:57:55,740 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:57:55,740 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:57:55,740 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:57:55,748 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:57:55,748 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:57:55,749 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:57:55,756 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:57:55,756 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:57:55,756 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:58:58,799 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:58:58,799 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:58:58,799 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:58:58,801 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,802 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:58:58,803 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:58:58,803 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,803 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,803 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:58:58,804 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:58:58,804 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:58:58,804 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,804 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,805 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,806 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:58:58,806 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:58:58,806 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,806 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,807 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:58:58,807 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:58:58,807 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:58:58,807 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,808 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:58:58,809 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:58:58,810 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:58:58,811 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:58:58,926 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,926 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,926 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,926 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,932 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:58:58,932 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:58:58,932 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:58:58,940 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:58:58,940 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:58:58,940 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:58:58,947 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:58:58,947 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:58:58,947 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:58:58,954 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:58:58,954 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:58:58,954 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 16:59:08,240 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:59:08,240 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 16:59:08,240 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 16:59:08,242 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:59:08,242 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:59:08,242 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:59:08,243 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,244 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 16:59:08,245 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:59:08,245 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:59:08,245 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,245 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,246 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,247 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,248 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,249 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 16:59:08,250 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 16:59:08,251 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 16:59:08,379 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,379 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,379 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,379 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,385 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 16:59:08,385 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:59:08,385 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 16:59:08,393 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 16:59:08,394 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:59:08,394 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 16:59:08,400 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 16:59:08,401 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:59:08,401 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 16:59:08,407 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 16:59:08,407 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 16:59:08,407 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:03:53,401 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:03:53,402 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:03:53,402 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:03:53,403 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:03:53,403 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:03:53,404 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,404 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,404 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:03:53,404 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:03:53,404 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,405 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:03:53,406 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:03:53,406 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,406 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,406 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,407 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:03:53,408 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,409 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,410 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:03:53,411 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,412 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:03:53,412 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:03:53,541 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,542 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,542 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,542 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,548 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:03:53,548 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:03:53,549 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 17:03:53,556 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:03:53,557 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:03:53,557 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 17:03:53,564 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:03:53,564 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:03:53,564 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 17:03:53,572 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:03:53,572 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:03:53,573 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:05:29,087 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:05:29,087 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:05:29,088 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:05:29,089 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:05:29,089 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:05:29,089 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,089 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,090 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:05:29,091 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:05:29,091 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,091 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,091 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:05:29,092 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:05:29,093 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,095 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:05:29,096 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,097 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:05:29,098 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:05:29,223 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,223 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,223 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,223 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,230 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:05:29,230 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:05:29,230 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 17:05:29,239 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:05:29,239 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:05:29,239 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 17:05:29,246 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:05:29,247 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:05:29,247 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 17:05:29,254 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:05:29,254 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:05:29,254 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:06:02,931 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:02,931 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:06:02,932 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:06:02,933 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:02,933 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:02,933 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:02,934 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,934 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:06:02,934 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:02,934 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:02,935 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:02,936 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,936 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:06:02,938 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:02,938 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:02,938 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:02,938 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,939 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:06:02,939 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:02,939 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:02,939 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,939 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:06:02,940 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:02,940 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:02,940 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,940 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:06:02,940 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:02,941 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:02,941 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,941 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:02,942 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,943 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:02,944 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,945 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:02,946 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:06:03,086 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:03,087 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:03,087 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:03,087 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:03,093 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:03,094 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:03,094 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 17:06:03,101 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:03,102 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:03,102 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 17:06:03,108 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:03,109 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:03,109 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 17:06:03,115 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:03,115 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:03,115 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:06:32,624 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:32,624 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:06:32,624 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:32,626 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,627 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:32,628 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:32,629 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,630 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,631 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,632 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,635 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,636 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:06:32,636 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:06:32,636 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,636 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:06:32,636 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:06:32,761 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,761 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,761 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,761 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,767 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:06:32,768 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:32,768 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 17:06:32,776 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:06:32,776 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:32,776 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 17:06:32,783 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:06:32,783 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:32,783 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 17:06:32,791 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:06:32,791 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:06:32,791 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:07:03,661 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:07:03,661 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:07:03,662 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:07:03,664 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:07:03,664 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:07:03,664 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,664 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,664 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,665 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,666 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:07:03,666 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:07:03,666 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,666 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,666 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:07:03,667 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:07:03,667 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:07:03,668 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,669 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,670 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,671 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,672 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,673 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:07:03,674 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:07:03,799 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,799 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,799 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,799 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,806 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:07:03,806 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:07:03,806 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 17:07:03,813 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:07:03,814 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:07:03,814 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 17:07:03,821 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:07:03,821 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:07:03,821 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 17:07:03,828 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:07:03,828 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:07:03,829 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
+2025-04-14 17:18:39,854 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:18:39,855 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:18:39,855 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:18:39,856 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:18:39,856 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:18:39,856 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,857 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,858 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:18:39,860 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:18:39,861 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,861 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:18:39,862 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:18:39,863 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,864 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:18:39,865 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:18:39,866 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:21:24,138 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 17:21:24,138 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 17:21:24,139 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:21:24,141 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:21:24,142 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:21:24,142 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,142 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 17:21:24,142 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:21:24,142 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,143 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 17:21:24,144 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:21:24,144 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:21:24,145 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,146 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:21:24,147 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:21:24,148 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 17:21:24,149 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 18:34:07,569 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 18:34:07,570 - MECHANICS - WARNING - Polygon is not closed. Automatically closing it.
+2025-04-14 18:34:07,570 - MECHANICS - INFO - Computed centroid: Cz=48.250000, Cy=-34.728517
+2025-04-14 18:34:07,580 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 18:34:07,580 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 18:34:07,582 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:07,582 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,583 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 18:34:07,584 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 18:34:07,585 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:07,586 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,587 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=-0.000000
+2025-04-14 18:34:07,587 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 18:34:07,588 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:07,589 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,590 - MECHANICS - INFO - Inertia results: Izz=237920.143034, Iyy=1418093.112627, Izy=-0.000000
+2025-04-14 18:34:07,591 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 18:34:07,591 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:07,592 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,593 - MECHANICS - INFO - Inertia results: Izz=1418093.112627, Iyy=237920.143034, Izy=0.000000
+2025-04-14 18:34:07,603 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 18:34:07,603 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 18:34:07,604 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:07,605 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,606 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 18:34:07,606 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 18:34:07,607 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:07,607 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,608 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 18:34:07,609 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 18:34:07,610 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:07,611 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,612 - MECHANICS - INFO - Inertia results: Izz=238506.222185, Iyy=1422199.229615, Izy=-0.000000
+2025-04-14 18:34:07,612 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 18:34:07,613 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:07,614 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,615 - MECHANICS - INFO - Inertia results: Izz=1422199.229615, Iyy=238506.222185, Izy=0.000000
+2025-04-14 18:34:07,625 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 18:34:07,625 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 18:34:07,626 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:07,627 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,628 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 18:34:07,629 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 18:34:07,630 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:07,631 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,631 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=-0.000000
+2025-04-14 18:34:07,632 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 18:34:07,633 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:07,634 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,635 - MECHANICS - INFO - Inertia results: Izz=238619.302025, Iyy=1422989.818179, Izy=-0.000000
+2025-04-14 18:34:07,636 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 18:34:07,636 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:07,637 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,638 - MECHANICS - INFO - Inertia results: Izz=1422989.818179, Iyy=238619.302025, Izy=0.000000
+2025-04-14 18:34:07,646 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 18:34:07,646 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 18:34:07,647 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:07,648 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,649 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=0.000000
+2025-04-14 18:34:07,650 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 18:34:07,651 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:07,652 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,653 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 18:34:07,653 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 18:34:07,654 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:07,655 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,656 - MECHANICS - INFO - Inertia results: Izz=238644.301754, Iyy=1423164.530015, Izy=-0.000000
+2025-04-14 18:34:07,657 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 18:34:07,657 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:07,658 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,659 - MECHANICS - INFO - Inertia results: Izz=1423164.530015, Iyy=238644.301754, Izy=0.000000
+2025-04-14 18:34:07,668 - MECHANICS - INFO - Analyzing geometry for 4 angles
+2025-04-14 18:34:07,669 - MECHANICS - INFO - Analyzing angle 0°
+2025-04-14 18:34:07,669 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:07,670 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,671 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 18:34:07,672 - MECHANICS - INFO - Analyzing angle 90°
+2025-04-14 18:34:07,672 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:07,673 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,674 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 18:34:07,675 - MECHANICS - INFO - Analyzing angle 180°
+2025-04-14 18:34:07,675 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:07,676 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,677 - MECHANICS - INFO - Inertia results: Izz=238650.188455, Iyy=1423205.665746, Izy=-0.000000
+2025-04-14 18:34:07,678 - MECHANICS - INFO - Analyzing angle 270°
+2025-04-14 18:34:07,678 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:07,679 - MECHANICS - INFO - Computing second moments of area for polygon
+2025-04-14 18:34:07,680 - MECHANICS - INFO - Inertia results: Izz=1423205.665746, Iyy=238650.188455, Izy=0.000000
+2025-04-14 18:34:11,062 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:11,063 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:11,064 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:11,065 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:11,074 - MECHANICS - INFO - Rotating coordinates by 0 degrees
+2025-04-14 18:34:11,075 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 18:34:11,076 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=-1.612761
+2025-04-14 18:34:11,085 - MECHANICS - INFO - Rotating coordinates by 90 degrees
+2025-04-14 18:34:11,086 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 18:34:11,087 - MECHANICS - INFO - Computed centroid: Cz=1.612761, Cy=-0.000000
+2025-04-14 18:34:11,096 - MECHANICS - INFO - Rotating coordinates by 180 degrees
+2025-04-14 18:34:11,097 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 18:34:11,097 - MECHANICS - INFO - Computed centroid: Cz=0.000000, Cy=1.612761
+2025-04-14 18:34:11,106 - MECHANICS - INFO - Rotating coordinates by 270 degrees
+2025-04-14 18:34:11,107 - MECHANICS - INFO - Computing centroid of polygon
+2025-04-14 18:34:11,107 - MECHANICS - INFO - Computed centroid: Cz=-1.612761, Cy=0.000000
