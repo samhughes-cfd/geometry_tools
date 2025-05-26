@@ -46,6 +46,6 @@ if __name__ == "__main__":
     plot_geometry_stages(points, translated, enhanced, new_connectivity)
 
     # Perform convergence analysis
-    resolutions = [5, 10, 20, 40, 80]
+    resolutions = [5, 10, 15, 20, 25]
     angles = [0, 90, 180, 270]
     plot_convergence(translated, connectivity, resolutions, angles)
