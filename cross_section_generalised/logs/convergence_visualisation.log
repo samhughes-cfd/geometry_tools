@@ -1,0 +1,47 @@
+2025-04-15 16:01:52,210 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-15 16:02:04,800 - CONVERGENCE VISUALISATION - INFO - Starting convergence plotting.
+2025-04-15 16:02:04,802 - CONVERGENCE VISUALISATION - WARNING - Polygon not closed at resolution 5; closing it manually.
+2025-04-15 16:02:04,809 - CONVERGENCE VISUALISATION - WARNING - Polygon not closed at resolution 10; closing it manually.
+2025-04-15 16:02:04,817 - CONVERGENCE VISUALISATION - WARNING - Polygon not closed at resolution 20; closing it manually.
+2025-04-15 16:02:04,823 - CONVERGENCE VISUALISATION - WARNING - Polygon not closed at resolution 40; closing it manually.
+2025-04-15 16:02:04,831 - CONVERGENCE VISUALISATION - WARNING - Polygon not closed at resolution 80; closing it manually.
+2025-04-15 16:02:04,906 - CONVERGENCE VISUALISATION - INFO - Generating final high-resolution shape for insets.
+2025-04-15 16:02:04,909 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 0°.
+2025-04-15 16:02:04,917 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 90°.
+2025-04-15 16:02:04,924 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 180°.
+2025-04-15 16:02:04,948 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 270°.
+2025-04-15 16:05:20,852 - CONVERGENCE VISUALISATION - INFO - Finished plotting convergence analysis.
+2025-04-15 16:09:15,301 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-15 16:13:11,727 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-15 16:15:47,917 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-15 16:20:06,877 - CONVERGENCE VISUALISATION - INFO - Starting convergence plotting.
+2025-04-15 16:20:06,975 - CONVERGENCE VISUALISATION - INFO - Generating final high-resolution shape for insets.
+2025-04-15 16:20:06,975 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 0°.
+2025-04-15 16:20:06,984 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 90°.
+2025-04-15 16:20:06,991 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 180°.
+2025-04-15 16:20:07,000 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 270°.
+2025-04-15 16:20:09,427 - CONVERGENCE VISUALISATION - INFO - Finished plotting convergence analysis.
+2025-04-15 16:21:48,465 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-15 16:29:30,837 - CONVERGENCE VISUALISATION - INFO - Starting convergence plotting.
+2025-04-15 16:29:30,938 - CONVERGENCE VISUALISATION - INFO - Generating final high-resolution shape for insets.
+2025-04-15 16:29:30,938 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 0°.
+2025-04-15 16:29:30,943 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 90°.
+2025-04-15 16:29:30,954 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 180°.
+2025-04-15 16:29:30,959 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 270°.
+2025-04-15 16:29:31,788 - CONVERGENCE VISUALISATION - INFO - Finished plotting convergence analysis.
+2025-04-16 12:08:31,136 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-16 12:08:34,365 - CONVERGENCE VISUALISATION - INFO - Starting convergence plotting.
+2025-04-16 12:08:34,459 - CONVERGENCE VISUALISATION - INFO - Generating final high-resolution shape for insets.
+2025-04-16 12:08:34,459 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 0°.
+2025-04-16 12:08:34,475 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 90°.
+2025-04-16 12:08:34,475 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 180°.
+2025-04-16 12:08:34,475 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 270°.
+2025-04-16 12:08:59,166 - CONVERGENCE VISUALISATION - INFO - Finished plotting convergence analysis.
+2025-04-16 12:09:36,834 - CONVERGENCE VISUALISATION - INFO - Convergence visualisation module logger initialized.
+2025-04-16 12:09:39,464 - CONVERGENCE VISUALISATION - INFO - Starting convergence plotting.
+2025-04-16 12:09:39,557 - CONVERGENCE VISUALISATION - INFO - Generating final high-resolution shape for insets.
+2025-04-16 12:09:39,557 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 0°.
+2025-04-16 12:09:39,557 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 90°.
+2025-04-16 12:09:39,575 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 180°.
+2025-04-16 12:09:39,575 - CONVERGENCE VISUALISATION - INFO - Plotting convergence curve for angle 270°.
+2025-04-16 12:09:50,283 - CONVERGENCE VISUALISATION - INFO - Finished plotting convergence analysis.
