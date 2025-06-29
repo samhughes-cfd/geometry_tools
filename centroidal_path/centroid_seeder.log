@@ -1,0 +1,40 @@
+2025-06-10 19:44:36,138 - DEBUG - Set opacity to 0.0
+2025-06-10 19:44:39,836 - INFO - Loading STEP file: C:\Users\s1834431\Abaqus\tidal_benchmarking_blade_shell_model\tidal_benchmarking_blade_simple_no_hub_connector.stp
+2025-06-10 19:44:41,387 - INFO - STEP file loaded successfully
+2025-06-10 19:44:48,062 - DEBUG - Set opacity to 0.04411764705882353
+2025-06-10 19:44:48,069 - DEBUG - Set opacity to 0.051470588235294115
+2025-06-10 19:44:48,086 - DEBUG - Set opacity to 0.09558823529411764
+2025-06-10 19:44:48,103 - DEBUG - Set opacity to 0.15441176470588236
+2025-06-10 19:44:48,120 - DEBUG - Set opacity to 0.21323529411764705
+2025-06-10 19:44:48,136 - DEBUG - Set opacity to 0.29411764705882354
+2025-06-10 19:44:48,153 - DEBUG - Set opacity to 0.34558823529411764
+2025-06-10 19:44:48,170 - DEBUG - Set opacity to 0.3897058823529412
+2025-06-10 19:44:48,186 - DEBUG - Set opacity to 0.41911764705882354
+2025-06-10 19:44:48,203 - DEBUG - Set opacity to 0.4411764705882353
+2025-06-10 19:44:48,270 - DEBUG - Set opacity to 0.4485294117647059
+2025-06-10 19:44:48,288 - DEBUG - Set opacity to 0.45588235294117646
+2025-06-10 19:44:48,303 - DEBUG - Set opacity to 0.47058823529411764
+2025-06-10 19:44:48,320 - DEBUG - Set opacity to 0.5
+2025-06-10 19:44:48,336 - DEBUG - Set opacity to 0.5220588235294118
+2025-06-10 19:44:48,357 - DEBUG - Set opacity to 0.5294117647058824
+2025-06-10 19:44:49,986 - INFO - Generating preview with 10 sections
+2025-06-10 19:44:49,987 - INFO - Computing centroids with 10 slices
+2025-06-10 19:44:49,987 - DEBUG - Found 1 solids in STEP file
+2025-06-10 19:44:49,987 - DEBUG - Bounding box: X(-81.274,81.274) Y(-89.407,65.536) Z(65.358,801.139)
+2025-06-10 19:44:49,987 - INFO - Bounding box spans: X=162.548, Y=154.943, Z=735.781
+2025-06-10 19:44:49,987 - INFO - Selected longest axis: Z
+2025-06-10 19:44:49,987 - INFO - Processing slice 1/10 at coord=65.358
+2025-06-10 19:44:49,987 - INFO - Computing centroid at axis=2 coord=65.358
+2025-06-10 19:44:49,987 - DEBUG - Creating section at 2=65.358 with tolerance=1e-06
+2025-06-10 19:44:49,987 - DEBUG - Performing section operation...
+2025-06-10 19:44:50,012 - ERROR - Centroid error: 'TopoDS_Compound' object has no attribute 'Iterable'
+Traceback (most recent call last):
+  File "\\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\centroidal_path\step_centroid_gui.py", line 342, in generate_preview
+    self.centroids = compute_centroids(self.shape, n)
+  File "\\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\centroidal_path\step_centroid_gui.py", line 220, in compute_centroids
+    centroid = _centroid_at_coord(shape, axis, coord)
+  File "\\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\centroidal_path\step_centroid_gui.py", line 138, in _centroid_at_coord
+    wires = section_wires(solid, axis, coord)
+  File "\\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\centroidal_path\step_centroid_gui.py", line 120, in section_wires
+    wires = [w for w in fb.GetClosedWires().Iterable()]
+AttributeError: 'TopoDS_Compound' object has no attribute 'Iterable'
