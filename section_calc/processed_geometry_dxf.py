@@ -183,7 +183,7 @@ class ProcessedGeometryDXF:
     def plot_te_zoom(
         self,
         *,
-        te_span_pct: float = 5.0,        # width of zoom window [% chord]
+        te_span_pct: float = 8,        # width of zoom window [% chord]
         figsize: tuple[int, int] = (7, 6),
         outline_lw: float = 1.0,
         cp_size: int = 10,

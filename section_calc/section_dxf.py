@@ -36,27 +36,46 @@ class SectionDXF:
 
     def write_csv_row(self):
         """Append a single convergence row (one mesh) to CSV."""
-
         try:
+            # 1) geometric analysis
             self.sec.calculate_geometric_properties()
 
-            cx, cy = self.sec.get_c()
-            ic     = self.sec.get_ic()
-            ixx, ixy, iyy = ic[0][0], ic[0][1], ic[1][1]
-            ip     = ixx + iyy
-            phi, i1, i2 = self.sec.get_principal_properties()
-            j_torsion   = self.sec.get_j()
-            rx, ry      = self.sec.get_r_g()
+            # 2) warping analysis (required for torsion constant)
+            self.sec.calculate_warping_properties()
 
+            # 3) area & perimeter
+            area      = self.sec.get_area()
+
+            # 4) centroid
+            cx, cy = self.sec.get_c()
+
+            # 5) centroidal moments of inertia
+            ixx_c, iyy_c, ixy_c = self.sec.get_ic()
+            ip_c = ixx_c + iyy_c
+
+            # 6) principal axes from SectionProperties
+            #    phi (°) and principal second moments i11_c, i22_c
+            phi_deg = self.sec.section_props.phi
+            i1_mm4  = self.sec.section_props.i11_c
+            i2_mm4  = self.sec.section_props.i22_c
+
+            # 7) torsion constant
+            j_mm4 = self.sec.get_j()
+
+            # 8) radii of gyration about centroidal axes
+            rx_mm, ry_mm = self.sec.get_rc()
+
+            # 9) build the CSV row
             row = [
                 self.run_label, self.h,
-                self.sec.get_area(),    self.sec.perimeter,
+                area,
                 cx, cy,
-                ixx, iyy, ixy, ip,
-                phi, i1, i2,
-                j_torsion, rx, ry
+                ixx_c, iyy_c, ixy_c, ip_c,
+                phi_deg, i1_mm4, i2_mm4,
+                j_mm4, rx_mm, ry_mm
             ]
 
+            # 10) write header if needed and append row
             write_header = not os.path.isfile(RES_CSV)
             with open(RES_CSV, "a", newline="") as f:
                 writer = csv.writer(f)

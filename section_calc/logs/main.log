@@ -1,27 +1,43 @@
-2025-06-30 15:26:39,259 - INFO - DXF mesh-convergence pipeline started
-2025-06-30 15:26:39,404 - INFO - DXF preview: reading section_calc\dxf\Station8_SE.dxf
-2025-06-30 15:26:39,424 - INFO - DXF version upgrade to DXF R2000.
-2025-06-30 15:26:39,427 - INFO - creating ACAD_COLOR dictionary
-2025-06-30 15:26:39,428 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-06-30 15:26:39,429 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-06-30 15:26:39,586 - INFO - Raw DXF preview saved -> section_calc/plots/raw.png
-2025-06-30 15:26:39,587 - INFO - Station8_SE � importing DXF: section_calc\dxf\Station8_SE.dxf
-2025-06-30 15:26:39,638 - INFO - DXF version upgrade to DXF R2000.
-2025-06-30 15:26:39,640 - INFO - creating ACAD_COLOR dictionary
-2025-06-30 15:26:39,641 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-06-30 15:26:39,642 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-06-30 15:26:39,645 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-06-30 15:26:39,716 - INFO - Zipped 75 points
-2025-06-30 15:26:39,733 - INFO - Processed geometry extracted
-2025-06-30 15:26:40,509 - INFO - Processed geometry saved -> section_calc/plots/processed_te_zoom.png
-2025-06-30 15:26:40,510 - INFO - Mesh sizes: [3.   1.5  0.75]
-2025-06-30 15:26:40,512 - INFO - [1/3] meshing with h = 3
-2025-06-30 15:26:40,522 - INFO - [Station8_SE_h3] mesh created with h = 3
-2025-06-30 15:26:40,523 - ERROR - [Station8_SE_h3] failed to compute/write properties: 'CompoundGeometry' object has no attribute 'calculate_geometric_properties'
-2025-06-30 15:26:40,525 - INFO - [2/3] meshing with h = 1.5
-2025-06-30 15:26:40,535 - INFO - [Station8_SE_h1.5] mesh created with h = 1.5
-2025-06-30 15:26:40,536 - ERROR - [Station8_SE_h1.5] failed to compute/write properties: 'CompoundGeometry' object has no attribute 'calculate_geometric_properties'
-2025-06-30 15:26:40,537 - INFO - [3/3] meshing with h = 0.75
-2025-06-30 15:26:40,547 - INFO - [Station8_SE_h0.75] mesh created with h = 0.75
-2025-06-30 15:26:40,548 - ERROR - [Station8_SE_h0.75] failed to compute/write properties: 'CompoundGeometry' object has no attribute 'calculate_geometric_properties'
-2025-06-30 15:26:41,397 - INFO - Convergence study complete � results at section_calc/results/section_results.csv
+2025-06-30 18:07:01,759 - INFO - DXF mesh-convergence pipeline started
+2025-06-30 18:07:01,916 - INFO - DXF preview: reading section_calc\dxf\Station8_SE.dxf
+2025-06-30 18:07:01,939 - INFO - DXF version upgrade to DXF R2000.
+2025-06-30 18:07:01,942 - INFO - creating ACAD_COLOR dictionary
+2025-06-30 18:07:01,943 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-06-30 18:07:01,943 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-06-30 18:07:02,116 - INFO - Raw DXF preview saved -> section_calc\plots\raw.png
+2025-06-30 18:07:02,117 - INFO - Station8_SE – importing DXF: section_calc\dxf\Station8_SE.dxf
+2025-06-30 18:07:02,170 - INFO - DXF version upgrade to DXF R2000.
+2025-06-30 18:07:02,172 - INFO - creating ACAD_COLOR dictionary
+2025-06-30 18:07:02,173 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-06-30 18:07:02,174 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-06-30 18:07:02,177 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-06-30 18:07:02,248 - INFO - Zipped 75 points
+2025-06-30 18:07:02,264 - INFO - Processed geometry extracted
+2025-06-30 18:07:03,082 - INFO - Processed geometry saved -> section_calc\plots\processed_te_zoom.png
+2025-06-30 18:07:03,083 - INFO - Mesh sizes (area targets): [3.     0.75   0.1875]
+2025-06-30 18:07:03,084 - INFO - [1/3] meshing with h = 3
+2025-06-30 18:07:03,085 - INFO - [Station8_SE_h3] meshing with target h = 3 …
+2025-06-30 18:07:03,100 - WARNING - [Station8_SE_h3] 30 sliver triangles removed
+2025-06-30 18:07:03,102 - INFO - [Station8_SE_h3] mesh ok | nodes=8095 elems=3538 | A[min=1.06e-08 max=1.93 mean=0.107 med=0.000834] | q[min=0.603 max=1.000 mean=0.882]
+2025-06-30 18:07:05,217 - ERROR - [Station8_SE_h3] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
+2025-06-30 18:07:05,219 - INFO - [2/3] meshing with h = 0.75
+2025-06-30 18:07:05,219 - INFO - [Station8_SE_h0.75] meshing with target h = 0.75 …
+2025-06-30 18:07:05,232 - WARNING - [Station8_SE_h0.75] 30 sliver triangles removed
+2025-06-30 18:07:05,234 - INFO - [Station8_SE_h0.75] mesh ok | nodes=8419 elems=3690 | A[min=1.06e-08 max=0.749 mean=0.102 med=0.00148] | q[min=0.603 max=1.000 mean=0.886]
+2025-06-30 18:07:06,799 - ERROR - [Station8_SE_h0.75] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
+2025-06-30 18:07:06,801 - INFO - [3/3] meshing with h = 0.1875
+2025-06-30 18:07:06,802 - INFO - [Station8_SE_h0.1875] meshing with target h = 0.1875 …
+2025-06-30 18:07:06,820 - WARNING - [Station8_SE_h0.1875] 30 sliver triangles removed
+2025-06-30 18:07:07,027 - INFO - [Station8_SE_h0.1875] mesh ok | nodes=12047 elems=5470 | A[min=1.06e-08 max=0.187 mean=0.0689 med=0.0875] | q[min=0.603 max=1.000 mean=0.903]
+2025-06-30 18:07:09,644 - ERROR - [Station8_SE_h0.1875] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
+2025-06-30 18:07:10,383 - INFO - Global views batch 1 saved -> section_calc\plots\mesh_convergence_batch-1_global.png
+2025-06-30 18:07:10,738 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,879 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,890 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,911 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,922 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,932 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,972 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,974 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:10,975 - WARNING - Ignoring fixed x limits to fulfill fixed data aspect with adjustable data limits.
+2025-06-30 18:07:11,178 - INFO - Local views batch 1 saved -> section_calc\plots\mesh_convergence_batch-1_local.png
