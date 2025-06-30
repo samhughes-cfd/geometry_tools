@@ -1,8 +1,10 @@
 # section_calc/main.py
 import os, logging, numpy as np, matplotlib.pyplot as plt
-from geometry_dxf import RawDXFPreview, ProcessedGeometryDXF
+from raw_geometry_dxf import RawDXFPreview
+from processed_geometry_dxf import ProcessedGeometryDXF
 from mesh_dxf         import MeshDXF
 from section_dxf      import SectionDXF
+
 
 # ───────── folders ─────────
 BASE   = "section_calc"
@@ -28,14 +30,14 @@ base_lbl = "Station8_SE"
 # ───────── RAW PREVIEW PNG ─────────
 raw_preview = RawDXFPreview(dxf_path, base_lbl)
 fig, ax = plt.subplots(figsize=(6, 5))
-raw_preview.plot(ax)
+raw_preview.plot(ax, annotate_every = None)
 fig.tight_layout()
 raw_png = f"{PLOTS}/raw.png"
 fig.savefig(raw_png, dpi=300)
 plt.close(fig)
 logging.info(f"Raw DXF preview saved -> {raw_png}")
 
-# ───────── PROCESSED GEOMETRY ─────────
+# --- PROCESSED GEOMETRY -------------------------------------------------
 proc = ProcessedGeometryDXF(
     dxf_path,
     base_lbl,
@@ -45,13 +47,15 @@ proc = ProcessedGeometryDXF(
 proc.extract()
 logging.info("Processed geometry extracted")
 
-fig, ax = plt.subplots(figsize=(6, 5))
-proc.plot(ax)
-fig.tight_layout()
-proc_png = f"{PLOTS}/processed.png"
-fig.savefig(proc_png, dpi=300)
+# --- create and save two-row figure ------------------------------------
+fig, (ax_full, ax_zoom) = proc.plot_te_zoom(te_span_pct=5.0, cp_size=10)
+
+proc_png = f"{PLOTS}/processed_te_zoom.png"   # ← create the name
+fig.savefig(proc_png, dpi=300)                # save
 plt.close(fig)
+
 logging.info(f"Processed geometry saved -> {proc_png}")
+
 
 # ─────── rest of script unchanged – use proc.geometry for meshing ───────
 N  = 3
