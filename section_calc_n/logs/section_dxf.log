@@ -1,0 +1,3 @@
+2025-06-30 18:07:05,217 - ERROR - [Station8_SE_h3] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
+2025-06-30 18:07:06,799 - ERROR - [Station8_SE_h0.75] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
+2025-06-30 18:07:09,644 - ERROR - [Station8_SE_h0.1875] failed to compute/write properties: [Errno 13] Permission denied: 'section_calc/results/section_results.csv'
