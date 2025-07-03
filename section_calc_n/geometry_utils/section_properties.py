@@ -46,11 +46,11 @@ class SectionDXF:
 
     def write_csv_row(self):
         try:
-            # Geometric properties
+            # Calculate all properties (in meters-based units)
             self.sec.calculate_geometric_properties()
             self.sec.calculate_warping_properties()
 
-            # Raw quantities (in meters and m^2, m^4 etc)
+            # Extract raw properties (SI units: m, m^2, m^4)
             area_m2 = self.sec.get_area()
             perimeter_m = self.sec.get_perimeter()
             cx_m, cy_m = self.sec.get_c()
@@ -62,7 +62,7 @@ class SectionDXF:
             j_m4 = self.sec.get_j()
             rx_m, ry_m = self.sec.get_rc()
 
-            # Convert to mm and mm-based units
+            # Convert from meters to millimeters-based units
             area_mm2 = area_m2 * 1e6
             perimeter_mm = perimeter_m * 1e3
             cx_mm, cy_mm = cx_m * 1e3, cy_m * 1e3
@@ -76,6 +76,7 @@ class SectionDXF:
             rx_mm = rx_m * 1e3
             ry_mm = ry_m * 1e3
 
+            # Prepare CSV row
             row = [
                 self.run_label, self.h,
                 area_mm2, perimeter_mm,
@@ -85,6 +86,7 @@ class SectionDXF:
                 j_mm4, rx_mm, ry_mm
             ]
 
+            # Write header if file doesn't exist
             write_header = not self.output_path.exists()
             with open(self.output_path, "a", newline="") as f:
                 writer = csv.writer(f)
@@ -96,3 +98,4 @@ class SectionDXF:
 
         except Exception as e:
             self.logger.error(f"[{self.run_label}] Failed to compute/write properties: {e}", exc_info=True)
+            raise

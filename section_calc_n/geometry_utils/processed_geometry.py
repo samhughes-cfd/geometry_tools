@@ -4,6 +4,7 @@ from pathlib import Path
 import logging
 import numpy as np
 from shapely.geometry import Polygon
+from shapely.affinity import scale
 from sectionproperties.pre.geometry import Geometry, CompoundGeometry
 from geometry_transforms.twist_offset import TwistOffset
 from geometry_transforms.centroid_offset import CentroidOffset
@@ -59,6 +60,18 @@ class ProcessedGeometry:
             spline_delta=self.spline_delta,
             degrees_per_segment=self.degrees_per_segment
         )
+
+        if isinstance(geom_raw, Geometry): 
+            scaled_geom = scale(geom_raw.geom, xfact=0.001, yfact=0.001, origin=(0, 0)) # .dxf in mm scale to m
+            geom_raw = Geometry(geom=scaled_geom)
+        elif isinstance(geom_raw, CompoundGeometry): 
+            scaled_geoms = []
+            for g in geom_raw.geoms:
+                scaled = scale(g.geom, xfact=0.001, yfact=0.001, origin=(0, 0)) # .dxf in mm scale to m
+                scaled_geoms.append(Geometry(geom=scaled))
+            geom_raw = CompoundGeometry(scaled_geoms)
+        else:
+            raise TypeError("Unexpected geometry type when scaling.")
 
         raw_polys = []
         if isinstance(geom_raw, Geometry):
