@@ -1,9 +1,0 @@
-2025-06-30 18:07:03,085 - INFO - [Station8_SE_h3] meshing with target h = 3 …
-2025-06-30 18:07:03,100 - WARNING - [Station8_SE_h3] 30 sliver triangles removed
-2025-06-30 18:07:03,102 - INFO - [Station8_SE_h3] mesh ok | nodes=8095 elems=3538 | A[min=1.06e-08 max=1.93 mean=0.107 med=0.000834] | q[min=0.603 max=1.000 mean=0.882]
-2025-06-30 18:07:05,219 - INFO - [Station8_SE_h0.75] meshing with target h = 0.75 …
-2025-06-30 18:07:05,232 - WARNING - [Station8_SE_h0.75] 30 sliver triangles removed
-2025-06-30 18:07:05,234 - INFO - [Station8_SE_h0.75] mesh ok | nodes=8419 elems=3690 | A[min=1.06e-08 max=0.749 mean=0.102 med=0.00148] | q[min=0.603 max=1.000 mean=0.886]
-2025-06-30 18:07:06,802 - INFO - [Station8_SE_h0.1875] meshing with target h = 0.1875 …
-2025-06-30 18:07:06,820 - WARNING - [Station8_SE_h0.1875] 30 sliver triangles removed
-2025-06-30 18:07:07,027 - INFO - [Station8_SE_h0.1875] mesh ok | nodes=12047 elems=5470 | A[min=1.06e-08 max=0.187 mean=0.0689 med=0.0875] | q[min=0.603 max=1.000 mean=0.903]

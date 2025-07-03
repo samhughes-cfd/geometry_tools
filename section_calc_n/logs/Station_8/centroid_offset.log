@@ -1,0 +1,138 @@
+2025-07-03 01:08:21,175 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-03 01:08:21,483 - INFO - [Station_8] Actual centroid: (18.4081, 1.2576)
+2025-07-03 01:08:21,483 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-03 01:08:21,498 - INFO - [Station_8] Applying translation dx=-18.4063, dy=-1.2633
+2025-07-03 01:08:21,505 - INFO - [Station_8] Section translated.
+2025-07-03 01:08:21,507 - INFO - Processed and aligned geometry extracted for Station_8
+2025-07-03 01:08:22,140 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_8\processed_Station_8.png
+2025-07-03 01:08:22,142 - INFO - [1/3] meshing Station_8 with target h = 3
+2025-07-03 01:08:22,162 - INFO - [Station_8_h3] Meshing with target h = 3 …
+2025-07-03 01:08:22,170 - INFO - [Station_8_h3] mesh ok | nodes=4280 elems=1898 | A[min=4.27e-06 max=2.12 mean=0.199 med=0.119] | q[min=0.602 max=1.000 mean=0.890]
+2025-07-03 01:08:23,187 - INFO - [Station_8_h3] Row appended (h=3.0)
+2025-07-03 01:08:23,198 - INFO - [2/3] meshing Station_8 with target h = 0.75
+2025-07-03 01:08:23,208 - INFO - [Station_8_h0.75] Meshing with target h = 0.75 …
+2025-07-03 01:08:23,229 - INFO - [Station_8_h0.75] mesh ok | nodes=4556 elems=2028 | A[min=4.27e-06 max=0.75 mean=0.186 med=0.131] | q[min=0.602 max=1.000 mean=0.895]
+2025-07-03 01:08:24,053 - INFO - [Station_8_h0.75] Row appended (h=0.75)
+2025-07-03 01:08:24,069 - INFO - [3/3] meshing Station_8 with target h = 0.1875
+2025-07-03 01:08:24,086 - INFO - [Station_8_h0.1875] Meshing with target h = 0.1875 …
+2025-07-03 01:08:24,104 - INFO - [Station_8_h0.1875] mesh ok | nodes=8095 elems=3763 | A[min=4.27e-06 max=0.187 mean=0.1 med=0.107] | q[min=0.603 max=1.000 mean=0.916]
+2025-07-03 01:08:25,945 - INFO - [Station_8_h0.1875] Row appended (h=0.1875)
+2025-07-03 01:08:26,572 - INFO - Global batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-03 01:08:27,189 - INFO - Local batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-03 01:08:27,203 - INFO - Station Station_10: DXF=section_calc_n\blade\Station_10.dxf, twist=2.7°, centroid=(0.00,-0.01)
+2025-07-03 01:08:27,207 - INFO - Reading DXF file: section_calc_n\blade\Station_10.dxf
+2025-07-03 01:08:27,239 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:27,242 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:27,254 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:27,261 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:27,269 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
+2025-07-03 01:08:27,343 - INFO - Plotting 77 DXF entities for preview...
+2025-07-03 01:08:27,499 - INFO - Raw preview saved -> section_calc_n\results\Station_10\raw_Station_10.png
+2025-07-03 01:08:27,515 - INFO - [Station_10] Importing DXF: 'section_calc_n\blade\Station_10.dxf'
+2025-07-03 01:08:27,541 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:27,541 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:27,556 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:27,560 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:27,570 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-03 01:08:27,669 - INFO - Zipped 208 points
+2025-07-03 01:08:27,669 - INFO - [Station_10] Current twist: -0.18°, Desired: 2.69°, Delta: 2.87°
+2025-07-03 01:08:27,692 - INFO - [Station_10] Section rotated by 2.87°.
+2025-07-03 01:08:27,705 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-03 01:08:28,125 - INFO - [Station_10] Actual centroid: (15.4003, 1.1999)
+2025-07-03 01:08:28,141 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-03 01:08:28,147 - INFO - [Station_10] Applying translation dx=-15.3989, dy=-1.2050
+2025-07-03 01:08:28,154 - INFO - [Station_10] Section translated.
+2025-07-03 01:08:28,155 - INFO - Processed and aligned geometry extracted for Station_10
+2025-07-03 01:08:28,735 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_10\processed_Station_10.png
+2025-07-03 01:08:28,740 - INFO - [1/3] meshing Station_10 with target h = 3
+2025-07-03 01:08:28,757 - INFO - [Station_10_h3] Meshing with target h = 3 …
+2025-07-03 01:08:28,772 - INFO - [Station_10_h3] mesh ok | nodes=4213 elems=1873 | A[min=3.22e-06 max=1.62 mean=0.141 med=0.0853] | q[min=0.601 max=1.000 mean=0.886]
+2025-07-03 01:08:30,053 - INFO - [Station_10_h3] Row appended (h=3.0)
+2025-07-03 01:08:30,071 - INFO - [2/3] meshing Station_10 with target h = 0.75
+2025-07-03 01:08:30,086 - INFO - [Station_10_h0.75] Meshing with target h = 0.75 …
+2025-07-03 01:08:30,095 - INFO - [Station_10_h0.75] mesh ok | nodes=4349 elems=1933 | A[min=3.22e-06 max=0.745 mean=0.137 med=0.0903] | q[min=0.601 max=1.000 mean=0.889]
+2025-07-03 01:08:31,201 - INFO - [Station_10_h0.75] Row appended (h=0.75)
+2025-07-03 01:08:31,201 - INFO - [3/3] meshing Station_10 with target h = 0.1875
+2025-07-03 01:08:31,222 - INFO - [Station_10_h0.1875] Meshing with target h = 0.1875 …
+2025-07-03 01:08:31,240 - INFO - [Station_10_h0.1875] mesh ok | nodes=6409 elems=2935 | A[min=3.22e-06 max=0.187 mean=0.09 med=0.0992] | q[min=0.601 max=1.000 mean=0.903]
+2025-07-03 01:08:32,744 - INFO - [Station_10_h0.1875] Row appended (h=0.1875)
+2025-07-03 01:08:33,285 - INFO - Global batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-03 01:08:33,886 - INFO - Local batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-03 01:08:33,902 - INFO - Station Station_12: DXF=section_calc_n\blade\Station_12.dxf, twist=1.4°, centroid=(0.00,-0.00)
+2025-07-03 01:08:33,923 - INFO - Reading DXF file: section_calc_n\blade\Station_12.dxf
+2025-07-03 01:08:33,944 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:33,956 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:33,956 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:33,970 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:33,973 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
+2025-07-03 01:08:34,058 - INFO - Plotting 46 DXF entities for preview...
+2025-07-03 01:08:34,218 - INFO - Raw preview saved -> section_calc_n\results\Station_12\raw_Station_12.png
+2025-07-03 01:08:34,226 - INFO - [Station_12] Importing DXF: 'section_calc_n\blade\Station_12.dxf'
+2025-07-03 01:08:34,240 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:34,257 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:34,265 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:34,271 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:34,280 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-03 01:08:34,318 - INFO - Zipped 91 points
+2025-07-03 01:08:34,334 - INFO - [Station_12] Current twist: -0.38°, Desired: 1.43°, Delta: 1.81°
+2025-07-03 01:08:34,340 - INFO - [Station_12] Section rotated by 1.81°.
+2025-07-03 01:08:34,358 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-03 01:08:34,621 - INFO - [Station_12] Actual centroid: (13.1187, 1.1238)
+2025-07-03 01:08:34,641 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-03 01:08:34,647 - INFO - [Station_12] Applying translation dx=-13.1176, dy=-1.1283
+2025-07-03 01:08:34,651 - INFO - [Station_12] Section translated.
+2025-07-03 01:08:34,668 - INFO - Processed and aligned geometry extracted for Station_12
+2025-07-03 01:08:35,318 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_12\processed_Station_12.png
+2025-07-03 01:08:35,328 - INFO - [1/3] meshing Station_12 with target h = 3
+2025-07-03 01:08:35,342 - INFO - [Station_12_h3] Meshing with target h = 3 …
+2025-07-03 01:08:35,360 - INFO - [Station_12_h3] mesh ok | nodes=4205 elems=1865 | A[min=2.37e-06 max=1.1 mean=0.102 med=0.064] | q[min=0.603 max=1.000 mean=0.886]
+2025-07-03 01:08:36,618 - INFO - [Station_12_h3] Row appended (h=3.0)
+2025-07-03 01:08:36,627 - INFO - [2/3] meshing Station_12 with target h = 0.75
+2025-07-03 01:08:36,648 - INFO - [Station_12_h0.75] Meshing with target h = 0.75 …
+2025-07-03 01:08:36,663 - INFO - [Station_12_h0.75] mesh ok | nodes=4241 elems=1881 | A[min=2.37e-06 max=0.734 mean=0.101 med=0.0647] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-03 01:08:37,697 - INFO - [Station_12_h0.75] Row appended (h=0.75)
+2025-07-03 01:08:37,706 - INFO - [3/3] meshing Station_12 with target h = 0.1875
+2025-07-03 01:08:37,719 - INFO - [Station_12_h0.1875] Meshing with target h = 0.1875 …
+2025-07-03 01:08:37,737 - INFO - [Station_12_h0.1875] mesh ok | nodes=5465 elems=2475 | A[min=2.37e-06 max=0.187 mean=0.0771 med=0.0868] | q[min=0.603 max=1.000 mean=0.896]
+2025-07-03 01:08:38,968 - INFO - [Station_12_h0.1875] Row appended (h=0.1875)
+2025-07-03 01:08:39,447 - INFO - Global batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-03 01:08:40,034 - INFO - Local batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-03 01:08:40,056 - INFO - Station Station_14: DXF=section_calc_n\blade\Station_14.dxf, twist=0.3°, centroid=(0.00,-0.00)
+2025-07-03 01:08:40,070 - INFO - Reading DXF file: section_calc_n\blade\Station_14.dxf
+2025-07-03 01:08:40,095 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:40,109 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:40,118 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:40,125 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:40,139 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
+2025-07-03 01:08:40,216 - INFO - Plotting 52 DXF entities for preview...
+2025-07-03 01:08:40,364 - INFO - Raw preview saved -> section_calc_n\results\Station_14\raw_Station_14.png
+2025-07-03 01:08:40,380 - INFO - [Station_14] Importing DXF: 'section_calc_n\blade\Station_14.dxf'
+2025-07-03 01:08:40,406 - INFO - DXF version upgrade to DXF R2000.
+2025-07-03 01:08:40,418 - INFO - creating ACAD_COLOR dictionary
+2025-07-03 01:08:40,425 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-03 01:08:40,436 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-03 01:08:40,445 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-03 01:08:40,500 - INFO - Zipped 73 points
+2025-07-03 01:08:40,516 - INFO - [Station_14] Current twist: 0.36°, Desired: 0.32°, Delta: -0.05°
+2025-07-03 01:08:40,526 - INFO - [Station_14] Twist offset negligible — no rotation applied.
+2025-07-03 01:08:40,543 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-03 01:08:40,814 - INFO - [Station_14] Actual centroid: (17.7873, 0.6742)
+2025-07-03 01:08:40,819 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-03 01:08:40,834 - INFO - [Station_14] Applying translation dx=-17.7864, dy=-0.6766
+2025-07-03 01:08:40,843 - INFO - [Station_14] Section translated.
+2025-07-03 01:08:40,857 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-03 01:08:41,506 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_14\processed_Station_14.png
+2025-07-03 01:08:41,516 - INFO - [1/3] meshing Station_14 with target h = 3
+2025-07-03 01:08:41,534 - INFO - [Station_14_h3] Meshing with target h = 3 …
+2025-07-03 01:08:41,549 - INFO - [Station_14_h3] mesh ok | nodes=4000 elems=1789 | A[min=1.14e-06 max=1.4 mean=0.0975 med=0.047] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-03 01:08:42,418 - INFO - [Station_14_h3] Row appended (h=3.0)
+2025-07-03 01:08:42,432 - INFO - [2/3] meshing Station_14 with target h = 0.75
+2025-07-03 01:08:42,438 - INFO - [Station_14_h0.75] Meshing with target h = 0.75 …
+2025-07-03 01:08:42,455 - INFO - [Station_14_h0.75] mesh ok | nodes=4060 elems=1819 | A[min=1.14e-06 max=0.732 mean=0.0959 med=0.0483] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-03 01:08:43,285 - INFO - [Station_14_h0.75] Row appended (h=0.75)
+2025-07-03 01:08:43,301 - INFO - [3/3] meshing Station_14 with target h = 0.1875
+2025-07-03 01:08:43,318 - INFO - [Station_14_h0.1875] Meshing with target h = 0.1875 …
+2025-07-03 01:08:43,336 - INFO - [Station_14_h0.1875] mesh ok | nodes=5348 elems=2463 | A[min=1.14e-06 max=0.187 mean=0.0708 med=0.077] | q[min=0.602 max=1.000 mean=0.894]
+2025-07-03 01:08:44,435 - INFO - [Station_14_h0.1875] Row appended (h=0.1875)
+2025-07-03 01:08:44,928 - INFO - Global batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-03 01:08:45,470 - INFO - Local batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_local.png

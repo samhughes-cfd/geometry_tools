@@ -1,0 +1,23 @@
+2025-07-03 01:08:40,516 - INFO - [Station_14] Current twist: 0.36°, Desired: 0.32°, Delta: -0.05°
+2025-07-03 01:08:40,526 - INFO - [Station_14] Twist offset negligible — no rotation applied.
+2025-07-03 01:08:40,543 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-03 01:08:40,814 - INFO - [Station_14] Actual centroid: (17.7873, 0.6742)
+2025-07-03 01:08:40,819 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-03 01:08:40,834 - INFO - [Station_14] Applying translation dx=-17.7864, dy=-0.6766
+2025-07-03 01:08:40,843 - INFO - [Station_14] Section translated.
+2025-07-03 01:08:40,857 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-03 01:08:41,506 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_14\processed_Station_14.png
+2025-07-03 01:08:41,516 - INFO - [1/3] meshing Station_14 with target h = 3
+2025-07-03 01:08:41,534 - INFO - [Station_14_h3] Meshing with target h = 3 …
+2025-07-03 01:08:41,549 - INFO - [Station_14_h3] mesh ok | nodes=4000 elems=1789 | A[min=1.14e-06 max=1.4 mean=0.0975 med=0.047] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-03 01:08:42,418 - INFO - [Station_14_h3] Row appended (h=3.0)
+2025-07-03 01:08:42,432 - INFO - [2/3] meshing Station_14 with target h = 0.75
+2025-07-03 01:08:42,438 - INFO - [Station_14_h0.75] Meshing with target h = 0.75 …
+2025-07-03 01:08:42,455 - INFO - [Station_14_h0.75] mesh ok | nodes=4060 elems=1819 | A[min=1.14e-06 max=0.732 mean=0.0959 med=0.0483] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-03 01:08:43,285 - INFO - [Station_14_h0.75] Row appended (h=0.75)
+2025-07-03 01:08:43,301 - INFO - [3/3] meshing Station_14 with target h = 0.1875
+2025-07-03 01:08:43,318 - INFO - [Station_14_h0.1875] Meshing with target h = 0.1875 …
+2025-07-03 01:08:43,336 - INFO - [Station_14_h0.1875] mesh ok | nodes=5348 elems=2463 | A[min=1.14e-06 max=0.187 mean=0.0708 med=0.077] | q[min=0.602 max=1.000 mean=0.894]
+2025-07-03 01:08:44,435 - INFO - [Station_14_h0.1875] Row appended (h=0.1875)
+2025-07-03 01:08:44,928 - INFO - Global batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-03 01:08:45,470 - INFO - Local batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_local.png
