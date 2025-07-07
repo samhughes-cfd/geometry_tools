@@ -92,17 +92,19 @@ class ProcessedGeometry:
         geom_list = [Geometry(geom=p) for p in dense_polys]
         geom = geom_list[0] if len(geom_list) == 1 else CompoundGeometry(geom_list)
 
-        # ───── Rotate ─────────────────────────────────────────────
+        # ───── Rotate ───────────────────────────────────────────── COMMENT IF NO TWIST
         geom_rotated = TwistOffset(
             geometry=geom,
             desired_twist_deg=twist_deg,
             label=self.label,
-            logs_dir=self.logs_dir
+            logs_dir=self.logs_dir,
+            twist_axis_ratio= 0.333  # centre of twist at 0.33*chord  from leading edge
         ).apply()
+
 
         # ───── Translate ──────────────────────────────────────────
         geom_translated = CentroidOffset(
-            geometry=geom_rotated,
+            geometry=geom_rotated,    # with no twist comment replace "geometry=geom_rotated" with "geometry=geom"
             cx_target=cx,
             cy_target=cy,
             label=self.label,

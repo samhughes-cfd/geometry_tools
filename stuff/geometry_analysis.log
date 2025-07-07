@@ -1,0 +1,531 @@
+2025-05-26 20:43:51,057 - INFO - Starting analysis
+2025-05-26 20:43:51,064 - INFO - Loaded 12 points from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\input.csv
+2025-05-26 20:43:51,065 - INFO - 
+========================================
+Processing angle 0°
+========================================
+2025-05-26 20:43:51,067 - INFO - Resolution 5
+2025-05-26 20:43:51,068 - INFO - Generated geometry with 40 points
+2025-05-26 20:43:51,069 - INFO - == [Analysis Pipeline Start] ==
+2025-05-26 20:43:51,070 - INFO - >> Geometry created successfully
+2025-05-26 20:43:51,072 - INFO - >> Meshing with 0.05mm elements
+2025-05-26 20:48:34,664 - INFO - Starting analysis
+2025-05-26 20:48:34,674 - INFO - Loaded 12 points from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\input.csv
+2025-05-26 20:48:34,676 - INFO - 
+========================================
+Processing angle 0°
+========================================
+2025-05-26 20:48:34,677 - INFO - Resolution 5
+2025-05-26 20:48:34,678 - INFO - Generated geometry with 40 points
+2025-05-26 20:48:34,679 - INFO - == [Analysis Pipeline Start] ==
+2025-05-26 20:48:34,679 - WARNING - Very small mesh factor may cause instability
+2025-05-26 20:48:34,680 - INFO - >> Target mesh size: 0.05mm
+2025-05-26 20:48:34,681 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-05-26 20:48:34,682 - INFO - >> Geometry created successfully
+2025-05-26 20:48:34,683 - INFO - >> Starting meshing process
+2025-05-26 20:48:34,685 - INFO - >> Meshing successful
+2025-05-26 20:48:34,686 - WARNING - >> Could not access mesh elements for quality check
+2025-05-26 20:48:34,687 - INFO - >> Starting analysis
+2025-05-26 20:48:34,867 - INFO - << Analysis completed >>
+2025-05-26 20:48:34,868 - INFO - Resolution 10
+2025-05-26 20:48:34,870 - INFO - Generated geometry with 60 points
+2025-05-26 20:48:34,871 - INFO - == [Analysis Pipeline Start] ==
+2025-05-26 20:48:34,872 - WARNING - Very small mesh factor may cause instability
+2025-05-26 20:48:34,873 - INFO - >> Target mesh size: 0.05mm
+2025-05-26 20:48:34,873 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-05-26 20:48:34,875 - INFO - >> Geometry created successfully
+2025-05-26 20:48:34,876 - INFO - >> Starting meshing process
+2025-05-26 20:48:44,225 - INFO - Starting analysis
+2025-05-26 20:48:44,233 - INFO - Loaded 12 points from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\input.csv
+2025-05-26 20:48:44,233 - INFO - 
+========================================
+Processing angle 0°
+========================================
+2025-05-26 20:48:44,234 - INFO - Resolution 5
+2025-05-26 20:48:44,235 - INFO - Generated geometry with 40 points
+2025-05-26 20:48:44,236 - INFO - == [Analysis Pipeline Start] ==
+2025-05-26 20:48:44,237 - WARNING - Very small mesh factor may cause instability
+2025-05-26 20:48:44,237 - INFO - >> Target mesh size: 0.05mm
+2025-05-26 20:48:44,239 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-05-26 20:48:44,240 - INFO - >> Geometry created successfully
+2025-05-26 20:48:44,240 - INFO - >> Starting meshing process
+2025-07-07 19:02:41,014 - INFO - Starting analysis
+2025-07-07 19:02:41,031 - INFO - Loaded 12 points from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\input.csv
+2025-07-07 19:02:41,031 - INFO - 
+========================================
+Processing angle 0°
+========================================
+2025-07-07 19:02:41,038 - INFO - Resolution 5
+2025-07-07 19:02:41,039 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,040 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,041 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,042 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,042 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,047 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:02:41,048 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,049 - INFO - Resolution 10
+2025-07-07 19:02:41,050 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,052 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,052 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,053 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,054 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,057 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:02:41,057 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,057 - INFO - Resolution 20
+2025-07-07 19:02:41,057 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,057 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,061 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,062 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,063 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,065 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:02:41,066 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,067 - INFO - Resolution 40
+2025-07-07 19:02:41,067 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,069 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,069 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,081 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,082 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,086 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:02:41,087 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,088 - INFO - Resolution 80
+2025-07-07 19:02:41,088 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,088 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,088 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,088 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,092 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,098 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:02:41,099 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,100 - INFO - 
+========================================
+Processing angle 90°
+========================================
+2025-07-07 19:02:41,101 - INFO - Resolution 5
+2025-07-07 19:02:41,102 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,102 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,102 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,102 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,105 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,107 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:02:41,108 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,109 - INFO - Resolution 10
+2025-07-07 19:02:41,110 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,110 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,112 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,112 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,114 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,116 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:02:41,117 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,118 - INFO - Resolution 20
+2025-07-07 19:02:41,118 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,120 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,120 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,121 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,122 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,122 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:02:41,122 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,122 - INFO - Resolution 40
+2025-07-07 19:02:41,122 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,127 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,128 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,129 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,130 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,134 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:02:41,134 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,136 - INFO - Resolution 80
+2025-07-07 19:02:41,137 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,138 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,139 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,140 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,140 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,145 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:02:41,147 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,148 - INFO - 
+========================================
+Processing angle 180°
+========================================
+2025-07-07 19:02:41,149 - INFO - Resolution 5
+2025-07-07 19:02:41,149 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,150 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,151 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,151 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,153 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,154 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:02:41,156 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,156 - INFO - Resolution 10
+2025-07-07 19:02:41,157 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,158 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,159 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,160 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,160 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,163 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:02:41,164 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,165 - INFO - Resolution 20
+2025-07-07 19:02:41,166 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,167 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,167 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,168 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,168 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,171 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:02:41,172 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,173 - INFO - Resolution 40
+2025-07-07 19:02:41,174 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,175 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,176 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,177 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,177 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,181 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:02:41,182 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,183 - INFO - Resolution 80
+2025-07-07 19:02:41,184 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,185 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,186 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,187 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,187 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,193 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:02:41,194 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,195 - INFO - 
+========================================
+Processing angle 270°
+========================================
+2025-07-07 19:02:41,195 - INFO - Resolution 5
+2025-07-07 19:02:41,195 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,197 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,198 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,199 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,200 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,202 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:02:41,203 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,204 - INFO - Resolution 10
+2025-07-07 19:02:41,205 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,206 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,206 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,206 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,206 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,210 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:02:41,211 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,212 - INFO - Resolution 20
+2025-07-07 19:02:41,213 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,214 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,215 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,216 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,217 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,220 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:02:41,221 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,222 - INFO - Resolution 40
+2025-07-07 19:02:41,223 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,223 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,223 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,223 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,223 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,229 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:02:41,230 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,231 - INFO - Resolution 80
+2025-07-07 19:02:41,232 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,234 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:02:41,235 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:02:41,236 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:02:41,236 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:02:41,239 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:02:41,239 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:02:41,244 - INFO - Generating plots
+2025-07-07 19:02:41,389 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,390 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,391 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,392 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,393 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,398 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,399 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,400 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,401 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,401 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,406 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,406 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,408 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,410 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,411 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,414 - INFO - Generated geometry with 40 points
+2025-07-07 19:02:41,414 - INFO - Generated geometry with 60 points
+2025-07-07 19:02:41,416 - INFO - Generated geometry with 100 points
+2025-07-07 19:02:41,417 - INFO - Generated geometry with 180 points
+2025-07-07 19:02:41,418 - INFO - Generated geometry with 340 points
+2025-07-07 19:02:41,706 - INFO - Analysis completed successfully
+2025-07-07 19:03:02,137 - INFO - Starting analysis
+2025-07-07 19:03:02,144 - INFO - Loaded 12 points from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\input.csv
+2025-07-07 19:03:02,144 - INFO - 
+========================================
+Processing angle 0°
+========================================
+2025-07-07 19:03:02,144 - INFO - Resolution 5
+2025-07-07 19:03:02,144 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,144 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,144 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,144 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,144 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,144 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:03:02,144 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,144 - INFO - Resolution 10
+2025-07-07 19:03:02,144 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,160 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,160 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,160 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,160 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,160 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:03:02,160 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,160 - INFO - Resolution 20
+2025-07-07 19:03:02,160 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,160 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,170 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,170 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,170 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,170 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:03:02,170 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,175 - INFO - Resolution 40
+2025-07-07 19:03:02,177 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,179 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,179 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,180 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,181 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,182 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:03:02,182 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,182 - INFO - Resolution 80
+2025-07-07 19:03:02,182 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,182 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,182 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,182 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,182 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,195 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:03:02,195 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,195 - INFO - 
+========================================
+Processing angle 90°
+========================================
+2025-07-07 19:03:02,195 - INFO - Resolution 5
+2025-07-07 19:03:02,201 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,201 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,203 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,203 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,204 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,207 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:03:02,207 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,207 - INFO - Resolution 10
+2025-07-07 19:03:02,207 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,211 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,211 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,211 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,211 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,211 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:03:02,211 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,211 - INFO - Resolution 20
+2025-07-07 19:03:02,217 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,219 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,220 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,221 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,222 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,222 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:03:02,226 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,226 - INFO - Resolution 40
+2025-07-07 19:03:02,228 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,228 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,228 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,228 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,228 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,228 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:03:02,228 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,241 - INFO - Resolution 80
+2025-07-07 19:03:02,242 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,243 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,244 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,244 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,245 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,252 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:03:02,253 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,254 - INFO - 
+========================================
+Processing angle 180°
+========================================
+2025-07-07 19:03:02,254 - INFO - Resolution 5
+2025-07-07 19:03:02,255 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,256 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,257 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,257 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,260 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,261 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:03:02,261 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,261 - INFO - Resolution 10
+2025-07-07 19:03:02,264 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,264 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,264 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,264 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,264 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,269 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:03:02,271 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,271 - INFO - Resolution 20
+2025-07-07 19:03:02,272 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,272 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,273 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,274 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,274 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,278 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:03:02,278 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,278 - INFO - Resolution 40
+2025-07-07 19:03:02,278 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,278 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,282 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,283 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,284 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,287 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:03:02,288 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,290 - INFO - Resolution 80
+2025-07-07 19:03:02,291 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,292 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,293 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,294 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,294 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,295 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:03:02,295 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,302 - INFO - 
+========================================
+Processing angle 270°
+========================================
+2025-07-07 19:03:02,302 - INFO - Resolution 5
+2025-07-07 19:03:02,303 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,304 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,305 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,306 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,308 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,309 - ERROR - >> Geometry creation failed! First 3 points: [[-24.          21.25683487]
+ [-24.         -21.24316513]
+ [-24.         -21.24316513]]
+2025-07-07 19:03:02,310 - ERROR - << Pipeline failed: TopologyException: side location conflict at 21.995114061999985 3.4146548394354084. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,311 - INFO - Resolution 10
+2025-07-07 19:03:02,311 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,311 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,311 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,311 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,311 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,317 - ERROR - >> Geometry creation failed! First 3 points: [[-16.          19.40500872]
+ [-16.         -23.09499128]
+ [-16.         -23.09499128]]
+2025-07-07 19:03:02,318 - ERROR - << Pipeline failed: TopologyException: side location conflict at 75.5 -19.986182992717666. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,319 - INFO - Resolution 20
+2025-07-07 19:03:02,320 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,321 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,323 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,323 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,323 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,326 - ERROR - >> Geometry creation failed! First 3 points: [[ -9.6         17.91777709]
+ [ -9.6        -24.58222291]
+ [ -9.6        -24.58222291]]
+2025-07-07 19:03:02,328 - ERROR - << Pipeline failed: TopologyException: side location conflict at -9.5999999999999996 -22.279267248481496. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,328 - INFO - Resolution 40
+2025-07-07 19:03:02,328 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,328 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,332 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,333 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,333 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,336 - ERROR - >> Geometry creation failed! First 3 points: [[ -5.33333333  16.9249794 ]
+ [ -5.33333333 -25.5750206 ]
+ [ -5.33333333 -25.5750206 ]]
+2025-07-07 19:03:02,337 - ERROR - << Pipeline failed: TopologyException: side location conflict at 60.791666666666671 -11.825020596758087. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,337 - INFO - Resolution 80
+2025-07-07 19:03:02,337 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,340 - INFO - == [Analysis Pipeline Start] ==
+2025-07-07 19:03:02,341 - WARNING - Very small mesh factor may cause instability
+2025-07-07 19:03:02,341 - INFO - >> Target mesh size: 0.05mm
+2025-07-07 19:03:02,342 - WARNING - >> Mesh size 0.05mm is too small, using minimum 0.1mm
+2025-07-07 19:03:02,345 - ERROR - >> Geometry creation failed! First 3 points: [[ -2.82352941  16.340665  ]
+ [ -2.82352941 -26.159335  ]
+ [ -2.82352941 -26.159335  ]]
+2025-07-07 19:03:02,349 - ERROR - << Pipeline failed: TopologyException: side location conflict at -2.823529411764707 -23.856379332153598. This can occur if the input geometry is invalid. >>
+2025-07-07 19:03:02,350 - INFO - Generating plots
+2025-07-07 19:03:02,516 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,517 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,519 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,520 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,521 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,525 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,526 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,527 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,529 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,533 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,538 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,539 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,540 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,541 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,543 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,548 - INFO - Generated geometry with 40 points
+2025-07-07 19:03:02,549 - INFO - Generated geometry with 60 points
+2025-07-07 19:03:02,550 - INFO - Generated geometry with 100 points
+2025-07-07 19:03:02,551 - INFO - Generated geometry with 180 points
+2025-07-07 19:03:02,552 - INFO - Generated geometry with 340 points
+2025-07-07 19:03:02,845 - INFO - Analysis completed successfully

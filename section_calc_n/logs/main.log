@@ -1,297 +1,283 @@
-2025-07-03 01:38:00,320 - INFO - 🌀 DXF mesh-convergence pipeline started
-2025-07-03 01:38:00,326 - INFO - Mesh size targets: [3.     0.75   0.1875]
-2025-07-03 01:38:00,330 - INFO - Station Station_2: DXF=section_calc_n\blade\Station_2.dxf, twist=18.7°, centroid=(0.01,-0.01)
-2025-07-03 01:38:00,334 - INFO - Reading DXF file: section_calc_n\blade\Station_2.dxf
-2025-07-03 01:38:00,355 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:00,358 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:00,359 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:00,359 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:00,364 - INFO - Raw geometry extraction complete. 66 drawable entities parsed.
-2025-07-03 01:38:00,547 - INFO - Plotting 66 DXF entities for preview...
-2025-07-03 01:38:00,728 - INFO - Raw preview saved -> section_calc_n\results\Station_2\raw_Station_2.png
-2025-07-03 01:38:00,728 - INFO - [Station_2] Importing DXF: 'section_calc_n\blade\Station_2.dxf'
-2025-07-03 01:38:00,792 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:00,795 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:00,796 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:00,797 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:00,800 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:00,869 - INFO - Zipped 53 points
-2025-07-03 01:38:00,878 - INFO - [Station_2] Current twist: -1.16°, Desired: 18.68°, Delta: 19.84°
-2025-07-03 01:38:00,881 - INFO - [Station_2] Section rotated by 19.84°.
-2025-07-03 01:38:00,890 - INFO - [Station_2] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:01,138 - INFO - [Station_2] Actual centroid: (0.0370, -0.0003)
-2025-07-03 01:38:01,141 - INFO - [Station_2] Desired centroid: (0.0058, -0.0094)
-2025-07-03 01:38:01,143 - INFO - [Station_2] Applying translation dx=-0.0311, dy=-0.0091
-2025-07-03 01:38:01,146 - INFO - [Station_2] Section translated.
-2025-07-03 01:38:01,150 - INFO - Processed and aligned geometry extracted for Station_2
-2025-07-03 01:38:01,735 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_2\processed_Station_2.png
-2025-07-03 01:38:01,739 - INFO - [1/3] meshing Station_2 with target h = 3
-2025-07-03 01:38:01,747 - INFO - [Station_2_h3] Meshing with target h = 3 …
-2025-07-03 01:38:01,756 - WARNING - [Station_2_h3] 202 sliver triangles removed
-2025-07-03 01:38:01,759 - INFO - [Station_2_h3] mesh ok | nodes=3982 elems=1556 | A[min=1.02e-08 max=9.46e-06 mean=9.22e-07 med=5.62e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-03 01:38:02,546 - INFO - [Station_2_h3] Row appended (h=3.0)
-2025-07-03 01:38:02,549 - INFO - [2/3] meshing Station_2 with target h = 0.75
-2025-07-03 01:38:02,557 - INFO - [Station_2_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:02,565 - WARNING - [Station_2_h0.75] 202 sliver triangles removed
-2025-07-03 01:38:02,569 - INFO - [Station_2_h0.75] mesh ok | nodes=3982 elems=1556 | A[min=1.02e-08 max=9.46e-06 mean=9.22e-07 med=5.62e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-03 01:38:03,083 - INFO - [Station_2_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:03,088 - INFO - [3/3] meshing Station_2 with target h = 0.1875
-2025-07-03 01:38:03,099 - INFO - [Station_2_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:03,108 - WARNING - [Station_2_h0.1875] 202 sliver triangles removed
-2025-07-03 01:38:03,114 - INFO - [Station_2_h0.1875] mesh ok | nodes=3982 elems=1556 | A[min=1.02e-08 max=9.46e-06 mean=9.22e-07 med=5.62e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-03 01:38:03,647 - INFO - [Station_2_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:04,081 - INFO - Global batch 1 saved -> section_calc_n\results\Station_2\mesh_conv_Station_2_batch1_global.png
-2025-07-03 01:38:04,574 - INFO - Local batch 1 saved -> section_calc_n\results\Station_2\mesh_conv_Station_2_batch1_local.png
-2025-07-03 01:38:04,580 - INFO - Station Station_4: DXF=section_calc_n\blade\Station_4.dxf, twist=10.9°, centroid=(0.00,-0.01)
-2025-07-03 01:38:04,586 - INFO - Reading DXF file: section_calc_n\blade\Station_4.dxf
-2025-07-03 01:38:04,607 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:04,611 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:04,613 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:04,615 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:04,619 - INFO - Raw geometry extraction complete. 65 drawable entities parsed.
-2025-07-03 01:38:04,692 - INFO - Plotting 65 DXF entities for preview...
-2025-07-03 01:38:04,847 - INFO - Raw preview saved -> section_calc_n\results\Station_4\raw_Station_4.png
-2025-07-03 01:38:04,849 - INFO - [Station_4] Importing DXF: 'section_calc_n\blade\Station_4.dxf'
-2025-07-03 01:38:04,869 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:04,873 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:04,875 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:04,878 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:04,881 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:04,950 - INFO - Zipped 61 points
-2025-07-03 01:38:05,021 - INFO - [Station_4] Current twist: 0.02°, Desired: 10.86°, Delta: 10.84°
-2025-07-03 01:38:05,025 - INFO - [Station_4] Section rotated by 10.84°.
-2025-07-03 01:38:05,035 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:05,273 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
-2025-07-03 01:38:05,278 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
-2025-07-03 01:38:05,282 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
-2025-07-03 01:38:05,286 - INFO - [Station_4] Section translated.
-2025-07-03 01:38:05,290 - INFO - Processed and aligned geometry extracted for Station_4
-2025-07-03 01:38:05,872 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_4\processed_Station_4.png
-2025-07-03 01:38:05,878 - INFO - [1/3] meshing Station_4 with target h = 3
-2025-07-03 01:38:05,887 - INFO - [Station_4_h3] Meshing with target h = 3 …
-2025-07-03 01:38:05,898 - WARNING - [Station_4_h3] 218 sliver triangles removed
-2025-07-03 01:38:05,902 - INFO - [Station_4_h3] mesh ok | nodes=4093 elems=1597 | A[min=1e-08 max=4.52e-06 mean=5.9e-07 med=3.67e-07] | q[min=0.603 max=1.000 mean=0.887]
-2025-07-03 01:38:06,688 - INFO - [Station_4_h3] Row appended (h=3.0)
-2025-07-03 01:38:06,691 - INFO - [2/3] meshing Station_4 with target h = 0.75
-2025-07-03 01:38:06,701 - INFO - [Station_4_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:06,711 - WARNING - [Station_4_h0.75] 218 sliver triangles removed
-2025-07-03 01:38:06,716 - INFO - [Station_4_h0.75] mesh ok | nodes=4093 elems=1597 | A[min=1e-08 max=4.52e-06 mean=5.9e-07 med=3.67e-07] | q[min=0.603 max=1.000 mean=0.887]
-2025-07-03 01:38:07,265 - INFO - [Station_4_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:07,269 - INFO - [3/3] meshing Station_4 with target h = 0.1875
-2025-07-03 01:38:07,280 - INFO - [Station_4_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:07,291 - WARNING - [Station_4_h0.1875] 218 sliver triangles removed
-2025-07-03 01:38:07,295 - INFO - [Station_4_h0.1875] mesh ok | nodes=4093 elems=1597 | A[min=1e-08 max=4.52e-06 mean=5.9e-07 med=3.67e-07] | q[min=0.603 max=1.000 mean=0.887]
-2025-07-03 01:38:07,844 - INFO - [Station_4_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:08,305 - INFO - Global batch 1 saved -> section_calc_n\results\Station_4\mesh_conv_Station_4_batch1_global.png
-2025-07-03 01:38:08,857 - INFO - Local batch 1 saved -> section_calc_n\results\Station_4\mesh_conv_Station_4_batch1_local.png
-2025-07-03 01:38:08,864 - INFO - Station Station_6: DXF=section_calc_n\blade\Station_6.dxf, twist=6.9°, centroid=(0.00,-0.01)
-2025-07-03 01:38:08,871 - INFO - Reading DXF file: section_calc_n\blade\Station_6.dxf
-2025-07-03 01:38:08,904 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:08,910 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:08,914 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:08,923 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:08,928 - INFO - Raw geometry extraction complete. 53 drawable entities parsed.
-2025-07-03 01:38:09,025 - INFO - Plotting 53 DXF entities for preview...
-2025-07-03 01:38:09,188 - INFO - Raw preview saved -> section_calc_n\results\Station_6\raw_Station_6.png
-2025-07-03 01:38:09,192 - INFO - [Station_6] Importing DXF: 'section_calc_n\blade\Station_6.dxf'
-2025-07-03 01:38:09,213 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:09,219 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:09,222 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:09,225 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:09,231 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:09,277 - INFO - Zipped 30 points
-2025-07-03 01:38:09,287 - INFO - [Station_6] Current twist: -0.15°, Desired: 6.90°, Delta: 7.04°
-2025-07-03 01:38:09,293 - INFO - [Station_6] Section rotated by 7.04°.
-2025-07-03 01:38:09,350 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:09,582 - INFO - [Station_6] Actual centroid: (0.0228, 0.0012)
-2025-07-03 01:38:09,586 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
-2025-07-03 01:38:09,590 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
-2025-07-03 01:38:09,596 - INFO - [Station_6] Section translated.
-2025-07-03 01:38:09,602 - INFO - Processed and aligned geometry extracted for Station_6
-2025-07-03 01:38:10,234 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_6\processed_Station_6.png
-2025-07-03 01:38:10,243 - INFO - [1/3] meshing Station_6 with target h = 3
-2025-07-03 01:38:10,253 - INFO - [Station_6_h3] Meshing with target h = 3 …
-2025-07-03 01:38:10,266 - WARNING - [Station_6_h3] 169 sliver triangles removed
-2025-07-03 01:38:10,274 - INFO - [Station_6_h3] mesh ok | nodes=3832 elems=1509 | A[min=1.01e-08 max=4.26e-06 mean=3.8e-07 med=2.3e-07] | q[min=0.604 max=1.000 mean=0.879]
-2025-07-03 01:38:11,011 - INFO - [Station_6_h3] Row appended (h=3.0)
-2025-07-03 01:38:11,015 - INFO - [2/3] meshing Station_6 with target h = 0.75
-2025-07-03 01:38:11,026 - INFO - [Station_6_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:11,037 - WARNING - [Station_6_h0.75] 169 sliver triangles removed
-2025-07-03 01:38:11,043 - INFO - [Station_6_h0.75] mesh ok | nodes=3832 elems=1509 | A[min=1.01e-08 max=4.26e-06 mean=3.8e-07 med=2.3e-07] | q[min=0.604 max=1.000 mean=0.879]
-2025-07-03 01:38:11,548 - INFO - [Station_6_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:11,554 - INFO - [3/3] meshing Station_6 with target h = 0.1875
-2025-07-03 01:38:11,564 - INFO - [Station_6_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:11,652 - WARNING - [Station_6_h0.1875] 169 sliver triangles removed
-2025-07-03 01:38:11,657 - INFO - [Station_6_h0.1875] mesh ok | nodes=3832 elems=1509 | A[min=1.01e-08 max=4.26e-06 mean=3.8e-07 med=2.3e-07] | q[min=0.604 max=1.000 mean=0.879]
-2025-07-03 01:38:12,178 - INFO - [Station_6_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:12,605 - INFO - Global batch 1 saved -> section_calc_n\results\Station_6\mesh_conv_Station_6_batch1_global.png
-2025-07-03 01:38:13,099 - INFO - Local batch 1 saved -> section_calc_n\results\Station_6\mesh_conv_Station_6_batch1_local.png
-2025-07-03 01:38:13,109 - INFO - Station Station_8: DXF=section_calc_n\blade\Station_8.dxf, twist=4.4°, centroid=(0.00,-0.01)
-2025-07-03 01:38:13,119 - INFO - Reading DXF file: section_calc_n\blade\Station_8.dxf
-2025-07-03 01:38:13,142 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:13,150 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:13,155 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:13,159 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:13,165 - INFO - Raw geometry extraction complete. 43 drawable entities parsed.
-2025-07-03 01:38:13,238 - INFO - Plotting 43 DXF entities for preview...
-2025-07-03 01:38:13,387 - INFO - Raw preview saved -> section_calc_n\results\Station_8\raw_Station_8.png
-2025-07-03 01:38:13,393 - INFO - [Station_8] Importing DXF: 'section_calc_n\blade\Station_8.dxf'
-2025-07-03 01:38:13,416 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:13,423 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:13,429 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:13,434 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:13,439 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:13,476 - INFO - Zipped 26 points
-2025-07-03 01:38:13,489 - INFO - [Station_8] Current twist: -0.20°, Desired: 4.40°, Delta: 4.60°
-2025-07-03 01:38:13,498 - INFO - [Station_8] Section rotated by 4.60°.
-2025-07-03 01:38:13,516 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:13,830 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
-2025-07-03 01:38:13,838 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
-2025-07-03 01:38:13,845 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
-2025-07-03 01:38:13,852 - INFO - [Station_8] Section translated.
-2025-07-03 01:38:13,858 - INFO - Processed and aligned geometry extracted for Station_8
-2025-07-03 01:38:14,416 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_8\processed_Station_8.png
-2025-07-03 01:38:14,425 - INFO - [1/3] meshing Station_8 with target h = 3
-2025-07-03 01:38:14,438 - INFO - [Station_8_h3] Meshing with target h = 3 …
-2025-07-03 01:38:14,452 - WARNING - [Station_8_h3] 295 sliver triangles removed
-2025-07-03 01:38:14,459 - INFO - [Station_8_h3] mesh ok | nodes=4184 elems=1555 | A[min=1.01e-08 max=2.1e-06 mean=2.42e-07 med=1.6e-07] | q[min=0.602 max=1.000 mean=0.884]
-2025-07-03 01:38:15,311 - INFO - [Station_8_h3] Row appended (h=3.0)
-2025-07-03 01:38:15,316 - INFO - [2/3] meshing Station_8 with target h = 0.75
-2025-07-03 01:38:15,326 - INFO - [Station_8_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:15,338 - WARNING - [Station_8_h0.75] 295 sliver triangles removed
-2025-07-03 01:38:15,345 - INFO - [Station_8_h0.75] mesh ok | nodes=4184 elems=1555 | A[min=1.01e-08 max=2.1e-06 mean=2.42e-07 med=1.6e-07] | q[min=0.602 max=1.000 mean=0.884]
-2025-07-03 01:38:15,934 - INFO - [Station_8_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:15,940 - INFO - [3/3] meshing Station_8 with target h = 0.1875
-2025-07-03 01:38:15,953 - INFO - [Station_8_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:15,966 - WARNING - [Station_8_h0.1875] 295 sliver triangles removed
-2025-07-03 01:38:15,972 - INFO - [Station_8_h0.1875] mesh ok | nodes=4184 elems=1555 | A[min=1.01e-08 max=2.1e-06 mean=2.42e-07 med=1.6e-07] | q[min=0.602 max=1.000 mean=0.884]
-2025-07-03 01:38:16,551 - INFO - [Station_8_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:16,991 - INFO - Global batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_global.png
-2025-07-03 01:38:17,488 - INFO - Local batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_local.png
-2025-07-03 01:38:17,497 - INFO - Station Station_10: DXF=section_calc_n\blade\Station_10.dxf, twist=2.7°, centroid=(0.00,-0.01)
-2025-07-03 01:38:17,508 - INFO - Reading DXF file: section_calc_n\blade\Station_10.dxf
-2025-07-03 01:38:17,534 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:17,542 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:17,547 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:17,553 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:17,630 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
-2025-07-03 01:38:17,707 - INFO - Plotting 77 DXF entities for preview...
-2025-07-03 01:38:17,872 - INFO - Raw preview saved -> section_calc_n\results\Station_10\raw_Station_10.png
-2025-07-03 01:38:17,879 - INFO - [Station_10] Importing DXF: 'section_calc_n\blade\Station_10.dxf'
-2025-07-03 01:38:17,902 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:17,911 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:17,917 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:17,923 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:17,931 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:18,033 - INFO - Zipped 208 points
-2025-07-03 01:38:18,046 - INFO - [Station_10] Current twist: -0.18°, Desired: 2.69°, Delta: 2.87°
-2025-07-03 01:38:18,054 - INFO - [Station_10] Section rotated by 2.87°.
-2025-07-03 01:38:18,069 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:18,335 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
-2025-07-03 01:38:18,386 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
-2025-07-03 01:38:18,393 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0063
-2025-07-03 01:38:18,402 - INFO - [Station_10] Section translated.
-2025-07-03 01:38:18,450 - INFO - Processed and aligned geometry extracted for Station_10
-2025-07-03 01:38:19,034 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_10\processed_Station_10.png
-2025-07-03 01:38:19,044 - INFO - [1/3] meshing Station_10 with target h = 3
-2025-07-03 01:38:19,057 - INFO - [Station_10_h3] Meshing with target h = 3 …
-2025-07-03 01:38:19,071 - WARNING - [Station_10_h3] 364 sliver triangles removed
-2025-07-03 01:38:19,079 - INFO - [Station_10_h3] mesh ok | nodes=4386 elems=1592 | A[min=1.01e-08 max=1.45e-06 mean=1.65e-07 med=1.19e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-03 01:38:19,968 - INFO - [Station_10_h3] Row appended (h=3.0)
-2025-07-03 01:38:19,980 - INFO - [2/3] meshing Station_10 with target h = 0.75
-2025-07-03 01:38:19,993 - INFO - [Station_10_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:20,009 - WARNING - [Station_10_h0.75] 364 sliver triangles removed
-2025-07-03 01:38:20,018 - INFO - [Station_10_h0.75] mesh ok | nodes=4386 elems=1592 | A[min=1.01e-08 max=1.45e-06 mean=1.65e-07 med=1.19e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-03 01:38:20,660 - INFO - [Station_10_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:20,668 - INFO - [3/3] meshing Station_10 with target h = 0.1875
-2025-07-03 01:38:20,681 - INFO - [Station_10_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:20,696 - WARNING - [Station_10_h0.1875] 364 sliver triangles removed
-2025-07-03 01:38:20,705 - INFO - [Station_10_h0.1875] mesh ok | nodes=4386 elems=1592 | A[min=1.01e-08 max=1.45e-06 mean=1.65e-07 med=1.19e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-03 01:38:21,305 - INFO - [Station_10_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:21,759 - INFO - Global batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_global.png
-2025-07-03 01:38:22,270 - INFO - Local batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_local.png
-2025-07-03 01:38:22,281 - INFO - Station Station_12: DXF=section_calc_n\blade\Station_12.dxf, twist=1.4°, centroid=(0.00,-0.00)
-2025-07-03 01:38:22,292 - INFO - Reading DXF file: section_calc_n\blade\Station_12.dxf
-2025-07-03 01:38:22,333 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:22,344 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:22,352 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:22,359 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:22,370 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
-2025-07-03 01:38:22,469 - INFO - Plotting 46 DXF entities for preview...
-2025-07-03 01:38:22,622 - INFO - Raw preview saved -> section_calc_n\results\Station_12\raw_Station_12.png
-2025-07-03 01:38:22,630 - INFO - [Station_12] Importing DXF: 'section_calc_n\blade\Station_12.dxf'
-2025-07-03 01:38:22,658 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:22,668 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:22,675 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:22,682 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:22,691 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:22,734 - INFO - Zipped 91 points
-2025-07-03 01:38:22,748 - INFO - [Station_12] Current twist: -0.38°, Desired: 1.43°, Delta: 1.81°
-2025-07-03 01:38:22,756 - INFO - [Station_12] Section rotated by 1.81°.
-2025-07-03 01:38:22,771 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:23,026 - INFO - [Station_12] Actual centroid: (0.0131, 0.0011)
-2025-07-03 01:38:23,034 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
-2025-07-03 01:38:23,043 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0056
-2025-07-03 01:38:23,052 - INFO - [Station_12] Section translated.
-2025-07-03 01:38:23,061 - INFO - Processed and aligned geometry extracted for Station_12
-2025-07-03 01:38:23,693 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_12\processed_Station_12.png
-2025-07-03 01:38:23,702 - INFO - [1/3] meshing Station_12 with target h = 3
-2025-07-03 01:38:23,715 - INFO - [Station_12_h3] Meshing with target h = 3 …
-2025-07-03 01:38:23,733 - WARNING - [Station_12_h3] 387 sliver triangles removed
-2025-07-03 01:38:23,743 - INFO - [Station_12_h3] mesh ok | nodes=4130 elems=1443 | A[min=1e-08 max=9.57e-07 mean=1.31e-07 med=8.59e-08] | q[min=0.603 max=1.000 mean=0.881]
-2025-07-03 01:38:24,612 - INFO - [Station_12_h3] Row appended (h=3.0)
-2025-07-03 01:38:24,619 - INFO - [2/3] meshing Station_12 with target h = 0.75
-2025-07-03 01:38:24,632 - INFO - [Station_12_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:24,646 - WARNING - [Station_12_h0.75] 387 sliver triangles removed
-2025-07-03 01:38:24,654 - INFO - [Station_12_h0.75] mesh ok | nodes=4130 elems=1443 | A[min=1e-08 max=9.57e-07 mean=1.31e-07 med=8.59e-08] | q[min=0.603 max=1.000 mean=0.881]
-2025-07-03 01:38:25,209 - INFO - [Station_12_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:25,217 - INFO - [3/3] meshing Station_12 with target h = 0.1875
-2025-07-03 01:38:25,234 - INFO - [Station_12_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:25,252 - WARNING - [Station_12_h0.1875] 387 sliver triangles removed
-2025-07-03 01:38:25,261 - INFO - [Station_12_h0.1875] mesh ok | nodes=4130 elems=1443 | A[min=1e-08 max=9.57e-07 mean=1.31e-07 med=8.59e-08] | q[min=0.603 max=1.000 mean=0.881]
-2025-07-03 01:38:25,827 - INFO - [Station_12_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:26,291 - INFO - Global batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_global.png
-2025-07-03 01:38:26,818 - INFO - Local batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_local.png
-2025-07-03 01:38:26,834 - INFO - Station Station_14: DXF=section_calc_n\blade\Station_14.dxf, twist=0.3°, centroid=(0.00,-0.00)
-2025-07-03 01:38:26,847 - INFO - Reading DXF file: section_calc_n\blade\Station_14.dxf
-2025-07-03 01:38:26,875 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:26,884 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:26,892 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:26,899 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:26,907 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
-2025-07-03 01:38:26,986 - INFO - Plotting 52 DXF entities for preview...
-2025-07-03 01:38:27,268 - INFO - Raw preview saved -> section_calc_n\results\Station_14\raw_Station_14.png
-2025-07-03 01:38:27,278 - INFO - [Station_14] Importing DXF: 'section_calc_n\blade\Station_14.dxf'
-2025-07-03 01:38:27,302 - INFO - DXF version upgrade to DXF R2000.
-2025-07-03 01:38:27,312 - INFO - creating ACAD_COLOR dictionary
-2025-07-03 01:38:27,319 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-03 01:38:27,327 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-03 01:38:27,335 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-03 01:38:27,396 - INFO - Zipped 73 points
-2025-07-03 01:38:27,409 - INFO - [Station_14] Current twist: 0.36°, Desired: 0.32°, Delta: -0.05°
-2025-07-03 01:38:27,458 - INFO - [Station_14] Twist offset negligible — no rotation applied.
-2025-07-03 01:38:27,474 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
-2025-07-03 01:38:27,755 - INFO - [Station_14] Actual centroid: (0.0178, 0.0007)
-2025-07-03 01:38:27,772 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
-2025-07-03 01:38:27,780 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
-2025-07-03 01:38:27,789 - INFO - [Station_14] Section translated.
-2025-07-03 01:38:27,831 - INFO - Processed and aligned geometry extracted for Station_14
-2025-07-03 01:38:28,497 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_14\processed_Station_14.png
-2025-07-03 01:38:28,507 - INFO - [1/3] meshing Station_14 with target h = 3
-2025-07-03 01:38:28,520 - INFO - [Station_14_h3] Meshing with target h = 3 …
-2025-07-03 01:38:28,536 - WARNING - [Station_14_h3] 466 sliver triangles removed
-2025-07-03 01:38:28,546 - INFO - [Station_14_h3] mesh ok | nodes=4065 elems=1354 | A[min=1.02e-08 max=1.21e-06 mean=1.28e-07 med=6.78e-08] | q[min=0.604 max=1.000 mean=0.877]
-2025-07-03 01:38:29,369 - INFO - [Station_14_h3] Row appended (h=3.0)
-2025-07-03 01:38:29,380 - INFO - [2/3] meshing Station_14 with target h = 0.75
-2025-07-03 01:38:29,396 - INFO - [Station_14_h0.75] Meshing with target h = 0.75 …
-2025-07-03 01:38:29,413 - WARNING - [Station_14_h0.75] 466 sliver triangles removed
-2025-07-03 01:38:29,423 - INFO - [Station_14_h0.75] mesh ok | nodes=4065 elems=1354 | A[min=1.02e-08 max=1.21e-06 mean=1.28e-07 med=6.78e-08] | q[min=0.604 max=1.000 mean=0.877]
-2025-07-03 01:38:29,999 - INFO - [Station_14_h0.75] Row appended (h=0.75)
-2025-07-03 01:38:30,008 - INFO - [3/3] meshing Station_14 with target h = 0.1875
-2025-07-03 01:38:30,023 - INFO - [Station_14_h0.1875] Meshing with target h = 0.1875 …
-2025-07-03 01:38:30,039 - WARNING - [Station_14_h0.1875] 466 sliver triangles removed
-2025-07-03 01:38:30,049 - INFO - [Station_14_h0.1875] mesh ok | nodes=4065 elems=1354 | A[min=1.02e-08 max=1.21e-06 mean=1.28e-07 med=6.78e-08] | q[min=0.604 max=1.000 mean=0.877]
-2025-07-03 01:38:30,608 - INFO - [Station_14_h0.1875] Row appended (h=0.1875)
-2025-07-03 01:38:31,108 - INFO - Global batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_global.png
-2025-07-03 01:38:31,616 - INFO - Local batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_local.png
-2025-07-03 01:38:31,627 - INFO - ✅ Pipeline complete — results saved in: section_calc_n\results
+2025-07-07 19:00:55,466 - INFO - 🌀 DXF mesh-convergence pipeline started
+2025-07-07 19:00:55,466 - INFO - Mesh size targets: [3.     0.75   0.1875]
+2025-07-07 19:00:55,466 - INFO - Station Station_2: DXF=section_calc_n\blade\Station_2.dxf, twist=18.7°, centroid=(0.01,-0.01)
+2025-07-07 19:00:55,478 - INFO - Reading DXF file: section_calc_n\blade\Station_2.dxf
+2025-07-07 19:00:55,496 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:00:55,499 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:00:55,500 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:00:55,501 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:00:55,503 - INFO - Raw geometry extraction complete. 66 drawable entities parsed.
+2025-07-07 19:00:55,668 - INFO - Plotting 66 DXF entities for preview...
+2025-07-07 19:00:55,825 - INFO - Raw preview saved -> section_calc_n\results\Station_2\raw_Station_2.png
+2025-07-07 19:00:55,835 - INFO - [Station_2] Importing DXF: 'section_calc_n\blade\Station_2.dxf'
+2025-07-07 19:00:55,903 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:00:55,906 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:00:55,906 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:00:55,907 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:00:55,910 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:00:55,961 - INFO - Zipped 53 points
+2025-07-07 19:00:55,990 - INFO - [Station_2] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:00:56,192 - INFO - [Station_2] Actual centroid: (0.0368, 0.0001)
+2025-07-07 19:00:56,192 - INFO - [Station_2] Desired centroid: (0.0058, -0.0094)
+2025-07-07 19:00:56,192 - INFO - [Station_2] Applying translation dx=-0.0309, dy=-0.0095
+2025-07-07 19:00:56,192 - INFO - [Station_2] Section translated.
+2025-07-07 19:00:56,207 - INFO - Processed and aligned geometry extracted for Station_2
+2025-07-07 19:00:56,726 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_2\processed_Station_2.png
+2025-07-07 19:00:56,726 - INFO - [1/3] meshing Station_2 with target h = 3
+2025-07-07 19:00:56,742 - INFO - [Station_2_h3] Meshing with target h = 3 …
+2025-07-07 19:00:56,755 - WARNING - [Station_2_h3] 202 sliver triangles removed
+2025-07-07 19:00:56,759 - INFO - [Station_2_h3] mesh ok | nodes=4020 elems=1576 | A[min=1.02e-08 max=8.58e-06 mean=9.11e-07 med=5.53e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:00:57,501 - INFO - [Station_2_h3] Row appended (h=3.0)
+2025-07-07 19:00:57,503 - INFO - [2/3] meshing Station_2 with target h = 0.75
+2025-07-07 19:00:57,516 - INFO - [Station_2_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:00:57,530 - WARNING - [Station_2_h0.75] 202 sliver triangles removed
+2025-07-07 19:00:57,532 - INFO - [Station_2_h0.75] mesh ok | nodes=4020 elems=1576 | A[min=1.02e-08 max=8.58e-06 mean=9.11e-07 med=5.53e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:00:57,994 - INFO - [Station_2_h0.75] Row appended (h=0.75)
+2025-07-07 19:00:58,004 - INFO - [3/3] meshing Station_2 with target h = 0.1875
+2025-07-07 19:00:58,011 - INFO - [Station_2_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:00:58,014 - WARNING - [Station_2_h0.1875] 202 sliver triangles removed
+2025-07-07 19:00:58,014 - INFO - [Station_2_h0.1875] mesh ok | nodes=4020 elems=1576 | A[min=1.02e-08 max=8.58e-06 mean=9.11e-07 med=5.53e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:00:58,494 - INFO - [Station_2_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:00:58,896 - INFO - Global batch 1 saved -> section_calc_n\results\Station_2\mesh_conv_Station_2_batch1_global.png
+2025-07-07 19:00:59,346 - INFO - Local batch 1 saved -> section_calc_n\results\Station_2\mesh_conv_Station_2_batch1_local.png
+2025-07-07 19:00:59,351 - INFO - Station Station_4: DXF=section_calc_n\blade\Station_4.dxf, twist=10.9°, centroid=(0.00,-0.01)
+2025-07-07 19:00:59,351 - INFO - Reading DXF file: section_calc_n\blade\Station_4.dxf
+2025-07-07 19:00:59,381 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:00:59,381 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:00:59,381 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:00:59,381 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:00:59,395 - INFO - Raw geometry extraction complete. 65 drawable entities parsed.
+2025-07-07 19:00:59,444 - INFO - Plotting 65 DXF entities for preview...
+2025-07-07 19:00:59,591 - INFO - Raw preview saved -> section_calc_n\results\Station_4\raw_Station_4.png
+2025-07-07 19:00:59,594 - INFO - [Station_4] Importing DXF: 'section_calc_n\blade\Station_4.dxf'
+2025-07-07 19:00:59,656 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:00:59,660 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:00:59,663 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:00:59,664 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:00:59,667 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:00:59,727 - INFO - Zipped 61 points
+2025-07-07 19:00:59,747 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:00:59,956 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-07 19:00:59,956 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-07 19:00:59,956 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-07 19:00:59,968 - INFO - [Station_4] Section translated.
+2025-07-07 19:00:59,970 - INFO - Processed and aligned geometry extracted for Station_4
+2025-07-07 19:01:00,495 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_4\processed_Station_4.png
+2025-07-07 19:01:00,495 - INFO - [1/3] meshing Station_4 with target h = 3
+2025-07-07 19:01:00,495 - INFO - [Station_4_h3] Meshing with target h = 3 …
+2025-07-07 19:01:00,514 - WARNING - [Station_4_h3] 219 sliver triangles removed
+2025-07-07 19:01:00,520 - INFO - [Station_4_h3] mesh ok | nodes=4076 elems=1587 | A[min=1.01e-08 max=4.52e-06 mean=5.94e-07 med=3.7e-07] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-07 19:01:01,229 - INFO - [Station_4_h3] Row appended (h=3.0)
+2025-07-07 19:01:01,229 - INFO - [2/3] meshing Station_4 with target h = 0.75
+2025-07-07 19:01:01,243 - INFO - [Station_4_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:01,249 - WARNING - [Station_4_h0.75] 219 sliver triangles removed
+2025-07-07 19:01:01,255 - INFO - [Station_4_h0.75] mesh ok | nodes=4076 elems=1587 | A[min=1.01e-08 max=4.52e-06 mean=5.94e-07 med=3.7e-07] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-07 19:01:01,744 - INFO - [Station_4_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:01,746 - INFO - [3/3] meshing Station_4 with target h = 0.1875
+2025-07-07 19:01:01,758 - INFO - [Station_4_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:01,767 - WARNING - [Station_4_h0.1875] 219 sliver triangles removed
+2025-07-07 19:01:01,770 - INFO - [Station_4_h0.1875] mesh ok | nodes=4076 elems=1587 | A[min=1.01e-08 max=4.52e-06 mean=5.94e-07 med=3.7e-07] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-07 19:01:02,273 - INFO - [Station_4_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:02,659 - INFO - Global batch 1 saved -> section_calc_n\results\Station_4\mesh_conv_Station_4_batch1_global.png
+2025-07-07 19:01:03,134 - INFO - Local batch 1 saved -> section_calc_n\results\Station_4\mesh_conv_Station_4_batch1_local.png
+2025-07-07 19:01:03,139 - INFO - Station Station_6: DXF=section_calc_n\blade\Station_6.dxf, twist=6.9°, centroid=(0.00,-0.01)
+2025-07-07 19:01:03,146 - INFO - Reading DXF file: section_calc_n\blade\Station_6.dxf
+2025-07-07 19:01:03,166 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:03,167 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:03,167 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:03,167 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:03,177 - INFO - Raw geometry extraction complete. 53 drawable entities parsed.
+2025-07-07 19:01:03,246 - INFO - Plotting 53 DXF entities for preview...
+2025-07-07 19:01:03,376 - INFO - Raw preview saved -> section_calc_n\results\Station_6\raw_Station_6.png
+2025-07-07 19:01:03,387 - INFO - [Station_6] Importing DXF: 'section_calc_n\blade\Station_6.dxf'
+2025-07-07 19:01:03,399 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:03,411 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:03,413 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:03,415 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:03,417 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:01:03,444 - INFO - Zipped 30 points
+2025-07-07 19:01:03,480 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:01:03,695 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-07 19:01:03,699 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-07 19:01:03,699 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-07 19:01:03,708 - INFO - [Station_6] Section translated.
+2025-07-07 19:01:03,712 - INFO - Processed and aligned geometry extracted for Station_6
+2025-07-07 19:01:04,247 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_6\processed_Station_6.png
+2025-07-07 19:01:04,260 - INFO - [1/3] meshing Station_6 with target h = 3
+2025-07-07 19:01:04,269 - INFO - [Station_6_h3] Meshing with target h = 3 …
+2025-07-07 19:01:04,278 - WARNING - [Station_6_h3] 169 sliver triangles removed
+2025-07-07 19:01:04,282 - INFO - [Station_6_h3] mesh ok | nodes=3812 elems=1499 | A[min=1.01e-08 max=4.26e-06 mean=3.83e-07 med=2.3e-07] | q[min=0.603 max=1.000 mean=0.879]
+2025-07-07 19:01:04,960 - INFO - [Station_6_h3] Row appended (h=3.0)
+2025-07-07 19:01:04,969 - INFO - [2/3] meshing Station_6 with target h = 0.75
+2025-07-07 19:01:04,979 - INFO - [Station_6_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:04,988 - WARNING - [Station_6_h0.75] 169 sliver triangles removed
+2025-07-07 19:01:04,993 - INFO - [Station_6_h0.75] mesh ok | nodes=3812 elems=1499 | A[min=1.01e-08 max=4.26e-06 mean=3.83e-07 med=2.3e-07] | q[min=0.603 max=1.000 mean=0.879]
+2025-07-07 19:01:05,443 - INFO - [Station_6_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:05,443 - INFO - [3/3] meshing Station_6 with target h = 0.1875
+2025-07-07 19:01:05,465 - INFO - [Station_6_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:05,472 - WARNING - [Station_6_h0.1875] 169 sliver triangles removed
+2025-07-07 19:01:05,478 - INFO - [Station_6_h0.1875] mesh ok | nodes=3812 elems=1499 | A[min=1.01e-08 max=4.26e-06 mean=3.83e-07 med=2.3e-07] | q[min=0.603 max=1.000 mean=0.879]
+2025-07-07 19:01:05,943 - INFO - [Station_6_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:06,308 - INFO - Global batch 1 saved -> section_calc_n\results\Station_6\mesh_conv_Station_6_batch1_global.png
+2025-07-07 19:01:06,753 - INFO - Local batch 1 saved -> section_calc_n\results\Station_6\mesh_conv_Station_6_batch1_local.png
+2025-07-07 19:01:06,760 - INFO - Station Station_8: DXF=section_calc_n\blade\Station_8.dxf, twist=4.4°, centroid=(0.00,-0.01)
+2025-07-07 19:01:06,767 - INFO - Reading DXF file: section_calc_n\blade\Station_8.dxf
+2025-07-07 19:01:06,779 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:06,792 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:06,795 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:06,795 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:06,801 - INFO - Raw geometry extraction complete. 43 drawable entities parsed.
+2025-07-07 19:01:06,860 - INFO - Plotting 43 DXF entities for preview...
+2025-07-07 19:01:07,016 - INFO - Raw preview saved -> section_calc_n\results\Station_8\raw_Station_8.png
+2025-07-07 19:01:07,019 - INFO - [Station_8] Importing DXF: 'section_calc_n\blade\Station_8.dxf'
+2025-07-07 19:01:07,034 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:07,043 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:07,047 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:07,051 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:07,052 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:01:07,083 - INFO - Zipped 26 points
+2025-07-07 19:01:07,104 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:01:07,380 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-07 19:01:07,384 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-07 19:01:07,388 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-07 19:01:07,393 - INFO - [Station_8] Section translated.
+2025-07-07 19:01:07,397 - INFO - Processed and aligned geometry extracted for Station_8
+2025-07-07 19:01:07,925 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_8\processed_Station_8.png
+2025-07-07 19:01:07,928 - INFO - [1/3] meshing Station_8 with target h = 3
+2025-07-07 19:01:07,936 - INFO - [Station_8_h3] Meshing with target h = 3 …
+2025-07-07 19:01:07,948 - WARNING - [Station_8_h3] 295 sliver triangles removed
+2025-07-07 19:01:07,951 - INFO - [Station_8_h3] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-07 19:01:08,692 - INFO - [Station_8_h3] Row appended (h=3.0)
+2025-07-07 19:01:08,692 - INFO - [2/3] meshing Station_8 with target h = 0.75
+2025-07-07 19:01:08,705 - INFO - [Station_8_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:08,720 - WARNING - [Station_8_h0.75] 295 sliver triangles removed
+2025-07-07 19:01:08,726 - INFO - [Station_8_h0.75] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-07 19:01:09,240 - INFO - [Station_8_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:09,240 - INFO - [3/3] meshing Station_8 with target h = 0.1875
+2025-07-07 19:01:09,257 - INFO - [Station_8_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:09,268 - WARNING - [Station_8_h0.1875] 295 sliver triangles removed
+2025-07-07 19:01:09,268 - INFO - [Station_8_h0.1875] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-07 19:01:09,785 - INFO - [Station_8_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:10,166 - INFO - Global batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-07 19:01:10,647 - INFO - Local batch 1 saved -> section_calc_n\results\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-07 19:01:10,654 - INFO - Station Station_10: DXF=section_calc_n\blade\Station_10.dxf, twist=2.7°, centroid=(0.00,-0.01)
+2025-07-07 19:01:10,662 - INFO - Reading DXF file: section_calc_n\blade\Station_10.dxf
+2025-07-07 19:01:10,680 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:10,691 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:10,695 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:10,696 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:10,705 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
+2025-07-07 19:01:10,770 - INFO - Plotting 77 DXF entities for preview...
+2025-07-07 19:01:10,921 - INFO - Raw preview saved -> section_calc_n\results\Station_10\raw_Station_10.png
+2025-07-07 19:01:10,924 - INFO - [Station_10] Importing DXF: 'section_calc_n\blade\Station_10.dxf'
+2025-07-07 19:01:10,946 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:10,948 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:10,948 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:10,960 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:10,965 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:01:11,053 - INFO - Zipped 208 points
+2025-07-07 19:01:11,079 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:01:11,318 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-07 19:01:11,324 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-07 19:01:11,326 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-07 19:01:11,334 - INFO - [Station_10] Section translated.
+2025-07-07 19:01:11,338 - INFO - Processed and aligned geometry extracted for Station_10
+2025-07-07 19:01:11,903 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_10\processed_Station_10.png
+2025-07-07 19:01:11,909 - INFO - [1/3] meshing Station_10 with target h = 3
+2025-07-07 19:01:11,917 - INFO - [Station_10_h3] Meshing with target h = 3 …
+2025-07-07 19:01:11,933 - WARNING - [Station_10_h3] 363 sliver triangles removed
+2025-07-07 19:01:11,939 - INFO - [Station_10_h3] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:01:12,742 - INFO - [Station_10_h3] Row appended (h=3.0)
+2025-07-07 19:01:12,759 - INFO - [2/3] meshing Station_10 with target h = 0.75
+2025-07-07 19:01:12,769 - INFO - [Station_10_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:12,780 - WARNING - [Station_10_h0.75] 363 sliver triangles removed
+2025-07-07 19:01:12,789 - INFO - [Station_10_h0.75] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:01:13,316 - INFO - [Station_10_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:13,321 - INFO - [3/3] meshing Station_10 with target h = 0.1875
+2025-07-07 19:01:13,339 - INFO - [Station_10_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:13,352 - WARNING - [Station_10_h0.1875] 363 sliver triangles removed
+2025-07-07 19:01:13,359 - INFO - [Station_10_h0.1875] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-07 19:01:13,877 - INFO - [Station_10_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:14,283 - INFO - Global batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-07 19:01:14,727 - INFO - Local batch 1 saved -> section_calc_n\results\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-07 19:01:14,736 - INFO - Station Station_12: DXF=section_calc_n\blade\Station_12.dxf, twist=1.4°, centroid=(0.00,-0.00)
+2025-07-07 19:01:14,743 - INFO - Reading DXF file: section_calc_n\blade\Station_12.dxf
+2025-07-07 19:01:14,760 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:14,772 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:14,777 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:14,777 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:14,787 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
+2025-07-07 19:01:14,851 - INFO - Plotting 46 DXF entities for preview...
+2025-07-07 19:01:15,045 - INFO - Raw preview saved -> section_calc_n\results\Station_12\raw_Station_12.png
+2025-07-07 19:01:15,050 - INFO - [Station_12] Importing DXF: 'section_calc_n\blade\Station_12.dxf'
+2025-07-07 19:01:15,068 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:15,076 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:15,080 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:15,083 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:15,090 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:01:15,126 - INFO - Zipped 91 points
+2025-07-07 19:01:15,147 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:01:15,385 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-07 19:01:15,390 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-07 19:01:15,396 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-07 19:01:15,402 - INFO - [Station_12] Section translated.
+2025-07-07 19:01:15,408 - INFO - Processed and aligned geometry extracted for Station_12
+2025-07-07 19:01:15,981 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_12\processed_Station_12.png
+2025-07-07 19:01:15,990 - INFO - [1/3] meshing Station_12 with target h = 3
+2025-07-07 19:01:16,005 - INFO - [Station_12_h3] Meshing with target h = 3 …
+2025-07-07 19:01:16,015 - WARNING - [Station_12_h3] 387 sliver triangles removed
+2025-07-07 19:01:16,033 - INFO - [Station_12_h3] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-07 19:01:16,775 - INFO - [Station_12_h3] Row appended (h=3.0)
+2025-07-07 19:01:16,775 - INFO - [2/3] meshing Station_12 with target h = 0.75
+2025-07-07 19:01:16,795 - INFO - [Station_12_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:16,810 - WARNING - [Station_12_h0.75] 387 sliver triangles removed
+2025-07-07 19:01:16,816 - INFO - [Station_12_h0.75] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-07 19:01:17,323 - INFO - [Station_12_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:17,329 - INFO - [3/3] meshing Station_12 with target h = 0.1875
+2025-07-07 19:01:17,340 - INFO - [Station_12_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:17,344 - WARNING - [Station_12_h0.1875] 387 sliver triangles removed
+2025-07-07 19:01:17,360 - INFO - [Station_12_h0.1875] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-07 19:01:17,858 - INFO - [Station_12_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:18,293 - INFO - Global batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-07 19:01:18,741 - INFO - Local batch 1 saved -> section_calc_n\results\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-07 19:01:18,753 - INFO - Station Station_14: DXF=section_calc_n\blade\Station_14.dxf, twist=0.3°, centroid=(0.00,-0.00)
+2025-07-07 19:01:18,761 - INFO - Reading DXF file: section_calc_n\blade\Station_14.dxf
+2025-07-07 19:01:18,777 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:18,790 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:18,794 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:18,799 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:18,801 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
+2025-07-07 19:01:18,870 - INFO - Plotting 52 DXF entities for preview...
+2025-07-07 19:01:19,017 - INFO - Raw preview saved -> section_calc_n\results\Station_14\raw_Station_14.png
+2025-07-07 19:01:19,022 - INFO - [Station_14] Importing DXF: 'section_calc_n\blade\Station_14.dxf'
+2025-07-07 19:01:19,044 - INFO - DXF version upgrade to DXF R2000.
+2025-07-07 19:01:19,049 - INFO - creating ACAD_COLOR dictionary
+2025-07-07 19:01:19,056 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-07 19:01:19,060 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-07 19:01:19,068 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-07 19:01:19,115 - INFO - Zipped 73 points
+2025-07-07 19:01:19,144 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-07 19:01:19,371 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-07 19:01:19,371 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-07 19:01:19,389 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-07 19:01:19,396 - INFO - [Station_14] Section translated.
+2025-07-07 19:01:19,397 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-07 19:01:19,948 - INFO - Processed geometry preview saved -> section_calc_n\results\Station_14\processed_Station_14.png
+2025-07-07 19:01:19,958 - INFO - [1/3] meshing Station_14 with target h = 3
+2025-07-07 19:01:19,968 - INFO - [Station_14_h3] Meshing with target h = 3 …
+2025-07-07 19:01:19,978 - WARNING - [Station_14_h3] 464 sliver triangles removed
+2025-07-07 19:01:19,993 - INFO - [Station_14_h3] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-07 19:01:20,758 - INFO - [Station_14_h3] Row appended (h=3.0)
+2025-07-07 19:01:20,758 - INFO - [2/3] meshing Station_14 with target h = 0.75
+2025-07-07 19:01:20,781 - INFO - [Station_14_h0.75] Meshing with target h = 0.75 …
+2025-07-07 19:01:20,792 - WARNING - [Station_14_h0.75] 464 sliver triangles removed
+2025-07-07 19:01:20,797 - INFO - [Station_14_h0.75] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-07 19:01:21,313 - INFO - [Station_14_h0.75] Row appended (h=0.75)
+2025-07-07 19:01:21,318 - INFO - [3/3] meshing Station_14 with target h = 0.1875
+2025-07-07 19:01:21,329 - INFO - [Station_14_h0.1875] Meshing with target h = 0.1875 …
+2025-07-07 19:01:21,341 - WARNING - [Station_14_h0.1875] 464 sliver triangles removed
+2025-07-07 19:01:21,348 - INFO - [Station_14_h0.1875] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-07 19:01:21,826 - INFO - [Station_14_h0.1875] Row appended (h=0.1875)
+2025-07-07 19:01:22,221 - INFO - Global batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-07 19:01:22,672 - INFO - Local batch 1 saved -> section_calc_n\results\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-07 19:01:22,672 - INFO - ✅ Pipeline complete — results saved in: section_calc_n\results
