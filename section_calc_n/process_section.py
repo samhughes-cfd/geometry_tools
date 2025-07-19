@@ -4,7 +4,6 @@ import logging
 from pathlib import Path
 import matplotlib.pyplot as plt
 from sectionproperties.analysis import Section
-
 from section_calc_n.geometry_utils.raw_geometry import RawGeometry
 from section_calc_n.geometry_utils.processed_geometry import ProcessedGeometry
 from geometry_utils.mesh_dxf import MeshDXF
@@ -15,9 +14,23 @@ from visualisation.raw_geometry_visualisation import RawGeometryVisualisation
 from visualisation.processed_geometry_visualisation import ProcessedGeometryVisualisation
 import numpy as np
 
+
 class ProcessSection:
-    def __init__(self, dxf: Path, label: str, r: float, r_over_R: float, B_r: float,
-                 Cx: float, Cy: float, hs: np.ndarray, results_dir: Path, logs_dir: Path):
+    def __init__(
+        self,
+        dxf: Path,
+        label: str,
+        r: float,
+        r_over_R: float,
+        B_r: float,
+        Cx: float,
+        Cy: float,
+        hs: np.ndarray,
+        results_dir: Path,
+        logs_dir: Path,
+        mode: str = "Analysis",
+        scale_factor: float | None = None
+    ):
         self.dxf = dxf
         self.label = label
         self.r = r
@@ -26,28 +39,33 @@ class ProcessSection:
         self.Cx = Cx
         self.Cy = Cy
         self.hs = hs
-        self.RESULTS = results_dir
-        self.LOGS = logs_dir
+        self.scale_factor = scale_factor
 
-        # Create subdirectory for this section
-        self.section_dir = self.RESULTS / self.label  # results
+        self.mode = mode.capitalize()
+        assert self.mode in {"Analysis", "Optimisation"}, "Mode must be 'Analysis' or 'Optimisation'"
+
+        if self.mode == "Optimisation" and self.scale_factor is None:
+            raise ValueError(f"[{self.label}] scale_factor must be provided in Optimisation mode.")
+
+        self.RESULTS = results_dir / self.mode
+        self.LOGS = logs_dir / self.mode
+        self.section_dir = self.RESULTS / self.label
+        self.section_log_dir = self.LOGS / self.label
+
         self.section_dir.mkdir(parents=True, exist_ok=True)
-        self.section_log_dir = self.LOGS / self.label  # logs
         self.section_log_dir.mkdir(parents=True, exist_ok=True)
 
     def run(self):
         logging.info(
-            "Station %s: DXF=%s, twist=%.1f°, centroid=(%.2f,%.2f)",
-            self.label, self.dxf, self.B_r, self.Cx, self.Cy
+            "Station %s [%s]: DXF=%s, twist=%.1f°, centroid=(%.2f,%.2f)",
+            self.label, self.mode, self.dxf, self.B_r, self.Cx, self.Cy
         )
 
-        # ───── RAW PREVIEW ──────────────────────────────────────────
+        # ───── RAW PREVIEW ─────────────────────────────
         raw_geometry = RawGeometry(self.dxf, self.label, logs_dir=self.section_log_dir)
         RawGeometryVisualisation(raw_geometry, self.section_dir).plot()
 
-        # RAW GEOMETRY IS NOT TO FEED INTO PROCESSED GEOMETRY IS PURELY TO VISUALISE, NOT TO PASS TO ProcessedGeometry() Class
-
-        # ───── PROCESSED GEOMETRY ─────────────────────────────────
+        # ───── PROCESSED GEOMETRY ─────────────────────
         proc = ProcessedGeometry(
             filepath=self.dxf,
             label=self.label,
@@ -55,7 +73,6 @@ class ProcessSection:
             spline_delta=0.05,
             degrees_per_segment=0.5,
             exterior_nodes=400,
-            #raw_geometry=raw_geometry   # RAW GEOMETRY IS NOT TO FEED INTO PROCESSED GEOMETRY
         )
 
         geom_aligned = proc.extract_and_transform(
@@ -65,7 +82,20 @@ class ProcessSection:
         )
         logging.info("Processed and aligned geometry extracted for %s", self.label)
 
-        # ───── Preview: full chord + zoom ───────────────────────
+        # ───── OPTIONAL VOID INSERTION ─────────────────
+        if self.mode == "Optimisation":
+            from section_calc_n.geometry_utils.void_builder import VoidBuilder
+
+            optimiser = VoidBuilder(
+                geometry=geom_aligned,
+                label=self.label,
+                log_dir=self.section_log_dir
+            )
+
+            geom_aligned = optimiser.insert_void(self.scale_factor)
+            logging.info("Internal void inserted for %s at scale %.2f", self.label, self.scale_factor)
+
+        # ───── Processed Geometry Preview ──────────────
         fig, _ = ProcessedGeometryVisualisation(geometry=geom_aligned, label=self.label).plot_te_zoom(
             te_span_pct=8,
             figsize=(7, 6),
@@ -73,11 +103,12 @@ class ProcessSection:
             cp_size=10,
             legend_loc="upper right"
         )
-        fig.savefig(self.section_dir / f"processed_{self.label}.png", dpi=300)
+        fig_path = self.section_dir / f"processed_{self.label}.png"
+        fig.savefig(fig_path, dpi=300)
         plt.close(fig)
-        logging.info("Processed geometry preview saved -> %s", self.section_dir / f"processed_{self.label}.png")
+        logging.info("Processed geometry preview saved -> %s", fig_path)
 
-        # ───── Mesh Convergence ─────────────────────────
+        # ───── MESH + SECTION PROPERTIES ───────────────
         meshes_for_plot = []
         for i, h in enumerate(self.hs, 1):
             run_lbl = f"{self.label}_h{h:.4g}"
@@ -100,7 +131,7 @@ class ProcessSection:
             ).write_csv_row()
             meshes_for_plot.append((run_lbl, mesh))
 
-        # ───── Convergence Plots ────────────────────────────
+        # ───── CONVERGENCE VISUALISATION ───────────────
         if meshes_for_plot:
             ConvergenceVisualisation(
                 label=self.label,
