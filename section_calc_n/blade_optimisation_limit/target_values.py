@@ -1,6 +1,6 @@
 import os
-import pandas as pd
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 # --- Setup paths ---
@@ -8,80 +8,42 @@ base_path = "section_calc_n"
 blade_dir = os.path.join(base_path, "blade")
 limits_dir = os.path.join(base_path, "blade_optimisation_limit")
 
-ei_poly_csv = os.path.join(limits_dir, "EI_polynomials.csv")
-gj_poly_csv = os.path.join(limits_dir, "GJ_polynomials.csv")
 stations_csv = os.path.join(blade_dir, "blade_stations.csv")
 target_csv = os.path.join(limits_dir, "target_section_properties.csv")
-ei_png = os.path.join(limits_dir, "EI_envelope.png")
-gj_png = os.path.join(limits_dir, "GJ_envelope.png")
+plot_path = os.path.join(limits_dir, "EI_GJ_curves.png")
 
-# --- Step 1: Load polynomial coefficients ---
-ei_df = pd.read_csv(ei_poly_csv).iloc[:, 0:6]
-gj_df = pd.read_csv(gj_poly_csv).iloc[:, 0:6]
+# --- Step 1: Define blade span length and polynomials over x [m] ---
+L = 0.8  # Blade span in meters
 
-ei_coeffs = ei_df.to_numpy()  # shape: [n_polys × 6]
-gj_coeffs = gj_df.to_numpy()
+# Polynomial coefficients in descending powers of x
+ei_coeffs = np.array([-148.0, 3475.0, -9146.0, 9974.0, -5167.0, 1059.0])
+gj_coeffs = np.array([-970.9, 2387.0, -2314.0, 1156.0, -329.5, 48.33])
 
-# --- Step 2: Evaluation points ---
+# --- Step 2: Evaluate full x-domain curves ---
 n_points = 500
-r_by_R_full = np.linspace(0, 1, n_points)
-x_m = r_by_R_full * 0.8  # span from 0 to 0.8 m
+x_vals = np.linspace(0, L, n_points)
+ei_vals = np.polyval(ei_coeffs, x_vals)
+gj_vals = np.polyval(gj_coeffs, x_vals)
+ei_scaled = 1.5 * ei_vals
+gj_scaled = 1.5 * gj_vals
 
-def evaluate_rowwise_polynomials(coeff_array, x_vals):
-    n_polys = coeff_array.shape[0]
-    y_vals = np.zeros((len(x_vals), n_polys))
-    for i in range(n_polys):
-        coeffs = coeff_array[i, ::-1]  # b5 to b0
-        y_vals[:, i] = np.polyval(coeffs, x_vals)
-    return y_vals
-
-# --- Step 3: Evaluate all polynomials ---
-ei_curves = evaluate_rowwise_polynomials(ei_coeffs, r_by_R_full)
-gj_curves = evaluate_rowwise_polynomials(gj_coeffs, r_by_R_full)
-
-# --- Step 4: Compute worst-case envelopes ---
-ei_worst = np.max(np.abs(ei_curves), axis=1)
-gj_worst = np.max(np.abs(gj_curves), axis=1)
-
-# --- Step 5: Plot and save EI ---
-plt.figure(figsize=(12, 6))
-for i in range(ei_curves.shape[1]):
-    plt.plot(x_m, ei_curves[:, i], color='gray', alpha=0.05)
-plt.plot(x_m, ei_worst, color='red', linewidth=2.5, label="Worst-case envelope")
-plt.title("EI Curves and Worst-case Envelope")
-plt.xlabel("x [m]")
-plt.ylabel("EI [N·mm²]")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig(ei_png, dpi=300)
-plt.close()
-
-# --- Step 6: Plot and save GJ ---
-plt.figure(figsize=(12, 6))
-for i in range(gj_curves.shape[1]):
-    plt.plot(x_m, gj_curves[:, i], color='gray', alpha=0.05)
-plt.plot(x_m, gj_worst, color='blue', linewidth=2.5, label="Worst-case envelope")
-plt.title("GJ Curves and Worst-case Envelope")
-plt.xlabel("x [m]")
-plt.ylabel("GJ [N·mm²]")
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-plt.savefig(gj_png, dpi=300)
-plt.close()
-
-# --- Step 7: Interpolate at station locations ---
+# --- Step 3: Load station locations in r/R and convert to x [m] ---
 stations_df = pd.read_csv(stations_csv)
 r_by_R_target = stations_df["r/R [-]"].to_numpy()
+x_target = r_by_R_target * L
 
-# Tidal benchmark blade 7075-T6 Aluminum
-E = 71700 # MPa
-G = 26900 # MPa
-Iz_vals = np.interp(r_by_R_target, r_by_R_full, ei_worst) / E
-Jt_vals = np.interp(r_by_R_target, r_by_R_full, gj_worst) / G
+# Material properties
+E = 71700  # MPa
+G = 26900  # MPa
 
-# --- Step 8: Save target section properties ---
+# Interpolate EI(x) and GJ(x) at station positions
+ei_interp = np.interp(x_target, x_vals, ei_vals)
+gj_interp = np.interp(x_target, x_vals, gj_vals)
+
+Iz_vals = ei_interp / E
+Jt_vals = gj_interp / G
+
+# --- Step 4: Save target section properties ---
 target_df = pd.DataFrame({
     "r/R [-]": r_by_R_target,
     "Jt [mm⁴]": Jt_vals,
@@ -91,6 +53,28 @@ target_df = pd.DataFrame({
 
 os.makedirs(limits_dir, exist_ok=True)
 target_df.to_csv(target_csv, index=False)
-print(f"✅ Worst-case targets saved to: {target_csv}")
-print(f"🖼️ EI plot saved to: {ei_png}")
-print(f"🖼️ GJ plot saved to: {gj_png}")
+print(f"✅ Target section properties saved to: {target_csv}")
+
+# --- Step 5: Plot original and scaled curves ---
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+
+# EI subplot
+ax1.plot(x_vals, ei_vals, label="EI", color="tab:red")
+ax1.plot(x_vals, ei_scaled, label="EI × 1.5", linestyle="--", color="tab:red", alpha=0.7)
+ax1.set_ylabel("EI [N·mm²]")
+ax1.grid(True)
+ax1.legend()
+ax1.set_title("Analytical EI and GJ Curves (Original and Scaled)")
+
+# GJ subplot
+ax2.plot(x_vals, gj_vals, label="GJ", color="tab:blue")
+ax2.plot(x_vals, gj_scaled, label="GJ × 1.5", linestyle="--", color="tab:blue", alpha=0.7)
+ax2.set_ylabel("GJ [N·mm²]")
+ax2.set_xlabel("x [m]")
+ax2.grid(True)
+ax2.legend()
+
+plt.tight_layout()
+plt.savefig(plot_path, dpi=300)
+plt.close()
+print(f"🖼️ EI and GJ curves saved to: {plot_path}")

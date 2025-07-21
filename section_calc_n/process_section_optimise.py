@@ -173,8 +173,8 @@ class ProcessSectionOptimise:
         Jt_vals = [r.Jt_mm4 for r in rows]
         Jt_eff = [r.Jt_efficiency for r in rows]
         Iz_eff = [r.Iz_efficiency for r in rows]
-        slack_Jt = [r.Slack_Jt for r in rows]
-        slack_Iz = [r.Slack_Iz for r in rows]
+        excess_Iz = [r.Excess_ratio_Iz for r in rows]
+        excess_Jt = [r.Excess_ratio_Jt for r in rows]
         area_pct = [r.Area_reduction_pct for r in rows]
         area_abs = [r.area_mm2 for r in rows]
 
@@ -194,18 +194,42 @@ class ProcessSectionOptimise:
         axs[0, 1].legend()
         axs[0, 1].grid(True, linestyle="--", alpha=0.5)
 
-        # Row 2: Efficiency + Slack
-        axs[1, 0].plot(steps, Iz_eff, 'o-', label="Iz Efficiency", color='tab:green')
-        axs[1, 0].plot(steps, slack_Iz, 'x--', label="Slack $I_z$", color='tab:red')
-        axs[1, 0].set_ylabel("Iz Derived Metrics")
-        axs[1, 0].legend()
-        axs[1, 0].grid(True, linestyle="--", alpha=0.5)
+        # Row 2: Efficiency (left y-axis) + Excess % (right y-axis)
+        # Left: Iz Efficiency
+        ax_left_Iz = axs[1, 0]
+        ax_left_Iz.plot(steps, Iz_eff, 'o-', color='tab:green', label="Iz Efficiency")
+        ax_left_Iz.set_ylabel("Iz Efficiency [mm²]", color='tab:green')
+        ax_left_Iz.tick_params(axis='y', labelcolor='tab:green')
+        ax_left_Iz.grid(True, linestyle="--", alpha=0.5)
 
-        axs[1, 1].plot(steps, Jt_eff, 's-', label="Jt Efficiency", color='tab:green')
-        axs[1, 1].plot(steps, slack_Jt, 'd--', label="Slack $J_t$", color='tab:red')
-        axs[1, 1].set_ylabel("Jt Derived Metrics")
-        axs[1, 1].legend()
-        axs[1, 1].grid(True, linestyle="--", alpha=0.5)
+        # Right: Iz Excess (%)
+        ax_right_Iz = ax_left_Iz.twinx()
+        ax_right_Iz.plot(steps, [100*x if x is not None else None for x in excess_Iz], 'x--', color='tab:purple', label="Excess $I_z$")
+        ax_right_Iz.set_ylabel("Excess $I_z$ [%]", color='tab:purple')
+        ax_right_Iz.tick_params(axis='y', labelcolor='tab:purple')
+
+        # Combine legends
+        lines1, labels1 = ax_left_Iz.get_legend_handles_labels()
+        lines2, labels2 = ax_right_Iz.get_legend_handles_labels()
+        ax_left_Iz.legend(lines1 + lines2, labels1 + labels2, loc="upper right")
+
+        # Left: Jt Efficiency
+        ax_left_Jt = axs[1, 1]
+        ax_left_Jt.plot(steps, Jt_eff, 's-', color='tab:green', label="Jt Efficiency")
+        ax_left_Jt.set_ylabel("Jt Efficiency [mm²]", color='tab:green')
+        ax_left_Jt.tick_params(axis='y', labelcolor='tab:green')
+        ax_left_Jt.grid(True, linestyle="--", alpha=0.5)
+
+        # Right: Jt Excess (%)
+        ax_right_Jt = ax_left_Jt.twinx()
+        ax_right_Jt.plot(steps, [100*x if x is not None else None for x in excess_Jt], 'd--', color='tab:purple', label="Excess $J_t$")
+        ax_right_Jt.set_ylabel("Excess $J_t$ [%]", color='tab:purple')
+        ax_right_Jt.tick_params(axis='y', labelcolor='tab:purple')
+
+        # Combine legends
+        lines1, labels1 = ax_left_Jt.get_legend_handles_labels()
+        lines2, labels2 = ax_right_Jt.get_legend_handles_labels()
+        ax_left_Jt.legend(lines1 + lines2, labels1 + labels2, loc="upper right")
 
         # Row 3: Area metrics
         axs[2, 0].plot(steps, area_pct, '^-', color='tab:brown', label="Area Reduction [%]")

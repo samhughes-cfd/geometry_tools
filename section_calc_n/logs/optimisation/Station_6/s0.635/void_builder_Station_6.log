@@ -1,18 +1,18 @@
-2025-07-21 03:43:56,081 - INFO - Scaling outer polygon inward by factor 0.63 at centroid (0.0025, -0.0070)
-2025-07-21 03:43:56,081 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000231
-2025-07-21 03:44:02,891 - INFO - Scaling outer polygon inward by factor 0.67 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:02,891 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000259
-2025-07-21 03:44:09,645 - INFO - Scaling outer polygon inward by factor 0.71 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:09,645 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000290
-2025-07-21 03:44:17,467 - INFO - Scaling outer polygon inward by factor 0.75 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:17,469 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000324
-2025-07-21 03:44:23,859 - INFO - Scaling outer polygon inward by factor 0.79 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:23,876 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000363
-2025-07-21 03:44:30,374 - INFO - Scaling outer polygon inward by factor 0.84 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:30,377 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000406
-2025-07-21 03:44:36,608 - INFO - Scaling outer polygon inward by factor 0.89 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:36,608 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000454
-2025-07-21 03:44:42,531 - INFO - Scaling outer polygon inward by factor 0.94 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:42,546 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000508
-2025-07-21 03:44:48,462 - INFO - Scaling outer polygon inward by factor 0.99 at centroid (0.0025, -0.0070)
-2025-07-21 03:44:48,468 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000569
+2025-07-21 13:04:31,998 - INFO - Scaling outer polygon inward by factor 0.63 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:32,002 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000231
+2025-07-21 13:04:36,177 - INFO - Scaling outer polygon inward by factor 0.67 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:36,181 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000259
+2025-07-21 13:04:40,338 - INFO - Scaling outer polygon inward by factor 0.71 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:40,346 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000290
+2025-07-21 13:04:44,632 - INFO - Scaling outer polygon inward by factor 0.75 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:44,644 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000324
+2025-07-21 13:04:48,846 - INFO - Scaling outer polygon inward by factor 0.79 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:48,853 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000363
+2025-07-21 13:04:52,829 - INFO - Scaling outer polygon inward by factor 0.84 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:52,836 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000406
+2025-07-21 13:04:56,895 - INFO - Scaling outer polygon inward by factor 0.89 at centroid (0.0025, -0.0070)
+2025-07-21 13:04:56,902 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000454
+2025-07-21 13:05:00,542 - INFO - Scaling outer polygon inward by factor 0.94 at centroid (0.0025, -0.0070)
+2025-07-21 13:05:00,550 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000508
+2025-07-21 13:05:04,151 - INFO - Scaling outer polygon inward by factor 0.99 at centroid (0.0025, -0.0070)
+2025-07-21 13:05:04,161 - INFO - Inserted internal void. Outer area: 0.000574, Void area: 0.000569

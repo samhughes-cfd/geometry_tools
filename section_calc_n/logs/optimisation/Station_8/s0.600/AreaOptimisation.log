@@ -1,3 +1,3 @@
-2025-07-21 03:45:01,625 - INFO - Starting optimisation run: Station_8_s0.600_s0.600_h3.000
-2025-07-21 03:45:02,372 - INFO - [Station_8_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.600\mesh_Station_8_s0.600_s0.600_h3.000.png
-2025-07-21 03:45:05,359 - INFO - [Station_8_s0.600_s0.600_h3.000] Optimisation result generated (Jt=1.044e+04, Iz=2980)
+2025-07-21 13:05:11,304 - INFO - Starting optimisation run: Station_8_s0.600_s0.600_h3.000
+2025-07-21 13:05:11,733 - INFO - [Station_8_s0.600_s0.600_h3.000] Mesh plot saved to \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.600\mesh_Station_8_s0.600_s0.600_h3.000.png
+2025-07-21 13:05:13,121 - INFO - [Station_8_s0.600_s0.600_h3.000] Optimisation result generated (Jt=1.044e+04, Iz=2980)
