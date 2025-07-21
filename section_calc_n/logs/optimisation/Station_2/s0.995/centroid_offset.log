@@ -1,0 +1,1289 @@
+2025-07-21 03:42:21,292 - INFO - [Station_2] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:42:21,995 - INFO - [Station_2] Actual centroid: (0.0368, 0.0001)
+2025-07-21 03:42:21,995 - INFO - [Station_2] Desired centroid: (0.0058, -0.0094)
+2025-07-21 03:42:21,995 - INFO - [Station_2] Applying translation dx=-0.0309, dy=-0.0095
+2025-07-21 03:42:21,995 - INFO - [Station_2] Section translated.
+2025-07-21 03:42:23,643 - INFO - Starting optimisation run: Station_2_s0.995_s0.995_h3.000
+2025-07-21 03:42:23,644 - INFO - [Station_2_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:42:23,820 - WARNING - [Station_2_s0.995_s0.995_h3.000] 8284 sliver triangles removed
+2025-07-21 03:42:23,822 - INFO - [Station_2_s0.995_s0.995_h3.000] mesh ok | nodes=25004 elems=102 | A[min=1e-08 max=7.86e-08 mean=2.86e-08 med=2.16e-08] | q[min=0.656 max=0.995 mean=0.827]
+2025-07-21 03:42:24,996 - INFO - [Station_2_s0.995_s0.995_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_2\s0.995\mesh_Station_2_s0.995_s0.995_h3.000.png
+2025-07-21 03:42:24,999 - INFO - [Station_2_s0.995_s0.995_h3.000] Starting geometric analysis...
+2025-07-21 03:42:27,294 - INFO - [Station_2_s0.995_s0.995_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:42:32,305 - INFO - [Station_2_s0.995_s0.995_h3.000] Success at h = 3.0000
+2025-07-21 03:42:32,306 - INFO - [Station_2_s0.995_s0.995_h3.000] Optimisation result generated (Jt=2024, Iz=1036)
+2025-07-21 03:42:33,865 - INFO - Processing station: Station_4
+2025-07-21 03:42:33,902 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:42:33,914 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:42:33,922 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:42:33,923 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:42:33,923 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:42:33,926 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:42:34,082 - INFO - Zipped 61 points
+2025-07-21 03:42:34,170 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:42:35,027 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:42:35,027 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:42:35,027 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:42:35,027 - INFO - [Station_4] Section translated.
+2025-07-21 03:42:36,678 - INFO - Starting optimisation run: Station_4_s0.600_s0.600_h3.000
+2025-07-21 03:42:36,681 - INFO - [Station_4_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:42:36,814 - WARNING - [Station_4_s0.600_s0.600_h3.000] 534 sliver triangles removed
+2025-07-21 03:42:36,816 - INFO - [Station_4_s0.600_s0.600_h3.000] mesh ok | nodes=7718 elems=2912 | A[min=1.01e-08 max=5.71e-06 mean=2.79e-07 med=1.82e-07] | q[min=0.603 max=1.000 mean=0.885]
+2025-07-21 03:42:37,543 - INFO - [Station_4_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.600\mesh_Station_4_s0.600_s0.600_h3.000.png
+2025-07-21 03:42:37,543 - INFO - [Station_4_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:42:38,476 - INFO - [Station_4_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:42:40,496 - INFO - [Station_4_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:42:40,497 - INFO - [Station_4_s0.600_s0.600_h3.000] Optimisation result generated (Jt=6.729e+04, Iz=1.908e+04)
+2025-07-21 03:42:42,075 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:42:42,082 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:42:42,096 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:42:42,098 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:42:42,098 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:42:42,101 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:42:42,297 - INFO - Zipped 61 points
+2025-07-21 03:42:42,319 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:42:42,739 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:42:42,788 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:42:42,796 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:42:42,797 - INFO - [Station_4] Section translated.
+2025-07-21 03:42:44,452 - INFO - Starting optimisation run: Station_4_s0.635_s0.635_h3.000
+2025-07-21 03:42:44,456 - INFO - [Station_4_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:42:44,577 - WARNING - [Station_4_s0.635_s0.635_h3.000] 491 sliver triangles removed
+2025-07-21 03:42:44,577 - INFO - [Station_4_s0.635_s0.635_h3.000] mesh ok | nodes=7450 elems=2821 | A[min=1e-08 max=3.36e-06 mean=2.69e-07 med=1.84e-07] | q[min=0.603 max=1.000 mean=0.886]
+2025-07-21 03:42:45,229 - INFO - [Station_4_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.635\mesh_Station_4_s0.635_s0.635_h3.000.png
+2025-07-21 03:42:45,229 - INFO - [Station_4_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:42:45,943 - INFO - [Station_4_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:42:47,931 - INFO - [Station_4_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:42:47,931 - INFO - [Station_4_s0.635_s0.635_h3.000] Optimisation result generated (Jt=6.398e+04, Iz=1.837e+04)
+2025-07-21 03:42:49,510 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:42:49,533 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:42:49,536 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:42:49,536 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:42:49,536 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:42:49,541 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:42:49,694 - INFO - Zipped 61 points
+2025-07-21 03:42:49,713 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:42:49,911 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:42:49,911 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:42:49,911 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:42:49,911 - INFO - [Station_4] Section translated.
+2025-07-21 03:42:51,738 - INFO - Starting optimisation run: Station_4_s0.671_s0.671_h3.000
+2025-07-21 03:42:51,739 - INFO - [Station_4_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:42:51,862 - WARNING - [Station_4_s0.671_s0.671_h3.000] 584 sliver triangles removed
+2025-07-21 03:42:51,863 - INFO - [Station_4_s0.671_s0.671_h3.000] mesh ok | nodes=7370 elems=2686 | A[min=1e-08 max=3.18e-06 mean=2.59e-07 med=1.86e-07] | q[min=0.603 max=1.000 mean=0.885]
+2025-07-21 03:42:52,460 - INFO - [Station_4_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.671\mesh_Station_4_s0.671_s0.671_h3.000.png
+2025-07-21 03:42:52,460 - INFO - [Station_4_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:42:53,127 - INFO - [Station_4_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:42:55,045 - INFO - [Station_4_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:42:55,045 - INFO - [Station_4_s0.671_s0.671_h3.000] Optimisation result generated (Jt=5.999e+04, Iz=1.747e+04)
+2025-07-21 03:42:56,768 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:42:56,776 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:42:56,788 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:42:56,789 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:42:56,789 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:42:56,792 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:42:56,963 - INFO - Zipped 61 points
+2025-07-21 03:42:56,996 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:42:57,443 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:42:57,443 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:42:57,451 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:42:57,456 - INFO - [Station_4] Section translated.
+2025-07-21 03:42:58,954 - INFO - Starting optimisation run: Station_4_s0.710_s0.710_h3.000
+2025-07-21 03:42:58,955 - INFO - [Station_4_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:42:59,079 - WARNING - [Station_4_s0.710_s0.710_h3.000] 490 sliver triangles removed
+2025-07-21 03:42:59,081 - INFO - [Station_4_s0.710_s0.710_h3.000] mesh ok | nodes=6934 elems=2564 | A[min=1.01e-08 max=2.76e-06 mean=2.45e-07 med=1.89e-07] | q[min=0.603 max=1.000 mean=0.885]
+2025-07-21 03:42:59,655 - INFO - [Station_4_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.710\mesh_Station_4_s0.710_s0.710_h3.000.png
+2025-07-21 03:42:59,655 - INFO - [Station_4_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:43:00,276 - INFO - [Station_4_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:01,991 - INFO - [Station_4_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:43:01,991 - INFO - [Station_4_s0.710_s0.710_h3.000] Optimisation result generated (Jt=5.516e+04, Iz=1.635e+04)
+2025-07-21 03:43:03,558 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:03,564 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:03,580 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:03,580 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:03,581 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:03,583 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:03,737 - INFO - Zipped 61 points
+2025-07-21 03:43:03,754 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:03,943 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:03,943 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:03,943 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:03,959 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:05,691 - INFO - Starting optimisation run: Station_4_s0.751_s0.751_h3.000
+2025-07-21 03:43:05,692 - INFO - [Station_4_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:05,702 - WARNING - [Station_4_s0.751_s0.751_h3.000] 477 sliver triangles removed
+2025-07-21 03:43:05,711 - INFO - [Station_4_s0.751_s0.751_h3.000] mesh ok | nodes=6540 elems=2379 | A[min=1.01e-08 max=2.7e-06 mean=2.32e-07 med=1.82e-07] | q[min=0.601 max=1.000 mean=0.884]
+2025-07-21 03:43:06,408 - INFO - [Station_4_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.751\mesh_Station_4_s0.751_s0.751_h3.000.png
+2025-07-21 03:43:06,408 - INFO - [Station_4_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:43:06,982 - INFO - [Station_4_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:08,580 - INFO - [Station_4_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:43:08,580 - INFO - [Station_4_s0.751_s0.751_h3.000] Optimisation result generated (Jt=4.931e+04, Iz=1.494e+04)
+2025-07-21 03:43:10,156 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:10,164 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:10,176 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:10,176 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:10,177 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:10,179 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:10,334 - INFO - Zipped 61 points
+2025-07-21 03:43:10,352 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:10,896 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:10,896 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:10,896 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:10,905 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:12,592 - INFO - Starting optimisation run: Station_4_s0.795_s0.795_h3.000
+2025-07-21 03:43:12,594 - INFO - [Station_4_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:12,604 - WARNING - [Station_4_s0.795_s0.795_h3.000] 549 sliver triangles removed
+2025-07-21 03:43:12,617 - INFO - [Station_4_s0.795_s0.795_h3.000] mesh ok | nodes=6180 elems=2127 | A[min=1.01e-08 max=1.74e-06 mean=2.19e-07 med=1.79e-07] | q[min=0.603 max=1.000 mean=0.889]
+2025-07-21 03:43:13,246 - INFO - [Station_4_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.795\mesh_Station_4_s0.795_s0.795_h3.000.png
+2025-07-21 03:43:13,246 - INFO - [Station_4_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:43:14,329 - INFO - [Station_4_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:15,923 - INFO - [Station_4_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:43:15,924 - INFO - [Station_4_s0.795_s0.795_h3.000] Optimisation result generated (Jt=4.222e+04, Iz=1.318e+04)
+2025-07-21 03:43:17,568 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:17,579 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:17,592 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:17,593 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:17,593 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:17,597 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:17,746 - INFO - Zipped 61 points
+2025-07-21 03:43:17,761 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:17,974 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:17,974 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:17,975 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:17,978 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:19,855 - INFO - Starting optimisation run: Station_4_s0.841_s0.841_h3.000
+2025-07-21 03:43:19,856 - INFO - [Station_4_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:19,867 - WARNING - [Station_4_s0.841_s0.841_h3.000] 470 sliver triangles removed
+2025-07-21 03:43:19,867 - INFO - [Station_4_s0.841_s0.841_h3.000] mesh ok | nodes=5599 elems=1915 | A[min=1e-08 max=1.31e-06 mean=1.94e-07 med=1.66e-07] | q[min=0.603 max=1.000 mean=0.906]
+2025-07-21 03:43:20,387 - INFO - [Station_4_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.841\mesh_Station_4_s0.841_s0.841_h3.000.png
+2025-07-21 03:43:20,389 - INFO - [Station_4_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:43:21,026 - INFO - [Station_4_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:22,344 - INFO - [Station_4_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:43:22,344 - INFO - [Station_4_s0.841_s0.841_h3.000] Optimisation result generated (Jt=3.349e+04, Iz=1.098e+04)
+2025-07-21 03:43:24,048 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:24,066 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:24,067 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:24,067 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:24,067 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:24,067 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:24,233 - INFO - Zipped 61 points
+2025-07-21 03:43:24,252 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:24,471 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:24,472 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:24,472 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:24,474 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:26,138 - INFO - Starting optimisation run: Station_4_s0.889_s0.889_h3.000
+2025-07-21 03:43:26,140 - INFO - [Station_4_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:26,150 - WARNING - [Station_4_s0.889_s0.889_h3.000] 545 sliver triangles removed
+2025-07-21 03:43:26,153 - INFO - [Station_4_s0.889_s0.889_h3.000] mesh ok | nodes=4613 elems=1308 | A[min=1.01e-08 max=1.32e-06 mean=2.02e-07 med=1.31e-07] | q[min=0.605 max=1.000 mean=0.887]
+2025-07-21 03:43:26,692 - INFO - [Station_4_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.889\mesh_Station_4_s0.889_s0.889_h3.000.png
+2025-07-21 03:43:26,692 - INFO - [Station_4_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:43:27,107 - INFO - [Station_4_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:28,193 - INFO - [Station_4_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:43:28,193 - INFO - [Station_4_s0.889_s0.889_h3.000] Optimisation result generated (Jt=1.583e+04, Iz=8218)
+2025-07-21 03:43:29,836 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:29,837 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:29,853 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:29,857 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:29,857 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:29,860 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:30,034 - INFO - Zipped 61 points
+2025-07-21 03:43:30,053 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:30,640 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:30,640 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:30,640 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:30,640 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:32,342 - INFO - Starting optimisation run: Station_4_s0.941_s0.941_h3.000
+2025-07-21 03:43:32,342 - INFO - [Station_4_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:32,358 - WARNING - [Station_4_s0.941_s0.941_h3.000] 614 sliver triangles removed
+2025-07-21 03:43:32,360 - INFO - [Station_4_s0.941_s0.941_h3.000] mesh ok | nodes=4053 elems=947 | A[min=1e-08 max=1.01e-06 mean=1.53e-07 med=1.6e-07] | q[min=0.611 max=1.000 mean=0.906]
+2025-07-21 03:43:32,873 - INFO - [Station_4_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.941\mesh_Station_4_s0.941_s0.941_h3.000.png
+2025-07-21 03:43:32,875 - INFO - [Station_4_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:43:33,244 - INFO - [Station_4_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:34,145 - INFO - [Station_4_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:43:34,145 - INFO - [Station_4_s0.941_s0.941_h3.000] Optimisation result generated (Jt=1.007e+04, Iz=4765)
+2025-07-21 03:43:35,904 - INFO - [Station_4] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_4.dxf'
+2025-07-21 03:43:35,924 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:35,929 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:35,930 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:35,930 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:35,933 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:36,095 - INFO - Zipped 61 points
+2025-07-21 03:43:36,116 - INFO - [Station_4] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:36,340 - INFO - [Station_4] Actual centroid: (0.0295, 0.0010)
+2025-07-21 03:43:36,341 - INFO - [Station_4] Desired centroid: (0.0038, -0.0103)
+2025-07-21 03:43:36,342 - INFO - [Station_4] Applying translation dx=-0.0257, dy=-0.0113
+2025-07-21 03:43:36,344 - INFO - [Station_4] Section translated.
+2025-07-21 03:43:38,072 - INFO - Starting optimisation run: Station_4_s0.995_s0.995_h3.000
+2025-07-21 03:43:38,072 - INFO - [Station_4_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:38,125 - WARNING - [Station_4_s0.995_s0.995_h3.000] 7308 sliver triangles removed
+2025-07-21 03:43:38,126 - INFO - [Station_4_s0.995_s0.995_h3.000] mesh ok | nodes=22061 elems=97 | A[min=1.02e-08 max=5.23e-08 mean=1.91e-08 med=1.59e-08] | q[min=0.713 max=0.992 mean=0.851]
+2025-07-21 03:43:39,260 - INFO - [Station_4_s0.995_s0.995_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_4\s0.995\mesh_Station_4_s0.995_s0.995_h3.000.png
+2025-07-21 03:43:39,260 - INFO - [Station_4_s0.995_s0.995_h3.000] Starting geometric analysis...
+2025-07-21 03:43:41,298 - INFO - [Station_4_s0.995_s0.995_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:45,582 - INFO - [Station_4_s0.995_s0.995_h3.000] Success at h = 3.0000
+2025-07-21 03:43:45,582 - INFO - [Station_4_s0.995_s0.995_h3.000] Optimisation result generated (Jt=973.6, Iz=436.1)
+2025-07-21 03:43:47,183 - INFO - Processing station: Station_6
+2025-07-21 03:43:47,260 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:43:47,266 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:47,281 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:47,282 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:47,282 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:47,284 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:47,374 - INFO - Zipped 30 points
+2025-07-21 03:43:47,405 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:48,322 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:43:48,323 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:43:48,324 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:43:48,327 - INFO - [Station_6] Section translated.
+2025-07-21 03:43:50,163 - INFO - Starting optimisation run: Station_6_s0.600_s0.600_h3.000
+2025-07-21 03:43:50,167 - INFO - [Station_6_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:50,171 - WARNING - [Station_6_s0.600_s0.600_h3.000] 676 sliver triangles removed
+2025-07-21 03:43:50,187 - INFO - [Station_6_s0.600_s0.600_h3.000] mesh ok | nodes=7748 elems=2778 | A[min=1.01e-08 max=2.24e-06 mean=1.77e-07 med=1.17e-07] | q[min=0.603 max=1.000 mean=0.882]
+2025-07-21 03:43:50,825 - INFO - [Station_6_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.600\mesh_Station_6_s0.600_s0.600_h3.000.png
+2025-07-21 03:43:50,840 - INFO - [Station_6_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:43:51,659 - INFO - [Station_6_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:43:53,774 - INFO - [Station_6_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:43:53,776 - INFO - [Station_6_s0.600_s0.600_h3.000] Optimisation result generated (Jt=2.429e+04, Iz=6939)
+2025-07-21 03:43:55,578 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:43:55,595 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:43:55,599 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:43:55,600 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:43:55,600 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:43:55,603 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:43:55,708 - INFO - Zipped 30 points
+2025-07-21 03:43:55,880 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:43:56,059 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:43:56,059 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:43:56,075 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:43:56,075 - INFO - [Station_6] Section translated.
+2025-07-21 03:43:57,539 - INFO - Starting optimisation run: Station_6_s0.635_s0.635_h3.000
+2025-07-21 03:43:57,539 - INFO - [Station_6_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:43:57,559 - WARNING - [Station_6_s0.635_s0.635_h3.000] 594 sliver triangles removed
+2025-07-21 03:43:57,561 - INFO - [Station_6_s0.635_s0.635_h3.000] mesh ok | nodes=7341 elems=2657 | A[min=1.01e-08 max=2.7e-06 mean=1.73e-07 med=1.21e-07] | q[min=0.604 max=1.000 mean=0.882]
+2025-07-21 03:43:58,159 - INFO - [Station_6_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.635\mesh_Station_6_s0.635_s0.635_h3.000.png
+2025-07-21 03:43:58,159 - INFO - [Station_6_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:43:58,875 - INFO - [Station_6_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:00,793 - INFO - [Station_6_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:44:00,794 - INFO - [Station_6_s0.635_s0.635_h3.000] Optimisation result generated (Jt=2.307e+04, Iz=6678)
+2025-07-21 03:44:02,542 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:02,564 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:02,568 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:02,568 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:02,569 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:02,571 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:02,674 - INFO - Zipped 30 points
+2025-07-21 03:44:02,697 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:02,888 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:02,888 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:02,889 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:02,891 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:04,402 - INFO - Starting optimisation run: Station_6_s0.671_s0.671_h3.000
+2025-07-21 03:44:04,404 - INFO - [Station_6_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:04,523 - WARNING - [Station_6_s0.671_s0.671_h3.000] 547 sliver triangles removed
+2025-07-21 03:44:04,525 - INFO - [Station_6_s0.671_s0.671_h3.000] mesh ok | nodes=7165 elems=2616 | A[min=1.01e-08 max=2.65e-06 mean=1.61e-07 med=1.19e-07] | q[min=0.603 max=1.000 mean=0.885]
+2025-07-21 03:44:05,098 - INFO - [Station_6_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.671\mesh_Station_6_s0.671_s0.671_h3.000.png
+2025-07-21 03:44:05,099 - INFO - [Station_6_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:44:05,773 - INFO - [Station_6_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:07,599 - INFO - [Station_6_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:44:07,599 - INFO - [Station_6_s0.671_s0.671_h3.000] Optimisation result generated (Jt=2.161e+04, Iz=6352)
+2025-07-21 03:44:09,267 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:09,272 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:09,286 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:09,287 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:09,287 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:09,290 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:09,397 - INFO - Zipped 30 points
+2025-07-21 03:44:09,418 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:09,645 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:09,645 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:09,645 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:09,645 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:11,788 - INFO - Starting optimisation run: Station_6_s0.710_s0.710_h3.000
+2025-07-21 03:44:11,791 - INFO - [Station_6_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:11,936 - WARNING - [Station_6_s0.710_s0.710_h3.000] 604 sliver triangles removed
+2025-07-21 03:44:11,938 - INFO - [Station_6_s0.710_s0.710_h3.000] mesh ok | nodes=6892 elems=2422 | A[min=1e-08 max=2.87e-06 mean=1.57e-07 med=1.22e-07] | q[min=0.600 max=1.000 mean=0.885]
+2025-07-21 03:44:12,543 - INFO - [Station_6_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.710\mesh_Station_6_s0.710_s0.710_h3.000.png
+2025-07-21 03:44:12,543 - INFO - [Station_6_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:44:13,352 - INFO - [Station_6_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:15,256 - INFO - [Station_6_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:44:15,257 - INFO - [Station_6_s0.710_s0.710_h3.000] Optimisation result generated (Jt=1.983e+04, Iz=5944)
+2025-07-21 03:44:17,102 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:17,110 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:17,110 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:17,110 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:17,110 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:17,127 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:17,226 - INFO - Zipped 30 points
+2025-07-21 03:44:17,259 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:17,459 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:17,461 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:17,462 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:17,464 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:18,990 - INFO - Starting optimisation run: Station_6_s0.751_s0.751_h3.000
+2025-07-21 03:44:18,992 - INFO - [Station_6_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:18,994 - WARNING - [Station_6_s0.751_s0.751_h3.000] 557 sliver triangles removed
+2025-07-21 03:44:18,994 - INFO - [Station_6_s0.751_s0.751_h3.000] mesh ok | nodes=6431 elems=2238 | A[min=1e-08 max=1.54e-06 mean=1.49e-07 med=1.21e-07] | q[min=0.603 max=1.000 mean=0.884]
+2025-07-21 03:44:19,640 - INFO - [Station_6_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.751\mesh_Station_6_s0.751_s0.751_h3.000.png
+2025-07-21 03:44:19,640 - INFO - [Station_6_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:44:20,243 - INFO - [Station_6_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:21,777 - INFO - [Station_6_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:44:21,777 - INFO - [Station_6_s0.751_s0.751_h3.000] Optimisation result generated (Jt=1.766e+04, Iz=5433)
+2025-07-21 03:44:23,533 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:23,535 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:23,553 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:23,554 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:23,555 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:23,557 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:23,662 - INFO - Zipped 30 points
+2025-07-21 03:44:23,679 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:23,859 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:23,859 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:23,859 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:23,859 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:25,707 - INFO - Starting optimisation run: Station_6_s0.795_s0.795_h3.000
+2025-07-21 03:44:25,707 - INFO - [Station_6_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:25,725 - WARNING - [Station_6_s0.795_s0.795_h3.000] 526 sliver triangles removed
+2025-07-21 03:44:25,725 - INFO - [Station_6_s0.795_s0.795_h3.000] mesh ok | nodes=5907 elems=2005 | A[min=1e-08 max=1.5e-06 mean=1.41e-07 med=1.19e-07] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-21 03:44:26,240 - INFO - [Station_6_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.795\mesh_Station_6_s0.795_s0.795_h3.000.png
+2025-07-21 03:44:26,240 - INFO - [Station_6_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:44:26,780 - INFO - [Station_6_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:28,219 - INFO - [Station_6_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:44:28,220 - INFO - [Station_6_s0.795_s0.795_h3.000] Optimisation result generated (Jt=1.501e+04, Iz=4793)
+2025-07-21 03:44:29,896 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:29,904 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:29,916 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:29,917 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:29,918 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:29,920 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:30,024 - INFO - Zipped 30 points
+2025-07-21 03:44:30,037 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:30,224 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:30,224 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:30,289 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:30,366 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:31,974 - INFO - Starting optimisation run: Station_6_s0.841_s0.841_h3.000
+2025-07-21 03:44:31,974 - INFO - [Station_6_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:31,974 - WARNING - [Station_6_s0.841_s0.841_h3.000] 473 sliver triangles removed
+2025-07-21 03:44:31,989 - INFO - [Station_6_s0.841_s0.841_h3.000] mesh ok | nodes=5345 elems=1774 | A[min=1.01e-08 max=1.12e-06 mean=1.27e-07 med=1.1e-07] | q[min=0.602 max=1.000 mean=0.906]
+2025-07-21 03:44:32,607 - INFO - [Station_6_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.841\mesh_Station_6_s0.841_s0.841_h3.000.png
+2025-07-21 03:44:32,607 - INFO - [Station_6_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:44:33,506 - INFO - [Station_6_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:34,690 - INFO - [Station_6_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:44:34,690 - INFO - [Station_6_s0.841_s0.841_h3.000] Optimisation result generated (Jt=1.195e+04, Iz=3991)
+2025-07-21 03:44:36,266 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:36,283 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:36,287 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:36,288 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:36,289 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:36,293 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:36,391 - INFO - Zipped 30 points
+2025-07-21 03:44:36,406 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:36,592 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:36,608 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:36,608 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:36,608 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:38,244 - INFO - Starting optimisation run: Station_6_s0.889_s0.889_h3.000
+2025-07-21 03:44:38,246 - INFO - [Station_6_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:38,257 - WARNING - [Station_6_s0.889_s0.889_h3.000] 414 sliver triangles removed
+2025-07-21 03:44:38,258 - INFO - [Station_6_s0.889_s0.889_h3.000] mesh ok | nodes=4138 elems=1188 | A[min=1e-08 max=1e-06 mean=1.35e-07 med=9.28e-08] | q[min=0.603 max=1.000 mean=0.884]
+2025-07-21 03:44:38,677 - INFO - [Station_6_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.889\mesh_Station_6_s0.889_s0.889_h3.000.png
+2025-07-21 03:44:38,677 - INFO - [Station_6_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:44:39,143 - INFO - [Station_6_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:40,299 - INFO - [Station_6_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:44:40,300 - INFO - [Station_6_s0.889_s0.889_h3.000] Optimisation result generated (Jt=5428, Iz=2988)
+2025-07-21 03:44:42,187 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:42,193 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:42,207 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:42,207 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:42,208 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:42,209 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:42,306 - INFO - Zipped 30 points
+2025-07-21 03:44:42,328 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:42,531 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:42,531 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:42,531 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:42,531 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:44,543 - INFO - Starting optimisation run: Station_6_s0.941_s0.941_h3.000
+2025-07-21 03:44:44,544 - INFO - [Station_6_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:44,549 - WARNING - [Station_6_s0.941_s0.941_h3.000] 448 sliver triangles removed
+2025-07-21 03:44:44,556 - INFO - [Station_6_s0.941_s0.941_h3.000] mesh ok | nodes=3563 elems=867 | A[min=1.01e-08 max=7.13e-07 mean=1.01e-07 med=1.05e-07] | q[min=0.612 max=1.000 mean=0.905]
+2025-07-21 03:44:44,976 - INFO - [Station_6_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.941\mesh_Station_6_s0.941_s0.941_h3.000.png
+2025-07-21 03:44:44,978 - INFO - [Station_6_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:44:45,290 - INFO - [Station_6_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:46,024 - INFO - [Station_6_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:44:46,024 - INFO - [Station_6_s0.941_s0.941_h3.000] Optimisation result generated (Jt=3927, Iz=1732)
+2025-07-21 03:44:47,728 - INFO - [Station_6] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_6.dxf'
+2025-07-21 03:44:47,730 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:47,749 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:47,750 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:47,750 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:47,753 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:47,861 - INFO - Zipped 30 points
+2025-07-21 03:44:47,883 - INFO - [Station_6] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:48,408 - INFO - [Station_6] Actual centroid: (0.0228, 0.0013)
+2025-07-21 03:44:48,418 - INFO - [Station_6] Desired centroid: (0.0025, -0.0070)
+2025-07-21 03:44:48,432 - INFO - [Station_6] Applying translation dx=-0.0203, dy=-0.0083
+2025-07-21 03:44:48,446 - INFO - [Station_6] Section translated.
+2025-07-21 03:44:50,465 - INFO - Starting optimisation run: Station_6_s0.995_s0.995_h3.000
+2025-07-21 03:44:50,467 - INFO - [Station_6_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:44:50,508 - WARNING - [Station_6_s0.995_s0.995_h3.000] 6658 sliver triangles removed
+2025-07-21 03:44:50,508 - INFO - [Station_6_s0.995_s0.995_h3.000] mesh ok | nodes=20010 elems=50 | A[min=1.03e-08 max=3.15e-08 mean=1.69e-08 med=1.26e-08] | q[min=0.716 max=0.992 mean=0.865]
+2025-07-21 03:44:51,562 - INFO - [Station_6_s0.995_s0.995_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_6\s0.995\mesh_Station_6_s0.995_s0.995_h3.000.png
+2025-07-21 03:44:51,562 - INFO - [Station_6_s0.995_s0.995_h3.000] Starting geometric analysis...
+2025-07-21 03:44:53,307 - INFO - [Station_6_s0.995_s0.995_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:44:57,118 - INFO - [Station_6_s0.995_s0.995_h3.000] Success at h = 3.0000
+2025-07-21 03:44:57,118 - INFO - [Station_6_s0.995_s0.995_h3.000] Optimisation result generated (Jt=439, Iz=158.6)
+2025-07-21 03:44:58,753 - INFO - Processing station: Station_8
+2025-07-21 03:44:58,859 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:44:58,877 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:44:58,881 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:44:58,882 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:44:58,883 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:44:58,885 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:44:58,956 - INFO - Zipped 26 points
+2025-07-21 03:44:59,075 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:44:59,989 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:44:59,989 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:44:59,989 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:44:59,989 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:01,625 - INFO - Starting optimisation run: Station_8_s0.600_s0.600_h3.000
+2025-07-21 03:45:01,626 - INFO - [Station_8_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:01,739 - WARNING - [Station_8_s0.600_s0.600_h3.000] 762 sliver triangles removed
+2025-07-21 03:45:01,750 - INFO - [Station_8_s0.600_s0.600_h3.000] mesh ok | nodes=7815 elems=2723 | A[min=1.01e-08 max=1.74e-06 mean=1.18e-07 med=7.93e-08] | q[min=0.603 max=1.000 mean=0.881]
+2025-07-21 03:45:02,372 - INFO - [Station_8_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.600\mesh_Station_8_s0.600_s0.600_h3.000.png
+2025-07-21 03:45:02,372 - INFO - [Station_8_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:45:03,240 - INFO - [Station_8_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:05,359 - INFO - [Station_8_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:45:05,359 - INFO - [Station_8_s0.600_s0.600_h3.000] Optimisation result generated (Jt=1.044e+04, Iz=2980)
+2025-07-21 03:45:07,097 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:07,115 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:07,119 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:07,123 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:07,127 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:07,127 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:07,206 - INFO - Zipped 26 points
+2025-07-21 03:45:07,228 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:07,778 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:07,779 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:07,780 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:07,783 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:09,370 - INFO - Starting optimisation run: Station_8_s0.635_s0.635_h3.000
+2025-07-21 03:45:09,370 - INFO - [Station_8_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:09,472 - WARNING - [Station_8_s0.635_s0.635_h3.000] 751 sliver triangles removed
+2025-07-21 03:45:09,488 - INFO - [Station_8_s0.635_s0.635_h3.000] mesh ok | nodes=7582 elems=2617 | A[min=1e-08 max=1.74e-06 mean=1.15e-07 med=7.97e-08] | q[min=0.602 max=1.000 mean=0.880]
+2025-07-21 03:45:10,089 - INFO - [Station_8_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.635\mesh_Station_8_s0.635_s0.635_h3.000.png
+2025-07-21 03:45:10,089 - INFO - [Station_8_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:45:10,772 - INFO - [Station_8_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:12,708 - INFO - [Station_8_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:45:12,708 - INFO - [Station_8_s0.635_s0.635_h3.000] Optimisation result generated (Jt=9921, Iz=2868)
+2025-07-21 03:45:14,390 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:14,407 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:14,411 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:14,413 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:14,414 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:14,416 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:14,472 - INFO - Zipped 26 points
+2025-07-21 03:45:14,494 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:14,881 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:14,926 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:14,938 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:14,993 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:16,536 - INFO - Starting optimisation run: Station_8_s0.671_s0.671_h3.000
+2025-07-21 03:45:16,538 - INFO - [Station_8_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:16,665 - WARNING - [Station_8_s0.671_s0.671_h3.000] 731 sliver triangles removed
+2025-07-21 03:45:16,667 - INFO - [Station_8_s0.671_s0.671_h3.000] mesh ok | nodes=7377 elems=2534 | A[min=1e-08 max=1.47e-06 mean=1.09e-07 med=8.04e-08] | q[min=0.602 max=1.000 mean=0.883]
+2025-07-21 03:45:17,257 - INFO - [Station_8_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.671\mesh_Station_8_s0.671_s0.671_h3.000.png
+2025-07-21 03:45:17,257 - INFO - [Station_8_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:45:17,939 - INFO - [Station_8_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:20,105 - INFO - [Station_8_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:45:20,105 - INFO - [Station_8_s0.671_s0.671_h3.000] Optimisation result generated (Jt=9294, Iz=2728)
+2025-07-21 03:45:21,969 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:21,972 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:21,988 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:21,989 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:21,992 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:21,994 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:22,057 - INFO - Zipped 26 points
+2025-07-21 03:45:22,088 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:22,581 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:22,591 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:22,594 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:22,601 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:24,318 - INFO - Starting optimisation run: Station_8_s0.710_s0.710_h3.000
+2025-07-21 03:45:24,319 - INFO - [Station_8_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:24,328 - WARNING - [Station_8_s0.710_s0.710_h3.000] 717 sliver triangles removed
+2025-07-21 03:45:24,341 - INFO - [Station_8_s0.710_s0.710_h3.000] mesh ok | nodes=7060 elems=2389 | A[min=1e-08 max=2.04e-06 mean=1.04e-07 med=8.07e-08] | q[min=0.602 max=1.000 mean=0.884]
+2025-07-21 03:45:25,138 - INFO - [Station_8_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.710\mesh_Station_8_s0.710_s0.710_h3.000.png
+2025-07-21 03:45:25,138 - INFO - [Station_8_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:45:25,856 - INFO - [Station_8_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:27,796 - INFO - [Station_8_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:45:27,796 - INFO - [Station_8_s0.710_s0.710_h3.000] Optimisation result generated (Jt=8533, Iz=2553)
+2025-07-21 03:45:29,639 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:29,662 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:29,664 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:29,667 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:29,668 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:29,671 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:29,740 - INFO - Zipped 26 points
+2025-07-21 03:45:29,874 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:30,105 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:30,108 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:30,108 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:30,111 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:31,769 - INFO - Starting optimisation run: Station_8_s0.751_s0.751_h3.000
+2025-07-21 03:45:31,771 - INFO - [Station_8_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:31,788 - WARNING - [Station_8_s0.751_s0.751_h3.000] 708 sliver triangles removed
+2025-07-21 03:45:31,792 - INFO - [Station_8_s0.751_s0.751_h3.000] mesh ok | nodes=6726 elems=2230 | A[min=1e-08 max=1.47e-06 mean=9.81e-08 med=7.83e-08] | q[min=0.602 max=1.000 mean=0.882]
+2025-07-21 03:45:32,369 - INFO - [Station_8_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.751\mesh_Station_8_s0.751_s0.751_h3.000.png
+2025-07-21 03:45:32,371 - INFO - [Station_8_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:45:33,204 - INFO - [Station_8_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:35,038 - INFO - [Station_8_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:45:35,038 - INFO - [Station_8_s0.751_s0.751_h3.000] Optimisation result generated (Jt=7611, Iz=2333)
+2025-07-21 03:45:36,929 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:36,935 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:36,947 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:36,948 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:36,949 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:36,951 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:37,023 - INFO - Zipped 26 points
+2025-07-21 03:45:37,045 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:37,280 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:37,281 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:37,283 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:37,285 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:38,911 - INFO - Starting optimisation run: Station_8_s0.795_s0.795_h3.000
+2025-07-21 03:45:38,912 - INFO - [Station_8_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:38,926 - WARNING - [Station_8_s0.795_s0.795_h3.000] 709 sliver triangles removed
+2025-07-21 03:45:38,932 - INFO - [Station_8_s0.795_s0.795_h3.000] mesh ok | nodes=6239 elems=1984 | A[min=1e-08 max=9.17e-07 mean=9.32e-08 med=7.77e-08] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-21 03:45:39,473 - INFO - [Station_8_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.795\mesh_Station_8_s0.795_s0.795_h3.000.png
+2025-07-21 03:45:39,473 - INFO - [Station_8_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:45:40,072 - INFO - [Station_8_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:41,588 - INFO - [Station_8_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:45:41,590 - INFO - [Station_8_s0.795_s0.795_h3.000] Optimisation result generated (Jt=6480, Iz=2058)
+2025-07-21 03:45:43,282 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:43,290 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:43,303 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:43,304 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:43,305 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:43,306 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:43,372 - INFO - Zipped 26 points
+2025-07-21 03:45:43,396 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:43,907 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:43,915 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:43,915 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:43,929 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:45,644 - INFO - Starting optimisation run: Station_8_s0.841_s0.841_h3.000
+2025-07-21 03:45:45,646 - INFO - [Station_8_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:45,659 - WARNING - [Station_8_s0.841_s0.841_h3.000] 644 sliver triangles removed
+2025-07-21 03:45:45,664 - INFO - [Station_8_s0.841_s0.841_h3.000] mesh ok | nodes=5629 elems=1741 | A[min=1.01e-08 max=7.65e-07 mean=8.45e-08 med=7.41e-08] | q[min=0.602 max=1.000 mean=0.901]
+2025-07-21 03:45:46,232 - INFO - [Station_8_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.841\mesh_Station_8_s0.841_s0.841_h3.000.png
+2025-07-21 03:45:46,234 - INFO - [Station_8_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:45:47,077 - INFO - [Station_8_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:48,355 - INFO - [Station_8_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:45:48,355 - INFO - [Station_8_s0.841_s0.841_h3.000] Optimisation result generated (Jt=5007, Iz=1714)
+2025-07-21 03:45:50,165 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:50,181 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:50,186 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:50,187 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:50,188 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:50,190 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:50,256 - INFO - Zipped 26 points
+2025-07-21 03:45:50,270 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:50,494 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:50,495 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:50,496 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:50,499 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:52,165 - INFO - Starting optimisation run: Station_8_s0.889_s0.889_h3.000
+2025-07-21 03:45:52,172 - INFO - [Station_8_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:52,177 - WARNING - [Station_8_s0.889_s0.889_h3.000] 722 sliver triangles removed
+2025-07-21 03:45:52,187 - INFO - [Station_8_s0.889_s0.889_h3.000] mesh ok | nodes=4789 elems=1201 | A[min=1e-08 max=4.48e-07 mean=8.7e-08 med=6.17e-08] | q[min=0.600 max=1.000 mean=0.883]
+2025-07-21 03:45:52,656 - INFO - [Station_8_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.889\mesh_Station_8_s0.889_s0.889_h3.000.png
+2025-07-21 03:45:52,656 - INFO - [Station_8_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:45:53,262 - INFO - [Station_8_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:54,288 - INFO - [Station_8_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:45:54,288 - INFO - [Station_8_s0.889_s0.889_h3.000] Optimisation result generated (Jt=2425, Iz=1283)
+2025-07-21 03:45:55,966 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:45:55,982 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:45:55,987 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:45:55,988 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:45:55,989 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:45:55,992 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:45:56,066 - INFO - Zipped 26 points
+2025-07-21 03:45:56,081 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:45:56,301 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:45:56,302 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:45:56,303 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:45:56,306 - INFO - [Station_8] Section translated.
+2025-07-21 03:45:58,007 - INFO - Starting optimisation run: Station_8_s0.941_s0.941_h3.000
+2025-07-21 03:45:58,009 - INFO - [Station_8_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:45:58,012 - WARNING - [Station_8_s0.941_s0.941_h3.000] 923 sliver triangles removed
+2025-07-21 03:45:58,023 - INFO - [Station_8_s0.941_s0.941_h3.000] mesh ok | nodes=4606 elems=821 | A[min=1e-08 max=4.19e-07 mean=6.91e-08 med=6.86e-08] | q[min=0.607 max=1.000 mean=0.909]
+2025-07-21 03:45:58,482 - INFO - [Station_8_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.941\mesh_Station_8_s0.941_s0.941_h3.000.png
+2025-07-21 03:45:58,484 - INFO - [Station_8_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:45:58,899 - INFO - [Station_8_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:45:59,837 - INFO - [Station_8_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:45:59,837 - INFO - [Station_8_s0.941_s0.941_h3.000] Optimisation result generated (Jt=1223, Iz=744)
+2025-07-21 03:46:01,659 - INFO - [Station_8] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_8.dxf'
+2025-07-21 03:46:01,672 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:01,681 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:01,682 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:01,683 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:01,685 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:01,775 - INFO - Zipped 26 points
+2025-07-21 03:46:01,801 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:02,330 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-21 03:46:02,332 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-21 03:46:02,333 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-21 03:46:02,335 - INFO - [Station_8] Section translated.
+2025-07-21 03:46:04,163 - INFO - Starting optimisation run: Station_8_s0.995_s0.995_h3.000
+2025-07-21 03:46:04,163 - INFO - [Station_8_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:04,341 - WARNING - [Station_8_s0.995_s0.995_h3.000] 8530 sliver triangles removed
+2025-07-21 03:46:04,345 - INFO - [Station_8_s0.995_s0.995_h3.000] mesh ok | nodes=25512 elems=18 | A[min=1.25e-08 max=1.99e-08 mean=1.81e-08 med=1.9e-08] | q[min=0.665 max=0.800 mean=0.773]
+2025-07-21 03:46:05,421 - INFO - [Station_8_s0.995_s0.995_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_8\s0.995\mesh_Station_8_s0.995_s0.995_h3.000.png
+2025-07-21 03:46:05,421 - INFO - [Station_8_s0.995_s0.995_h3.000] Starting geometric analysis...
+2025-07-21 03:46:07,642 - INFO - [Station_8_s0.995_s0.995_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:12,265 - INFO - [Station_8_s0.995_s0.995_h3.000] Success at h = 3.0000
+2025-07-21 03:46:12,265 - INFO - [Station_8_s0.995_s0.995_h3.000] Optimisation result generated (Jt=132.9, Iz=68.09)
+2025-07-21 03:46:13,879 - INFO - Processing station: Station_10
+2025-07-21 03:46:14,018 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:14,029 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:14,042 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:14,043 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:14,044 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:14,048 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:14,578 - INFO - Zipped 208 points
+2025-07-21 03:46:14,613 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:15,303 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:15,303 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:15,303 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:15,303 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:16,889 - INFO - Starting optimisation run: Station_10_s0.600_s0.600_h3.000
+2025-07-21 03:46:16,892 - INFO - [Station_10_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:16,898 - WARNING - [Station_10_s0.600_s0.600_h3.000] 889 sliver triangles removed
+2025-07-21 03:46:16,913 - INFO - [Station_10_s0.600_s0.600_h3.000] mesh ok | nodes=7788 elems=2589 | A[min=1e-08 max=1.19e-06 mean=8.66e-08 med=5.97e-08] | q[min=0.602 max=1.000 mean=0.878]
+2025-07-21 03:46:17,621 - INFO - [Station_10_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.600\mesh_Station_10_s0.600_s0.600_h3.000.png
+2025-07-21 03:46:17,621 - INFO - [Station_10_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:46:18,403 - INFO - [Station_10_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:20,350 - INFO - [Station_10_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:46:20,350 - INFO - [Station_10_s0.600_s0.600_h3.000] Optimisation result generated (Jt=5108, Iz=1455)
+2025-07-21 03:46:22,109 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:22,127 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:22,132 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:22,133 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:22,134 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:22,135 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:22,366 - INFO - Zipped 208 points
+2025-07-21 03:46:22,494 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:22,708 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:22,708 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:22,708 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:22,708 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:24,237 - INFO - Starting optimisation run: Station_10_s0.635_s0.635_h3.000
+2025-07-21 03:46:24,237 - INFO - [Station_10_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:24,261 - WARNING - [Station_10_s0.635_s0.635_h3.000] 967 sliver triangles removed
+2025-07-21 03:46:24,262 - INFO - [Station_10_s0.635_s0.635_h3.000] mesh ok | nodes=7860 elems=2547 | A[min=1e-08 max=9.52e-07 mean=8.2e-08 med=6.25e-08] | q[min=0.602 max=1.000 mean=0.882]
+2025-07-21 03:46:24,870 - INFO - [Station_10_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.635\mesh_Station_10_s0.635_s0.635_h3.000.png
+2025-07-21 03:46:24,870 - INFO - [Station_10_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:46:25,654 - INFO - [Station_10_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:27,784 - INFO - [Station_10_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:46:27,784 - INFO - [Station_10_s0.635_s0.635_h3.000] Optimisation result generated (Jt=4852, Iz=1400)
+2025-07-21 03:46:29,768 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:29,790 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:29,794 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:29,795 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:29,797 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:29,797 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:30,022 - INFO - Zipped 208 points
+2025-07-21 03:46:30,033 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:30,253 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:30,253 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:30,253 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:30,253 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:31,976 - INFO - Starting optimisation run: Station_10_s0.671_s0.671_h3.000
+2025-07-21 03:46:31,976 - INFO - [Station_10_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:31,991 - WARNING - [Station_10_s0.671_s0.671_h3.000] 873 sliver triangles removed
+2025-07-21 03:46:32,004 - INFO - [Station_10_s0.671_s0.671_h3.000] mesh ok | nodes=7544 elems=2483 | A[min=1e-08 max=5.33e-07 mean=7.73e-08 med=6.22e-08] | q[min=0.601 max=1.000 mean=0.882]
+2025-07-21 03:46:32,636 - INFO - [Station_10_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.671\mesh_Station_10_s0.671_s0.671_h3.000.png
+2025-07-21 03:46:32,636 - INFO - [Station_10_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:46:33,354 - INFO - [Station_10_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:35,381 - INFO - [Station_10_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:46:35,382 - INFO - [Station_10_s0.671_s0.671_h3.000] Optimisation result generated (Jt=4546, Iz=1332)
+2025-07-21 03:46:37,354 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:37,373 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:37,377 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:37,379 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:37,380 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:37,384 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:37,626 - INFO - Zipped 208 points
+2025-07-21 03:46:37,799 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:38,030 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:38,030 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:38,030 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:38,030 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:39,612 - INFO - Starting optimisation run: Station_10_s0.710_s0.710_h3.000
+2025-07-21 03:46:39,612 - INFO - [Station_10_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:39,627 - WARNING - [Station_10_s0.710_s0.710_h3.000] 817 sliver triangles removed
+2025-07-21 03:46:39,627 - INFO - [Station_10_s0.710_s0.710_h3.000] mesh ok | nodes=7164 elems=2349 | A[min=1e-08 max=4.37e-07 mean=7.37e-08 med=6.09e-08] | q[min=0.601 max=1.000 mean=0.884]
+2025-07-21 03:46:40,265 - INFO - [Station_10_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.710\mesh_Station_10_s0.710_s0.710_h3.000.png
+2025-07-21 03:46:40,265 - INFO - [Station_10_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:46:40,966 - INFO - [Station_10_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:43,020 - INFO - [Station_10_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:46:43,020 - INFO - [Station_10_s0.710_s0.710_h3.000] Optimisation result generated (Jt=4180, Iz=1246)
+2025-07-21 03:46:44,972 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:44,988 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:44,995 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:44,997 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:44,998 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:44,998 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:45,286 - INFO - Zipped 208 points
+2025-07-21 03:46:45,332 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:45,611 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:45,612 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:45,613 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:45,617 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:47,312 - INFO - Starting optimisation run: Station_10_s0.751_s0.751_h3.000
+2025-07-21 03:46:47,312 - INFO - [Station_10_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:47,355 - WARNING - [Station_10_s0.751_s0.751_h3.000] 906 sliver triangles removed
+2025-07-21 03:46:47,357 - INFO - [Station_10_s0.751_s0.751_h3.000] mesh ok | nodes=6988 elems=2172 | A[min=1e-08 max=9.13e-07 mean=6.99e-08 med=5.94e-08] | q[min=0.604 max=1.000 mean=0.885]
+2025-07-21 03:46:48,102 - INFO - [Station_10_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.751\mesh_Station_10_s0.751_s0.751_h3.000.png
+2025-07-21 03:46:48,102 - INFO - [Station_10_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:46:48,835 - INFO - [Station_10_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:50,605 - INFO - [Station_10_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:46:50,605 - INFO - [Station_10_s0.751_s0.751_h3.000] Optimisation result generated (Jt=3739, Iz=1139)
+2025-07-21 03:46:52,508 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:52,527 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:52,532 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:52,534 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:52,535 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:52,535 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:46:52,781 - INFO - Zipped 208 points
+2025-07-21 03:46:52,801 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:46:53,010 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:46:53,010 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:46:53,010 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:46:53,010 - INFO - [Station_10] Section translated.
+2025-07-21 03:46:54,773 - INFO - Starting optimisation run: Station_10_s0.795_s0.795_h3.000
+2025-07-21 03:46:54,775 - INFO - [Station_10_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:46:54,793 - WARNING - [Station_10_s0.795_s0.795_h3.000] 818 sliver triangles removed
+2025-07-21 03:46:54,796 - INFO - [Station_10_s0.795_s0.795_h3.000] mesh ok | nodes=6399 elems=1965 | A[min=1.01e-08 max=4.89e-07 mean=6.52e-08 med=5.81e-08] | q[min=0.605 max=1.000 mean=0.889]
+2025-07-21 03:46:55,384 - INFO - [Station_10_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.795\mesh_Station_10_s0.795_s0.795_h3.000.png
+2025-07-21 03:46:55,388 - INFO - [Station_10_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:46:56,036 - INFO - [Station_10_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:46:57,839 - INFO - [Station_10_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:46:57,839 - INFO - [Station_10_s0.795_s0.795_h3.000] Optimisation result generated (Jt=3204, Iz=1005)
+2025-07-21 03:46:59,857 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:46:59,861 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:46:59,880 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:46:59,881 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:46:59,882 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:46:59,886 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:47:00,119 - INFO - Zipped 208 points
+2025-07-21 03:47:00,336 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:47:00,570 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:47:00,572 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:47:00,573 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:47:00,576 - INFO - [Station_10] Section translated.
+2025-07-21 03:47:02,291 - INFO - Starting optimisation run: Station_10_s0.841_s0.841_h3.000
+2025-07-21 03:47:02,295 - INFO - [Station_10_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:47:02,312 - WARNING - [Station_10_s0.841_s0.841_h3.000] 765 sliver triangles removed
+2025-07-21 03:47:02,313 - INFO - [Station_10_s0.841_s0.841_h3.000] mesh ok | nodes=5724 elems=1679 | A[min=1e-08 max=2.84e-07 mean=6.06e-08 med=5.3e-08] | q[min=0.602 max=1.000 mean=0.889]
+2025-07-21 03:47:02,890 - INFO - [Station_10_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.841\mesh_Station_10_s0.841_s0.841_h3.000.png
+2025-07-21 03:47:02,893 - INFO - [Station_10_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:47:03,519 - INFO - [Station_10_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:47:04,999 - INFO - [Station_10_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:47:04,999 - INFO - [Station_10_s0.841_s0.841_h3.000] Optimisation result generated (Jt=2548, Iz=836.7)
+2025-07-21 03:47:07,129 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:47:07,151 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:47:07,157 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:47:07,158 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:47:07,159 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:47:07,162 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:47:07,387 - INFO - Zipped 208 points
+2025-07-21 03:47:07,409 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:47:07,648 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:47:07,649 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:47:07,651 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:47:07,654 - INFO - [Station_10] Section translated.
+2025-07-21 03:47:09,304 - INFO - Starting optimisation run: Station_10_s0.889_s0.889_h3.000
+2025-07-21 03:47:09,306 - INFO - [Station_10_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:47:09,439 - WARNING - [Station_10_s0.889_s0.889_h3.000] 834 sliver triangles removed
+2025-07-21 03:47:09,440 - INFO - [Station_10_s0.889_s0.889_h3.000] mesh ok | nodes=5060 elems=1252 | A[min=1e-08 max=2e-07 mean=5.75e-08 med=4.24e-08] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-21 03:47:09,938 - INFO - [Station_10_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.889\mesh_Station_10_s0.889_s0.889_h3.000.png
+2025-07-21 03:47:09,942 - INFO - [Station_10_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:47:10,452 - INFO - [Station_10_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:47:11,672 - INFO - [Station_10_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:47:11,672 - INFO - [Station_10_s0.889_s0.889_h3.000] Optimisation result generated (Jt=1635, Iz=626.3)
+2025-07-21 03:47:13,714 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:47:13,729 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:47:13,738 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:47:13,739 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:47:13,740 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:47:13,740 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:47:13,960 - INFO - Zipped 208 points
+2025-07-21 03:47:14,107 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:47:14,330 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:47:14,330 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:47:14,330 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:47:14,330 - INFO - [Station_10] Section translated.
+2025-07-21 03:47:15,910 - INFO - Starting optimisation run: Station_10_s0.941_s0.941_h3.000
+2025-07-21 03:47:15,910 - INFO - [Station_10_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:47:15,923 - WARNING - [Station_10_s0.941_s0.941_h3.000] 891 sliver triangles removed
+2025-07-21 03:47:15,930 - INFO - [Station_10_s0.941_s0.941_h3.000] mesh ok | nodes=4638 elems=917 | A[min=1e-08 max=1.36e-07 mean=4.23e-08 med=4.4e-08] | q[min=0.605 max=1.000 mean=0.900]
+2025-07-21 03:47:16,393 - INFO - [Station_10_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.941\mesh_Station_10_s0.941_s0.941_h3.000.png
+2025-07-21 03:47:16,396 - INFO - [Station_10_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:47:16,844 - INFO - [Station_10_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:47:18,119 - INFO - [Station_10_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:47:18,119 - INFO - [Station_10_s0.941_s0.941_h3.000] Optimisation result generated (Jt=675.7, Iz=363)
+2025-07-21 03:47:20,022 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_10.dxf'
+2025-07-21 03:47:20,040 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:47:20,044 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:47:20,045 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:47:20,046 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:47:20,050 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:47:20,277 - INFO - Zipped 208 points
+2025-07-21 03:47:20,290 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:47:20,536 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-21 03:47:20,537 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-21 03:47:20,539 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-21 03:47:20,542 - INFO - [Station_10] Section translated.
+2025-07-21 03:47:22,361 - INFO - Starting optimisation run: Station_10_s0.995_s0.995_h3.000
+2025-07-21 03:47:22,361 - INFO - [Station_10_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:47:24,228 - WARNING - [Station_10_s0.995_s0.995_h3.000] 85104 sliver triangles removed
+2025-07-21 03:47:24,228 - INFO - [Station_10_s0.995_s0.995_h3.000] mesh ok | nodes=255260 elems=24 | A[min=1.05e-08 max=1.23e-08 mean=1.13e-08 med=1.12e-08] | q[min=0.730 max=0.858 mean=0.792]
+2025-07-21 03:47:32,547 - INFO - [Station_10_s0.995_s0.995_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_10\s0.995\mesh_Station_10_s0.995_s0.995_h3.000.png
+2025-07-21 03:47:32,557 - INFO - [Station_10_s0.995_s0.995_h3.000] Starting geometric analysis...
+2025-07-21 03:47:52,399 - INFO - [Station_10_s0.995_s0.995_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:48:39,650 - INFO - [Station_10_s0.995_s0.995_h3.000] Success at h = 3.0000
+2025-07-21 03:48:39,650 - INFO - [Station_10_s0.995_s0.995_h3.000] Optimisation result generated (Jt=6.934, Iz=33.19)
+2025-07-21 03:48:41,654 - INFO - Processing station: Station_12
+2025-07-21 03:48:41,980 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:48:42,005 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:48:42,008 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:48:42,012 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:48:42,013 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:48:42,018 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:48:42,101 - INFO - Zipped 91 points
+2025-07-21 03:48:42,126 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:48:43,271 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:48:43,276 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:48:43,276 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:48:43,276 - INFO - [Station_12] Section translated.
+2025-07-21 03:48:45,033 - INFO - Starting optimisation run: Station_12_s0.600_s0.600_h3.000
+2025-07-21 03:48:45,036 - INFO - [Station_12_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:48:45,160 - WARNING - [Station_12_s0.600_s0.600_h3.000] 1040 sliver triangles removed
+2025-07-21 03:48:45,162 - INFO - [Station_12_s0.600_s0.600_h3.000] mesh ok | nodes=7864 elems=2476 | A[min=1e-08 max=7.62e-07 mean=6.49e-08 med=4.71e-08] | q[min=0.603 max=1.000 mean=0.880]
+2025-07-21 03:48:45,900 - INFO - [Station_12_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.600\mesh_Station_12_s0.600_s0.600_h3.000.png
+2025-07-21 03:48:45,900 - INFO - [Station_12_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:48:46,851 - INFO - [Station_12_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:48:48,914 - INFO - [Station_12_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:48:48,915 - INFO - [Station_12_s0.600_s0.600_h3.000] Optimisation result generated (Jt=2656, Iz=761.1)
+2025-07-21 03:48:50,966 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:48:50,985 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:48:50,989 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:48:50,989 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:48:50,989 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:48:50,989 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:48:51,084 - INFO - Zipped 91 points
+2025-07-21 03:48:51,111 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:48:51,321 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:48:51,321 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:48:51,321 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:48:51,321 - INFO - [Station_12] Section translated.
+2025-07-21 03:48:52,885 - INFO - Starting optimisation run: Station_12_s0.635_s0.635_h3.000
+2025-07-21 03:48:52,890 - INFO - [Station_12_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:48:53,031 - WARNING - [Station_12_s0.635_s0.635_h3.000] 1032 sliver triangles removed
+2025-07-21 03:48:53,033 - INFO - [Station_12_s0.635_s0.635_h3.000] mesh ok | nodes=7744 elems=2422 | A[min=1e-08 max=1.17e-06 mean=6.19e-08 med=4.67e-08] | q[min=0.604 max=1.000 mean=0.883]
+2025-07-21 03:48:53,683 - INFO - [Station_12_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.635\mesh_Station_12_s0.635_s0.635_h3.000.png
+2025-07-21 03:48:53,687 - INFO - [Station_12_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:48:54,450 - INFO - [Station_12_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:48:56,568 - INFO - [Station_12_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:48:56,570 - INFO - [Station_12_s0.635_s0.635_h3.000] Optimisation result generated (Jt=2524, Iz=732.5)
+2025-07-21 03:48:58,728 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:48:58,732 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:48:58,752 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:48:58,753 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:48:58,755 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:48:58,758 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:48:58,859 - INFO - Zipped 91 points
+2025-07-21 03:48:58,880 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:48:59,083 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:48:59,083 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:48:59,098 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:48:59,105 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:00,804 - INFO - Starting optimisation run: Station_12_s0.671_s0.671_h3.000
+2025-07-21 03:49:00,807 - INFO - [Station_12_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:00,827 - WARNING - [Station_12_s0.671_s0.671_h3.000] 1021 sliver triangles removed
+2025-07-21 03:49:00,829 - INFO - [Station_12_s0.671_s0.671_h3.000] mesh ok | nodes=7605 elems=2364 | A[min=1e-08 max=6.33e-07 mean=5.83e-08 med=4.74e-08] | q[min=0.603 max=1.000 mean=0.885]
+2025-07-21 03:49:01,565 - INFO - [Station_12_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.671\mesh_Station_12_s0.671_s0.671_h3.000.png
+2025-07-21 03:49:01,565 - INFO - [Station_12_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:49:02,384 - INFO - [Station_12_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:04,432 - INFO - [Station_12_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:49:04,432 - INFO - [Station_12_s0.671_s0.671_h3.000] Optimisation result generated (Jt=2364, Iz=696.8)
+2025-07-21 03:49:06,399 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:06,569 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:06,575 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:06,577 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:06,578 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:06,582 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:06,650 - INFO - Zipped 91 points
+2025-07-21 03:49:06,686 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:06,884 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:06,884 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:06,884 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:06,900 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:08,552 - INFO - Starting optimisation run: Station_12_s0.710_s0.710_h3.000
+2025-07-21 03:49:08,552 - INFO - [Station_12_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:08,574 - WARNING - [Station_12_s0.710_s0.710_h3.000] 968 sliver triangles removed
+2025-07-21 03:49:08,576 - INFO - [Station_12_s0.710_s0.710_h3.000] mesh ok | nodes=7184 elems=2208 | A[min=1e-08 max=3.94e-07 mean=5.61e-08 med=4.69e-08] | q[min=0.604 max=1.000 mean=0.883]
+2025-07-21 03:49:09,282 - INFO - [Station_12_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.710\mesh_Station_12_s0.710_s0.710_h3.000.png
+2025-07-21 03:49:09,286 - INFO - [Station_12_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:49:10,083 - INFO - [Station_12_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:11,996 - INFO - [Station_12_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:49:11,996 - INFO - [Station_12_s0.710_s0.710_h3.000] Optimisation result generated (Jt=2170, Iz=652)
+2025-07-21 03:49:13,945 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:13,957 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:13,957 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:13,970 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:13,971 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:13,975 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:14,050 - INFO - Zipped 91 points
+2025-07-21 03:49:14,082 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:14,300 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:14,301 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:14,303 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:14,305 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:16,081 - INFO - Starting optimisation run: Station_12_s0.751_s0.751_h3.000
+2025-07-21 03:49:16,087 - INFO - [Station_12_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:16,121 - WARNING - [Station_12_s0.751_s0.751_h3.000] 930 sliver triangles removed
+2025-07-21 03:49:16,121 - INFO - [Station_12_s0.751_s0.751_h3.000] mesh ok | nodes=6688 elems=1998 | A[min=1e-08 max=3.91e-07 mean=5.44e-08 med=4.64e-08] | q[min=0.601 max=1.000 mean=0.879]
+2025-07-21 03:49:16,750 - INFO - [Station_12_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.751\mesh_Station_12_s0.751_s0.751_h3.000.png
+2025-07-21 03:49:16,766 - INFO - [Station_12_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:49:17,449 - INFO - [Station_12_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:19,054 - INFO - [Station_12_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:49:19,056 - INFO - [Station_12_s0.751_s0.751_h3.000] Optimisation result generated (Jt=1935, Iz=595.9)
+2025-07-21 03:49:21,169 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:21,186 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:21,190 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:21,192 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:21,194 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:21,197 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:21,353 - INFO - Zipped 91 points
+2025-07-21 03:49:21,407 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:21,701 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:21,703 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:21,705 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:21,708 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:23,674 - INFO - Starting optimisation run: Station_12_s0.795_s0.795_h3.000
+2025-07-21 03:49:23,674 - INFO - [Station_12_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:23,695 - WARNING - [Station_12_s0.795_s0.795_h3.000] 994 sliver triangles removed
+2025-07-21 03:49:23,697 - INFO - [Station_12_s0.795_s0.795_h3.000] mesh ok | nodes=6567 elems=1871 | A[min=1e-08 max=2.4e-07 mean=4.89e-08 med=4.31e-08] | q[min=0.604 max=1.000 mean=0.889]
+2025-07-21 03:49:24,331 - INFO - [Station_12_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.795\mesh_Station_12_s0.795_s0.795_h3.000.png
+2025-07-21 03:49:24,331 - INFO - [Station_12_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:49:25,088 - INFO - [Station_12_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:26,877 - INFO - [Station_12_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:49:26,879 - INFO - [Station_12_s0.795_s0.795_h3.000] Optimisation result generated (Jt=1650, Iz=525.7)
+2025-07-21 03:49:28,935 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:28,952 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:28,956 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:28,958 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:28,960 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:28,963 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:29,033 - INFO - Zipped 91 points
+2025-07-21 03:49:29,068 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:29,353 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:29,355 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:29,356 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:29,359 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:30,956 - INFO - Starting optimisation run: Station_12_s0.841_s0.841_h3.000
+2025-07-21 03:49:30,959 - INFO - [Station_12_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:30,962 - WARNING - [Station_12_s0.841_s0.841_h3.000] 892 sliver triangles removed
+2025-07-21 03:49:30,977 - INFO - [Station_12_s0.841_s0.841_h3.000] mesh ok | nodes=5870 elems=1620 | A[min=1e-08 max=2.06e-07 mean=4.47e-08 med=3.88e-08] | q[min=0.601 max=1.000 mean=0.896]
+2025-07-21 03:49:31,615 - INFO - [Station_12_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.841\mesh_Station_12_s0.841_s0.841_h3.000.png
+2025-07-21 03:49:31,615 - INFO - [Station_12_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:49:32,232 - INFO - [Station_12_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:33,651 - INFO - [Station_12_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:49:33,653 - INFO - [Station_12_s0.841_s0.841_h3.000] Optimisation result generated (Jt=1299, Iz=437.8)
+2025-07-21 03:49:35,628 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:35,636 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:35,650 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:35,653 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:35,654 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:35,658 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:35,728 - INFO - Zipped 91 points
+2025-07-21 03:49:35,764 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:35,976 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:35,978 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:35,979 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:36,135 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:37,805 - INFO - Starting optimisation run: Station_12_s0.889_s0.889_h3.000
+2025-07-21 03:49:37,805 - INFO - [Station_12_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:37,823 - WARNING - [Station_12_s0.889_s0.889_h3.000] 914 sliver triangles removed
+2025-07-21 03:49:37,825 - INFO - [Station_12_s0.889_s0.889_h3.000] mesh ok | nodes=5134 elems=1212 | A[min=1e-08 max=1.21e-07 mean=4.2e-08 med=3.11e-08] | q[min=0.602 max=1.000 mean=0.891]
+2025-07-21 03:49:38,335 - INFO - [Station_12_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.889\mesh_Station_12_s0.889_s0.889_h3.000.png
+2025-07-21 03:49:38,338 - INFO - [Station_12_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:49:38,882 - INFO - [Station_12_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:40,098 - INFO - [Station_12_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:49:40,102 - INFO - [Station_12_s0.889_s0.889_h3.000] Optimisation result generated (Jt=676.9, Iz=327.7)
+2025-07-21 03:49:42,273 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:42,289 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:42,297 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:42,298 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:42,299 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:42,299 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:42,383 - INFO - Zipped 91 points
+2025-07-21 03:49:42,405 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:42,621 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:42,621 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:42,621 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:42,621 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:44,276 - INFO - Starting optimisation run: Station_12_s0.941_s0.941_h3.000
+2025-07-21 03:49:44,279 - INFO - [Station_12_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:44,286 - WARNING - [Station_12_s0.941_s0.941_h3.000] 1118 sliver triangles removed
+2025-07-21 03:49:44,295 - INFO - [Station_12_s0.941_s0.941_h3.000] mesh ok | nodes=5037 elems=863 | A[min=1.01e-08 max=9.75e-08 mean=3.1e-08 med=3.35e-08] | q[min=0.610 max=1.000 mean=0.902]
+2025-07-21 03:49:44,779 - INFO - [Station_12_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_12\s0.941\mesh_Station_12_s0.941_s0.941_h3.000.png
+2025-07-21 03:49:44,779 - INFO - [Station_12_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:49:45,532 - INFO - [Station_12_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:46,682 - INFO - [Station_12_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:49:46,682 - INFO - [Station_12_s0.941_s0.941_h3.000] Optimisation result generated (Jt=312.2, Iz=190)
+2025-07-21 03:49:48,901 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_12.dxf'
+2025-07-21 03:49:48,909 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:48,919 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:48,924 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:48,926 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:48,929 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:49,003 - INFO - Zipped 91 points
+2025-07-21 03:49:49,024 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:49,248 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-21 03:49:49,249 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-21 03:49:49,249 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-21 03:49:49,249 - INFO - [Station_12] Section translated.
+2025-07-21 03:49:51,561 - INFO - Starting optimisation run: Station_12_s0.995_s0.995_h3.000
+2025-07-21 03:49:51,564 - INFO - [Station_12_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:51,789 - WARNING - [Station_12_s0.995_s0.995_h3.000] 9119 sliver triangles removed
+2025-07-21 03:49:51,804 - ERROR - [Station_12_s0.995_s0.995_h3.000] mesh failed: zero-size array to reduction operation minimum which has no identity
+Traceback (most recent call last):
+  File "c:\Users\samea\Desktop\geometry_tools\section_calc_n\geometry_utils\mesh_dxf.py", line 92, in _mesh
+    self.min_a, self.max_a = float(tri_area.min()), float(tri_area.max())
+                                   ^^^^^^^^^^^^^^
+  File "C:\Users\samea\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_core\_methods.py", line 47, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity
+2025-07-21 03:49:51,821 - ERROR - [Station_12_s0.995_s0.995_h3.000] Mesh missing or invalid — skipping
+2025-07-21 03:49:52,065 - INFO - Processing station: Station_14
+2025-07-21 03:49:52,300 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:49:52,318 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:49:52,322 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:49:52,324 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:49:52,326 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:49:52,329 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:49:52,448 - INFO - Zipped 73 points
+2025-07-21 03:49:52,469 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:49:53,481 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:49:53,481 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:49:53,481 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:49:53,481 - INFO - [Station_14] Section translated.
+2025-07-21 03:49:55,674 - INFO - Starting optimisation run: Station_14_s0.600_s0.600_h3.000
+2025-07-21 03:49:55,677 - INFO - [Station_14_s0.600_s0.600_h3.000] Meshing with target h = 3 …
+2025-07-21 03:49:55,686 - WARNING - [Station_14_s0.600_s0.600_h3.000] 1287 sliver triangles removed
+2025-07-21 03:49:55,699 - INFO - [Station_14_s0.600_s0.600_h3.000] mesh ok | nodes=7845 elems=2216 | A[min=1e-08 max=6.79e-07 mean=4.87e-08 med=3.52e-08] | q[min=0.604 max=1.000 mean=0.880]
+2025-07-21 03:49:56,379 - INFO - [Station_14_s0.600_s0.600_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.600\mesh_Station_14_s0.600_s0.600_h3.000.png
+2025-07-21 03:49:56,382 - INFO - [Station_14_s0.600_s0.600_h3.000] Starting geometric analysis...
+2025-07-21 03:49:57,430 - INFO - [Station_14_s0.600_s0.600_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:49:59,564 - INFO - [Station_14_s0.600_s0.600_h3.000] Success at h = 3.0000
+2025-07-21 03:49:59,566 - INFO - [Station_14_s0.600_s0.600_h3.000] Optimisation result generated (Jt=1231, Iz=350.3)
+2025-07-21 03:50:01,962 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:01,985 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:01,990 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:01,992 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:01,994 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:01,998 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:02,134 - INFO - Zipped 73 points
+2025-07-21 03:50:02,392 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:02,605 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:02,605 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:02,605 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:02,614 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:04,272 - INFO - Starting optimisation run: Station_14_s0.635_s0.635_h3.000
+2025-07-21 03:50:04,272 - INFO - [Station_14_s0.635_s0.635_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:04,293 - WARNING - [Station_14_s0.635_s0.635_h3.000] 1238 sliver triangles removed
+2025-07-21 03:50:04,300 - INFO - [Station_14_s0.635_s0.635_h3.000] mesh ok | nodes=7634 elems=2160 | A[min=1e-08 max=4.94e-07 mean=4.65e-08 med=3.47e-08] | q[min=0.605 max=1.000 mean=0.885]
+2025-07-21 03:50:04,914 - INFO - [Station_14_s0.635_s0.635_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.635\mesh_Station_14_s0.635_s0.635_h3.000.png
+2025-07-21 03:50:04,914 - INFO - [Station_14_s0.635_s0.635_h3.000] Starting geometric analysis...
+2025-07-21 03:50:05,737 - INFO - [Station_14_s0.635_s0.635_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:08,035 - INFO - [Station_14_s0.635_s0.635_h3.000] Success at h = 3.0000
+2025-07-21 03:50:08,035 - INFO - [Station_14_s0.635_s0.635_h3.000] Optimisation result generated (Jt=1169, Iz=337.2)
+2025-07-21 03:50:10,143 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:10,163 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:10,168 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:10,170 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:10,172 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:10,175 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:10,293 - INFO - Zipped 73 points
+2025-07-21 03:50:10,316 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:10,590 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:10,590 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:10,590 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:10,590 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:13,002 - INFO - Starting optimisation run: Station_14_s0.671_s0.671_h3.000
+2025-07-21 03:50:13,004 - INFO - [Station_14_s0.671_s0.671_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:13,016 - WARNING - [Station_14_s0.671_s0.671_h3.000] 1187 sliver triangles removed
+2025-07-21 03:50:13,016 - INFO - [Station_14_s0.671_s0.671_h3.000] mesh ok | nodes=7317 elems=2052 | A[min=1e-08 max=4.58e-07 mean=4.5e-08 med=3.47e-08] | q[min=0.601 max=1.000 mean=0.883]
+2025-07-21 03:50:13,714 - INFO - [Station_14_s0.671_s0.671_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.671\mesh_Station_14_s0.671_s0.671_h3.000.png
+2025-07-21 03:50:13,714 - INFO - [Station_14_s0.671_s0.671_h3.000] Starting geometric analysis...
+2025-07-21 03:50:14,556 - INFO - [Station_14_s0.671_s0.671_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:16,732 - INFO - [Station_14_s0.671_s0.671_h3.000] Success at h = 3.0000
+2025-07-21 03:50:16,734 - INFO - [Station_14_s0.671_s0.671_h3.000] Optimisation result generated (Jt=1096, Iz=320.7)
+2025-07-21 03:50:18,974 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:18,994 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:18,997 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:19,002 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:19,004 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:19,007 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:19,108 - INFO - Zipped 73 points
+2025-07-21 03:50:19,348 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:19,582 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:19,582 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:19,582 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:19,582 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:21,452 - INFO - Starting optimisation run: Station_14_s0.710_s0.710_h3.000
+2025-07-21 03:50:21,454 - INFO - [Station_14_s0.710_s0.710_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:21,474 - WARNING - [Station_14_s0.710_s0.710_h3.000] 1155 sliver triangles removed
+2025-07-21 03:50:21,476 - INFO - [Station_14_s0.710_s0.710_h3.000] mesh ok | nodes=6980 elems=1915 | A[min=1e-08 max=7.06e-07 mean=4.34e-08 med=3.47e-08] | q[min=0.603 max=1.000 mean=0.879]
+2025-07-21 03:50:22,064 - INFO - [Station_14_s0.710_s0.710_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.710\mesh_Station_14_s0.710_s0.710_h3.000.png
+2025-07-21 03:50:22,081 - INFO - [Station_14_s0.710_s0.710_h3.000] Starting geometric analysis...
+2025-07-21 03:50:22,848 - INFO - [Station_14_s0.710_s0.710_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:24,832 - INFO - [Station_14_s0.710_s0.710_h3.000] Success at h = 3.0000
+2025-07-21 03:50:24,834 - INFO - [Station_14_s0.710_s0.710_h3.000] Optimisation result generated (Jt=1007, Iz=300.1)
+2025-07-21 03:50:27,300 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:27,319 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:27,326 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:27,329 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:27,329 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:27,329 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:27,442 - INFO - Zipped 73 points
+2025-07-21 03:50:27,471 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:27,727 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:27,729 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:27,730 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:27,735 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:29,562 - INFO - Starting optimisation run: Station_14_s0.751_s0.751_h3.000
+2025-07-21 03:50:29,564 - INFO - [Station_14_s0.751_s0.751_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:29,702 - WARNING - [Station_14_s0.751_s0.751_h3.000] 1097 sliver triangles removed
+2025-07-21 03:50:29,704 - INFO - [Station_14_s0.751_s0.751_h3.000] mesh ok | nodes=6526 elems=1747 | A[min=1e-08 max=3.77e-07 mean=4.17e-08 med=3.44e-08] | q[min=0.607 max=1.000 mean=0.881]
+2025-07-21 03:50:30,285 - INFO - [Station_14_s0.751_s0.751_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.751\mesh_Station_14_s0.751_s0.751_h3.000.png
+2025-07-21 03:50:30,285 - INFO - [Station_14_s0.751_s0.751_h3.000] Starting geometric analysis...
+2025-07-21 03:50:31,034 - INFO - [Station_14_s0.751_s0.751_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:32,863 - INFO - [Station_14_s0.751_s0.751_h3.000] Success at h = 3.0000
+2025-07-21 03:50:32,865 - INFO - [Station_14_s0.751_s0.751_h3.000] Optimisation result generated (Jt=900, Iz=274.3)
+2025-07-21 03:50:35,114 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:35,130 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:35,136 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:35,137 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:35,139 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:35,142 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:35,326 - INFO - Zipped 73 points
+2025-07-21 03:50:35,347 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:35,577 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:35,578 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:35,580 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:35,580 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:37,228 - INFO - Starting optimisation run: Station_14_s0.795_s0.795_h3.000
+2025-07-21 03:50:37,231 - INFO - [Station_14_s0.795_s0.795_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:37,247 - WARNING - [Station_14_s0.795_s0.795_h3.000] 1087 sliver triangles removed
+2025-07-21 03:50:37,250 - INFO - [Station_14_s0.795_s0.795_h3.000] mesh ok | nodes=6129 elems=1556 | A[min=1e-08 max=3.3e-07 mean=3.93e-08 med=3.28e-08] | q[min=0.603 max=1.000 mean=0.888]
+2025-07-21 03:50:37,929 - INFO - [Station_14_s0.795_s0.795_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.795\mesh_Station_14_s0.795_s0.795_h3.000.png
+2025-07-21 03:50:37,929 - INFO - [Station_14_s0.795_s0.795_h3.000] Starting geometric analysis...
+2025-07-21 03:50:38,654 - INFO - [Station_14_s0.795_s0.795_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:40,186 - INFO - [Station_14_s0.795_s0.795_h3.000] Success at h = 3.0000
+2025-07-21 03:50:40,186 - INFO - [Station_14_s0.795_s0.795_h3.000] Optimisation result generated (Jt=769.9, Iz=242)
+2025-07-21 03:50:42,307 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:42,321 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:42,321 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:42,321 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:42,321 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:42,321 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:42,430 - INFO - Zipped 73 points
+2025-07-21 03:50:42,460 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:42,708 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:42,709 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:42,711 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:42,713 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:44,642 - INFO - Starting optimisation run: Station_14_s0.841_s0.841_h3.000
+2025-07-21 03:50:44,642 - INFO - [Station_14_s0.841_s0.841_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:44,662 - WARNING - [Station_14_s0.841_s0.841_h3.000] 978 sliver triangles removed
+2025-07-21 03:50:44,665 - INFO - [Station_14_s0.841_s0.841_h3.000] mesh ok | nodes=5452 elems=1320 | A[min=1e-08 max=2.8e-07 mean=3.67e-08 med=3.16e-08] | q[min=0.602 max=1.000 mean=0.907]
+2025-07-21 03:50:45,251 - INFO - [Station_14_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.841\mesh_Station_14_s0.841_s0.841_h3.000.png
+2025-07-21 03:50:45,251 - INFO - [Station_14_s0.841_s0.841_h3.000] Starting geometric analysis...
+2025-07-21 03:50:45,896 - INFO - [Station_14_s0.841_s0.841_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:47,375 - INFO - [Station_14_s0.841_s0.841_h3.000] Success at h = 3.0000
+2025-07-21 03:50:47,377 - INFO - [Station_14_s0.841_s0.841_h3.000] Optimisation result generated (Jt=570.7, Iz=201.5)
+2025-07-21 03:50:49,489 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:49,505 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:49,510 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:49,514 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:49,517 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:49,517 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:49,642 - INFO - Zipped 73 points
+2025-07-21 03:50:49,661 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:49,868 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:49,868 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:49,868 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:49,868 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:51,860 - INFO - Starting optimisation run: Station_14_s0.889_s0.889_h3.000
+2025-07-21 03:50:51,860 - INFO - [Station_14_s0.889_s0.889_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:51,879 - WARNING - [Station_14_s0.889_s0.889_h3.000] 974 sliver triangles removed
+2025-07-21 03:50:51,882 - INFO - [Station_14_s0.889_s0.889_h3.000] mesh ok | nodes=4547 elems=841 | A[min=1e-08 max=1.57e-07 mean=4.07e-08 med=4.34e-08] | q[min=0.603 max=1.000 mean=0.887]
+2025-07-21 03:50:52,401 - INFO - [Station_14_s0.889_s0.889_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.889\mesh_Station_14_s0.889_s0.889_h3.000.png
+2025-07-21 03:50:52,405 - INFO - [Station_14_s0.889_s0.889_h3.000] Starting geometric analysis...
+2025-07-21 03:50:53,074 - INFO - [Station_14_s0.889_s0.889_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:50:54,129 - INFO - [Station_14_s0.889_s0.889_h3.000] Success at h = 3.0000
+2025-07-21 03:50:54,148 - INFO - [Station_14_s0.889_s0.889_h3.000] Optimisation result generated (Jt=298.5, Iz=150.9)
+2025-07-21 03:50:56,313 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:50:56,331 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:50:56,338 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:50:56,340 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:50:56,342 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:50:56,345 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:50:56,444 - INFO - Zipped 73 points
+2025-07-21 03:50:56,475 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:50:56,679 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:50:56,679 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:50:56,696 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:50:56,699 - INFO - [Station_14] Section translated.
+2025-07-21 03:50:58,738 - INFO - Starting optimisation run: Station_14_s0.941_s0.941_h3.000
+2025-07-21 03:50:58,740 - INFO - [Station_14_s0.941_s0.941_h3.000] Meshing with target h = 3 …
+2025-07-21 03:50:58,756 - WARNING - [Station_14_s0.941_s0.941_h3.000] 1009 sliver triangles removed
+2025-07-21 03:50:58,757 - INFO - [Station_14_s0.941_s0.941_h3.000] mesh ok | nodes=4242 elems=591 | A[min=1.01e-08 max=1.07e-07 mean=3.15e-08 med=2.7e-08] | q[min=0.750 max=1.000 mean=0.912]
+2025-07-21 03:50:59,218 - INFO - [Station_14_s0.941_s0.941_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation\Station_14\s0.941\mesh_Station_14_s0.941_s0.941_h3.000.png
+2025-07-21 03:50:59,221 - INFO - [Station_14_s0.941_s0.941_h3.000] Starting geometric analysis...
+2025-07-21 03:50:59,719 - INFO - [Station_14_s0.941_s0.941_h3.000] Starting warping analysis (required for J)...
+2025-07-21 03:51:00,646 - INFO - [Station_14_s0.941_s0.941_h3.000] Success at h = 3.0000
+2025-07-21 03:51:00,646 - INFO - [Station_14_s0.941_s0.941_h3.000] Optimisation result generated (Jt=162.5, Iz=87.51)
+2025-07-21 03:51:03,193 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\section_calc_n\blade\Station_14.dxf'
+2025-07-21 03:51:03,215 - INFO - DXF version upgrade to DXF R2000.
+2025-07-21 03:51:03,220 - INFO - creating ACAD_COLOR dictionary
+2025-07-21 03:51:03,222 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-21 03:51:03,222 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-21 03:51:03,222 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-21 03:51:03,329 - INFO - Zipped 73 points
+2025-07-21 03:51:03,352 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:51:03,573 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:51:03,575 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:51:03,576 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:51:03,580 - INFO - [Station_14] Section translated.
+2025-07-21 03:51:05,544 - INFO - Starting optimisation run: Station_14_s0.995_s0.995_h3.000
+2025-07-21 03:51:05,550 - INFO - [Station_14_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:51:05,724 - WARNING - [Station_14_s0.995_s0.995_h3.000] 7719 sliver triangles removed
+2025-07-21 03:51:05,726 - ERROR - [Station_14_s0.995_s0.995_h3.000] mesh failed: zero-size array to reduction operation minimum which has no identity
+Traceback (most recent call last):
+  File "c:\Users\samea\Desktop\geometry_tools\section_calc_n\geometry_utils\mesh_dxf.py", line 92, in _mesh
+    self.min_a, self.max_a = float(tri_area.min()), float(tri_area.max())
+                                   ^^^^^^^^^^^^^^
+  File "C:\Users\samea\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_core\_methods.py", line 47, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity
+2025-07-21 03:51:05,730 - ERROR - [Station_14_s0.995_s0.995_h3.000] Mesh missing or invalid — skipping
+2025-07-21 03:51:05,987 - INFO - Section optimisation process complete — results in: C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation

@@ -1,0 +1,19 @@
+2025-07-21 03:51:03,352 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-21 03:51:03,573 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-21 03:51:03,575 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-21 03:51:03,576 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-21 03:51:03,580 - INFO - [Station_14] Section translated.
+2025-07-21 03:51:05,544 - INFO - Starting optimisation run: Station_14_s0.995_s0.995_h3.000
+2025-07-21 03:51:05,550 - INFO - [Station_14_s0.995_s0.995_h3.000] Meshing with target h = 3 …
+2025-07-21 03:51:05,724 - WARNING - [Station_14_s0.995_s0.995_h3.000] 7719 sliver triangles removed
+2025-07-21 03:51:05,726 - ERROR - [Station_14_s0.995_s0.995_h3.000] mesh failed: zero-size array to reduction operation minimum which has no identity
+Traceback (most recent call last):
+  File "c:\Users\samea\Desktop\geometry_tools\section_calc_n\geometry_utils\mesh_dxf.py", line 92, in _mesh
+    self.min_a, self.max_a = float(tri_area.min()), float(tri_area.max())
+                                   ^^^^^^^^^^^^^^
+  File "C:\Users\samea\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_core\_methods.py", line 47, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation minimum which has no identity
+2025-07-21 03:51:05,730 - ERROR - [Station_14_s0.995_s0.995_h3.000] Mesh missing or invalid — skipping
+2025-07-21 03:51:05,987 - INFO - Section optimisation process complete — results in: C:\Users\samea\Desktop\geometry_tools\section_calc_n\results\optimisation
