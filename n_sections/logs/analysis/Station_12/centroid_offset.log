@@ -1,362 +1,382 @@
-2025-07-29 20:09:41,714 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 20:09:42,214 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
-2025-07-29 20:09:42,214 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
-2025-07-29 20:09:42,215 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
-2025-07-29 20:09:42,216 - INFO - [Station_12] Section translated.
-2025-07-29 20:09:42,218 - INFO - Processed and aligned geometry extracted for Station_12
-2025-07-29 20:09:43,194 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\processed_Station_12.png
-2025-07-29 20:09:43,194 - INFO - Starting section convergence study …
-2025-07-29 20:09:43,195 - INFO - [1/5] Meshing Station_12 with h = 40
-2025-07-29 20:09:43,196 - INFO - [Station_12_h40] Meshing with target h = 40 …
-2025-07-29 20:09:43,205 - WARNING - [Station_12_h40] 387 sliver triangles removed
-2025-07-29 20:09:43,206 - INFO - [Station_12_h40] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 20:09:43,334 - INFO - [Station_12_h40] Starting geometric analysis...
-2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Area = 0.000190729
-2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Perimeter = 0.106384
-2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cx = 0.00106
-2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cy = -0.00452
-2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Ixx = 8.61287e-10
-2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Iyy = 3.01772e-08
-2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ixy = 7.91093e-10
-2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ip = 3.10385e-08
-2025-07-29 20:09:43,809 - INFO - [Station_12_h40] Principal I1 = 3.01985e-08
-2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Principal I2 = 8.39955e-10
-2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius rx = 0.00212503
-2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius ry = 0.0125786
-2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sx returned None.
-2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sy returned None.
-2025-07-29 20:09:43,811 - ERROR - [Station_12_h40] Incomplete geometric properties.
-2025-07-29 20:09:43,812 - INFO - [Station_12_h40] Starting warping analysis...
-2025-07-29 20:09:45,016 - INFO - [Station_12_h40] J = 2.91271e-09
-2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asx = 0.000157779
-2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asy = 9.44221e-06
-2025-07-29 20:09:45,018 - INFO - [Station_12_h40] SCx = -0.00446522
-2025-07-29 20:09:45,019 - INFO - [Station_12_h40] SCy = -0.00419031
-2025-07-29 20:09:45,019 - INFO - [Station_12_h40] Beta_x+ = 0.00614689
-2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_x- = -0.00614689
-2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_y+ = -0.0146399
-2025-07-29 20:09:45,021 - INFO - [Station_12_h40] Beta_y- = 0.0146399
-2025-07-29 20:09:45,021 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
-2025-07-29 20:09:45,024 - INFO - [2/5] Meshing Station_12 with h = 10
-2025-07-29 20:09:45,025 - INFO - [Station_12_h10] Meshing with target h = 10 …
-2025-07-29 20:09:45,035 - WARNING - [Station_12_h10] 387 sliver triangles removed
-2025-07-29 20:09:45,036 - INFO - [Station_12_h10] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 20:09:45,126 - INFO - [Station_12_h10] Starting geometric analysis...
-2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Area = 0.000190729
-2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Perimeter = 0.106384
-2025-07-29 20:09:45,259 - INFO - [Station_12_h10] Centroid cx = 0.00106
-2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Centroid cy = -0.00452
-2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Ixx = 8.61287e-10
-2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Iyy = 3.01772e-08
-2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Ixy = 7.91093e-10
-2025-07-29 20:09:45,262 - INFO - [Station_12_h10] Ip = 3.10385e-08
-2025-07-29 20:09:45,292 - INFO - [Station_12_h10] Principal I1 = 3.01985e-08
-2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Principal I2 = 8.39955e-10
-2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius rx = 0.00212503
-2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius ry = 0.0125786
-2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sx returned None.
-2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sy returned None.
-2025-07-29 20:09:45,294 - ERROR - [Station_12_h10] Incomplete geometric properties.
-2025-07-29 20:09:45,295 - INFO - [Station_12_h10] Starting warping analysis...
-2025-07-29 20:09:46,035 - INFO - [Station_12_h10] J = 2.91271e-09
-2025-07-29 20:09:46,035 - INFO - [Station_12_h10] Asx = 0.000157779
-2025-07-29 20:09:46,036 - INFO - [Station_12_h10] Asy = 9.44221e-06
-2025-07-29 20:09:46,036 - INFO - [Station_12_h10] SCx = -0.00446522
-2025-07-29 20:09:46,037 - INFO - [Station_12_h10] SCy = -0.00419031
-2025-07-29 20:09:46,037 - INFO - [Station_12_h10] Beta_x+ = 0.00614689
-2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_x- = -0.00614689
-2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_y+ = -0.0146399
-2025-07-29 20:09:46,039 - INFO - [Station_12_h10] Beta_y- = 0.0146399
-2025-07-29 20:09:46,039 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
-2025-07-29 20:09:46,043 - INFO - [3/5] Meshing Station_12 with h = 2.5
-2025-07-29 20:09:46,044 - INFO - [Station_12_h2.5] Meshing with target h = 2.5 …
-2025-07-29 20:09:46,059 - WARNING - [Station_12_h2.5] 387 sliver triangles removed
-2025-07-29 20:09:46,060 - INFO - [Station_12_h2.5] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 20:09:46,159 - INFO - [Station_12_h2.5] Starting geometric analysis...
-2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Area = 0.000190729
-2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Perimeter = 0.106384
-2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cx = 0.00106
-2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cy = -0.00452
-2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Ixx = 8.61287e-10
-2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Iyy = 3.01772e-08
-2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ixy = 7.91093e-10
-2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ip = 3.10385e-08
-2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I1 = 3.01985e-08
-2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I2 = 8.39955e-10
-2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius rx = 0.00212503
-2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius ry = 0.0125786
-2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sx returned None.
-2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sy returned None.
-2025-07-29 20:09:46,337 - ERROR - [Station_12_h2.5] Incomplete geometric properties.
-2025-07-29 20:09:46,337 - INFO - [Station_12_h2.5] Starting warping analysis...
-2025-07-29 20:09:47,069 - INFO - [Station_12_h2.5] J = 2.91271e-09
-2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asx = 0.000157779
-2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asy = 9.44221e-06
-2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCx = -0.00446522
-2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCy = -0.00419031
-2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x+ = 0.00614689
-2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x- = -0.00614689
-2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y+ = -0.0146399
-2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y- = 0.0146399
-2025-07-29 20:09:47,074 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 20:09:47,076 - INFO - [4/5] Meshing Station_12 with h = 0.625
-2025-07-29 20:09:47,077 - INFO - [Station_12_h0.625] Meshing with target h = 0.625 …
-2025-07-29 20:09:47,161 - WARNING - [Station_12_h0.625] 387 sliver triangles removed
-2025-07-29 20:09:47,162 - INFO - [Station_12_h0.625] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 20:09:47,248 - INFO - [Station_12_h0.625] Starting geometric analysis...
-2025-07-29 20:09:47,385 - INFO - [Station_12_h0.625] Area = 0.000190729
-2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Perimeter = 0.106384
-2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Centroid cx = 0.00106
-2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Centroid cy = -0.00452
-2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Ixx = 8.61287e-10
-2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Iyy = 3.01772e-08
-2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ixy = 7.91093e-10
-2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ip = 3.10385e-08
-2025-07-29 20:09:47,428 - INFO - [Station_12_h0.625] Principal I1 = 3.01985e-08
-2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Principal I2 = 8.39955e-10
-2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Radius rx = 0.00212503
-2025-07-29 20:09:47,430 - INFO - [Station_12_h0.625] Radius ry = 0.0125786
-2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sx returned None.
-2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sy returned None.
-2025-07-29 20:09:47,431 - ERROR - [Station_12_h0.625] Incomplete geometric properties.
-2025-07-29 20:09:47,431 - INFO - [Station_12_h0.625] Starting warping analysis...
-2025-07-29 20:09:48,256 - INFO - [Station_12_h0.625] J = 2.91271e-09
-2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asx = 0.000157779
-2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asy = 9.44221e-06
-2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCx = -0.00446522
-2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCy = -0.00419031
-2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] Beta_x+ = 0.00614689
-2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_x- = -0.00614689
-2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_y+ = -0.0146399
-2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] Beta_y- = 0.0146399
-2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 20:09:48,262 - INFO - [5/5] Meshing Station_12 with h = 0.1562
-2025-07-29 20:09:48,263 - INFO - [Station_12_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 20:09:48,273 - WARNING - [Station_12_h0.1562] 387 sliver triangles removed
-2025-07-29 20:09:48,274 - INFO - [Station_12_h0.1562] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 20:09:48,367 - INFO - [Station_12_h0.1562] Starting geometric analysis...
-2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Area = 0.000190729
-2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Perimeter = 0.106384
-2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cx = 0.00106
-2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cy = -0.00452
-2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Ixx = 8.61287e-10
-2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Iyy = 3.01772e-08
-2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ixy = 7.91093e-10
-2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ip = 3.10385e-08
-2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I1 = 3.01985e-08
-2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I2 = 8.39955e-10
-2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Radius rx = 0.00212503
-2025-07-29 20:09:48,536 - INFO - [Station_12_h0.1562] Radius ry = 0.0125786
-2025-07-29 20:09:48,536 - WARNING - [Station_12_h0.1562] Section modulus Sx returned None.
-2025-07-29 20:09:48,537 - WARNING - [Station_12_h0.1562] Section modulus Sy returned None.
-2025-07-29 20:09:48,537 - ERROR - [Station_12_h0.1562] Incomplete geometric properties.
-2025-07-29 20:09:48,537 - INFO - [Station_12_h0.1562] Starting warping analysis...
-2025-07-29 20:09:49,337 - INFO - [Station_12_h0.1562] J = 2.91271e-09
-2025-07-29 20:09:49,338 - INFO - [Station_12_h0.1562] Asx = 0.000157779
-2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] Asy = 9.44221e-06
-2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] SCx = -0.00446522
-2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] SCy = -0.00419031
-2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] Beta_x+ = 0.00614689
-2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_x- = -0.00614689
-2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_y+ = -0.0146399
-2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] Beta_y- = 0.0146399
-2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 20:09:49,345 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 20:09:50,204 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
-2025-07-29 20:09:51,180 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
-2025-07-29 20:09:51,852 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
-2025-07-29 20:09:52,575 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
-2025-07-29 20:09:53,966 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
-2025-07-29 20:09:54,926 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
-2025-07-29 20:09:55,523 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
-2025-07-29 20:09:56,413 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
-2025-07-29 20:09:56,416 - INFO - Section analysis result set saved
-2025-07-29 20:09:56,417 - INFO - Station Station_14 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf, twist=0.3°, centroid=(0.00, -0.00)
-2025-07-29 20:09:56,418 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
-2025-07-29 20:09:56,513 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 20:09:56,518 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 20:09:56,519 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 20:09:56,519 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 20:09:56,521 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
-2025-07-29 20:09:56,649 - INFO - Plotting 52 DXF entities for preview...
-2025-07-29 20:09:56,865 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\raw_Station_14.png
-2025-07-29 20:09:56,865 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf'
-2025-07-29 20:09:56,880 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 20:09:56,885 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 20:09:56,885 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 20:09:56,886 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 20:09:56,888 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-29 20:09:57,009 - INFO - Zipped 73 points
-2025-07-29 20:09:57,030 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 20:09:57,590 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
-2025-07-29 20:09:57,590 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
-2025-07-29 20:09:57,591 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
-2025-07-29 20:09:57,592 - INFO - [Station_14] Section translated.
-2025-07-29 20:09:57,594 - INFO - Processed and aligned geometry extracted for Station_14
-2025-07-29 20:09:58,668 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\processed_Station_14.png
-2025-07-29 20:09:58,669 - INFO - Starting section convergence study …
-2025-07-29 20:09:58,669 - INFO - [1/5] Meshing Station_14 with h = 40
-2025-07-29 20:09:58,670 - INFO - [Station_14_h40] Meshing with target h = 40 …
-2025-07-29 20:09:58,680 - WARNING - [Station_14_h40] 464 sliver triangles removed
-2025-07-29 20:09:58,681 - INFO - [Station_14_h40] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 20:09:58,765 - INFO - [Station_14_h40] Starting geometric analysis...
-2025-07-29 20:09:59,279 - INFO - [Station_14_h40] Area = 0.00017444
-2025-07-29 20:09:59,280 - INFO - [Station_14_h40] Perimeter = 0.0882077
-2025-07-29 20:09:59,281 - INFO - [Station_14_h40] Centroid cx = 0.000847
-2025-07-29 20:09:59,281 - INFO - [Station_14_h40] Centroid cy = -0.00243
-2025-07-29 20:09:59,282 - INFO - [Station_14_h40] Ixx = 4.1535e-10
-2025-07-29 20:09:59,283 - INFO - [Station_14_h40] Iyy = 1.57513e-08
-2025-07-29 20:09:59,283 - INFO - [Station_14_h40] Ixy = 4.44132e-10
-2025-07-29 20:09:59,284 - INFO - [Station_14_h40] Ip = 1.61667e-08
-2025-07-29 20:09:59,325 - INFO - [Station_14_h40] Principal I1 = 1.57642e-08
-2025-07-29 20:09:59,330 - INFO - [Station_14_h40] Principal I2 = 4.02498e-10
-2025-07-29 20:09:59,331 - INFO - [Station_14_h40] Radius rx = 0.00154306
-2025-07-29 20:09:59,332 - INFO - [Station_14_h40] Radius ry = 0.00950245
-2025-07-29 20:09:59,333 - WARNING - [Station_14_h40] Section modulus Sx returned None.
-2025-07-29 20:09:59,333 - WARNING - [Station_14_h40] Section modulus Sy returned None.
-2025-07-29 20:09:59,334 - ERROR - [Station_14_h40] Incomplete geometric properties.
-2025-07-29 20:09:59,335 - INFO - [Station_14_h40] Starting warping analysis...
-2025-07-29 20:10:00,505 - INFO - [Station_14_h40] J = 1.53645e-09
-2025-07-29 20:10:00,505 - INFO - [Station_14_h40] Asx = 0.000160077
-2025-07-29 20:10:00,506 - INFO - [Station_14_h40] Asy = 0.000113008
-2025-07-29 20:10:00,506 - INFO - [Station_14_h40] SCx = -0.000923524
-2025-07-29 20:10:00,507 - INFO - [Station_14_h40] SCy = -0.00223461
-2025-07-29 20:10:00,507 - INFO - [Station_14_h40] Beta_x+ = 0.00416929
-2025-07-29 20:10:00,509 - INFO - [Station_14_h40] Beta_x- = -0.00416929
-2025-07-29 20:10:00,509 - INFO - [Station_14_h40] Beta_y+ = -0.00611838
-2025-07-29 20:10:00,510 - INFO - [Station_14_h40] Beta_y- = 0.00611838
-2025-07-29 20:10:00,510 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
-2025-07-29 20:10:00,513 - INFO - [2/5] Meshing Station_14 with h = 10
-2025-07-29 20:10:00,514 - INFO - [Station_14_h10] Meshing with target h = 10 …
-2025-07-29 20:10:00,524 - WARNING - [Station_14_h10] 464 sliver triangles removed
-2025-07-29 20:10:00,525 - INFO - [Station_14_h10] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 20:10:00,606 - INFO - [Station_14_h10] Starting geometric analysis...
-2025-07-29 20:10:00,731 - INFO - [Station_14_h10] Area = 0.00017444
-2025-07-29 20:10:00,731 - INFO - [Station_14_h10] Perimeter = 0.0882077
-2025-07-29 20:10:00,732 - INFO - [Station_14_h10] Centroid cx = 0.000847
-2025-07-29 20:10:00,732 - INFO - [Station_14_h10] Centroid cy = -0.00243
-2025-07-29 20:10:00,733 - INFO - [Station_14_h10] Ixx = 4.1535e-10
-2025-07-29 20:10:00,734 - INFO - [Station_14_h10] Iyy = 1.57513e-08
-2025-07-29 20:10:00,734 - INFO - [Station_14_h10] Ixy = 4.44132e-10
-2025-07-29 20:10:00,735 - INFO - [Station_14_h10] Ip = 1.61667e-08
-2025-07-29 20:10:00,778 - INFO - [Station_14_h10] Principal I1 = 1.57642e-08
-2025-07-29 20:10:00,779 - INFO - [Station_14_h10] Principal I2 = 4.02498e-10
-2025-07-29 20:10:00,780 - INFO - [Station_14_h10] Radius rx = 0.00154306
-2025-07-29 20:10:00,780 - INFO - [Station_14_h10] Radius ry = 0.00950245
-2025-07-29 20:10:00,781 - WARNING - [Station_14_h10] Section modulus Sx returned None.
-2025-07-29 20:10:00,781 - WARNING - [Station_14_h10] Section modulus Sy returned None.
-2025-07-29 20:10:00,782 - ERROR - [Station_14_h10] Incomplete geometric properties.
-2025-07-29 20:10:00,783 - INFO - [Station_14_h10] Starting warping analysis...
-2025-07-29 20:10:01,671 - INFO - [Station_14_h10] J = 1.53645e-09
-2025-07-29 20:10:01,672 - INFO - [Station_14_h10] Asx = 0.000160077
-2025-07-29 20:10:01,673 - INFO - [Station_14_h10] Asy = 0.000113008
-2025-07-29 20:10:01,673 - INFO - [Station_14_h10] SCx = -0.000923524
-2025-07-29 20:10:01,674 - INFO - [Station_14_h10] SCy = -0.00223461
-2025-07-29 20:10:01,674 - INFO - [Station_14_h10] Beta_x+ = 0.00416929
-2025-07-29 20:10:01,674 - INFO - [Station_14_h10] Beta_x- = -0.00416929
-2025-07-29 20:10:01,675 - INFO - [Station_14_h10] Beta_y+ = -0.00611838
-2025-07-29 20:10:01,675 - INFO - [Station_14_h10] Beta_y- = 0.00611838
-2025-07-29 20:10:01,675 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
-2025-07-29 20:10:01,677 - INFO - [3/5] Meshing Station_14 with h = 2.5
-2025-07-29 20:10:01,678 - INFO - [Station_14_h2.5] Meshing with target h = 2.5 …
-2025-07-29 20:10:01,689 - WARNING - [Station_14_h2.5] 464 sliver triangles removed
-2025-07-29 20:10:01,690 - INFO - [Station_14_h2.5] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 20:10:01,773 - INFO - [Station_14_h2.5] Starting geometric analysis...
-2025-07-29 20:10:01,907 - INFO - [Station_14_h2.5] Area = 0.00017444
-2025-07-29 20:10:01,907 - INFO - [Station_14_h2.5] Perimeter = 0.0882077
-2025-07-29 20:10:01,908 - INFO - [Station_14_h2.5] Centroid cx = 0.000847
-2025-07-29 20:10:01,909 - INFO - [Station_14_h2.5] Centroid cy = -0.00243
-2025-07-29 20:10:01,910 - INFO - [Station_14_h2.5] Ixx = 4.1535e-10
-2025-07-29 20:10:01,910 - INFO - [Station_14_h2.5] Iyy = 1.57513e-08
-2025-07-29 20:10:01,911 - INFO - [Station_14_h2.5] Ixy = 4.44132e-10
-2025-07-29 20:10:01,911 - INFO - [Station_14_h2.5] Ip = 1.61667e-08
-2025-07-29 20:10:01,945 - INFO - [Station_14_h2.5] Principal I1 = 1.57642e-08
-2025-07-29 20:10:01,945 - INFO - [Station_14_h2.5] Principal I2 = 4.02498e-10
-2025-07-29 20:10:01,946 - INFO - [Station_14_h2.5] Radius rx = 0.00154306
-2025-07-29 20:10:01,946 - INFO - [Station_14_h2.5] Radius ry = 0.00950245
-2025-07-29 20:10:01,946 - WARNING - [Station_14_h2.5] Section modulus Sx returned None.
-2025-07-29 20:10:01,947 - WARNING - [Station_14_h2.5] Section modulus Sy returned None.
-2025-07-29 20:10:01,947 - ERROR - [Station_14_h2.5] Incomplete geometric properties.
-2025-07-29 20:10:01,947 - INFO - [Station_14_h2.5] Starting warping analysis...
-2025-07-29 20:10:02,785 - INFO - [Station_14_h2.5] J = 1.53645e-09
-2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] Asx = 0.000160077
-2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] Asy = 0.000113008
-2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] SCx = -0.000923524
-2025-07-29 20:10:02,787 - INFO - [Station_14_h2.5] SCy = -0.00223461
-2025-07-29 20:10:02,787 - INFO - [Station_14_h2.5] Beta_x+ = 0.00416929
-2025-07-29 20:10:02,788 - INFO - [Station_14_h2.5] Beta_x- = -0.00416929
-2025-07-29 20:10:02,788 - INFO - [Station_14_h2.5] Beta_y+ = -0.00611838
-2025-07-29 20:10:02,789 - INFO - [Station_14_h2.5] Beta_y- = 0.00611838
-2025-07-29 20:10:02,789 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 20:10:02,791 - INFO - [4/5] Meshing Station_14 with h = 0.625
-2025-07-29 20:10:02,793 - INFO - [Station_14_h0.625] Meshing with target h = 0.625 …
-2025-07-29 20:10:02,804 - WARNING - [Station_14_h0.625] 464 sliver triangles removed
-2025-07-29 20:10:02,805 - INFO - [Station_14_h0.625] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 20:10:02,965 - INFO - [Station_14_h0.625] Starting geometric analysis...
-2025-07-29 20:10:03,102 - INFO - [Station_14_h0.625] Area = 0.00017444
-2025-07-29 20:10:03,103 - INFO - [Station_14_h0.625] Perimeter = 0.0882077
-2025-07-29 20:10:03,103 - INFO - [Station_14_h0.625] Centroid cx = 0.000847
-2025-07-29 20:10:03,104 - INFO - [Station_14_h0.625] Centroid cy = -0.00243
-2025-07-29 20:10:03,105 - INFO - [Station_14_h0.625] Ixx = 4.1535e-10
-2025-07-29 20:10:03,106 - INFO - [Station_14_h0.625] Iyy = 1.57513e-08
-2025-07-29 20:10:03,106 - INFO - [Station_14_h0.625] Ixy = 4.44132e-10
-2025-07-29 20:10:03,107 - INFO - [Station_14_h0.625] Ip = 1.61667e-08
-2025-07-29 20:10:03,136 - INFO - [Station_14_h0.625] Principal I1 = 1.57642e-08
-2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Principal I2 = 4.02498e-10
-2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Radius rx = 0.00154306
-2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Radius ry = 0.00950245
-2025-07-29 20:10:03,138 - WARNING - [Station_14_h0.625] Section modulus Sx returned None.
-2025-07-29 20:10:03,139 - WARNING - [Station_14_h0.625] Section modulus Sy returned None.
-2025-07-29 20:10:03,140 - ERROR - [Station_14_h0.625] Incomplete geometric properties.
-2025-07-29 20:10:03,140 - INFO - [Station_14_h0.625] Starting warping analysis...
-2025-07-29 20:10:03,892 - INFO - [Station_14_h0.625] J = 1.53645e-09
-2025-07-29 20:10:03,893 - INFO - [Station_14_h0.625] Asx = 0.000160077
-2025-07-29 20:10:03,894 - INFO - [Station_14_h0.625] Asy = 0.000113008
-2025-07-29 20:10:03,894 - INFO - [Station_14_h0.625] SCx = -0.000923524
-2025-07-29 20:10:03,895 - INFO - [Station_14_h0.625] SCy = -0.00223461
-2025-07-29 20:10:03,895 - INFO - [Station_14_h0.625] Beta_x+ = 0.00416929
-2025-07-29 20:10:03,896 - INFO - [Station_14_h0.625] Beta_x- = -0.00416929
-2025-07-29 20:10:03,896 - INFO - [Station_14_h0.625] Beta_y+ = -0.00611838
-2025-07-29 20:10:03,897 - INFO - [Station_14_h0.625] Beta_y- = 0.00611838
-2025-07-29 20:10:03,898 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 20:10:03,900 - INFO - [5/5] Meshing Station_14 with h = 0.1562
-2025-07-29 20:10:03,901 - INFO - [Station_14_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 20:10:03,912 - WARNING - [Station_14_h0.1562] 464 sliver triangles removed
-2025-07-29 20:10:03,914 - INFO - [Station_14_h0.1562] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 20:10:04,023 - INFO - [Station_14_h0.1562] Starting geometric analysis...
-2025-07-29 20:10:04,267 - INFO - [Station_14_h0.1562] Area = 0.00017444
-2025-07-29 20:10:04,271 - INFO - [Station_14_h0.1562] Perimeter = 0.0882077
-2025-07-29 20:10:04,271 - INFO - [Station_14_h0.1562] Centroid cx = 0.000847
-2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Centroid cy = -0.00243
-2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Ixx = 4.1535e-10
-2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Iyy = 1.57513e-08
-2025-07-29 20:10:04,273 - INFO - [Station_14_h0.1562] Ixy = 4.44132e-10
-2025-07-29 20:10:04,273 - INFO - [Station_14_h0.1562] Ip = 1.61667e-08
-2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Principal I1 = 1.57642e-08
-2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Principal I2 = 4.02498e-10
-2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Radius rx = 0.00154306
-2025-07-29 20:10:04,311 - INFO - [Station_14_h0.1562] Radius ry = 0.00950245
-2025-07-29 20:10:04,311 - WARNING - [Station_14_h0.1562] Section modulus Sx returned None.
-2025-07-29 20:10:04,312 - WARNING - [Station_14_h0.1562] Section modulus Sy returned None.
-2025-07-29 20:10:04,312 - ERROR - [Station_14_h0.1562] Incomplete geometric properties.
-2025-07-29 20:10:04,312 - INFO - [Station_14_h0.1562] Starting warping analysis...
-2025-07-29 20:10:05,061 - INFO - [Station_14_h0.1562] J = 1.53645e-09
-2025-07-29 20:10:05,062 - INFO - [Station_14_h0.1562] Asx = 0.000160077
-2025-07-29 20:10:05,062 - INFO - [Station_14_h0.1562] Asy = 0.000113008
-2025-07-29 20:10:05,063 - INFO - [Station_14_h0.1562] SCx = -0.000923524
-2025-07-29 20:10:05,063 - INFO - [Station_14_h0.1562] SCy = -0.00223461
-2025-07-29 20:10:05,064 - INFO - [Station_14_h0.1562] Beta_x+ = 0.00416929
-2025-07-29 20:10:05,065 - INFO - [Station_14_h0.1562] Beta_x- = -0.00416929
-2025-07-29 20:10:05,065 - INFO - [Station_14_h0.1562] Beta_y+ = -0.00611838
-2025-07-29 20:10:05,066 - INFO - [Station_14_h0.1562] Beta_y- = 0.00611838
-2025-07-29 20:10:05,066 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 20:10:05,068 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 20:10:05,877 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
-2025-07-29 20:10:06,845 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
-2025-07-29 20:10:07,446 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
-2025-07-29 20:10:08,075 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
-2025-07-29 20:10:08,929 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
-2025-07-29 20:10:09,850 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
-2025-07-29 20:10:10,434 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
-2025-07-29 20:10:11,146 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
-2025-07-29 20:10:11,151 - INFO - Section analysis result set saved
+2025-07-29 20:33:44,052 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:33:44,541 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-29 20:33:44,542 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-29 20:33:44,543 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-29 20:33:44,544 - INFO - [Station_12] Section translated.
+2025-07-29 20:33:44,546 - INFO - Processed and aligned geometry extracted for Station_12
+2025-07-29 20:33:45,509 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\processed_Station_12.png
+2025-07-29 20:33:45,510 - INFO - Starting section convergence study …
+2025-07-29 20:33:45,511 - INFO - [1/5] Meshing Station_12 with h = 40
+2025-07-29 20:33:45,511 - INFO - [Station_12_h40] Meshing with target h = 40 …
+2025-07-29 20:33:45,521 - WARNING - [Station_12_h40] 387 sliver triangles removed
+2025-07-29 20:33:45,522 - INFO - [Station_12_h40] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:33:45,605 - INFO - [Station_12_h40] Starting geometric analysis...
+2025-07-29 20:33:46,022 - WARNING - [Station_12_h40] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:46,022 - ERROR - [Station_12_h40] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:46,024 - INFO - [Station_12_h40] Starting warping analysis...
+2025-07-29 20:33:47,023 - INFO - [Station_12_h40] Warping analysis complete. Key values:
+2025-07-29 20:33:47,050 - INFO -   Asx = 0.000157779 m², Asy = 9.44221e-06 m²
+2025-07-29 20:33:47,051 - INFO -   Shear centre = (-0.00446522, -0.00419031) m
+2025-07-29 20:33:47,051 - INFO -   Beta coefficients:
+2025-07-29 20:33:47,051 - INFO -     Beta_x+ = 0.00614689, Beta_x- = -0.00614689
+2025-07-29 20:33:47,052 - INFO -     Beta_y+ = -0.0146399, Beta_y- = 0.0146399
+2025-07-29 20:33:47,052 - INFO - [Station_12_h40] Calculating derived section parameters...
+2025-07-29 20:33:47,052 - WARNING - [Station_12_h40] Shape Factor X is None.
+2025-07-29 20:33:47,053 - WARNING - [Station_12_h40] Shape Factor Y is None.
+2025-07-29 20:33:47,053 - INFO - [Station_12_h40] Polar Radius = 0.0127568
+2025-07-29 20:33:47,053 - INFO - [Station_12_h40] J / Ip = 0.0938419
+2025-07-29 20:33:47,053 - INFO - [Station_12_h40] Asx / Area = 0.82724
+2025-07-29 20:33:47,054 - INFO - [Station_12_h40] Asy / Area = 0.0495058
+2025-07-29 20:33:47,054 - INFO - [Station_12_h40] Compactness = 59.3381
+2025-07-29 20:33:47,054 - INFO - [Station_12_h40] Shear Offset Ratio X = 5.21247
+2025-07-29 20:33:47,055 - INFO - [Station_12_h40] Shear Offset Ratio Y = 0.0729398
+2025-07-29 20:33:47,055 - INFO - [Station_12_h40] Timoshenko Coefficient vx = 1.20884
+2025-07-29 20:33:47,055 - INFO - [Station_12_h40] Timoshenko Coefficient vy = 20.1996
+2025-07-29 20:33:47,056 - ERROR - [Station_12_h40] Geometric analysis failed — skipping values.
+2025-07-29 20:33:47,056 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:33:47,057 - INFO - [2/5] Meshing Station_12 with h = 10
+2025-07-29 20:33:47,058 - INFO - [Station_12_h10] Meshing with target h = 10 …
+2025-07-29 20:33:47,068 - WARNING - [Station_12_h10] 387 sliver triangles removed
+2025-07-29 20:33:47,069 - INFO - [Station_12_h10] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:33:47,183 - INFO - [Station_12_h10] Starting geometric analysis...
+2025-07-29 20:33:47,325 - WARNING - [Station_12_h10] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:47,326 - ERROR - [Station_12_h10] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:47,327 - INFO - [Station_12_h10] Starting warping analysis...
+2025-07-29 20:33:48,032 - INFO - [Station_12_h10] Warping analysis complete. Key values:
+2025-07-29 20:33:48,063 - INFO -   Asx = 0.000157779 m², Asy = 9.44221e-06 m²
+2025-07-29 20:33:48,063 - INFO -   Shear centre = (-0.00446522, -0.00419031) m
+2025-07-29 20:33:48,063 - INFO -   Beta coefficients:
+2025-07-29 20:33:48,063 - INFO -     Beta_x+ = 0.00614689, Beta_x- = -0.00614689
+2025-07-29 20:33:48,063 - INFO -     Beta_y+ = -0.0146399, Beta_y- = 0.0146399
+2025-07-29 20:33:48,064 - INFO - [Station_12_h10] Calculating derived section parameters...
+2025-07-29 20:33:48,064 - WARNING - [Station_12_h10] Shape Factor X is None.
+2025-07-29 20:33:48,064 - WARNING - [Station_12_h10] Shape Factor Y is None.
+2025-07-29 20:33:48,065 - INFO - [Station_12_h10] Polar Radius = 0.0127568
+2025-07-29 20:33:48,065 - INFO - [Station_12_h10] J / Ip = 0.0938419
+2025-07-29 20:33:48,065 - INFO - [Station_12_h10] Asx / Area = 0.82724
+2025-07-29 20:33:48,065 - INFO - [Station_12_h10] Asy / Area = 0.0495058
+2025-07-29 20:33:48,066 - INFO - [Station_12_h10] Compactness = 59.3381
+2025-07-29 20:33:48,066 - INFO - [Station_12_h10] Shear Offset Ratio X = 5.21247
+2025-07-29 20:33:48,066 - INFO - [Station_12_h10] Shear Offset Ratio Y = 0.0729398
+2025-07-29 20:33:48,067 - INFO - [Station_12_h10] Timoshenko Coefficient vx = 1.20884
+2025-07-29 20:33:48,067 - INFO - [Station_12_h10] Timoshenko Coefficient vy = 20.1996
+2025-07-29 20:33:48,067 - ERROR - [Station_12_h10] Geometric analysis failed — skipping values.
+2025-07-29 20:33:48,068 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:33:48,070 - INFO - [3/5] Meshing Station_12 with h = 2.5
+2025-07-29 20:33:48,071 - INFO - [Station_12_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:33:48,082 - WARNING - [Station_12_h2.5] 387 sliver triangles removed
+2025-07-29 20:33:48,083 - INFO - [Station_12_h2.5] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:33:48,165 - INFO - [Station_12_h2.5] Starting geometric analysis...
+2025-07-29 20:33:48,293 - WARNING - [Station_12_h2.5] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:48,294 - ERROR - [Station_12_h2.5] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:48,295 - INFO - [Station_12_h2.5] Starting warping analysis...
+2025-07-29 20:33:48,996 - INFO - [Station_12_h2.5] Warping analysis complete. Key values:
+2025-07-29 20:33:49,030 - INFO -   Asx = 0.000157779 m², Asy = 9.44221e-06 m²
+2025-07-29 20:33:49,031 - INFO -   Shear centre = (-0.00446522, -0.00419031) m
+2025-07-29 20:33:49,031 - INFO -   Beta coefficients:
+2025-07-29 20:33:49,031 - INFO -     Beta_x+ = 0.00614689, Beta_x- = -0.00614689
+2025-07-29 20:33:49,032 - INFO -     Beta_y+ = -0.0146399, Beta_y- = 0.0146399
+2025-07-29 20:33:49,032 - INFO - [Station_12_h2.5] Calculating derived section parameters...
+2025-07-29 20:33:49,032 - WARNING - [Station_12_h2.5] Shape Factor X is None.
+2025-07-29 20:33:49,033 - WARNING - [Station_12_h2.5] Shape Factor Y is None.
+2025-07-29 20:33:49,033 - INFO - [Station_12_h2.5] Polar Radius = 0.0127568
+2025-07-29 20:33:49,033 - INFO - [Station_12_h2.5] J / Ip = 0.0938419
+2025-07-29 20:33:49,034 - INFO - [Station_12_h2.5] Asx / Area = 0.82724
+2025-07-29 20:33:49,034 - INFO - [Station_12_h2.5] Asy / Area = 0.0495058
+2025-07-29 20:33:49,034 - INFO - [Station_12_h2.5] Compactness = 59.3381
+2025-07-29 20:33:49,035 - INFO - [Station_12_h2.5] Shear Offset Ratio X = 5.21247
+2025-07-29 20:33:49,035 - INFO - [Station_12_h2.5] Shear Offset Ratio Y = 0.0729398
+2025-07-29 20:33:49,035 - INFO - [Station_12_h2.5] Timoshenko Coefficient vx = 1.20884
+2025-07-29 20:33:49,036 - INFO - [Station_12_h2.5] Timoshenko Coefficient vy = 20.1996
+2025-07-29 20:33:49,036 - ERROR - [Station_12_h2.5] Geometric analysis failed — skipping values.
+2025-07-29 20:33:49,036 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:33:49,038 - INFO - [4/5] Meshing Station_12 with h = 0.625
+2025-07-29 20:33:49,039 - INFO - [Station_12_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:33:49,117 - WARNING - [Station_12_h0.625] 387 sliver triangles removed
+2025-07-29 20:33:49,118 - INFO - [Station_12_h0.625] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:33:49,200 - INFO - [Station_12_h0.625] Starting geometric analysis...
+2025-07-29 20:33:49,330 - WARNING - [Station_12_h0.625] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:49,331 - ERROR - [Station_12_h0.625] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:49,332 - INFO - [Station_12_h0.625] Starting warping analysis...
+2025-07-29 20:33:50,047 - INFO - [Station_12_h0.625] Warping analysis complete. Key values:
+2025-07-29 20:33:50,074 - INFO -   Asx = 0.000157779 m², Asy = 9.44221e-06 m²
+2025-07-29 20:33:50,075 - INFO -   Shear centre = (-0.00446522, -0.00419031) m
+2025-07-29 20:33:50,075 - INFO -   Beta coefficients:
+2025-07-29 20:33:50,075 - INFO -     Beta_x+ = 0.00614689, Beta_x- = -0.00614689
+2025-07-29 20:33:50,077 - INFO -     Beta_y+ = -0.0146399, Beta_y- = 0.0146399
+2025-07-29 20:33:50,079 - INFO - [Station_12_h0.625] Calculating derived section parameters...
+2025-07-29 20:33:50,079 - WARNING - [Station_12_h0.625] Shape Factor X is None.
+2025-07-29 20:33:50,080 - WARNING - [Station_12_h0.625] Shape Factor Y is None.
+2025-07-29 20:33:50,081 - INFO - [Station_12_h0.625] Polar Radius = 0.0127568
+2025-07-29 20:33:50,081 - INFO - [Station_12_h0.625] J / Ip = 0.0938419
+2025-07-29 20:33:50,082 - INFO - [Station_12_h0.625] Asx / Area = 0.82724
+2025-07-29 20:33:50,082 - INFO - [Station_12_h0.625] Asy / Area = 0.0495058
+2025-07-29 20:33:50,083 - INFO - [Station_12_h0.625] Compactness = 59.3381
+2025-07-29 20:33:50,083 - INFO - [Station_12_h0.625] Shear Offset Ratio X = 5.21247
+2025-07-29 20:33:50,084 - INFO - [Station_12_h0.625] Shear Offset Ratio Y = 0.0729398
+2025-07-29 20:33:50,084 - INFO - [Station_12_h0.625] Timoshenko Coefficient vx = 1.20884
+2025-07-29 20:33:50,085 - INFO - [Station_12_h0.625] Timoshenko Coefficient vy = 20.1996
+2025-07-29 20:33:50,085 - ERROR - [Station_12_h0.625] Geometric analysis failed — skipping values.
+2025-07-29 20:33:50,086 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:33:50,087 - INFO - [5/5] Meshing Station_12 with h = 0.1562
+2025-07-29 20:33:50,088 - INFO - [Station_12_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:33:50,098 - WARNING - [Station_12_h0.1562] 387 sliver triangles removed
+2025-07-29 20:33:50,099 - INFO - [Station_12_h0.1562] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:33:50,183 - INFO - [Station_12_h0.1562] Starting geometric analysis...
+2025-07-29 20:33:50,311 - WARNING - [Station_12_h0.1562] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:50,312 - ERROR - [Station_12_h0.1562] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:50,313 - INFO - [Station_12_h0.1562] Starting warping analysis...
+2025-07-29 20:33:51,011 - INFO - [Station_12_h0.1562] Warping analysis complete. Key values:
+2025-07-29 20:33:51,038 - INFO -   Asx = 0.000157779 m², Asy = 9.44221e-06 m²
+2025-07-29 20:33:51,038 - INFO -   Shear centre = (-0.00446522, -0.00419031) m
+2025-07-29 20:33:51,039 - INFO -   Beta coefficients:
+2025-07-29 20:33:51,039 - INFO -     Beta_x+ = 0.00614689, Beta_x- = -0.00614689
+2025-07-29 20:33:51,039 - INFO -     Beta_y+ = -0.0146399, Beta_y- = 0.0146399
+2025-07-29 20:33:51,040 - INFO - [Station_12_h0.1562] Calculating derived section parameters...
+2025-07-29 20:33:51,040 - WARNING - [Station_12_h0.1562] Shape Factor X is None.
+2025-07-29 20:33:51,040 - WARNING - [Station_12_h0.1562] Shape Factor Y is None.
+2025-07-29 20:33:51,041 - INFO - [Station_12_h0.1562] Polar Radius = 0.0127568
+2025-07-29 20:33:51,041 - INFO - [Station_12_h0.1562] J / Ip = 0.0938419
+2025-07-29 20:33:51,041 - INFO - [Station_12_h0.1562] Asx / Area = 0.82724
+2025-07-29 20:33:51,042 - INFO - [Station_12_h0.1562] Asy / Area = 0.0495058
+2025-07-29 20:33:51,043 - INFO - [Station_12_h0.1562] Compactness = 59.3381
+2025-07-29 20:33:51,043 - INFO - [Station_12_h0.1562] Shear Offset Ratio X = 5.21247
+2025-07-29 20:33:51,044 - INFO - [Station_12_h0.1562] Shear Offset Ratio Y = 0.0729398
+2025-07-29 20:33:51,044 - INFO - [Station_12_h0.1562] Timoshenko Coefficient vx = 1.20884
+2025-07-29 20:33:51,045 - INFO - [Station_12_h0.1562] Timoshenko Coefficient vy = 20.1996
+2025-07-29 20:33:51,045 - ERROR - [Station_12_h0.1562] Geometric analysis failed — skipping values.
+2025-07-29 20:33:51,045 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:33:51,047 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:33:51,863 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-29 20:33:52,761 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-29 20:33:53,354 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-29 20:33:53,944 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-29 20:33:54,766 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-29 20:33:55,608 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-29 20:33:56,163 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-29 20:33:56,753 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-29 20:33:56,755 - INFO - Section analysis result set saved
+2025-07-29 20:33:56,757 - INFO - Station Station_14 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf, twist=0.3°, centroid=(0.00, -0.00)
+2025-07-29 20:33:56,757 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
+2025-07-29 20:33:56,850 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:33:56,853 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:33:56,854 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:33:56,854 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:33:56,857 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
+2025-07-29 20:33:56,982 - INFO - Plotting 52 DXF entities for preview...
+2025-07-29 20:33:57,191 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\raw_Station_14.png
+2025-07-29 20:33:57,192 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf'
+2025-07-29 20:33:57,206 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:33:57,211 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:33:57,212 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:33:57,213 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:33:57,215 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-29 20:33:57,317 - INFO - Zipped 73 points
+2025-07-29 20:33:57,333 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:33:57,818 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-29 20:33:57,819 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-29 20:33:57,820 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-29 20:33:57,821 - INFO - [Station_14] Section translated.
+2025-07-29 20:33:57,823 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-29 20:33:58,780 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\processed_Station_14.png
+2025-07-29 20:33:58,780 - INFO - Starting section convergence study …
+2025-07-29 20:33:58,781 - INFO - [1/5] Meshing Station_14 with h = 40
+2025-07-29 20:33:58,781 - INFO - [Station_14_h40] Meshing with target h = 40 …
+2025-07-29 20:33:58,791 - WARNING - [Station_14_h40] 464 sliver triangles removed
+2025-07-29 20:33:58,792 - INFO - [Station_14_h40] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:33:58,876 - INFO - [Station_14_h40] Starting geometric analysis...
+2025-07-29 20:33:59,286 - WARNING - [Station_14_h40] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:59,287 - ERROR - [Station_14_h40] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:59,288 - INFO - [Station_14_h40] Starting warping analysis...
+2025-07-29 20:34:00,325 - INFO - [Station_14_h40] Warping analysis complete. Key values:
+2025-07-29 20:34:00,459 - INFO -   Asx = 0.000160077 m², Asy = 0.000113008 m²
+2025-07-29 20:34:00,459 - INFO -   Shear centre = (-0.000923524, -0.00223461) m
+2025-07-29 20:34:00,460 - INFO -   Beta coefficients:
+2025-07-29 20:34:00,461 - INFO -     Beta_x+ = 0.00416929, Beta_x- = -0.00416929
+2025-07-29 20:34:00,463 - INFO -     Beta_y+ = -0.00611838, Beta_y- = 0.00611838
+2025-07-29 20:34:00,464 - INFO - [Station_14_h40] Calculating derived section parameters...
+2025-07-29 20:34:00,466 - WARNING - [Station_14_h40] Shape Factor X is None.
+2025-07-29 20:34:00,468 - WARNING - [Station_14_h40] Shape Factor Y is None.
+2025-07-29 20:34:00,470 - INFO - [Station_14_h40] Polar Radius = 0.00962692
+2025-07-29 20:34:00,472 - INFO - [Station_14_h40] J / Ip = 0.0950383
+2025-07-29 20:34:00,473 - INFO - [Station_14_h40] Asx / Area = 0.917665
+2025-07-29 20:34:00,474 - INFO - [Station_14_h40] Asy / Area = 0.647836
+2025-07-29 20:34:00,474 - INFO - [Station_14_h40] Compactness = 44.6033
+2025-07-29 20:34:00,476 - INFO - [Station_14_h40] Shear Offset Ratio X = 2.09035
+2025-07-29 20:34:00,477 - INFO - [Station_14_h40] Shear Offset Ratio Y = 0.0804082
+2025-07-29 20:34:00,478 - INFO - [Station_14_h40] Timoshenko Coefficient vx = 1.08972
+2025-07-29 20:34:00,479 - INFO - [Station_14_h40] Timoshenko Coefficient vy = 1.5436
+2025-07-29 20:34:00,479 - ERROR - [Station_14_h40] Geometric analysis failed — skipping values.
+2025-07-29 20:34:00,480 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:34:00,482 - INFO - [2/5] Meshing Station_14 with h = 10
+2025-07-29 20:34:00,483 - INFO - [Station_14_h10] Meshing with target h = 10 …
+2025-07-29 20:34:00,497 - WARNING - [Station_14_h10] 464 sliver triangles removed
+2025-07-29 20:34:00,500 - INFO - [Station_14_h10] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:34:00,597 - INFO - [Station_14_h10] Starting geometric analysis...
+2025-07-29 20:34:00,728 - WARNING - [Station_14_h10] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:34:00,728 - ERROR - [Station_14_h10] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:34:00,730 - INFO - [Station_14_h10] Starting warping analysis...
+2025-07-29 20:34:01,426 - INFO - [Station_14_h10] Warping analysis complete. Key values:
+2025-07-29 20:34:01,461 - INFO -   Asx = 0.000160077 m², Asy = 0.000113008 m²
+2025-07-29 20:34:01,462 - INFO -   Shear centre = (-0.000923524, -0.00223461) m
+2025-07-29 20:34:01,462 - INFO -   Beta coefficients:
+2025-07-29 20:34:01,463 - INFO -     Beta_x+ = 0.00416929, Beta_x- = -0.00416929
+2025-07-29 20:34:01,463 - INFO -     Beta_y+ = -0.00611838, Beta_y- = 0.00611838
+2025-07-29 20:34:01,464 - INFO - [Station_14_h10] Calculating derived section parameters...
+2025-07-29 20:34:01,464 - WARNING - [Station_14_h10] Shape Factor X is None.
+2025-07-29 20:34:01,465 - WARNING - [Station_14_h10] Shape Factor Y is None.
+2025-07-29 20:34:01,465 - INFO - [Station_14_h10] Polar Radius = 0.00962692
+2025-07-29 20:34:01,465 - INFO - [Station_14_h10] J / Ip = 0.0950383
+2025-07-29 20:34:01,466 - INFO - [Station_14_h10] Asx / Area = 0.917665
+2025-07-29 20:34:01,466 - INFO - [Station_14_h10] Asy / Area = 0.647836
+2025-07-29 20:34:01,466 - INFO - [Station_14_h10] Compactness = 44.6033
+2025-07-29 20:34:01,467 - INFO - [Station_14_h10] Shear Offset Ratio X = 2.09035
+2025-07-29 20:34:01,467 - INFO - [Station_14_h10] Shear Offset Ratio Y = 0.0804082
+2025-07-29 20:34:01,467 - INFO - [Station_14_h10] Timoshenko Coefficient vx = 1.08972
+2025-07-29 20:34:01,468 - INFO - [Station_14_h10] Timoshenko Coefficient vy = 1.5436
+2025-07-29 20:34:01,468 - ERROR - [Station_14_h10] Geometric analysis failed — skipping values.
+2025-07-29 20:34:01,468 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:34:01,470 - INFO - [3/5] Meshing Station_14 with h = 2.5
+2025-07-29 20:34:01,471 - INFO - [Station_14_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:34:01,481 - WARNING - [Station_14_h2.5] 464 sliver triangles removed
+2025-07-29 20:34:01,482 - INFO - [Station_14_h2.5] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:34:01,566 - INFO - [Station_14_h2.5] Starting geometric analysis...
+2025-07-29 20:34:01,697 - WARNING - [Station_14_h2.5] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:34:01,697 - ERROR - [Station_14_h2.5] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:34:01,699 - INFO - [Station_14_h2.5] Starting warping analysis...
+2025-07-29 20:34:02,417 - INFO - [Station_14_h2.5] Warping analysis complete. Key values:
+2025-07-29 20:34:02,449 - INFO -   Asx = 0.000160077 m², Asy = 0.000113008 m²
+2025-07-29 20:34:02,450 - INFO -   Shear centre = (-0.000923524, -0.00223461) m
+2025-07-29 20:34:02,450 - INFO -   Beta coefficients:
+2025-07-29 20:34:02,450 - INFO -     Beta_x+ = 0.00416929, Beta_x- = -0.00416929
+2025-07-29 20:34:02,451 - INFO -     Beta_y+ = -0.00611838, Beta_y- = 0.00611838
+2025-07-29 20:34:02,451 - INFO - [Station_14_h2.5] Calculating derived section parameters...
+2025-07-29 20:34:02,451 - WARNING - [Station_14_h2.5] Shape Factor X is None.
+2025-07-29 20:34:02,451 - WARNING - [Station_14_h2.5] Shape Factor Y is None.
+2025-07-29 20:34:02,452 - INFO - [Station_14_h2.5] Polar Radius = 0.00962692
+2025-07-29 20:34:02,452 - INFO - [Station_14_h2.5] J / Ip = 0.0950383
+2025-07-29 20:34:02,452 - INFO - [Station_14_h2.5] Asx / Area = 0.917665
+2025-07-29 20:34:02,453 - INFO - [Station_14_h2.5] Asy / Area = 0.647836
+2025-07-29 20:34:02,453 - INFO - [Station_14_h2.5] Compactness = 44.6033
+2025-07-29 20:34:02,453 - INFO - [Station_14_h2.5] Shear Offset Ratio X = 2.09035
+2025-07-29 20:34:02,454 - INFO - [Station_14_h2.5] Shear Offset Ratio Y = 0.0804082
+2025-07-29 20:34:02,454 - INFO - [Station_14_h2.5] Timoshenko Coefficient vx = 1.08972
+2025-07-29 20:34:02,454 - INFO - [Station_14_h2.5] Timoshenko Coefficient vy = 1.5436
+2025-07-29 20:34:02,455 - ERROR - [Station_14_h2.5] Geometric analysis failed — skipping values.
+2025-07-29 20:34:02,455 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:34:02,457 - INFO - [4/5] Meshing Station_14 with h = 0.625
+2025-07-29 20:34:02,458 - INFO - [Station_14_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:34:02,466 - WARNING - [Station_14_h0.625] 464 sliver triangles removed
+2025-07-29 20:34:02,467 - INFO - [Station_14_h0.625] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:34:02,552 - INFO - [Station_14_h0.625] Starting geometric analysis...
+2025-07-29 20:34:02,677 - WARNING - [Station_14_h0.625] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:34:02,678 - ERROR - [Station_14_h0.625] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:34:02,679 - INFO - [Station_14_h0.625] Starting warping analysis...
+2025-07-29 20:34:03,368 - INFO - [Station_14_h0.625] Warping analysis complete. Key values:
+2025-07-29 20:34:03,396 - INFO -   Asx = 0.000160077 m², Asy = 0.000113008 m²
+2025-07-29 20:34:03,396 - INFO -   Shear centre = (-0.000923524, -0.00223461) m
+2025-07-29 20:34:03,396 - INFO -   Beta coefficients:
+2025-07-29 20:34:03,397 - INFO -     Beta_x+ = 0.00416929, Beta_x- = -0.00416929
+2025-07-29 20:34:03,397 - INFO -     Beta_y+ = -0.00611838, Beta_y- = 0.00611838
+2025-07-29 20:34:03,397 - INFO - [Station_14_h0.625] Calculating derived section parameters...
+2025-07-29 20:34:03,398 - WARNING - [Station_14_h0.625] Shape Factor X is None.
+2025-07-29 20:34:03,398 - WARNING - [Station_14_h0.625] Shape Factor Y is None.
+2025-07-29 20:34:03,398 - INFO - [Station_14_h0.625] Polar Radius = 0.00962692
+2025-07-29 20:34:03,399 - INFO - [Station_14_h0.625] J / Ip = 0.0950383
+2025-07-29 20:34:03,399 - INFO - [Station_14_h0.625] Asx / Area = 0.917665
+2025-07-29 20:34:03,399 - INFO - [Station_14_h0.625] Asy / Area = 0.647836
+2025-07-29 20:34:03,400 - INFO - [Station_14_h0.625] Compactness = 44.6033
+2025-07-29 20:34:03,400 - INFO - [Station_14_h0.625] Shear Offset Ratio X = 2.09035
+2025-07-29 20:34:03,400 - INFO - [Station_14_h0.625] Shear Offset Ratio Y = 0.0804082
+2025-07-29 20:34:03,401 - INFO - [Station_14_h0.625] Timoshenko Coefficient vx = 1.08972
+2025-07-29 20:34:03,401 - INFO - [Station_14_h0.625] Timoshenko Coefficient vy = 1.5436
+2025-07-29 20:34:03,401 - ERROR - [Station_14_h0.625] Geometric analysis failed — skipping values.
+2025-07-29 20:34:03,402 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:34:03,404 - INFO - [5/5] Meshing Station_14 with h = 0.1562
+2025-07-29 20:34:03,405 - INFO - [Station_14_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:34:03,416 - WARNING - [Station_14_h0.1562] 464 sliver triangles removed
+2025-07-29 20:34:03,417 - INFO - [Station_14_h0.1562] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:34:03,500 - INFO - [Station_14_h0.1562] Starting geometric analysis...
+2025-07-29 20:34:03,627 - WARNING - [Station_14_h0.1562] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:34:03,628 - ERROR - [Station_14_h0.1562] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:34:03,629 - INFO - [Station_14_h0.1562] Starting warping analysis...
+2025-07-29 20:34:04,314 - INFO - [Station_14_h0.1562] Warping analysis complete. Key values:
+2025-07-29 20:34:04,350 - INFO -   Asx = 0.000160077 m², Asy = 0.000113008 m²
+2025-07-29 20:34:04,350 - INFO -   Shear centre = (-0.000923524, -0.00223461) m
+2025-07-29 20:34:04,350 - INFO -   Beta coefficients:
+2025-07-29 20:34:04,351 - INFO -     Beta_x+ = 0.00416929, Beta_x- = -0.00416929
+2025-07-29 20:34:04,351 - INFO -     Beta_y+ = -0.00611838, Beta_y- = 0.00611838
+2025-07-29 20:34:04,351 - INFO - [Station_14_h0.1562] Calculating derived section parameters...
+2025-07-29 20:34:04,352 - WARNING - [Station_14_h0.1562] Shape Factor X is None.
+2025-07-29 20:34:04,352 - WARNING - [Station_14_h0.1562] Shape Factor Y is None.
+2025-07-29 20:34:04,353 - INFO - [Station_14_h0.1562] Polar Radius = 0.00962692
+2025-07-29 20:34:04,353 - INFO - [Station_14_h0.1562] J / Ip = 0.0950383
+2025-07-29 20:34:04,353 - INFO - [Station_14_h0.1562] Asx / Area = 0.917665
+2025-07-29 20:34:04,354 - INFO - [Station_14_h0.1562] Asy / Area = 0.647836
+2025-07-29 20:34:04,354 - INFO - [Station_14_h0.1562] Compactness = 44.6033
+2025-07-29 20:34:04,354 - INFO - [Station_14_h0.1562] Shear Offset Ratio X = 2.09035
+2025-07-29 20:34:04,355 - INFO - [Station_14_h0.1562] Shear Offset Ratio Y = 0.0804082
+2025-07-29 20:34:04,355 - INFO - [Station_14_h0.1562] Timoshenko Coefficient vx = 1.08972
+2025-07-29 20:34:04,355 - INFO - [Station_14_h0.1562] Timoshenko Coefficient vy = 1.5436
+2025-07-29 20:34:04,356 - ERROR - [Station_14_h0.1562] Geometric analysis failed — skipping values.
+2025-07-29 20:34:04,356 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:34:04,358 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:34:05,150 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-29 20:34:06,057 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-29 20:34:06,597 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-29 20:34:07,172 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-29 20:34:07,967 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-29 20:34:08,785 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-29 20:34:09,313 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-29 20:34:09,942 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-29 20:34:09,944 - INFO - Section analysis result set saved

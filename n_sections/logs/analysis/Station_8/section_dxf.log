@@ -358,3 +358,148 @@ TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
 2025-07-29 20:09:20,204 - INFO - [Station_8_h0.1562] Beta_y+ = -0.0196461
 2025-07-29 20:09:20,205 - INFO - [Station_8_h0.1562] Beta_y- = 0.0196461
 2025-07-29 20:09:20,205 - INFO - [Station_8_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:33:18,602 - INFO - [Station_8_h40] Starting geometric analysis...
+2025-07-29 20:33:19,072 - WARNING - [Station_8_h40] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:19,072 - ERROR - [Station_8_h40] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:19,073 - INFO - [Station_8_h40] Starting warping analysis...
+2025-07-29 20:33:20,108 - INFO - [Station_8_h40] Warping analysis complete. Key values:
+2025-07-29 20:33:20,153 - INFO -   Asx = 0.000290751 m², Asy = 1.87345e-05 m²
+2025-07-29 20:33:20,154 - INFO -   Shear centre = (-0.0055959, -0.00569278) m
+2025-07-29 20:33:20,155 - INFO -   Beta coefficients:
+2025-07-29 20:33:20,157 - INFO -     Beta_x+ = -0.000932012, Beta_x- = 0.000932012
+2025-07-29 20:33:20,160 - INFO -     Beta_y+ = -0.0196461, Beta_y- = 0.0196461
+2025-07-29 20:33:20,164 - INFO - [Station_8_h40] Calculating derived section parameters...
+2025-07-29 20:33:20,164 - WARNING - [Station_8_h40] Shape Factor X is None.
+2025-07-29 20:33:20,165 - WARNING - [Station_8_h40] Shape Factor Y is None.
+2025-07-29 20:33:20,165 - INFO - [Station_8_h40] Polar Radius = 0.0178986
+2025-07-29 20:33:20,166 - INFO - [Station_8_h40] J / Ip = 0.0948159
+2025-07-29 20:33:20,167 - INFO - [Station_8_h40] Asx / Area = 0.769934
+2025-07-29 20:33:20,167 - INFO - [Station_8_h40] Asy / Area = 0.0496108
+2025-07-29 20:33:20,168 - INFO - [Station_8_h40] Compactness = 59.2052
+2025-07-29 20:33:20,168 - INFO - [Station_8_h40] Shear Offset Ratio X = 4.1262
+2025-07-29 20:33:20,168 - INFO - [Station_8_h40] Shear Offset Ratio Y = 0.00301657
+2025-07-29 20:33:20,171 - INFO - [Station_8_h40] Timoshenko Coefficient vx = 1.29881
+2025-07-29 20:33:20,171 - INFO - [Station_8_h40] Timoshenko Coefficient vy = 20.1569
+2025-07-29 20:33:20,172 - ERROR - [Station_8_h40] Geometric analysis failed — skipping values.
+2025-07-29 20:33:20,172 - INFO - [Station_8_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:33:20,283 - INFO - [Station_8_h10] Starting geometric analysis...
+2025-07-29 20:33:20,415 - WARNING - [Station_8_h10] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:20,416 - ERROR - [Station_8_h10] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:20,417 - INFO - [Station_8_h10] Starting warping analysis...
+2025-07-29 20:33:21,125 - INFO - [Station_8_h10] Warping analysis complete. Key values:
+2025-07-29 20:33:21,152 - INFO -   Asx = 0.000290751 m², Asy = 1.87345e-05 m²
+2025-07-29 20:33:21,152 - INFO -   Shear centre = (-0.0055959, -0.00569278) m
+2025-07-29 20:33:21,153 - INFO -   Beta coefficients:
+2025-07-29 20:33:21,153 - INFO -     Beta_x+ = -0.000932012, Beta_x- = 0.000932012
+2025-07-29 20:33:21,154 - INFO -     Beta_y+ = -0.0196461, Beta_y- = 0.0196461
+2025-07-29 20:33:21,154 - INFO - [Station_8_h10] Calculating derived section parameters...
+2025-07-29 20:33:21,154 - WARNING - [Station_8_h10] Shape Factor X is None.
+2025-07-29 20:33:21,155 - WARNING - [Station_8_h10] Shape Factor Y is None.
+2025-07-29 20:33:21,155 - INFO - [Station_8_h10] Polar Radius = 0.0178986
+2025-07-29 20:33:21,156 - INFO - [Station_8_h10] J / Ip = 0.0948159
+2025-07-29 20:33:21,156 - INFO - [Station_8_h10] Asx / Area = 0.769934
+2025-07-29 20:33:21,156 - INFO - [Station_8_h10] Asy / Area = 0.0496108
+2025-07-29 20:33:21,157 - INFO - [Station_8_h10] Compactness = 59.2052
+2025-07-29 20:33:21,157 - INFO - [Station_8_h10] Shear Offset Ratio X = 4.1262
+2025-07-29 20:33:21,158 - INFO - [Station_8_h10] Shear Offset Ratio Y = 0.00301657
+2025-07-29 20:33:21,158 - INFO - [Station_8_h10] Timoshenko Coefficient vx = 1.29881
+2025-07-29 20:33:21,158 - INFO - [Station_8_h10] Timoshenko Coefficient vy = 20.1569
+2025-07-29 20:33:21,159 - ERROR - [Station_8_h10] Geometric analysis failed — skipping values.
+2025-07-29 20:33:21,159 - INFO - [Station_8_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:33:21,258 - INFO - [Station_8_h2.5] Starting geometric analysis...
+2025-07-29 20:33:21,390 - WARNING - [Station_8_h2.5] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:21,391 - ERROR - [Station_8_h2.5] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:21,392 - INFO - [Station_8_h2.5] Starting warping analysis...
+2025-07-29 20:33:22,097 - INFO - [Station_8_h2.5] Warping analysis complete. Key values:
+2025-07-29 20:33:22,121 - INFO -   Asx = 0.000290751 m², Asy = 1.87345e-05 m²
+2025-07-29 20:33:22,121 - INFO -   Shear centre = (-0.0055959, -0.00569278) m
+2025-07-29 20:33:22,121 - INFO -   Beta coefficients:
+2025-07-29 20:33:22,122 - INFO -     Beta_x+ = -0.000932012, Beta_x- = 0.000932012
+2025-07-29 20:33:22,122 - INFO -     Beta_y+ = -0.0196461, Beta_y- = 0.0196461
+2025-07-29 20:33:22,122 - INFO - [Station_8_h2.5] Calculating derived section parameters...
+2025-07-29 20:33:22,122 - WARNING - [Station_8_h2.5] Shape Factor X is None.
+2025-07-29 20:33:22,123 - WARNING - [Station_8_h2.5] Shape Factor Y is None.
+2025-07-29 20:33:22,123 - INFO - [Station_8_h2.5] Polar Radius = 0.0178986
+2025-07-29 20:33:22,124 - INFO - [Station_8_h2.5] J / Ip = 0.0948159
+2025-07-29 20:33:22,158 - INFO - [Station_8_h2.5] Asx / Area = 0.769934
+2025-07-29 20:33:22,165 - INFO - [Station_8_h2.5] Asy / Area = 0.0496108
+2025-07-29 20:33:22,166 - INFO - [Station_8_h2.5] Compactness = 59.2052
+2025-07-29 20:33:22,166 - INFO - [Station_8_h2.5] Shear Offset Ratio X = 4.1262
+2025-07-29 20:33:22,167 - INFO - [Station_8_h2.5] Shear Offset Ratio Y = 0.00301657
+2025-07-29 20:33:22,167 - INFO - [Station_8_h2.5] Timoshenko Coefficient vx = 1.29881
+2025-07-29 20:33:22,168 - INFO - [Station_8_h2.5] Timoshenko Coefficient vy = 20.1569
+2025-07-29 20:33:22,168 - ERROR - [Station_8_h2.5] Geometric analysis failed — skipping values.
+2025-07-29 20:33:22,168 - INFO - [Station_8_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:33:22,275 - INFO - [Station_8_h0.625] Starting geometric analysis...
+2025-07-29 20:33:22,403 - WARNING - [Station_8_h0.625] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:22,404 - ERROR - [Station_8_h0.625] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:22,405 - INFO - [Station_8_h0.625] Starting warping analysis...
+2025-07-29 20:33:23,106 - INFO - [Station_8_h0.625] Warping analysis complete. Key values:
+2025-07-29 20:33:23,133 - INFO -   Asx = 0.000290751 m², Asy = 1.87345e-05 m²
+2025-07-29 20:33:23,133 - INFO -   Shear centre = (-0.0055959, -0.00569278) m
+2025-07-29 20:33:23,133 - INFO -   Beta coefficients:
+2025-07-29 20:33:23,134 - INFO -     Beta_x+ = -0.000932012, Beta_x- = 0.000932012
+2025-07-29 20:33:23,134 - INFO -     Beta_y+ = -0.0196461, Beta_y- = 0.0196461
+2025-07-29 20:33:23,134 - INFO - [Station_8_h0.625] Calculating derived section parameters...
+2025-07-29 20:33:23,135 - WARNING - [Station_8_h0.625] Shape Factor X is None.
+2025-07-29 20:33:23,135 - WARNING - [Station_8_h0.625] Shape Factor Y is None.
+2025-07-29 20:33:23,135 - INFO - [Station_8_h0.625] Polar Radius = 0.0178986
+2025-07-29 20:33:23,135 - INFO - [Station_8_h0.625] J / Ip = 0.0948159
+2025-07-29 20:33:23,136 - INFO - [Station_8_h0.625] Asx / Area = 0.769934
+2025-07-29 20:33:23,136 - INFO - [Station_8_h0.625] Asy / Area = 0.0496108
+2025-07-29 20:33:23,136 - INFO - [Station_8_h0.625] Compactness = 59.2052
+2025-07-29 20:33:23,137 - INFO - [Station_8_h0.625] Shear Offset Ratio X = 4.1262
+2025-07-29 20:33:23,137 - INFO - [Station_8_h0.625] Shear Offset Ratio Y = 0.00301657
+2025-07-29 20:33:23,137 - INFO - [Station_8_h0.625] Timoshenko Coefficient vx = 1.29881
+2025-07-29 20:33:23,137 - INFO - [Station_8_h0.625] Timoshenko Coefficient vy = 20.1569
+2025-07-29 20:33:23,138 - ERROR - [Station_8_h0.625] Geometric analysis failed — skipping values.
+2025-07-29 20:33:23,138 - INFO - [Station_8_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:33:23,272 - INFO - [Station_8_h0.1562] Starting geometric analysis...
+2025-07-29 20:33:23,402 - WARNING - [Station_8_h0.1562] Section modulus Sx/Sy is None. Defaulting to 0.0.
+2025-07-29 20:33:23,403 - ERROR - [Station_8_h0.1562] Geometric analysis failed: 'Section' object has no attribute 'get_sx'
+Traceback (most recent call last):
+  File "C:\Users\samea\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 139, in _geometric_analysis
+    self.sx = self.sec.get_sx() or 0.0
+              ^^^^^^^^^^^^^^^
+AttributeError: 'Section' object has no attribute 'get_sx'
+2025-07-29 20:33:23,404 - INFO - [Station_8_h0.1562] Starting warping analysis...
+2025-07-29 20:33:24,111 - INFO - [Station_8_h0.1562] Warping analysis complete. Key values:
+2025-07-29 20:33:24,129 - INFO -   Asx = 0.000290751 m², Asy = 1.87345e-05 m²
+2025-07-29 20:33:24,130 - INFO -   Shear centre = (-0.0055959, -0.00569278) m
+2025-07-29 20:33:24,130 - INFO -   Beta coefficients:
+2025-07-29 20:33:24,130 - INFO -     Beta_x+ = -0.000932012, Beta_x- = 0.000932012
+2025-07-29 20:33:24,131 - INFO -     Beta_y+ = -0.0196461, Beta_y- = 0.0196461
+2025-07-29 20:33:24,131 - INFO - [Station_8_h0.1562] Calculating derived section parameters...
+2025-07-29 20:33:24,131 - WARNING - [Station_8_h0.1562] Shape Factor X is None.
+2025-07-29 20:33:24,132 - WARNING - [Station_8_h0.1562] Shape Factor Y is None.
+2025-07-29 20:33:24,132 - INFO - [Station_8_h0.1562] Polar Radius = 0.0178986
+2025-07-29 20:33:24,132 - INFO - [Station_8_h0.1562] J / Ip = 0.0948159
+2025-07-29 20:33:24,133 - INFO - [Station_8_h0.1562] Asx / Area = 0.769934
+2025-07-29 20:33:24,133 - INFO - [Station_8_h0.1562] Asy / Area = 0.0496108
+2025-07-29 20:33:24,133 - INFO - [Station_8_h0.1562] Compactness = 59.2052
+2025-07-29 20:33:24,134 - INFO - [Station_8_h0.1562] Shear Offset Ratio X = 4.1262
+2025-07-29 20:33:24,134 - INFO - [Station_8_h0.1562] Shear Offset Ratio Y = 0.00301657
+2025-07-29 20:33:24,134 - INFO - [Station_8_h0.1562] Timoshenko Coefficient vx = 1.29881
+2025-07-29 20:33:24,134 - INFO - [Station_8_h0.1562] Timoshenko Coefficient vy = 20.1569
+2025-07-29 20:33:24,135 - ERROR - [Station_8_h0.1562] Geometric analysis failed — skipping values.
+2025-07-29 20:33:24,135 - INFO - [Station_8_h0.1562] SectionDXF row assembled with partial success.
