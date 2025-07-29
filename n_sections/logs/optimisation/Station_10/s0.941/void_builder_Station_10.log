@@ -1,0 +1,4 @@
+2025-07-28 19:28:18,852 - INFO - Scaling outer polygon inward by factor 0.94 at centroid (0.0014, -0.0051)
+2025-07-28 19:28:18,855 - INFO - Inserted internal void. Outer area: 0.000264, Void area: 0.000234
+2025-07-28 19:28:25,033 - INFO - Scaling outer polygon inward by factor 0.99 at centroid (0.0014, -0.0051)
+2025-07-28 19:28:25,035 - INFO - Inserted internal void. Outer area: 0.000264, Void area: 0.000261

@@ -1,3 +1,0 @@
-2025-07-21 13:03:35,631 - INFO - [Station_2_s0.889_s0.889_h3.000] Meshing with target h = 3 …
-2025-07-21 13:03:35,642 - WARNING - [Station_2_s0.889_s0.889_h3.000] 466 sliver triangles removed
-2025-07-21 13:03:35,650 - INFO - [Station_2_s0.889_s0.889_h3.000] mesh ok | nodes=4548 elems=1362 | A[min=1.01e-08 max=1.63e-06 mean=2.97e-07 med=2e-07] | q[min=0.606 max=1.000 mean=0.891]

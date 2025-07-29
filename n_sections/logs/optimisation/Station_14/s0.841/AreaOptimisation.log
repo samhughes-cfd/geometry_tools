@@ -1,0 +1,3 @@
+2025-07-28 19:31:36,914 - INFO - Starting optimisation run: Station_14_s0.841_s0.841_h3.000
+2025-07-28 19:31:37,453 - INFO - [Station_14_s0.841_s0.841_h3.000] Mesh plot saved to C:\Users\samea\Desktop\geometry_tools\n_sections\results\optimisation\Station_14\s0.841\mesh_Station_14_s0.841_s0.841_h3.000.png
+2025-07-28 19:31:39,356 - INFO - [Station_14_s0.841_s0.841_h3.000] Optimisation result generated (Jt=570.7, Iz=201.5)

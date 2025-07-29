@@ -1,0 +1,17 @@
+# Metadata
+label,Station_2
+r,0.2
+r_over_R,0.25
+B_r,18.6826163532195
+Cx,0.005849999999999999
+Cy,-0.00941
+mesh_h,3.0
+scale_factors,"[0.6        0.63468646 0.67137816 0.71019105 0.75124773 0.79467794
+ 0.84061887 0.88921569 0.94062193 0.995     ]"
+target_Jt_mm4,0.0005080534929728
+target_Iz_mm4,0.004977785227557
+dxf_path,C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_2.dxf
+
+# Optimisation Results
+run_label,mesh_h,scale_factor,area_mm2,Jt_mm4,Iz_mm4,target_Jt_mm4,target_Iz_mm4,delta_Jt_mm4,delta_Iz_mm4,passed,Jt_ratio,Iz_ratio,Area_reduction_pct,Jt_efficiency,Iz_efficiency,Slack_Jt,Excess_ratio_Jt,Slack_Iz,Excess_ratio_Iz
+Station_2_s0.600_s0.600_h3.000,3.0,0.6,1238.8483529094947,157093.48968115207,45160.17778590107,0.0005080534929728,0.004977785227557,157093.48917309858,45160.17280811584,True,309206593.11275023,9072343.566752236,0.0,126.80606896898276,36.45335418159957,157093.48917309858,309206592.11275023,45160.17280811584,9072342.566752236

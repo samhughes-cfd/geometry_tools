@@ -1,0 +1,260 @@
+2025-07-28 19:18:21,144 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-28 19:18:21,796 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-28 19:18:21,796 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-28 19:18:21,796 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-28 19:18:21,796 - INFO - [Station_8] Section translated.
+2025-07-28 19:18:21,796 - INFO - Processed and aligned geometry extracted for Station_8
+2025-07-28 19:18:22,848 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\processed_Station_8.png
+2025-07-28 19:18:22,848 - INFO - Starting section convergence study …
+2025-07-28 19:18:22,848 - INFO - [1/5] Meshing Station_8 with h = 40
+2025-07-28 19:18:22,856 - INFO - [Station_8_h40] Meshing with target h = 40 …
+2025-07-28 19:18:22,867 - WARNING - [Station_8_h40] 295 sliver triangles removed
+2025-07-28 19:18:22,867 - INFO - [Station_8_h40] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-28 19:18:22,949 - INFO - [Station_8_h40] Starting geometric analysis...
+2025-07-28 19:18:23,480 - INFO - [Station_8_h40] Starting warping analysis (required for J)...
+2025-07-28 19:18:24,613 - INFO - [Station_8_h40] Success at h = 40.0000
+2025-07-28 19:18:24,613 - INFO - [2/5] Meshing Station_8 with h = 10
+2025-07-28 19:18:24,613 - INFO - [Station_8_h10] Meshing with target h = 10 …
+2025-07-28 19:18:24,613 - WARNING - [Station_8_h10] 295 sliver triangles removed
+2025-07-28 19:18:24,613 - INFO - [Station_8_h10] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-28 19:18:24,696 - INFO - [Station_8_h10] Starting geometric analysis...
+2025-07-28 19:18:24,877 - INFO - [Station_8_h10] Starting warping analysis (required for J)...
+2025-07-28 19:18:25,603 - INFO - [Station_8_h10] Success at h = 10.0000
+2025-07-28 19:18:25,603 - INFO - [3/5] Meshing Station_8 with h = 2.5
+2025-07-28 19:18:25,618 - INFO - [Station_8_h2.5] Meshing with target h = 2.5 …
+2025-07-28 19:18:25,631 - WARNING - [Station_8_h2.5] 295 sliver triangles removed
+2025-07-28 19:18:25,632 - INFO - [Station_8_h2.5] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-28 19:18:25,732 - INFO - [Station_8_h2.5] Starting geometric analysis...
+2025-07-28 19:18:25,880 - INFO - [Station_8_h2.5] Starting warping analysis (required for J)...
+2025-07-28 19:18:26,630 - INFO - [Station_8_h2.5] Success at h = 2.5000
+2025-07-28 19:18:26,630 - INFO - [4/5] Meshing Station_8 with h = 0.625
+2025-07-28 19:18:26,630 - INFO - [Station_8_h0.625] Meshing with target h = 0.625 …
+2025-07-28 19:18:26,630 - WARNING - [Station_8_h0.625] 295 sliver triangles removed
+2025-07-28 19:18:26,630 - INFO - [Station_8_h0.625] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-28 19:18:26,730 - INFO - [Station_8_h0.625] Starting geometric analysis...
+2025-07-28 19:18:26,857 - INFO - [Station_8_h0.625] Starting warping analysis (required for J)...
+2025-07-28 19:18:27,565 - INFO - [Station_8_h0.625] Success at h = 0.6250
+2025-07-28 19:18:27,565 - INFO - [5/5] Meshing Station_8 with h = 0.1562
+2025-07-28 19:18:27,565 - INFO - [Station_8_h0.1562] Meshing with target h = 0.1562 …
+2025-07-28 19:18:27,623 - WARNING - [Station_8_h0.1562] 295 sliver triangles removed
+2025-07-28 19:18:27,625 - INFO - [Station_8_h0.1562] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-28 19:18:27,726 - INFO - [Station_8_h0.1562] Starting geometric analysis...
+2025-07-28 19:18:27,937 - INFO - [Station_8_h0.1562] Starting warping analysis (required for J)...
+2025-07-28 19:18:28,631 - INFO - [Station_8_h0.1562] Success at h = 0.1562
+2025-07-28 19:18:28,646 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-28 19:18:29,429 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-28 19:18:30,495 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-28 19:18:31,129 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
+2025-07-28 19:18:31,762 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
+2025-07-28 19:18:32,644 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-28 19:18:33,645 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-28 19:18:34,267 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
+2025-07-28 19:18:35,032 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
+2025-07-28 19:18:35,041 - INFO - Section analysis result set saved
+2025-07-28 19:18:35,041 - INFO - Station Station_10 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf, twist=2.7°, centroid=(0.00, -0.01)
+2025-07-28 19:18:35,041 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf
+2025-07-28 19:18:35,050 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:18:35,065 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:18:35,065 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:18:35,066 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:18:35,068 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
+2025-07-28 19:18:35,178 - INFO - Plotting 77 DXF entities for preview...
+2025-07-28 19:18:35,419 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\raw_Station_10.png
+2025-07-28 19:18:35,419 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf'
+2025-07-28 19:18:35,441 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:18:35,446 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:18:35,447 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:18:35,447 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:18:35,449 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-28 19:18:35,661 - INFO - Zipped 208 points
+2025-07-28 19:18:35,744 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-28 19:18:36,236 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-28 19:18:36,236 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-28 19:18:36,236 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-28 19:18:36,236 - INFO - [Station_10] Section translated.
+2025-07-28 19:18:36,236 - INFO - Processed and aligned geometry extracted for Station_10
+2025-07-28 19:18:37,193 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\processed_Station_10.png
+2025-07-28 19:18:37,193 - INFO - Starting section convergence study …
+2025-07-28 19:18:37,193 - INFO - [1/5] Meshing Station_10 with h = 40
+2025-07-28 19:18:37,195 - INFO - [Station_10_h40] Meshing with target h = 40 …
+2025-07-28 19:18:37,195 - WARNING - [Station_10_h40] 363 sliver triangles removed
+2025-07-28 19:18:37,195 - INFO - [Station_10_h40] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-28 19:18:37,282 - INFO - [Station_10_h40] Starting geometric analysis...
+2025-07-28 19:18:37,724 - INFO - [Station_10_h40] Starting warping analysis (required for J)...
+2025-07-28 19:18:38,745 - INFO - [Station_10_h40] Success at h = 40.0000
+2025-07-28 19:18:38,745 - INFO - [2/5] Meshing Station_10 with h = 10
+2025-07-28 19:18:38,745 - INFO - [Station_10_h10] Meshing with target h = 10 …
+2025-07-28 19:18:38,767 - WARNING - [Station_10_h10] 363 sliver triangles removed
+2025-07-28 19:18:38,767 - INFO - [Station_10_h10] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-28 19:18:38,899 - INFO - [Station_10_h10] Starting geometric analysis...
+2025-07-28 19:18:39,041 - INFO - [Station_10_h10] Starting warping analysis (required for J)...
+2025-07-28 19:18:39,795 - INFO - [Station_10_h10] Success at h = 10.0000
+2025-07-28 19:18:39,795 - INFO - [3/5] Meshing Station_10 with h = 2.5
+2025-07-28 19:18:39,811 - INFO - [Station_10_h2.5] Meshing with target h = 2.5 …
+2025-07-28 19:18:39,811 - WARNING - [Station_10_h2.5] 363 sliver triangles removed
+2025-07-28 19:18:39,811 - INFO - [Station_10_h2.5] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-28 19:18:39,911 - INFO - [Station_10_h2.5] Starting geometric analysis...
+2025-07-28 19:18:40,047 - INFO - [Station_10_h2.5] Starting warping analysis (required for J)...
+2025-07-28 19:18:40,779 - INFO - [Station_10_h2.5] Success at h = 2.5000
+2025-07-28 19:18:40,779 - INFO - [4/5] Meshing Station_10 with h = 0.625
+2025-07-28 19:18:40,779 - INFO - [Station_10_h0.625] Meshing with target h = 0.625 …
+2025-07-28 19:18:40,779 - WARNING - [Station_10_h0.625] 363 sliver triangles removed
+2025-07-28 19:18:40,779 - INFO - [Station_10_h0.625] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-28 19:18:40,878 - INFO - [Station_10_h0.625] Starting geometric analysis...
+2025-07-28 19:18:41,015 - INFO - [Station_10_h0.625] Starting warping analysis (required for J)...
+2025-07-28 19:18:41,879 - INFO - [Station_10_h0.625] Success at h = 0.6250
+2025-07-28 19:18:41,879 - INFO - [5/5] Meshing Station_10 with h = 0.1562
+2025-07-28 19:18:41,879 - INFO - [Station_10_h0.1562] Meshing with target h = 0.1562 …
+2025-07-28 19:18:41,900 - WARNING - [Station_10_h0.1562] 363 sliver triangles removed
+2025-07-28 19:18:41,900 - INFO - [Station_10_h0.1562] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-28 19:18:41,996 - INFO - [Station_10_h0.1562] Starting geometric analysis...
+2025-07-28 19:18:42,150 - INFO - [Station_10_h0.1562] Starting warping analysis (required for J)...
+2025-07-28 19:18:42,911 - INFO - [Station_10_h0.1562] Success at h = 0.1562
+2025-07-28 19:18:42,911 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-28 19:18:43,780 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-28 19:18:44,777 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-28 19:18:45,352 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
+2025-07-28 19:18:45,993 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
+2025-07-28 19:18:46,983 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-28 19:18:47,862 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-28 19:18:48,456 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
+2025-07-28 19:18:49,129 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
+2025-07-28 19:18:49,141 - INFO - Section analysis result set saved
+2025-07-28 19:18:49,141 - INFO - Station Station_12 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf, twist=1.4°, centroid=(0.00, -0.00)
+2025-07-28 19:18:49,141 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
+2025-07-28 19:18:49,152 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:18:49,164 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:18:49,164 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:18:49,165 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:18:49,170 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
+2025-07-28 19:18:49,279 - INFO - Plotting 46 DXF entities for preview...
+2025-07-28 19:18:49,502 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\raw_Station_12.png
+2025-07-28 19:18:49,503 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf'
+2025-07-28 19:18:49,579 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:18:49,579 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:18:49,579 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:18:49,579 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:18:49,596 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-28 19:18:49,678 - INFO - Zipped 91 points
+2025-07-28 19:18:49,702 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-28 19:18:50,261 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-28 19:18:50,261 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-28 19:18:50,261 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-28 19:18:50,261 - INFO - [Station_12] Section translated.
+2025-07-28 19:18:50,261 - INFO - Processed and aligned geometry extracted for Station_12
+2025-07-28 19:18:51,583 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\processed_Station_12.png
+2025-07-28 19:18:51,583 - INFO - Starting section convergence study …
+2025-07-28 19:18:51,583 - INFO - [1/5] Meshing Station_12 with h = 40
+2025-07-28 19:18:51,583 - INFO - [Station_12_h40] Meshing with target h = 40 …
+2025-07-28 19:18:51,603 - WARNING - [Station_12_h40] 387 sliver triangles removed
+2025-07-28 19:18:51,603 - INFO - [Station_12_h40] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-28 19:18:51,682 - INFO - [Station_12_h40] Starting geometric analysis...
+2025-07-28 19:18:52,129 - INFO - [Station_12_h40] Starting warping analysis (required for J)...
+2025-07-28 19:18:53,249 - INFO - [Station_12_h40] Success at h = 40.0000
+2025-07-28 19:18:53,249 - INFO - [2/5] Meshing Station_12 with h = 10
+2025-07-28 19:18:53,249 - INFO - [Station_12_h10] Meshing with target h = 10 …
+2025-07-28 19:18:53,272 - WARNING - [Station_12_h10] 387 sliver triangles removed
+2025-07-28 19:18:53,272 - INFO - [Station_12_h10] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-28 19:18:53,412 - INFO - [Station_12_h10] Starting geometric analysis...
+2025-07-28 19:18:53,565 - INFO - [Station_12_h10] Starting warping analysis (required for J)...
+2025-07-28 19:18:54,345 - INFO - [Station_12_h10] Success at h = 10.0000
+2025-07-28 19:18:54,345 - INFO - [3/5] Meshing Station_12 with h = 2.5
+2025-07-28 19:18:54,345 - INFO - [Station_12_h2.5] Meshing with target h = 2.5 …
+2025-07-28 19:18:54,370 - WARNING - [Station_12_h2.5] 387 sliver triangles removed
+2025-07-28 19:18:54,370 - INFO - [Station_12_h2.5] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-28 19:18:54,470 - INFO - [Station_12_h2.5] Starting geometric analysis...
+2025-07-28 19:18:54,613 - INFO - [Station_12_h2.5] Starting warping analysis (required for J)...
+2025-07-28 19:18:55,329 - INFO - [Station_12_h2.5] Success at h = 2.5000
+2025-07-28 19:18:55,329 - INFO - [4/5] Meshing Station_12 with h = 0.625
+2025-07-28 19:18:55,345 - INFO - [Station_12_h0.625] Meshing with target h = 0.625 …
+2025-07-28 19:18:55,433 - WARNING - [Station_12_h0.625] 387 sliver triangles removed
+2025-07-28 19:18:55,433 - INFO - [Station_12_h0.625] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-28 19:18:55,530 - INFO - [Station_12_h0.625] Starting geometric analysis...
+2025-07-28 19:18:55,690 - INFO - [Station_12_h0.625] Starting warping analysis (required for J)...
+2025-07-28 19:18:56,444 - INFO - [Station_12_h0.625] Success at h = 0.6250
+2025-07-28 19:18:56,444 - INFO - [5/5] Meshing Station_12 with h = 0.1562
+2025-07-28 19:18:56,444 - INFO - [Station_12_h0.1562] Meshing with target h = 0.1562 …
+2025-07-28 19:18:56,465 - WARNING - [Station_12_h0.1562] 387 sliver triangles removed
+2025-07-28 19:18:56,466 - INFO - [Station_12_h0.1562] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-28 19:18:56,574 - INFO - [Station_12_h0.1562] Starting geometric analysis...
+2025-07-28 19:18:56,714 - INFO - [Station_12_h0.1562] Starting warping analysis (required for J)...
+2025-07-28 19:18:57,531 - INFO - [Station_12_h0.1562] Success at h = 0.1562
+2025-07-28 19:18:57,531 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-28 19:18:58,536 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-28 19:18:59,477 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-28 19:19:00,111 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-28 19:19:00,826 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-28 19:19:01,711 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-28 19:19:02,628 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-28 19:19:03,232 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-28 19:19:03,911 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-28 19:19:03,911 - INFO - Section analysis result set saved
+2025-07-28 19:19:03,911 - INFO - Station Station_14 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf, twist=0.3°, centroid=(0.00, -0.00)
+2025-07-28 19:19:03,911 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
+2025-07-28 19:19:04,011 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:19:04,011 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:19:04,011 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:19:04,011 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:19:04,011 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
+2025-07-28 19:19:04,136 - INFO - Plotting 52 DXF entities for preview...
+2025-07-28 19:19:04,347 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\raw_Station_14.png
+2025-07-28 19:19:04,348 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf'
+2025-07-28 19:19:04,364 - INFO - DXF version upgrade to DXF R2000.
+2025-07-28 19:19:04,367 - INFO - creating ACAD_COLOR dictionary
+2025-07-28 19:19:04,367 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-28 19:19:04,367 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-28 19:19:04,372 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-28 19:19:04,463 - INFO - Zipped 73 points
+2025-07-28 19:19:04,486 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-28 19:19:05,039 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-28 19:19:05,040 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-28 19:19:05,040 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-28 19:19:05,041 - INFO - [Station_14] Section translated.
+2025-07-28 19:19:05,043 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-28 19:19:06,133 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\processed_Station_14.png
+2025-07-28 19:19:06,133 - INFO - Starting section convergence study …
+2025-07-28 19:19:06,133 - INFO - [1/5] Meshing Station_14 with h = 40
+2025-07-28 19:19:06,133 - INFO - [Station_14_h40] Meshing with target h = 40 …
+2025-07-28 19:19:06,133 - WARNING - [Station_14_h40] 464 sliver triangles removed
+2025-07-28 19:19:06,133 - INFO - [Station_14_h40] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-28 19:19:06,245 - INFO - [Station_14_h40] Starting geometric analysis...
+2025-07-28 19:19:06,694 - INFO - [Station_14_h40] Starting warping analysis (required for J)...
+2025-07-28 19:19:08,017 - INFO - [Station_14_h40] Success at h = 40.0000
+2025-07-28 19:19:08,019 - INFO - [2/5] Meshing Station_14 with h = 10
+2025-07-28 19:19:08,020 - INFO - [Station_14_h10] Meshing with target h = 10 …
+2025-07-28 19:19:08,034 - WARNING - [Station_14_h10] 464 sliver triangles removed
+2025-07-28 19:19:08,037 - INFO - [Station_14_h10] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-28 19:19:08,116 - INFO - [Station_14_h10] Starting geometric analysis...
+2025-07-28 19:19:08,306 - INFO - [Station_14_h10] Starting warping analysis (required for J)...
+2025-07-28 19:19:09,138 - INFO - [Station_14_h10] Success at h = 10.0000
+2025-07-28 19:19:09,154 - INFO - [3/5] Meshing Station_14 with h = 2.5
+2025-07-28 19:19:09,154 - INFO - [Station_14_h2.5] Meshing with target h = 2.5 …
+2025-07-28 19:19:09,166 - WARNING - [Station_14_h2.5] 464 sliver triangles removed
+2025-07-28 19:19:09,167 - INFO - [Station_14_h2.5] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-28 19:19:09,236 - INFO - [Station_14_h2.5] Starting geometric analysis...
+2025-07-28 19:19:09,387 - INFO - [Station_14_h2.5] Starting warping analysis (required for J)...
+2025-07-28 19:19:10,077 - INFO - [Station_14_h2.5] Success at h = 2.5000
+2025-07-28 19:19:10,077 - INFO - [4/5] Meshing Station_14 with h = 0.625
+2025-07-28 19:19:10,077 - INFO - [Station_14_h0.625] Meshing with target h = 0.625 …
+2025-07-28 19:19:10,095 - WARNING - [Station_14_h0.625] 464 sliver triangles removed
+2025-07-28 19:19:10,096 - INFO - [Station_14_h0.625] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-28 19:19:10,177 - INFO - [Station_14_h0.625] Starting geometric analysis...
+2025-07-28 19:19:10,301 - INFO - [Station_14_h0.625] Starting warping analysis (required for J)...
+2025-07-28 19:19:11,067 - INFO - [Station_14_h0.625] Success at h = 0.6250
+2025-07-28 19:19:11,067 - INFO - [5/5] Meshing Station_14 with h = 0.1562
+2025-07-28 19:19:11,067 - INFO - [Station_14_h0.1562] Meshing with target h = 0.1562 …
+2025-07-28 19:19:11,083 - WARNING - [Station_14_h0.1562] 464 sliver triangles removed
+2025-07-28 19:19:11,083 - INFO - [Station_14_h0.1562] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-28 19:19:11,182 - INFO - [Station_14_h0.1562] Starting geometric analysis...
+2025-07-28 19:19:11,331 - INFO - [Station_14_h0.1562] Starting warping analysis (required for J)...
+2025-07-28 19:19:12,148 - INFO - [Station_14_h0.1562] Success at h = 0.1562
+2025-07-28 19:19:12,148 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-28 19:19:12,999 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-28 19:19:14,061 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-28 19:19:14,644 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-28 19:19:15,296 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-28 19:19:16,177 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-28 19:19:17,027 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-28 19:19:17,644 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-28 19:19:18,296 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-28 19:19:18,307 - INFO - Section analysis result set saved

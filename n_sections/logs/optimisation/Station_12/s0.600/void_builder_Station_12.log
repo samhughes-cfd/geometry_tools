@@ -1,0 +1,20 @@
+2025-07-28 19:29:44,245 - INFO - Scaling outer polygon inward by factor 0.60 at centroid (0.0011, -0.0045)
+2025-07-28 19:29:44,247 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000069
+2025-07-28 19:29:51,831 - INFO - Scaling outer polygon inward by factor 0.63 at centroid (0.0011, -0.0045)
+2025-07-28 19:29:51,831 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000077
+2025-07-28 19:29:59,229 - INFO - Scaling outer polygon inward by factor 0.67 at centroid (0.0011, -0.0045)
+2025-07-28 19:29:59,230 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000086
+2025-07-28 19:30:06,746 - INFO - Scaling outer polygon inward by factor 0.71 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:06,748 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000096
+2025-07-28 19:30:13,989 - INFO - Scaling outer polygon inward by factor 0.75 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:13,991 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000108
+2025-07-28 19:30:21,038 - INFO - Scaling outer polygon inward by factor 0.79 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:21,039 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000120
+2025-07-28 19:30:28,085 - INFO - Scaling outer polygon inward by factor 0.84 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:28,087 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000135
+2025-07-28 19:30:34,729 - INFO - Scaling outer polygon inward by factor 0.89 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:34,732 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000151
+2025-07-28 19:30:41,384 - INFO - Scaling outer polygon inward by factor 0.94 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:41,386 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000169
+2025-07-28 19:30:47,841 - INFO - Scaling outer polygon inward by factor 0.99 at centroid (0.0011, -0.0045)
+2025-07-28 19:30:47,844 - INFO - Inserted internal void. Outer area: 0.000191, Void area: 0.000189
