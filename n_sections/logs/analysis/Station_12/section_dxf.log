@@ -198,3 +198,163 @@ TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
 2025-07-29 15:07:35,724 - ERROR - [Station_12_h0.1562] Geometric analysis failed — skipping values.
 2025-07-29 15:07:35,724 - ERROR - [Station_12_h0.1562] Warping analysis failed — skipping values.
 2025-07-29 15:07:35,724 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:04:45,442 - INFO - [Station_12_h40] Starting geometric analysis...
+2025-07-29 20:04:45,876 - WARNING - [Station_12_h40] Shape modulus sx/sy returned None.
+2025-07-29 20:04:45,876 - ERROR - [Station_12_h40] Incomplete geometric properties.
+2025-07-29 20:04:45,877 - INFO - [Station_12_h40] Starting warping analysis...
+2025-07-29 20:04:46,908 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:04:47,055 - INFO - [Station_12_h10] Starting geometric analysis...
+2025-07-29 20:04:47,188 - WARNING - [Station_12_h10] Shape modulus sx/sy returned None.
+2025-07-29 20:04:47,189 - ERROR - [Station_12_h10] Incomplete geometric properties.
+2025-07-29 20:04:47,189 - INFO - [Station_12_h10] Starting warping analysis...
+2025-07-29 20:04:47,913 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:04:48,014 - INFO - [Station_12_h2.5] Starting geometric analysis...
+2025-07-29 20:04:48,144 - WARNING - [Station_12_h2.5] Shape modulus sx/sy returned None.
+2025-07-29 20:04:48,145 - ERROR - [Station_12_h2.5] Incomplete geometric properties.
+2025-07-29 20:04:48,145 - INFO - [Station_12_h2.5] Starting warping analysis...
+2025-07-29 20:04:48,932 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:04:49,121 - INFO - [Station_12_h0.625] Starting geometric analysis...
+2025-07-29 20:04:49,262 - WARNING - [Station_12_h0.625] Shape modulus sx/sy returned None.
+2025-07-29 20:04:49,263 - ERROR - [Station_12_h0.625] Incomplete geometric properties.
+2025-07-29 20:04:49,263 - INFO - [Station_12_h0.625] Starting warping analysis...
+2025-07-29 20:04:50,077 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:04:50,177 - INFO - [Station_12_h0.1562] Starting geometric analysis...
+2025-07-29 20:04:50,309 - WARNING - [Station_12_h0.1562] Shape modulus sx/sy returned None.
+2025-07-29 20:04:50,310 - ERROR - [Station_12_h0.1562] Incomplete geometric properties.
+2025-07-29 20:04:50,310 - INFO - [Station_12_h0.1562] Starting warping analysis...
+2025-07-29 20:04:51,105 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:09:43,334 - INFO - [Station_12_h40] Starting geometric analysis...
+2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Area = 0.000190729
+2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Perimeter = 0.106384
+2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cx = 0.00106
+2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cy = -0.00452
+2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Ixx = 8.61287e-10
+2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Iyy = 3.01772e-08
+2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ixy = 7.91093e-10
+2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ip = 3.10385e-08
+2025-07-29 20:09:43,809 - INFO - [Station_12_h40] Principal I1 = 3.01985e-08
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Principal I2 = 8.39955e-10
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius rx = 0.00212503
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius ry = 0.0125786
+2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sx returned None.
+2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sy returned None.
+2025-07-29 20:09:43,811 - ERROR - [Station_12_h40] Incomplete geometric properties.
+2025-07-29 20:09:43,812 - INFO - [Station_12_h40] Starting warping analysis...
+2025-07-29 20:09:45,016 - INFO - [Station_12_h40] J = 2.91271e-09
+2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asx = 0.000157779
+2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asy = 9.44221e-06
+2025-07-29 20:09:45,018 - INFO - [Station_12_h40] SCx = -0.00446522
+2025-07-29 20:09:45,019 - INFO - [Station_12_h40] SCy = -0.00419031
+2025-07-29 20:09:45,019 - INFO - [Station_12_h40] Beta_x+ = 0.00614689
+2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_x- = -0.00614689
+2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_y+ = -0.0146399
+2025-07-29 20:09:45,021 - INFO - [Station_12_h40] Beta_y- = 0.0146399
+2025-07-29 20:09:45,021 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:09:45,126 - INFO - [Station_12_h10] Starting geometric analysis...
+2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Area = 0.000190729
+2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Perimeter = 0.106384
+2025-07-29 20:09:45,259 - INFO - [Station_12_h10] Centroid cx = 0.00106
+2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Centroid cy = -0.00452
+2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Ixx = 8.61287e-10
+2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Iyy = 3.01772e-08
+2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Ixy = 7.91093e-10
+2025-07-29 20:09:45,262 - INFO - [Station_12_h10] Ip = 3.10385e-08
+2025-07-29 20:09:45,292 - INFO - [Station_12_h10] Principal I1 = 3.01985e-08
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Principal I2 = 8.39955e-10
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius rx = 0.00212503
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius ry = 0.0125786
+2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sx returned None.
+2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sy returned None.
+2025-07-29 20:09:45,294 - ERROR - [Station_12_h10] Incomplete geometric properties.
+2025-07-29 20:09:45,295 - INFO - [Station_12_h10] Starting warping analysis...
+2025-07-29 20:09:46,035 - INFO - [Station_12_h10] J = 2.91271e-09
+2025-07-29 20:09:46,035 - INFO - [Station_12_h10] Asx = 0.000157779
+2025-07-29 20:09:46,036 - INFO - [Station_12_h10] Asy = 9.44221e-06
+2025-07-29 20:09:46,036 - INFO - [Station_12_h10] SCx = -0.00446522
+2025-07-29 20:09:46,037 - INFO - [Station_12_h10] SCy = -0.00419031
+2025-07-29 20:09:46,037 - INFO - [Station_12_h10] Beta_x+ = 0.00614689
+2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_x- = -0.00614689
+2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_y+ = -0.0146399
+2025-07-29 20:09:46,039 - INFO - [Station_12_h10] Beta_y- = 0.0146399
+2025-07-29 20:09:46,039 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:09:46,159 - INFO - [Station_12_h2.5] Starting geometric analysis...
+2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Area = 0.000190729
+2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Perimeter = 0.106384
+2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cx = 0.00106
+2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cy = -0.00452
+2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Ixx = 8.61287e-10
+2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Iyy = 3.01772e-08
+2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ixy = 7.91093e-10
+2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ip = 3.10385e-08
+2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I1 = 3.01985e-08
+2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I2 = 8.39955e-10
+2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius rx = 0.00212503
+2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius ry = 0.0125786
+2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sx returned None.
+2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sy returned None.
+2025-07-29 20:09:46,337 - ERROR - [Station_12_h2.5] Incomplete geometric properties.
+2025-07-29 20:09:46,337 - INFO - [Station_12_h2.5] Starting warping analysis...
+2025-07-29 20:09:47,069 - INFO - [Station_12_h2.5] J = 2.91271e-09
+2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asx = 0.000157779
+2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asy = 9.44221e-06
+2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCx = -0.00446522
+2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCy = -0.00419031
+2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x+ = 0.00614689
+2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x- = -0.00614689
+2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y+ = -0.0146399
+2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y- = 0.0146399
+2025-07-29 20:09:47,074 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:09:47,248 - INFO - [Station_12_h0.625] Starting geometric analysis...
+2025-07-29 20:09:47,385 - INFO - [Station_12_h0.625] Area = 0.000190729
+2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Perimeter = 0.106384
+2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Centroid cx = 0.00106
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Centroid cy = -0.00452
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Ixx = 8.61287e-10
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Iyy = 3.01772e-08
+2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ixy = 7.91093e-10
+2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ip = 3.10385e-08
+2025-07-29 20:09:47,428 - INFO - [Station_12_h0.625] Principal I1 = 3.01985e-08
+2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Principal I2 = 8.39955e-10
+2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Radius rx = 0.00212503
+2025-07-29 20:09:47,430 - INFO - [Station_12_h0.625] Radius ry = 0.0125786
+2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sx returned None.
+2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sy returned None.
+2025-07-29 20:09:47,431 - ERROR - [Station_12_h0.625] Incomplete geometric properties.
+2025-07-29 20:09:47,431 - INFO - [Station_12_h0.625] Starting warping analysis...
+2025-07-29 20:09:48,256 - INFO - [Station_12_h0.625] J = 2.91271e-09
+2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asx = 0.000157779
+2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asy = 9.44221e-06
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCx = -0.00446522
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCy = -0.00419031
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] Beta_x+ = 0.00614689
+2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_x- = -0.00614689
+2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_y+ = -0.0146399
+2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] Beta_y- = 0.0146399
+2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:09:48,367 - INFO - [Station_12_h0.1562] Starting geometric analysis...
+2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Area = 0.000190729
+2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Perimeter = 0.106384
+2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cx = 0.00106
+2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cy = -0.00452
+2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Ixx = 8.61287e-10
+2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Iyy = 3.01772e-08
+2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ixy = 7.91093e-10
+2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ip = 3.10385e-08
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I1 = 3.01985e-08
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I2 = 8.39955e-10
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Radius rx = 0.00212503
+2025-07-29 20:09:48,536 - INFO - [Station_12_h0.1562] Radius ry = 0.0125786
+2025-07-29 20:09:48,536 - WARNING - [Station_12_h0.1562] Section modulus Sx returned None.
+2025-07-29 20:09:48,537 - WARNING - [Station_12_h0.1562] Section modulus Sy returned None.
+2025-07-29 20:09:48,537 - ERROR - [Station_12_h0.1562] Incomplete geometric properties.
+2025-07-29 20:09:48,537 - INFO - [Station_12_h0.1562] Starting warping analysis...
+2025-07-29 20:09:49,337 - INFO - [Station_12_h0.1562] J = 2.91271e-09
+2025-07-29 20:09:49,338 - INFO - [Station_12_h0.1562] Asx = 0.000157779
+2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] Asy = 9.44221e-06
+2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] SCx = -0.00446522
+2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] SCy = -0.00419031
+2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] Beta_x+ = 0.00614689
+2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_x- = -0.00614689
+2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_y+ = -0.0146399
+2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] Beta_y- = 0.0146399
+2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.

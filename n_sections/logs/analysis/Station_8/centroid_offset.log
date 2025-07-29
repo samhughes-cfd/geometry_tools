@@ -1,540 +1,740 @@
-2025-07-29 15:07:09,753 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 15:07:10,216 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
-2025-07-29 15:07:10,216 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
-2025-07-29 15:07:10,216 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
-2025-07-29 15:07:10,218 - INFO - [Station_8] Section translated.
-2025-07-29 15:07:10,219 - INFO - Processed and aligned geometry extracted for Station_8
-2025-07-29 15:07:10,961 - INFO - Processed geometry preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\processed_Station_8.png
-2025-07-29 15:07:10,961 - INFO - Starting section convergence study …
-2025-07-29 15:07:10,963 - INFO - [1/5] Meshing Station_8 with h = 40
-2025-07-29 15:07:10,963 - INFO - [Station_8_h40] Meshing with target h = 40 …
-2025-07-29 15:07:10,973 - WARNING - [Station_8_h40] 295 sliver triangles removed
-2025-07-29 15:07:10,973 - INFO - [Station_8_h40] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-29 15:07:11,044 - INFO - [Station_8_h40] Starting geometric analysis...
-2025-07-29 15:07:11,436 - ERROR - [Station_8_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:11,436 - INFO - [Station_8_h40] Starting warping analysis...
-2025-07-29 15:07:12,296 - ERROR - [Station_8_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:12,296 - ERROR - [Station_8_h40] Geometric analysis failed — skipping values.
-2025-07-29 15:07:12,296 - ERROR - [Station_8_h40] Warping analysis failed — skipping values.
-2025-07-29 15:07:12,296 - INFO - [Station_8_h40] SectionDXF row assembled with partial success.
-2025-07-29 15:07:12,296 - INFO - [2/5] Meshing Station_8 with h = 10
-2025-07-29 15:07:12,296 - INFO - [Station_8_h10] Meshing with target h = 10 …
-2025-07-29 15:07:12,311 - WARNING - [Station_8_h10] 295 sliver triangles removed
-2025-07-29 15:07:12,311 - INFO - [Station_8_h10] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-29 15:07:12,381 - INFO - [Station_8_h10] Starting geometric analysis...
-2025-07-29 15:07:12,479 - ERROR - [Station_8_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:12,479 - INFO - [Station_8_h10] Starting warping analysis...
-2025-07-29 15:07:13,062 - ERROR - [Station_8_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:13,062 - ERROR - [Station_8_h10] Geometric analysis failed — skipping values.
-2025-07-29 15:07:13,062 - ERROR - [Station_8_h10] Warping analysis failed — skipping values.
-2025-07-29 15:07:13,062 - INFO - [Station_8_h10] SectionDXF row assembled with partial success.
-2025-07-29 15:07:13,062 - INFO - [3/5] Meshing Station_8 with h = 2.5
-2025-07-29 15:07:13,062 - INFO - [Station_8_h2.5] Meshing with target h = 2.5 …
-2025-07-29 15:07:13,077 - WARNING - [Station_8_h2.5] 295 sliver triangles removed
-2025-07-29 15:07:13,077 - INFO - [Station_8_h2.5] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-29 15:07:13,146 - INFO - [Station_8_h2.5] Starting geometric analysis...
-2025-07-29 15:07:13,244 - ERROR - [Station_8_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:13,244 - INFO - [Station_8_h2.5] Starting warping analysis...
-2025-07-29 15:07:13,832 - ERROR - [Station_8_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:13,832 - ERROR - [Station_8_h2.5] Geometric analysis failed — skipping values.
-2025-07-29 15:07:13,832 - ERROR - [Station_8_h2.5] Warping analysis failed — skipping values.
-2025-07-29 15:07:13,832 - INFO - [Station_8_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 15:07:13,832 - INFO - [4/5] Meshing Station_8 with h = 0.625
-2025-07-29 15:07:13,832 - INFO - [Station_8_h0.625] Meshing with target h = 0.625 …
-2025-07-29 15:07:13,832 - WARNING - [Station_8_h0.625] 295 sliver triangles removed
-2025-07-29 15:07:13,832 - INFO - [Station_8_h0.625] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-29 15:07:13,911 - INFO - [Station_8_h0.625] Starting geometric analysis...
-2025-07-29 15:07:14,014 - ERROR - [Station_8_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:14,014 - INFO - [Station_8_h0.625] Starting warping analysis...
-2025-07-29 15:07:14,596 - ERROR - [Station_8_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:14,596 - ERROR - [Station_8_h0.625] Geometric analysis failed — skipping values.
-2025-07-29 15:07:14,596 - ERROR - [Station_8_h0.625] Warping analysis failed — skipping values.
-2025-07-29 15:07:14,596 - INFO - [Station_8_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 15:07:14,596 - INFO - [5/5] Meshing Station_8 with h = 0.1562
-2025-07-29 15:07:14,596 - INFO - [Station_8_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 15:07:14,613 - WARNING - [Station_8_h0.1562] 295 sliver triangles removed
-2025-07-29 15:07:14,613 - INFO - [Station_8_h0.1562] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
-2025-07-29 15:07:14,680 - INFO - [Station_8_h0.1562] Starting geometric analysis...
-2025-07-29 15:07:14,780 - ERROR - [Station_8_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:14,795 - INFO - [Station_8_h0.1562] Starting warping analysis...
-2025-07-29 15:07:15,414 - ERROR - [Station_8_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:15,414 - ERROR - [Station_8_h0.1562] Geometric analysis failed — skipping values.
-2025-07-29 15:07:15,414 - ERROR - [Station_8_h0.1562] Warping analysis failed — skipping values.
-2025-07-29 15:07:15,415 - INFO - [Station_8_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 15:07:15,417 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 15:07:16,031 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
-2025-07-29 15:07:16,668 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
-2025-07-29 15:07:17,043 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
-2025-07-29 15:07:17,489 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
-2025-07-29 15:07:18,048 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
-2025-07-29 15:07:18,732 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
-2025-07-29 15:07:19,129 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
-2025-07-29 15:07:19,564 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
-2025-07-29 15:07:19,564 - INFO - Section analysis result set saved
-2025-07-29 15:07:19,564 - INFO - Station Station_10 [Analysis]: DXF=C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_10.dxf, twist=2.7°, centroid=(0.00, -0.01)
-2025-07-29 15:07:19,564 - INFO - Reading DXF file: C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_10.dxf
-2025-07-29 15:07:19,583 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:19,585 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:19,586 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:19,586 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:19,589 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
-2025-07-29 15:07:19,657 - INFO - Plotting 77 DXF entities for preview...
-2025-07-29 15:07:19,845 - INFO - Raw preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\raw_Station_10.png
-2025-07-29 15:07:19,845 - INFO - [Station_10] Importing DXF: 'C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_10.dxf'
-2025-07-29 15:07:19,845 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:19,862 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:19,862 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:19,863 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:19,865 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-29 15:07:20,043 - INFO - Zipped 208 points
-2025-07-29 15:07:20,043 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 15:07:20,534 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
-2025-07-29 15:07:20,534 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
-2025-07-29 15:07:20,534 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
-2025-07-29 15:07:20,534 - INFO - [Station_10] Section translated.
-2025-07-29 15:07:20,534 - INFO - Processed and aligned geometry extracted for Station_10
-2025-07-29 15:07:21,248 - INFO - Processed geometry preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\processed_Station_10.png
-2025-07-29 15:07:21,248 - INFO - Starting section convergence study …
-2025-07-29 15:07:21,248 - INFO - [1/5] Meshing Station_10 with h = 40
-2025-07-29 15:07:21,248 - INFO - [Station_10_h40] Meshing with target h = 40 …
-2025-07-29 15:07:21,318 - WARNING - [Station_10_h40] 363 sliver triangles removed
-2025-07-29 15:07:21,318 - INFO - [Station_10_h40] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-29 15:07:21,388 - INFO - [Station_10_h40] Starting geometric analysis...
-2025-07-29 15:07:21,732 - ERROR - [Station_10_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:21,732 - INFO - [Station_10_h40] Starting warping analysis...
-2025-07-29 15:07:22,583 - ERROR - [Station_10_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:22,583 - ERROR - [Station_10_h40] Geometric analysis failed — skipping values.
-2025-07-29 15:07:22,583 - ERROR - [Station_10_h40] Warping analysis failed — skipping values.
-2025-07-29 15:07:22,583 - INFO - [Station_10_h40] SectionDXF row assembled with partial success.
-2025-07-29 15:07:22,583 - INFO - [2/5] Meshing Station_10 with h = 10
-2025-07-29 15:07:22,583 - INFO - [Station_10_h10] Meshing with target h = 10 …
-2025-07-29 15:07:22,602 - WARNING - [Station_10_h10] 363 sliver triangles removed
-2025-07-29 15:07:22,602 - INFO - [Station_10_h10] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-29 15:07:22,670 - INFO - [Station_10_h10] Starting geometric analysis...
-2025-07-29 15:07:22,767 - ERROR - [Station_10_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:22,767 - INFO - [Station_10_h10] Starting warping analysis...
-2025-07-29 15:07:23,367 - ERROR - [Station_10_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:23,367 - ERROR - [Station_10_h10] Geometric analysis failed — skipping values.
-2025-07-29 15:07:23,367 - ERROR - [Station_10_h10] Warping analysis failed — skipping values.
-2025-07-29 15:07:23,367 - INFO - [Station_10_h10] SectionDXF row assembled with partial success.
-2025-07-29 15:07:23,367 - INFO - [3/5] Meshing Station_10 with h = 2.5
-2025-07-29 15:07:23,367 - INFO - [Station_10_h2.5] Meshing with target h = 2.5 …
-2025-07-29 15:07:23,388 - WARNING - [Station_10_h2.5] 363 sliver triangles removed
-2025-07-29 15:07:23,388 - INFO - [Station_10_h2.5] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-29 15:07:23,458 - INFO - [Station_10_h2.5] Starting geometric analysis...
-2025-07-29 15:07:23,549 - ERROR - [Station_10_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:23,549 - INFO - [Station_10_h2.5] Starting warping analysis...
-2025-07-29 15:07:24,146 - ERROR - [Station_10_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:24,146 - ERROR - [Station_10_h2.5] Geometric analysis failed — skipping values.
-2025-07-29 15:07:24,146 - ERROR - [Station_10_h2.5] Warping analysis failed — skipping values.
-2025-07-29 15:07:24,146 - INFO - [Station_10_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 15:07:24,162 - INFO - [4/5] Meshing Station_10 with h = 0.625
-2025-07-29 15:07:24,162 - INFO - [Station_10_h0.625] Meshing with target h = 0.625 …
-2025-07-29 15:07:24,172 - WARNING - [Station_10_h0.625] 363 sliver triangles removed
-2025-07-29 15:07:24,173 - INFO - [Station_10_h0.625] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-29 15:07:24,244 - INFO - [Station_10_h0.625] Starting geometric analysis...
-2025-07-29 15:07:24,338 - ERROR - [Station_10_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:24,338 - INFO - [Station_10_h0.625] Starting warping analysis...
-2025-07-29 15:07:24,935 - ERROR - [Station_10_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:24,935 - ERROR - [Station_10_h0.625] Geometric analysis failed — skipping values.
-2025-07-29 15:07:24,935 - ERROR - [Station_10_h0.625] Warping analysis failed — skipping values.
-2025-07-29 15:07:24,935 - INFO - [Station_10_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 15:07:24,935 - INFO - [5/5] Meshing Station_10 with h = 0.1562
-2025-07-29 15:07:24,935 - INFO - [Station_10_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 15:07:24,995 - WARNING - [Station_10_h0.1562] 363 sliver triangles removed
-2025-07-29 15:07:24,995 - INFO - [Station_10_h0.1562] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
-2025-07-29 15:07:25,059 - INFO - [Station_10_h0.1562] Starting geometric analysis...
-2025-07-29 15:07:25,170 - ERROR - [Station_10_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:25,170 - INFO - [Station_10_h0.1562] Starting warping analysis...
-2025-07-29 15:07:25,752 - ERROR - [Station_10_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:25,752 - ERROR - [Station_10_h0.1562] Geometric analysis failed — skipping values.
-2025-07-29 15:07:25,767 - ERROR - [Station_10_h0.1562] Warping analysis failed — skipping values.
-2025-07-29 15:07:25,767 - INFO - [Station_10_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 15:07:25,768 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 15:07:26,355 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
-2025-07-29 15:07:26,986 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
-2025-07-29 15:07:27,386 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
-2025-07-29 15:07:27,814 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
-2025-07-29 15:07:28,452 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
-2025-07-29 15:07:29,070 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
-2025-07-29 15:07:29,478 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
-2025-07-29 15:07:29,917 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
-2025-07-29 15:07:29,917 - INFO - Section analysis result set saved
-2025-07-29 15:07:29,917 - INFO - Station Station_12 [Analysis]: DXF=C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_12.dxf, twist=1.4°, centroid=(0.00, -0.00)
-2025-07-29 15:07:29,917 - INFO - Reading DXF file: C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
-2025-07-29 15:07:29,927 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:29,935 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:29,935 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:29,936 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:29,939 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
-2025-07-29 15:07:30,005 - INFO - Plotting 46 DXF entities for preview...
-2025-07-29 15:07:30,176 - INFO - Raw preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\raw_Station_12.png
-2025-07-29 15:07:30,176 - INFO - [Station_12] Importing DXF: 'C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_12.dxf'
-2025-07-29 15:07:30,187 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:30,190 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:30,190 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:30,190 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:30,192 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-29 15:07:30,258 - INFO - Zipped 91 points
-2025-07-29 15:07:30,320 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 15:07:30,720 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
-2025-07-29 15:07:30,720 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
-2025-07-29 15:07:30,720 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
-2025-07-29 15:07:30,720 - INFO - [Station_12] Section translated.
-2025-07-29 15:07:30,720 - INFO - Processed and aligned geometry extracted for Station_12
-2025-07-29 15:07:31,485 - INFO - Processed geometry preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\processed_Station_12.png
-2025-07-29 15:07:31,485 - INFO - Starting section convergence study …
-2025-07-29 15:07:31,485 - INFO - [1/5] Meshing Station_12 with h = 40
-2025-07-29 15:07:31,487 - INFO - [Station_12_h40] Meshing with target h = 40 …
-2025-07-29 15:07:31,488 - WARNING - [Station_12_h40] 387 sliver triangles removed
-2025-07-29 15:07:31,488 - INFO - [Station_12_h40] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 15:07:31,561 - INFO - [Station_12_h40] Starting geometric analysis...
-2025-07-29 15:07:31,897 - ERROR - [Station_12_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:31,897 - INFO - [Station_12_h40] Starting warping analysis...
-2025-07-29 15:07:32,705 - ERROR - [Station_12_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:32,705 - ERROR - [Station_12_h40] Geometric analysis failed — skipping values.
-2025-07-29 15:07:32,705 - ERROR - [Station_12_h40] Warping analysis failed — skipping values.
-2025-07-29 15:07:32,705 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
-2025-07-29 15:07:32,705 - INFO - [2/5] Meshing Station_12 with h = 10
-2025-07-29 15:07:32,705 - INFO - [Station_12_h10] Meshing with target h = 10 …
-2025-07-29 15:07:32,724 - WARNING - [Station_12_h10] 387 sliver triangles removed
-2025-07-29 15:07:32,725 - INFO - [Station_12_h10] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 15:07:32,790 - INFO - [Station_12_h10] Starting geometric analysis...
-2025-07-29 15:07:32,888 - ERROR - [Station_12_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:32,888 - INFO - [Station_12_h10] Starting warping analysis...
-2025-07-29 15:07:33,456 - ERROR - [Station_12_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:33,457 - ERROR - [Station_12_h10] Geometric analysis failed — skipping values.
-2025-07-29 15:07:33,457 - ERROR - [Station_12_h10] Warping analysis failed — skipping values.
-2025-07-29 15:07:33,458 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
-2025-07-29 15:07:33,459 - INFO - [3/5] Meshing Station_12 with h = 2.5
-2025-07-29 15:07:33,459 - INFO - [Station_12_h2.5] Meshing with target h = 2.5 …
-2025-07-29 15:07:33,459 - WARNING - [Station_12_h2.5] 387 sliver triangles removed
-2025-07-29 15:07:33,459 - INFO - [Station_12_h2.5] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 15:07:33,587 - INFO - [Station_12_h2.5] Starting geometric analysis...
-2025-07-29 15:07:33,688 - ERROR - [Station_12_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:33,688 - INFO - [Station_12_h2.5] Starting warping analysis...
-2025-07-29 15:07:34,240 - ERROR - [Station_12_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:34,240 - ERROR - [Station_12_h2.5] Geometric analysis failed — skipping values.
-2025-07-29 15:07:34,240 - ERROR - [Station_12_h2.5] Warping analysis failed — skipping values.
-2025-07-29 15:07:34,240 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 15:07:34,240 - INFO - [4/5] Meshing Station_12 with h = 0.625
-2025-07-29 15:07:34,240 - INFO - [Station_12_h0.625] Meshing with target h = 0.625 …
-2025-07-29 15:07:34,256 - WARNING - [Station_12_h0.625] 387 sliver triangles removed
-2025-07-29 15:07:34,256 - INFO - [Station_12_h0.625] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 15:07:34,329 - INFO - [Station_12_h0.625] Starting geometric analysis...
-2025-07-29 15:07:34,424 - ERROR - [Station_12_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:34,424 - INFO - [Station_12_h0.625] Starting warping analysis...
-2025-07-29 15:07:34,973 - ERROR - [Station_12_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:34,973 - ERROR - [Station_12_h0.625] Geometric analysis failed — skipping values.
-2025-07-29 15:07:34,973 - ERROR - [Station_12_h0.625] Warping analysis failed — skipping values.
-2025-07-29 15:07:34,973 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 15:07:34,989 - INFO - [5/5] Meshing Station_12 with h = 0.1562
-2025-07-29 15:07:34,989 - INFO - [Station_12_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 15:07:34,990 - WARNING - [Station_12_h0.1562] 387 sliver triangles removed
-2025-07-29 15:07:34,990 - INFO - [Station_12_h0.1562] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
-2025-07-29 15:07:35,065 - INFO - [Station_12_h0.1562] Starting geometric analysis...
-2025-07-29 15:07:35,165 - ERROR - [Station_12_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:35,166 - INFO - [Station_12_h0.1562] Starting warping analysis...
-2025-07-29 15:07:35,724 - ERROR - [Station_12_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:35,724 - ERROR - [Station_12_h0.1562] Geometric analysis failed — skipping values.
-2025-07-29 15:07:35,724 - ERROR - [Station_12_h0.1562] Warping analysis failed — skipping values.
-2025-07-29 15:07:35,724 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 15:07:35,724 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 15:07:36,324 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
-2025-07-29 15:07:36,971 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
-2025-07-29 15:07:37,389 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
-2025-07-29 15:07:37,838 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
-2025-07-29 15:07:38,428 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
-2025-07-29 15:07:39,087 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
-2025-07-29 15:07:39,482 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
-2025-07-29 15:07:39,992 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
-2025-07-29 15:07:39,992 - INFO - Section analysis result set saved
-2025-07-29 15:07:39,992 - INFO - Station Station_14 [Analysis]: DXF=C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_14.dxf, twist=0.3°, centroid=(0.00, -0.00)
-2025-07-29 15:07:39,992 - INFO - Reading DXF file: C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
-2025-07-29 15:07:40,012 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:40,015 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:40,015 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:40,015 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:40,015 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
-2025-07-29 15:07:40,087 - INFO - Plotting 52 DXF entities for preview...
-2025-07-29 15:07:40,242 - INFO - Raw preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\raw_Station_14.png
-2025-07-29 15:07:40,242 - INFO - [Station_14] Importing DXF: 'C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_14.dxf'
-2025-07-29 15:07:40,258 - INFO - DXF version upgrade to DXF R2000.
-2025-07-29 15:07:40,271 - INFO - creating ACAD_COLOR dictionary
-2025-07-29 15:07:40,271 - INFO - creating ACAD_PLOTSTYLENAME dictionary
-2025-07-29 15:07:40,271 - INFO - creating ACAD_TABLESTYLE dictionary
-2025-07-29 15:07:40,273 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
-2025-07-29 15:07:40,343 - INFO - Zipped 73 points
-2025-07-29 15:07:40,359 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
-2025-07-29 15:07:40,758 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
-2025-07-29 15:07:40,758 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
-2025-07-29 15:07:40,758 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
-2025-07-29 15:07:40,758 - INFO - [Station_14] Section translated.
-2025-07-29 15:07:40,758 - INFO - Processed and aligned geometry extracted for Station_14
-2025-07-29 15:07:41,509 - INFO - Processed geometry preview saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\processed_Station_14.png
-2025-07-29 15:07:41,509 - INFO - Starting section convergence study …
-2025-07-29 15:07:41,509 - INFO - [1/5] Meshing Station_14 with h = 40
-2025-07-29 15:07:41,524 - INFO - [Station_14_h40] Meshing with target h = 40 …
-2025-07-29 15:07:41,529 - WARNING - [Station_14_h40] 464 sliver triangles removed
-2025-07-29 15:07:41,529 - INFO - [Station_14_h40] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 15:07:41,594 - INFO - [Station_14_h40] Starting geometric analysis...
-2025-07-29 15:07:41,973 - ERROR - [Station_14_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:41,973 - INFO - [Station_14_h40] Starting warping analysis...
-2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Geometric analysis failed — skipping values.
-2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Warping analysis failed — skipping values.
-2025-07-29 15:07:42,772 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
-2025-07-29 15:07:42,772 - INFO - [2/5] Meshing Station_14 with h = 10
-2025-07-29 15:07:42,772 - INFO - [Station_14_h10] Meshing with target h = 10 …
-2025-07-29 15:07:42,772 - WARNING - [Station_14_h10] 464 sliver triangles removed
-2025-07-29 15:07:42,772 - INFO - [Station_14_h10] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 15:07:42,844 - INFO - [Station_14_h10] Starting geometric analysis...
-2025-07-29 15:07:42,943 - ERROR - [Station_14_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:42,943 - INFO - [Station_14_h10] Starting warping analysis...
-2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Geometric analysis failed — skipping values.
-2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Warping analysis failed — skipping values.
-2025-07-29 15:07:43,489 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
-2025-07-29 15:07:43,489 - INFO - [3/5] Meshing Station_14 with h = 2.5
-2025-07-29 15:07:43,489 - INFO - [Station_14_h2.5] Meshing with target h = 2.5 …
-2025-07-29 15:07:43,510 - WARNING - [Station_14_h2.5] 464 sliver triangles removed
-2025-07-29 15:07:43,511 - INFO - [Station_14_h2.5] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 15:07:43,577 - INFO - [Station_14_h2.5] Starting geometric analysis...
-2025-07-29 15:07:43,663 - ERROR - [Station_14_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:43,663 - INFO - [Station_14_h2.5] Starting warping analysis...
-2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Geometric analysis failed — skipping values.
-2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Warping analysis failed — skipping values.
-2025-07-29 15:07:44,231 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
-2025-07-29 15:07:44,231 - INFO - [4/5] Meshing Station_14 with h = 0.625
-2025-07-29 15:07:44,231 - INFO - [Station_14_h0.625] Meshing with target h = 0.625 …
-2025-07-29 15:07:44,231 - WARNING - [Station_14_h0.625] 464 sliver triangles removed
-2025-07-29 15:07:44,231 - INFO - [Station_14_h0.625] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 15:07:44,309 - INFO - [Station_14_h0.625] Starting geometric analysis...
-2025-07-29 15:07:44,395 - ERROR - [Station_14_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:44,395 - INFO - [Station_14_h0.625] Starting warping analysis...
-2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Geometric analysis failed — skipping values.
-2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Warping analysis failed — skipping values.
-2025-07-29 15:07:44,945 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
-2025-07-29 15:07:44,945 - INFO - [5/5] Meshing Station_14 with h = 0.1562
-2025-07-29 15:07:44,945 - INFO - [Station_14_h0.1562] Meshing with target h = 0.1562 …
-2025-07-29 15:07:45,002 - WARNING - [Station_14_h0.1562] 464 sliver triangles removed
-2025-07-29 15:07:45,002 - INFO - [Station_14_h0.1562] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
-2025-07-29 15:07:45,071 - INFO - [Station_14_h0.1562] Starting geometric analysis...
-2025-07-29 15:07:45,164 - ERROR - [Station_14_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
-    sx * M3_TO_MM3, sy * M3_TO_MM3,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:45,164 - INFO - [Station_14_h0.1562] Starting warping analysis...
-2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
-Traceback (most recent call last):
-  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
-    cw * M6_TO_MM6,
-    ~~~^~~~~~~~~~~
-TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
-2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Geometric analysis failed — skipping values.
-2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Warping analysis failed — skipping values.
-2025-07-29 15:07:45,719 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.
-2025-07-29 15:07:45,720 - INFO - Convergence study completed: 5 valid results out of 5
-2025-07-29 15:07:46,278 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
-2025-07-29 15:07:46,907 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
-2025-07-29 15:07:47,305 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
-2025-07-29 15:07:47,733 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
-2025-07-29 15:07:48,354 - INFO - Global batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
-2025-07-29 15:07:48,978 - INFO - Local batch 1 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
-2025-07-29 15:07:49,364 - INFO - Global batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
-2025-07-29 15:07:49,793 - INFO - Local batch 2 saved -> C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
-2025-07-29 15:07:49,793 - INFO - Section analysis result set saved
+2025-07-29 20:09:12,555 - INFO - [Station_8] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:09:13,120 - INFO - [Station_8] Actual centroid: (0.0184, 0.0013)
+2025-07-29 20:09:13,121 - INFO - [Station_8] Desired centroid: (0.0018, -0.0057)
+2025-07-29 20:09:13,122 - INFO - [Station_8] Applying translation dx=-0.0166, dy=-0.0070
+2025-07-29 20:09:13,123 - INFO - [Station_8] Section translated.
+2025-07-29 20:09:13,125 - INFO - Processed and aligned geometry extracted for Station_8
+2025-07-29 20:09:14,065 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\processed_Station_8.png
+2025-07-29 20:09:14,065 - INFO - Starting section convergence study …
+2025-07-29 20:09:14,066 - INFO - [1/5] Meshing Station_8 with h = 40
+2025-07-29 20:09:14,067 - INFO - [Station_8_h40] Meshing with target h = 40 …
+2025-07-29 20:09:14,076 - WARNING - [Station_8_h40] 295 sliver triangles removed
+2025-07-29 20:09:14,077 - INFO - [Station_8_h40] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-29 20:09:14,164 - INFO - [Station_8_h40] Starting geometric analysis...
+2025-07-29 20:09:14,637 - INFO - [Station_8_h40] Area = 0.00037763
+2025-07-29 20:09:14,637 - INFO - [Station_8_h40] Perimeter = 0.149525
+2025-07-29 20:09:14,638 - INFO - [Station_8_h40] Centroid cx = 0.00179
+2025-07-29 20:09:14,638 - INFO - [Station_8_h40] Centroid cy = -0.00571
+2025-07-29 20:09:14,639 - INFO - [Station_8_h40] Ixx = 4.04988e-09
+2025-07-29 20:09:14,639 - INFO - [Station_8_h40] Iyy = 1.16928e-07
+2025-07-29 20:09:14,640 - INFO - [Station_8_h40] Ixy = 9.295e-09
+2025-07-29 20:09:14,640 - INFO - [Station_8_h40] Ip = 1.20978e-07
+2025-07-29 20:09:14,670 - INFO - [Station_8_h40] Principal I1 = 1.17688e-07
+2025-07-29 20:09:14,671 - INFO - [Station_8_h40] Principal I2 = 3.2896e-09
+2025-07-29 20:09:14,671 - INFO - [Station_8_h40] Radius rx = 0.00327482
+2025-07-29 20:09:14,671 - INFO - [Station_8_h40] Radius ry = 0.0175965
+2025-07-29 20:09:14,672 - WARNING - [Station_8_h40] Section modulus Sx returned None.
+2025-07-29 20:09:14,672 - WARNING - [Station_8_h40] Section modulus Sy returned None.
+2025-07-29 20:09:14,672 - ERROR - [Station_8_h40] Incomplete geometric properties.
+2025-07-29 20:09:14,673 - INFO - [Station_8_h40] Starting warping analysis...
+2025-07-29 20:09:15,707 - INFO - [Station_8_h40] J = 1.14706e-08
+2025-07-29 20:09:15,708 - INFO - [Station_8_h40] Asx = 0.000290751
+2025-07-29 20:09:15,708 - INFO - [Station_8_h40] Asy = 1.87345e-05
+2025-07-29 20:09:15,709 - INFO - [Station_8_h40] SCx = -0.0055959
+2025-07-29 20:09:15,709 - INFO - [Station_8_h40] SCy = -0.00569278
+2025-07-29 20:09:15,709 - INFO - [Station_8_h40] Beta_x+ = -0.000932012
+2025-07-29 20:09:15,711 - INFO - [Station_8_h40] Beta_x- = 0.000932012
+2025-07-29 20:09:15,711 - INFO - [Station_8_h40] Beta_y+ = -0.0196461
+2025-07-29 20:09:15,712 - INFO - [Station_8_h40] Beta_y- = 0.0196461
+2025-07-29 20:09:15,712 - INFO - [Station_8_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:09:15,714 - INFO - [2/5] Meshing Station_8 with h = 10
+2025-07-29 20:09:15,716 - INFO - [Station_8_h10] Meshing with target h = 10 …
+2025-07-29 20:09:15,728 - WARNING - [Station_8_h10] 295 sliver triangles removed
+2025-07-29 20:09:15,729 - INFO - [Station_8_h10] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-29 20:09:15,816 - INFO - [Station_8_h10] Starting geometric analysis...
+2025-07-29 20:09:15,947 - INFO - [Station_8_h10] Area = 0.00037763
+2025-07-29 20:09:15,947 - INFO - [Station_8_h10] Perimeter = 0.149525
+2025-07-29 20:09:15,948 - INFO - [Station_8_h10] Centroid cx = 0.00179
+2025-07-29 20:09:15,948 - INFO - [Station_8_h10] Centroid cy = -0.00571
+2025-07-29 20:09:15,949 - INFO - [Station_8_h10] Ixx = 4.04988e-09
+2025-07-29 20:09:15,949 - INFO - [Station_8_h10] Iyy = 1.16928e-07
+2025-07-29 20:09:15,950 - INFO - [Station_8_h10] Ixy = 9.295e-09
+2025-07-29 20:09:15,950 - INFO - [Station_8_h10] Ip = 1.20978e-07
+2025-07-29 20:09:15,974 - INFO - [Station_8_h10] Principal I1 = 1.17688e-07
+2025-07-29 20:09:15,975 - INFO - [Station_8_h10] Principal I2 = 3.2896e-09
+2025-07-29 20:09:15,976 - INFO - [Station_8_h10] Radius rx = 0.00327482
+2025-07-29 20:09:15,976 - INFO - [Station_8_h10] Radius ry = 0.0175965
+2025-07-29 20:09:15,977 - WARNING - [Station_8_h10] Section modulus Sx returned None.
+2025-07-29 20:09:15,977 - WARNING - [Station_8_h10] Section modulus Sy returned None.
+2025-07-29 20:09:15,977 - ERROR - [Station_8_h10] Incomplete geometric properties.
+2025-07-29 20:09:15,978 - INFO - [Station_8_h10] Starting warping analysis...
+2025-07-29 20:09:16,714 - INFO - [Station_8_h10] J = 1.14706e-08
+2025-07-29 20:09:16,715 - INFO - [Station_8_h10] Asx = 0.000290751
+2025-07-29 20:09:16,715 - INFO - [Station_8_h10] Asy = 1.87345e-05
+2025-07-29 20:09:16,716 - INFO - [Station_8_h10] SCx = -0.0055959
+2025-07-29 20:09:16,717 - INFO - [Station_8_h10] SCy = -0.00569278
+2025-07-29 20:09:16,717 - INFO - [Station_8_h10] Beta_x+ = -0.000932012
+2025-07-29 20:09:16,718 - INFO - [Station_8_h10] Beta_x- = 0.000932012
+2025-07-29 20:09:16,718 - INFO - [Station_8_h10] Beta_y+ = -0.0196461
+2025-07-29 20:09:16,719 - INFO - [Station_8_h10] Beta_y- = 0.0196461
+2025-07-29 20:09:16,719 - INFO - [Station_8_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:09:16,721 - INFO - [3/5] Meshing Station_8 with h = 2.5
+2025-07-29 20:09:16,723 - INFO - [Station_8_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:09:16,780 - WARNING - [Station_8_h2.5] 295 sliver triangles removed
+2025-07-29 20:09:16,780 - INFO - [Station_8_h2.5] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-29 20:09:16,872 - INFO - [Station_8_h2.5] Starting geometric analysis...
+2025-07-29 20:09:17,001 - INFO - [Station_8_h2.5] Area = 0.00037763
+2025-07-29 20:09:17,002 - INFO - [Station_8_h2.5] Perimeter = 0.149525
+2025-07-29 20:09:17,002 - INFO - [Station_8_h2.5] Centroid cx = 0.00179
+2025-07-29 20:09:17,003 - INFO - [Station_8_h2.5] Centroid cy = -0.00571
+2025-07-29 20:09:17,003 - INFO - [Station_8_h2.5] Ixx = 4.04988e-09
+2025-07-29 20:09:17,004 - INFO - [Station_8_h2.5] Iyy = 1.16928e-07
+2025-07-29 20:09:17,004 - INFO - [Station_8_h2.5] Ixy = 9.295e-09
+2025-07-29 20:09:17,005 - INFO - [Station_8_h2.5] Ip = 1.20978e-07
+2025-07-29 20:09:17,032 - INFO - [Station_8_h2.5] Principal I1 = 1.17688e-07
+2025-07-29 20:09:17,032 - INFO - [Station_8_h2.5] Principal I2 = 3.2896e-09
+2025-07-29 20:09:17,032 - INFO - [Station_8_h2.5] Radius rx = 0.00327482
+2025-07-29 20:09:17,033 - INFO - [Station_8_h2.5] Radius ry = 0.0175965
+2025-07-29 20:09:17,033 - WARNING - [Station_8_h2.5] Section modulus Sx returned None.
+2025-07-29 20:09:17,033 - WARNING - [Station_8_h2.5] Section modulus Sy returned None.
+2025-07-29 20:09:17,034 - ERROR - [Station_8_h2.5] Incomplete geometric properties.
+2025-07-29 20:09:17,034 - INFO - [Station_8_h2.5] Starting warping analysis...
+2025-07-29 20:09:17,773 - INFO - [Station_8_h2.5] J = 1.14706e-08
+2025-07-29 20:09:17,774 - INFO - [Station_8_h2.5] Asx = 0.000290751
+2025-07-29 20:09:17,774 - INFO - [Station_8_h2.5] Asy = 1.87345e-05
+2025-07-29 20:09:17,775 - INFO - [Station_8_h2.5] SCx = -0.0055959
+2025-07-29 20:09:17,775 - INFO - [Station_8_h2.5] SCy = -0.00569278
+2025-07-29 20:09:17,776 - INFO - [Station_8_h2.5] Beta_x+ = -0.000932012
+2025-07-29 20:09:17,776 - INFO - [Station_8_h2.5] Beta_x- = 0.000932012
+2025-07-29 20:09:17,777 - INFO - [Station_8_h2.5] Beta_y+ = -0.0196461
+2025-07-29 20:09:17,777 - INFO - [Station_8_h2.5] Beta_y- = 0.0196461
+2025-07-29 20:09:17,778 - INFO - [Station_8_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:09:17,814 - INFO - [4/5] Meshing Station_8 with h = 0.625
+2025-07-29 20:09:17,830 - INFO - [Station_8_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:09:17,852 - WARNING - [Station_8_h0.625] 295 sliver triangles removed
+2025-07-29 20:09:17,852 - INFO - [Station_8_h0.625] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-29 20:09:17,941 - INFO - [Station_8_h0.625] Starting geometric analysis...
+2025-07-29 20:09:18,071 - INFO - [Station_8_h0.625] Area = 0.00037763
+2025-07-29 20:09:18,072 - INFO - [Station_8_h0.625] Perimeter = 0.149525
+2025-07-29 20:09:18,073 - INFO - [Station_8_h0.625] Centroid cx = 0.00179
+2025-07-29 20:09:18,074 - INFO - [Station_8_h0.625] Centroid cy = -0.00571
+2025-07-29 20:09:18,075 - INFO - [Station_8_h0.625] Ixx = 4.04988e-09
+2025-07-29 20:09:18,075 - INFO - [Station_8_h0.625] Iyy = 1.16928e-07
+2025-07-29 20:09:18,076 - INFO - [Station_8_h0.625] Ixy = 9.295e-09
+2025-07-29 20:09:18,076 - INFO - [Station_8_h0.625] Ip = 1.20978e-07
+2025-07-29 20:09:18,113 - INFO - [Station_8_h0.625] Principal I1 = 1.17688e-07
+2025-07-29 20:09:18,113 - INFO - [Station_8_h0.625] Principal I2 = 3.2896e-09
+2025-07-29 20:09:18,114 - INFO - [Station_8_h0.625] Radius rx = 0.00327482
+2025-07-29 20:09:18,114 - INFO - [Station_8_h0.625] Radius ry = 0.0175965
+2025-07-29 20:09:18,114 - WARNING - [Station_8_h0.625] Section modulus Sx returned None.
+2025-07-29 20:09:18,115 - WARNING - [Station_8_h0.625] Section modulus Sy returned None.
+2025-07-29 20:09:18,116 - ERROR - [Station_8_h0.625] Incomplete geometric properties.
+2025-07-29 20:09:18,116 - INFO - [Station_8_h0.625] Starting warping analysis...
+2025-07-29 20:09:18,949 - INFO - [Station_8_h0.625] J = 1.14706e-08
+2025-07-29 20:09:18,949 - INFO - [Station_8_h0.625] Asx = 0.000290751
+2025-07-29 20:09:18,949 - INFO - [Station_8_h0.625] Asy = 1.87345e-05
+2025-07-29 20:09:18,951 - INFO - [Station_8_h0.625] SCx = -0.0055959
+2025-07-29 20:09:18,952 - INFO - [Station_8_h0.625] SCy = -0.00569278
+2025-07-29 20:09:18,952 - INFO - [Station_8_h0.625] Beta_x+ = -0.000932012
+2025-07-29 20:09:18,953 - INFO - [Station_8_h0.625] Beta_x- = 0.000932012
+2025-07-29 20:09:18,953 - INFO - [Station_8_h0.625] Beta_y+ = -0.0196461
+2025-07-29 20:09:18,954 - INFO - [Station_8_h0.625] Beta_y- = 0.0196461
+2025-07-29 20:09:18,954 - INFO - [Station_8_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:09:18,957 - INFO - [5/5] Meshing Station_8 with h = 0.1562
+2025-07-29 20:09:18,959 - INFO - [Station_8_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:09:19,011 - WARNING - [Station_8_h0.1562] 295 sliver triangles removed
+2025-07-29 20:09:19,012 - INFO - [Station_8_h0.1562] mesh ok | nodes=4192 elems=1561 | A[min=1.01e-08 max=2.04e-06 mean=2.41e-07 med=1.58e-07] | q[min=0.602 max=1.000 mean=0.886]
+2025-07-29 20:09:19,109 - INFO - [Station_8_h0.1562] Starting geometric analysis...
+2025-07-29 20:09:19,264 - INFO - [Station_8_h0.1562] Area = 0.00037763
+2025-07-29 20:09:19,264 - INFO - [Station_8_h0.1562] Perimeter = 0.149525
+2025-07-29 20:09:19,264 - INFO - [Station_8_h0.1562] Centroid cx = 0.00179
+2025-07-29 20:09:19,265 - INFO - [Station_8_h0.1562] Centroid cy = -0.00571
+2025-07-29 20:09:19,265 - INFO - [Station_8_h0.1562] Ixx = 4.04988e-09
+2025-07-29 20:09:19,266 - INFO - [Station_8_h0.1562] Iyy = 1.16928e-07
+2025-07-29 20:09:19,266 - INFO - [Station_8_h0.1562] Ixy = 9.295e-09
+2025-07-29 20:09:19,267 - INFO - [Station_8_h0.1562] Ip = 1.20978e-07
+2025-07-29 20:09:19,294 - INFO - [Station_8_h0.1562] Principal I1 = 1.17688e-07
+2025-07-29 20:09:19,295 - INFO - [Station_8_h0.1562] Principal I2 = 3.2896e-09
+2025-07-29 20:09:19,295 - INFO - [Station_8_h0.1562] Radius rx = 0.00327482
+2025-07-29 20:09:19,295 - INFO - [Station_8_h0.1562] Radius ry = 0.0175965
+2025-07-29 20:09:19,296 - WARNING - [Station_8_h0.1562] Section modulus Sx returned None.
+2025-07-29 20:09:19,296 - WARNING - [Station_8_h0.1562] Section modulus Sy returned None.
+2025-07-29 20:09:19,297 - ERROR - [Station_8_h0.1562] Incomplete geometric properties.
+2025-07-29 20:09:19,298 - INFO - [Station_8_h0.1562] Starting warping analysis...
+2025-07-29 20:09:20,202 - INFO - [Station_8_h0.1562] J = 1.14706e-08
+2025-07-29 20:09:20,202 - INFO - [Station_8_h0.1562] Asx = 0.000290751
+2025-07-29 20:09:20,203 - INFO - [Station_8_h0.1562] Asy = 1.87345e-05
+2025-07-29 20:09:20,203 - INFO - [Station_8_h0.1562] SCx = -0.0055959
+2025-07-29 20:09:20,203 - INFO - [Station_8_h0.1562] SCy = -0.00569278
+2025-07-29 20:09:20,204 - INFO - [Station_8_h0.1562] Beta_x+ = -0.000932012
+2025-07-29 20:09:20,204 - INFO - [Station_8_h0.1562] Beta_x- = 0.000932012
+2025-07-29 20:09:20,204 - INFO - [Station_8_h0.1562] Beta_y+ = -0.0196461
+2025-07-29 20:09:20,205 - INFO - [Station_8_h0.1562] Beta_y- = 0.0196461
+2025-07-29 20:09:20,205 - INFO - [Station_8_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:09:20,208 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:09:21,121 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-29 20:09:22,029 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-29 20:09:22,608 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
+2025-07-29 20:09:23,248 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
+2025-07-29 20:09:24,172 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-07-29 20:09:25,138 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-07-29 20:09:25,759 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_global.png
+2025-07-29 20:09:26,383 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_8\mesh_conv_Station_8_batch2_local.png
+2025-07-29 20:09:26,386 - INFO - Section analysis result set saved
+2025-07-29 20:09:26,386 - INFO - Station Station_10 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf, twist=2.7°, centroid=(0.00, -0.01)
+2025-07-29 20:09:26,387 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf
+2025-07-29 20:09:26,404 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:26,408 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:26,409 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:26,410 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:26,413 - INFO - Raw geometry extraction complete. 77 drawable entities parsed.
+2025-07-29 20:09:26,539 - INFO - Plotting 77 DXF entities for preview...
+2025-07-29 20:09:26,773 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\raw_Station_10.png
+2025-07-29 20:09:26,774 - INFO - [Station_10] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_10.dxf'
+2025-07-29 20:09:26,791 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:26,799 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:26,800 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:26,800 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:26,803 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-29 20:09:27,039 - INFO - Zipped 208 points
+2025-07-29 20:09:27,122 - INFO - [Station_10] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:09:27,671 - INFO - [Station_10] Actual centroid: (0.0154, 0.0012)
+2025-07-29 20:09:27,671 - INFO - [Station_10] Desired centroid: (0.0014, -0.0051)
+2025-07-29 20:09:27,672 - INFO - [Station_10] Applying translation dx=-0.0140, dy=-0.0064
+2025-07-29 20:09:27,674 - INFO - [Station_10] Section translated.
+2025-07-29 20:09:27,676 - INFO - Processed and aligned geometry extracted for Station_10
+2025-07-29 20:09:28,767 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\processed_Station_10.png
+2025-07-29 20:09:28,767 - INFO - Starting section convergence study …
+2025-07-29 20:09:28,768 - INFO - [1/5] Meshing Station_10 with h = 40
+2025-07-29 20:09:28,769 - INFO - [Station_10_h40] Meshing with target h = 40 …
+2025-07-29 20:09:28,779 - WARNING - [Station_10_h40] 363 sliver triangles removed
+2025-07-29 20:09:28,780 - INFO - [Station_10_h40] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-29 20:09:28,881 - INFO - [Station_10_h40] Starting geometric analysis...
+2025-07-29 20:09:29,353 - INFO - [Station_10_h40] Area = 0.000264099
+2025-07-29 20:09:29,354 - INFO - [Station_10_h40] Perimeter = 0.124893
+2025-07-29 20:09:29,354 - INFO - [Station_10_h40] Centroid cx = 0.00137
+2025-07-29 20:09:29,355 - INFO - [Station_10_h40] Centroid cy = -0.00512
+2025-07-29 20:09:29,355 - INFO - [Station_10_h40] Ixx = 1.75939e-09
+2025-07-29 20:09:29,356 - INFO - [Station_10_h40] Iyy = 5.74906e-08
+2025-07-29 20:09:29,356 - INFO - [Station_10_h40] Ixy = 2.93251e-09
+2025-07-29 20:09:29,357 - INFO - [Station_10_h40] Ip = 5.925e-08
+2025-07-29 20:09:29,392 - INFO - [Station_10_h40] Principal I1 = 5.76445e-08
+2025-07-29 20:09:29,393 - INFO - [Station_10_h40] Principal I2 = 1.60551e-09
+2025-07-29 20:09:29,393 - INFO - [Station_10_h40] Radius rx = 0.00258106
+2025-07-29 20:09:29,393 - INFO - [Station_10_h40] Radius ry = 0.0147542
+2025-07-29 20:09:29,394 - WARNING - [Station_10_h40] Section modulus Sx returned None.
+2025-07-29 20:09:29,394 - WARNING - [Station_10_h40] Section modulus Sy returned None.
+2025-07-29 20:09:29,394 - ERROR - [Station_10_h40] Incomplete geometric properties.
+2025-07-29 20:09:29,395 - INFO - [Station_10_h40] Starting warping analysis...
+2025-07-29 20:09:30,652 - INFO - [Station_10_h40] J = 5.61947e-09
+2025-07-29 20:09:30,652 - INFO - [Station_10_h40] Asx = 0.000214702
+2025-07-29 20:09:30,653 - INFO - [Station_10_h40] Asy = 1.31431e-05
+2025-07-29 20:09:30,653 - INFO - [Station_10_h40] SCx = -0.00482398
+2025-07-29 20:09:30,654 - INFO - [Station_10_h40] SCy = -0.00492974
+2025-07-29 20:09:30,654 - INFO - [Station_10_h40] Beta_x+ = 0.00264412
+2025-07-29 20:09:30,655 - INFO - [Station_10_h40] Beta_x- = -0.00264412
+2025-07-29 20:09:30,655 - INFO - [Station_10_h40] Beta_y+ = -0.0164977
+2025-07-29 20:09:30,656 - INFO - [Station_10_h40] Beta_y- = 0.0164977
+2025-07-29 20:09:30,656 - INFO - [Station_10_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:09:30,659 - INFO - [2/5] Meshing Station_10 with h = 10
+2025-07-29 20:09:30,660 - INFO - [Station_10_h10] Meshing with target h = 10 …
+2025-07-29 20:09:30,673 - WARNING - [Station_10_h10] 363 sliver triangles removed
+2025-07-29 20:09:30,674 - INFO - [Station_10_h10] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-29 20:09:30,777 - INFO - [Station_10_h10] Starting geometric analysis...
+2025-07-29 20:09:30,919 - INFO - [Station_10_h10] Area = 0.000264099
+2025-07-29 20:09:30,920 - INFO - [Station_10_h10] Perimeter = 0.124893
+2025-07-29 20:09:30,921 - INFO - [Station_10_h10] Centroid cx = 0.00137
+2025-07-29 20:09:30,921 - INFO - [Station_10_h10] Centroid cy = -0.00512
+2025-07-29 20:09:30,922 - INFO - [Station_10_h10] Ixx = 1.75939e-09
+2025-07-29 20:09:30,922 - INFO - [Station_10_h10] Iyy = 5.74906e-08
+2025-07-29 20:09:30,923 - INFO - [Station_10_h10] Ixy = 2.93251e-09
+2025-07-29 20:09:30,924 - INFO - [Station_10_h10] Ip = 5.925e-08
+2025-07-29 20:09:30,956 - INFO - [Station_10_h10] Principal I1 = 5.76445e-08
+2025-07-29 20:09:30,956 - INFO - [Station_10_h10] Principal I2 = 1.60551e-09
+2025-07-29 20:09:30,957 - INFO - [Station_10_h10] Radius rx = 0.00258106
+2025-07-29 20:09:30,957 - INFO - [Station_10_h10] Radius ry = 0.0147542
+2025-07-29 20:09:30,958 - WARNING - [Station_10_h10] Section modulus Sx returned None.
+2025-07-29 20:09:30,958 - WARNING - [Station_10_h10] Section modulus Sy returned None.
+2025-07-29 20:09:30,959 - ERROR - [Station_10_h10] Incomplete geometric properties.
+2025-07-29 20:09:30,959 - INFO - [Station_10_h10] Starting warping analysis...
+2025-07-29 20:09:31,771 - INFO - [Station_10_h10] J = 5.61947e-09
+2025-07-29 20:09:31,772 - INFO - [Station_10_h10] Asx = 0.000214702
+2025-07-29 20:09:31,772 - INFO - [Station_10_h10] Asy = 1.31431e-05
+2025-07-29 20:09:31,773 - INFO - [Station_10_h10] SCx = -0.00482398
+2025-07-29 20:09:31,773 - INFO - [Station_10_h10] SCy = -0.00492974
+2025-07-29 20:09:31,773 - INFO - [Station_10_h10] Beta_x+ = 0.00264412
+2025-07-29 20:09:31,773 - INFO - [Station_10_h10] Beta_x- = -0.00264412
+2025-07-29 20:09:31,774 - INFO - [Station_10_h10] Beta_y+ = -0.0164977
+2025-07-29 20:09:31,774 - INFO - [Station_10_h10] Beta_y- = 0.0164977
+2025-07-29 20:09:31,775 - INFO - [Station_10_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:09:31,777 - INFO - [3/5] Meshing Station_10 with h = 2.5
+2025-07-29 20:09:31,778 - INFO - [Station_10_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:09:31,791 - WARNING - [Station_10_h2.5] 363 sliver triangles removed
+2025-07-29 20:09:31,792 - INFO - [Station_10_h2.5] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-29 20:09:31,889 - INFO - [Station_10_h2.5] Starting geometric analysis...
+2025-07-29 20:09:32,029 - INFO - [Station_10_h2.5] Area = 0.000264099
+2025-07-29 20:09:32,030 - INFO - [Station_10_h2.5] Perimeter = 0.124893
+2025-07-29 20:09:32,030 - INFO - [Station_10_h2.5] Centroid cx = 0.00137
+2025-07-29 20:09:32,031 - INFO - [Station_10_h2.5] Centroid cy = -0.00512
+2025-07-29 20:09:32,031 - INFO - [Station_10_h2.5] Ixx = 1.75939e-09
+2025-07-29 20:09:32,032 - INFO - [Station_10_h2.5] Iyy = 5.74906e-08
+2025-07-29 20:09:32,032 - INFO - [Station_10_h2.5] Ixy = 2.93251e-09
+2025-07-29 20:09:32,033 - INFO - [Station_10_h2.5] Ip = 5.925e-08
+2025-07-29 20:09:32,065 - INFO - [Station_10_h2.5] Principal I1 = 5.76445e-08
+2025-07-29 20:09:32,066 - INFO - [Station_10_h2.5] Principal I2 = 1.60551e-09
+2025-07-29 20:09:32,066 - INFO - [Station_10_h2.5] Radius rx = 0.00258106
+2025-07-29 20:09:32,067 - INFO - [Station_10_h2.5] Radius ry = 0.0147542
+2025-07-29 20:09:32,067 - WARNING - [Station_10_h2.5] Section modulus Sx returned None.
+2025-07-29 20:09:32,067 - WARNING - [Station_10_h2.5] Section modulus Sy returned None.
+2025-07-29 20:09:32,068 - ERROR - [Station_10_h2.5] Incomplete geometric properties.
+2025-07-29 20:09:32,068 - INFO - [Station_10_h2.5] Starting warping analysis...
+2025-07-29 20:09:32,862 - INFO - [Station_10_h2.5] J = 5.61947e-09
+2025-07-29 20:09:32,862 - INFO - [Station_10_h2.5] Asx = 0.000214702
+2025-07-29 20:09:32,863 - INFO - [Station_10_h2.5] Asy = 1.31431e-05
+2025-07-29 20:09:32,863 - INFO - [Station_10_h2.5] SCx = -0.00482398
+2025-07-29 20:09:32,864 - INFO - [Station_10_h2.5] SCy = -0.00492974
+2025-07-29 20:09:32,864 - INFO - [Station_10_h2.5] Beta_x+ = 0.00264412
+2025-07-29 20:09:32,865 - INFO - [Station_10_h2.5] Beta_x- = -0.00264412
+2025-07-29 20:09:32,865 - INFO - [Station_10_h2.5] Beta_y+ = -0.0164977
+2025-07-29 20:09:32,865 - INFO - [Station_10_h2.5] Beta_y- = 0.0164977
+2025-07-29 20:09:32,866 - INFO - [Station_10_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:09:32,868 - INFO - [4/5] Meshing Station_10 with h = 0.625
+2025-07-29 20:09:32,869 - INFO - [Station_10_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:09:32,880 - WARNING - [Station_10_h0.625] 363 sliver triangles removed
+2025-07-29 20:09:32,881 - INFO - [Station_10_h0.625] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-29 20:09:32,971 - INFO - [Station_10_h0.625] Starting geometric analysis...
+2025-07-29 20:09:33,106 - INFO - [Station_10_h0.625] Area = 0.000264099
+2025-07-29 20:09:33,106 - INFO - [Station_10_h0.625] Perimeter = 0.124893
+2025-07-29 20:09:33,107 - INFO - [Station_10_h0.625] Centroid cx = 0.00137
+2025-07-29 20:09:33,108 - INFO - [Station_10_h0.625] Centroid cy = -0.00512
+2025-07-29 20:09:33,108 - INFO - [Station_10_h0.625] Ixx = 1.75939e-09
+2025-07-29 20:09:33,109 - INFO - [Station_10_h0.625] Iyy = 5.74906e-08
+2025-07-29 20:09:33,109 - INFO - [Station_10_h0.625] Ixy = 2.93251e-09
+2025-07-29 20:09:33,110 - INFO - [Station_10_h0.625] Ip = 5.925e-08
+2025-07-29 20:09:33,139 - INFO - [Station_10_h0.625] Principal I1 = 5.76445e-08
+2025-07-29 20:09:33,139 - INFO - [Station_10_h0.625] Principal I2 = 1.60551e-09
+2025-07-29 20:09:33,139 - INFO - [Station_10_h0.625] Radius rx = 0.00258106
+2025-07-29 20:09:33,140 - INFO - [Station_10_h0.625] Radius ry = 0.0147542
+2025-07-29 20:09:33,140 - WARNING - [Station_10_h0.625] Section modulus Sx returned None.
+2025-07-29 20:09:33,140 - WARNING - [Station_10_h0.625] Section modulus Sy returned None.
+2025-07-29 20:09:33,141 - ERROR - [Station_10_h0.625] Incomplete geometric properties.
+2025-07-29 20:09:33,141 - INFO - [Station_10_h0.625] Starting warping analysis...
+2025-07-29 20:09:33,959 - INFO - [Station_10_h0.625] J = 5.61947e-09
+2025-07-29 20:09:33,959 - INFO - [Station_10_h0.625] Asx = 0.000214702
+2025-07-29 20:09:33,959 - INFO - [Station_10_h0.625] Asy = 1.31431e-05
+2025-07-29 20:09:33,960 - INFO - [Station_10_h0.625] SCx = -0.00482398
+2025-07-29 20:09:33,960 - INFO - [Station_10_h0.625] SCy = -0.00492974
+2025-07-29 20:09:33,961 - INFO - [Station_10_h0.625] Beta_x+ = 0.00264412
+2025-07-29 20:09:33,961 - INFO - [Station_10_h0.625] Beta_x- = -0.00264412
+2025-07-29 20:09:33,962 - INFO - [Station_10_h0.625] Beta_y+ = -0.0164977
+2025-07-29 20:09:33,962 - INFO - [Station_10_h0.625] Beta_y- = 0.0164977
+2025-07-29 20:09:33,963 - INFO - [Station_10_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:09:33,965 - INFO - [5/5] Meshing Station_10 with h = 0.1562
+2025-07-29 20:09:33,967 - INFO - [Station_10_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:09:33,979 - WARNING - [Station_10_h0.1562] 363 sliver triangles removed
+2025-07-29 20:09:33,980 - INFO - [Station_10_h0.1562] mesh ok | nodes=4344 elems=1571 | A[min=1.02e-08 max=1.47e-06 mean=1.67e-07 med=1.21e-07] | q[min=0.602 max=1.000 mean=0.887]
+2025-07-29 20:09:34,078 - INFO - [Station_10_h0.1562] Starting geometric analysis...
+2025-07-29 20:09:34,217 - INFO - [Station_10_h0.1562] Area = 0.000264099
+2025-07-29 20:09:34,218 - INFO - [Station_10_h0.1562] Perimeter = 0.124893
+2025-07-29 20:09:34,219 - INFO - [Station_10_h0.1562] Centroid cx = 0.00137
+2025-07-29 20:09:34,219 - INFO - [Station_10_h0.1562] Centroid cy = -0.00512
+2025-07-29 20:09:34,220 - INFO - [Station_10_h0.1562] Ixx = 1.75939e-09
+2025-07-29 20:09:34,220 - INFO - [Station_10_h0.1562] Iyy = 5.74906e-08
+2025-07-29 20:09:34,221 - INFO - [Station_10_h0.1562] Ixy = 2.93251e-09
+2025-07-29 20:09:34,221 - INFO - [Station_10_h0.1562] Ip = 5.925e-08
+2025-07-29 20:09:34,247 - INFO - [Station_10_h0.1562] Principal I1 = 5.76445e-08
+2025-07-29 20:09:34,247 - INFO - [Station_10_h0.1562] Principal I2 = 1.60551e-09
+2025-07-29 20:09:34,247 - INFO - [Station_10_h0.1562] Radius rx = 0.00258106
+2025-07-29 20:09:34,247 - INFO - [Station_10_h0.1562] Radius ry = 0.0147542
+2025-07-29 20:09:34,248 - WARNING - [Station_10_h0.1562] Section modulus Sx returned None.
+2025-07-29 20:09:34,248 - WARNING - [Station_10_h0.1562] Section modulus Sy returned None.
+2025-07-29 20:09:34,249 - ERROR - [Station_10_h0.1562] Incomplete geometric properties.
+2025-07-29 20:09:34,249 - INFO - [Station_10_h0.1562] Starting warping analysis...
+2025-07-29 20:09:35,026 - INFO - [Station_10_h0.1562] J = 5.61947e-09
+2025-07-29 20:09:35,026 - INFO - [Station_10_h0.1562] Asx = 0.000214702
+2025-07-29 20:09:35,027 - INFO - [Station_10_h0.1562] Asy = 1.31431e-05
+2025-07-29 20:09:35,027 - INFO - [Station_10_h0.1562] SCx = -0.00482398
+2025-07-29 20:09:35,028 - INFO - [Station_10_h0.1562] SCy = -0.00492974
+2025-07-29 20:09:35,028 - INFO - [Station_10_h0.1562] Beta_x+ = 0.00264412
+2025-07-29 20:09:35,029 - INFO - [Station_10_h0.1562] Beta_x- = -0.00264412
+2025-07-29 20:09:35,029 - INFO - [Station_10_h0.1562] Beta_y+ = -0.0164977
+2025-07-29 20:09:35,030 - INFO - [Station_10_h0.1562] Beta_y- = 0.0164977
+2025-07-29 20:09:35,030 - INFO - [Station_10_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:09:35,032 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:09:35,965 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-29 20:09:36,883 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-29 20:09:37,496 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
+2025-07-29 20:09:38,135 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
+2025-07-29 20:09:39,147 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-07-29 20:09:40,010 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-07-29 20:09:40,602 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_global.png
+2025-07-29 20:09:41,173 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_10\mesh_conv_Station_10_batch2_local.png
+2025-07-29 20:09:41,175 - INFO - Section analysis result set saved
+2025-07-29 20:09:41,176 - INFO - Station Station_12 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf, twist=1.4°, centroid=(0.00, -0.00)
+2025-07-29 20:09:41,177 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
+2025-07-29 20:09:41,191 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:41,196 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:41,197 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:41,197 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:41,201 - INFO - Raw geometry extraction complete. 46 drawable entities parsed.
+2025-07-29 20:09:41,320 - INFO - Plotting 46 DXF entities for preview...
+2025-07-29 20:09:41,522 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\raw_Station_12.png
+2025-07-29 20:09:41,522 - INFO - [Station_12] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_12.dxf'
+2025-07-29 20:09:41,611 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:41,614 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:41,615 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:41,615 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:41,618 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-29 20:09:41,697 - INFO - Zipped 91 points
+2025-07-29 20:09:41,714 - INFO - [Station_12] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:09:42,214 - INFO - [Station_12] Actual centroid: (0.0131, 0.0012)
+2025-07-29 20:09:42,214 - INFO - [Station_12] Desired centroid: (0.0011, -0.0045)
+2025-07-29 20:09:42,215 - INFO - [Station_12] Applying translation dx=-0.0121, dy=-0.0057
+2025-07-29 20:09:42,216 - INFO - [Station_12] Section translated.
+2025-07-29 20:09:42,218 - INFO - Processed and aligned geometry extracted for Station_12
+2025-07-29 20:09:43,194 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\processed_Station_12.png
+2025-07-29 20:09:43,194 - INFO - Starting section convergence study …
+2025-07-29 20:09:43,195 - INFO - [1/5] Meshing Station_12 with h = 40
+2025-07-29 20:09:43,196 - INFO - [Station_12_h40] Meshing with target h = 40 …
+2025-07-29 20:09:43,205 - WARNING - [Station_12_h40] 387 sliver triangles removed
+2025-07-29 20:09:43,206 - INFO - [Station_12_h40] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:09:43,334 - INFO - [Station_12_h40] Starting geometric analysis...
+2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Area = 0.000190729
+2025-07-29 20:09:43,774 - INFO - [Station_12_h40] Perimeter = 0.106384
+2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cx = 0.00106
+2025-07-29 20:09:43,775 - INFO - [Station_12_h40] Centroid cy = -0.00452
+2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Ixx = 8.61287e-10
+2025-07-29 20:09:43,776 - INFO - [Station_12_h40] Iyy = 3.01772e-08
+2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ixy = 7.91093e-10
+2025-07-29 20:09:43,777 - INFO - [Station_12_h40] Ip = 3.10385e-08
+2025-07-29 20:09:43,809 - INFO - [Station_12_h40] Principal I1 = 3.01985e-08
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Principal I2 = 8.39955e-10
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius rx = 0.00212503
+2025-07-29 20:09:43,810 - INFO - [Station_12_h40] Radius ry = 0.0125786
+2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sx returned None.
+2025-07-29 20:09:43,811 - WARNING - [Station_12_h40] Section modulus Sy returned None.
+2025-07-29 20:09:43,811 - ERROR - [Station_12_h40] Incomplete geometric properties.
+2025-07-29 20:09:43,812 - INFO - [Station_12_h40] Starting warping analysis...
+2025-07-29 20:09:45,016 - INFO - [Station_12_h40] J = 2.91271e-09
+2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asx = 0.000157779
+2025-07-29 20:09:45,017 - INFO - [Station_12_h40] Asy = 9.44221e-06
+2025-07-29 20:09:45,018 - INFO - [Station_12_h40] SCx = -0.00446522
+2025-07-29 20:09:45,019 - INFO - [Station_12_h40] SCy = -0.00419031
+2025-07-29 20:09:45,019 - INFO - [Station_12_h40] Beta_x+ = 0.00614689
+2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_x- = -0.00614689
+2025-07-29 20:09:45,020 - INFO - [Station_12_h40] Beta_y+ = -0.0146399
+2025-07-29 20:09:45,021 - INFO - [Station_12_h40] Beta_y- = 0.0146399
+2025-07-29 20:09:45,021 - INFO - [Station_12_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:09:45,024 - INFO - [2/5] Meshing Station_12 with h = 10
+2025-07-29 20:09:45,025 - INFO - [Station_12_h10] Meshing with target h = 10 …
+2025-07-29 20:09:45,035 - WARNING - [Station_12_h10] 387 sliver triangles removed
+2025-07-29 20:09:45,036 - INFO - [Station_12_h10] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:09:45,126 - INFO - [Station_12_h10] Starting geometric analysis...
+2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Area = 0.000190729
+2025-07-29 20:09:45,258 - INFO - [Station_12_h10] Perimeter = 0.106384
+2025-07-29 20:09:45,259 - INFO - [Station_12_h10] Centroid cx = 0.00106
+2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Centroid cy = -0.00452
+2025-07-29 20:09:45,260 - INFO - [Station_12_h10] Ixx = 8.61287e-10
+2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Iyy = 3.01772e-08
+2025-07-29 20:09:45,261 - INFO - [Station_12_h10] Ixy = 7.91093e-10
+2025-07-29 20:09:45,262 - INFO - [Station_12_h10] Ip = 3.10385e-08
+2025-07-29 20:09:45,292 - INFO - [Station_12_h10] Principal I1 = 3.01985e-08
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Principal I2 = 8.39955e-10
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius rx = 0.00212503
+2025-07-29 20:09:45,293 - INFO - [Station_12_h10] Radius ry = 0.0125786
+2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sx returned None.
+2025-07-29 20:09:45,294 - WARNING - [Station_12_h10] Section modulus Sy returned None.
+2025-07-29 20:09:45,294 - ERROR - [Station_12_h10] Incomplete geometric properties.
+2025-07-29 20:09:45,295 - INFO - [Station_12_h10] Starting warping analysis...
+2025-07-29 20:09:46,035 - INFO - [Station_12_h10] J = 2.91271e-09
+2025-07-29 20:09:46,035 - INFO - [Station_12_h10] Asx = 0.000157779
+2025-07-29 20:09:46,036 - INFO - [Station_12_h10] Asy = 9.44221e-06
+2025-07-29 20:09:46,036 - INFO - [Station_12_h10] SCx = -0.00446522
+2025-07-29 20:09:46,037 - INFO - [Station_12_h10] SCy = -0.00419031
+2025-07-29 20:09:46,037 - INFO - [Station_12_h10] Beta_x+ = 0.00614689
+2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_x- = -0.00614689
+2025-07-29 20:09:46,038 - INFO - [Station_12_h10] Beta_y+ = -0.0146399
+2025-07-29 20:09:46,039 - INFO - [Station_12_h10] Beta_y- = 0.0146399
+2025-07-29 20:09:46,039 - INFO - [Station_12_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:09:46,043 - INFO - [3/5] Meshing Station_12 with h = 2.5
+2025-07-29 20:09:46,044 - INFO - [Station_12_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:09:46,059 - WARNING - [Station_12_h2.5] 387 sliver triangles removed
+2025-07-29 20:09:46,060 - INFO - [Station_12_h2.5] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:09:46,159 - INFO - [Station_12_h2.5] Starting geometric analysis...
+2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Area = 0.000190729
+2025-07-29 20:09:46,300 - INFO - [Station_12_h2.5] Perimeter = 0.106384
+2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cx = 0.00106
+2025-07-29 20:09:46,301 - INFO - [Station_12_h2.5] Centroid cy = -0.00452
+2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Ixx = 8.61287e-10
+2025-07-29 20:09:46,302 - INFO - [Station_12_h2.5] Iyy = 3.01772e-08
+2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ixy = 7.91093e-10
+2025-07-29 20:09:46,303 - INFO - [Station_12_h2.5] Ip = 3.10385e-08
+2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I1 = 3.01985e-08
+2025-07-29 20:09:46,335 - INFO - [Station_12_h2.5] Principal I2 = 8.39955e-10
+2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius rx = 0.00212503
+2025-07-29 20:09:46,336 - INFO - [Station_12_h2.5] Radius ry = 0.0125786
+2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sx returned None.
+2025-07-29 20:09:46,336 - WARNING - [Station_12_h2.5] Section modulus Sy returned None.
+2025-07-29 20:09:46,337 - ERROR - [Station_12_h2.5] Incomplete geometric properties.
+2025-07-29 20:09:46,337 - INFO - [Station_12_h2.5] Starting warping analysis...
+2025-07-29 20:09:47,069 - INFO - [Station_12_h2.5] J = 2.91271e-09
+2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asx = 0.000157779
+2025-07-29 20:09:47,070 - INFO - [Station_12_h2.5] Asy = 9.44221e-06
+2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCx = -0.00446522
+2025-07-29 20:09:47,071 - INFO - [Station_12_h2.5] SCy = -0.00419031
+2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x+ = 0.00614689
+2025-07-29 20:09:47,072 - INFO - [Station_12_h2.5] Beta_x- = -0.00614689
+2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y+ = -0.0146399
+2025-07-29 20:09:47,073 - INFO - [Station_12_h2.5] Beta_y- = 0.0146399
+2025-07-29 20:09:47,074 - INFO - [Station_12_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:09:47,076 - INFO - [4/5] Meshing Station_12 with h = 0.625
+2025-07-29 20:09:47,077 - INFO - [Station_12_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:09:47,161 - WARNING - [Station_12_h0.625] 387 sliver triangles removed
+2025-07-29 20:09:47,162 - INFO - [Station_12_h0.625] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:09:47,248 - INFO - [Station_12_h0.625] Starting geometric analysis...
+2025-07-29 20:09:47,385 - INFO - [Station_12_h0.625] Area = 0.000190729
+2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Perimeter = 0.106384
+2025-07-29 20:09:47,386 - INFO - [Station_12_h0.625] Centroid cx = 0.00106
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Centroid cy = -0.00452
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Ixx = 8.61287e-10
+2025-07-29 20:09:47,387 - INFO - [Station_12_h0.625] Iyy = 3.01772e-08
+2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ixy = 7.91093e-10
+2025-07-29 20:09:47,388 - INFO - [Station_12_h0.625] Ip = 3.10385e-08
+2025-07-29 20:09:47,428 - INFO - [Station_12_h0.625] Principal I1 = 3.01985e-08
+2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Principal I2 = 8.39955e-10
+2025-07-29 20:09:47,429 - INFO - [Station_12_h0.625] Radius rx = 0.00212503
+2025-07-29 20:09:47,430 - INFO - [Station_12_h0.625] Radius ry = 0.0125786
+2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sx returned None.
+2025-07-29 20:09:47,430 - WARNING - [Station_12_h0.625] Section modulus Sy returned None.
+2025-07-29 20:09:47,431 - ERROR - [Station_12_h0.625] Incomplete geometric properties.
+2025-07-29 20:09:47,431 - INFO - [Station_12_h0.625] Starting warping analysis...
+2025-07-29 20:09:48,256 - INFO - [Station_12_h0.625] J = 2.91271e-09
+2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asx = 0.000157779
+2025-07-29 20:09:48,257 - INFO - [Station_12_h0.625] Asy = 9.44221e-06
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCx = -0.00446522
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] SCy = -0.00419031
+2025-07-29 20:09:48,258 - INFO - [Station_12_h0.625] Beta_x+ = 0.00614689
+2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_x- = -0.00614689
+2025-07-29 20:09:48,259 - INFO - [Station_12_h0.625] Beta_y+ = -0.0146399
+2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] Beta_y- = 0.0146399
+2025-07-29 20:09:48,260 - INFO - [Station_12_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:09:48,262 - INFO - [5/5] Meshing Station_12 with h = 0.1562
+2025-07-29 20:09:48,263 - INFO - [Station_12_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:09:48,273 - WARNING - [Station_12_h0.1562] 387 sliver triangles removed
+2025-07-29 20:09:48,274 - INFO - [Station_12_h0.1562] mesh ok | nodes=4167 elems=1462 | A[min=1e-08 max=1.1e-06 mean=1.3e-07 med=8.48e-08] | q[min=0.603 max=1.000 mean=0.883]
+2025-07-29 20:09:48,367 - INFO - [Station_12_h0.1562] Starting geometric analysis...
+2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Area = 0.000190729
+2025-07-29 20:09:48,504 - INFO - [Station_12_h0.1562] Perimeter = 0.106384
+2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cx = 0.00106
+2025-07-29 20:09:48,505 - INFO - [Station_12_h0.1562] Centroid cy = -0.00452
+2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Ixx = 8.61287e-10
+2025-07-29 20:09:48,506 - INFO - [Station_12_h0.1562] Iyy = 3.01772e-08
+2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ixy = 7.91093e-10
+2025-07-29 20:09:48,507 - INFO - [Station_12_h0.1562] Ip = 3.10385e-08
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I1 = 3.01985e-08
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Principal I2 = 8.39955e-10
+2025-07-29 20:09:48,535 - INFO - [Station_12_h0.1562] Radius rx = 0.00212503
+2025-07-29 20:09:48,536 - INFO - [Station_12_h0.1562] Radius ry = 0.0125786
+2025-07-29 20:09:48,536 - WARNING - [Station_12_h0.1562] Section modulus Sx returned None.
+2025-07-29 20:09:48,537 - WARNING - [Station_12_h0.1562] Section modulus Sy returned None.
+2025-07-29 20:09:48,537 - ERROR - [Station_12_h0.1562] Incomplete geometric properties.
+2025-07-29 20:09:48,537 - INFO - [Station_12_h0.1562] Starting warping analysis...
+2025-07-29 20:09:49,337 - INFO - [Station_12_h0.1562] J = 2.91271e-09
+2025-07-29 20:09:49,338 - INFO - [Station_12_h0.1562] Asx = 0.000157779
+2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] Asy = 9.44221e-06
+2025-07-29 20:09:49,339 - INFO - [Station_12_h0.1562] SCx = -0.00446522
+2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] SCy = -0.00419031
+2025-07-29 20:09:49,340 - INFO - [Station_12_h0.1562] Beta_x+ = 0.00614689
+2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_x- = -0.00614689
+2025-07-29 20:09:49,341 - INFO - [Station_12_h0.1562] Beta_y+ = -0.0146399
+2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] Beta_y- = 0.0146399
+2025-07-29 20:09:49,342 - INFO - [Station_12_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:09:49,345 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:09:50,204 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-29 20:09:51,180 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-29 20:09:51,852 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-29 20:09:52,575 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-29 20:09:53,966 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-07-29 20:09:54,926 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-07-29 20:09:55,523 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_global.png
+2025-07-29 20:09:56,413 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_12\mesh_conv_Station_12_batch2_local.png
+2025-07-29 20:09:56,416 - INFO - Section analysis result set saved
+2025-07-29 20:09:56,417 - INFO - Station Station_14 [Analysis]: DXF=C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf, twist=0.3°, centroid=(0.00, -0.00)
+2025-07-29 20:09:56,418 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
+2025-07-29 20:09:56,513 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:56,518 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:56,519 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:56,519 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:56,521 - INFO - Raw geometry extraction complete. 52 drawable entities parsed.
+2025-07-29 20:09:56,649 - INFO - Plotting 52 DXF entities for preview...
+2025-07-29 20:09:56,865 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\raw_Station_14.png
+2025-07-29 20:09:56,865 - INFO - [Station_14] Importing DXF: 'C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_14.dxf'
+2025-07-29 20:09:56,880 - INFO - DXF version upgrade to DXF R2000.
+2025-07-29 20:09:56,885 - INFO - creating ACAD_COLOR dictionary
+2025-07-29 20:09:56,885 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-07-29 20:09:56,886 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-07-29 20:09:56,888 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-07-29 20:09:57,009 - INFO - Zipped 73 points
+2025-07-29 20:09:57,030 - INFO - [Station_14] Geometry meshed with mesh_sizes=0.5.
+2025-07-29 20:09:57,590 - INFO - [Station_14] Actual centroid: (0.0178, 0.0006)
+2025-07-29 20:09:57,590 - INFO - [Station_14] Desired centroid: (0.0008, -0.0024)
+2025-07-29 20:09:57,591 - INFO - [Station_14] Applying translation dx=-0.0169, dy=-0.0031
+2025-07-29 20:09:57,592 - INFO - [Station_14] Section translated.
+2025-07-29 20:09:57,594 - INFO - Processed and aligned geometry extracted for Station_14
+2025-07-29 20:09:58,668 - INFO - Processed geometry preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\processed_Station_14.png
+2025-07-29 20:09:58,669 - INFO - Starting section convergence study …
+2025-07-29 20:09:58,669 - INFO - [1/5] Meshing Station_14 with h = 40
+2025-07-29 20:09:58,670 - INFO - [Station_14_h40] Meshing with target h = 40 …
+2025-07-29 20:09:58,680 - WARNING - [Station_14_h40] 464 sliver triangles removed
+2025-07-29 20:09:58,681 - INFO - [Station_14_h40] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:09:58,765 - INFO - [Station_14_h40] Starting geometric analysis...
+2025-07-29 20:09:59,279 - INFO - [Station_14_h40] Area = 0.00017444
+2025-07-29 20:09:59,280 - INFO - [Station_14_h40] Perimeter = 0.0882077
+2025-07-29 20:09:59,281 - INFO - [Station_14_h40] Centroid cx = 0.000847
+2025-07-29 20:09:59,281 - INFO - [Station_14_h40] Centroid cy = -0.00243
+2025-07-29 20:09:59,282 - INFO - [Station_14_h40] Ixx = 4.1535e-10
+2025-07-29 20:09:59,283 - INFO - [Station_14_h40] Iyy = 1.57513e-08
+2025-07-29 20:09:59,283 - INFO - [Station_14_h40] Ixy = 4.44132e-10
+2025-07-29 20:09:59,284 - INFO - [Station_14_h40] Ip = 1.61667e-08
+2025-07-29 20:09:59,325 - INFO - [Station_14_h40] Principal I1 = 1.57642e-08
+2025-07-29 20:09:59,330 - INFO - [Station_14_h40] Principal I2 = 4.02498e-10
+2025-07-29 20:09:59,331 - INFO - [Station_14_h40] Radius rx = 0.00154306
+2025-07-29 20:09:59,332 - INFO - [Station_14_h40] Radius ry = 0.00950245
+2025-07-29 20:09:59,333 - WARNING - [Station_14_h40] Section modulus Sx returned None.
+2025-07-29 20:09:59,333 - WARNING - [Station_14_h40] Section modulus Sy returned None.
+2025-07-29 20:09:59,334 - ERROR - [Station_14_h40] Incomplete geometric properties.
+2025-07-29 20:09:59,335 - INFO - [Station_14_h40] Starting warping analysis...
+2025-07-29 20:10:00,505 - INFO - [Station_14_h40] J = 1.53645e-09
+2025-07-29 20:10:00,505 - INFO - [Station_14_h40] Asx = 0.000160077
+2025-07-29 20:10:00,506 - INFO - [Station_14_h40] Asy = 0.000113008
+2025-07-29 20:10:00,506 - INFO - [Station_14_h40] SCx = -0.000923524
+2025-07-29 20:10:00,507 - INFO - [Station_14_h40] SCy = -0.00223461
+2025-07-29 20:10:00,507 - INFO - [Station_14_h40] Beta_x+ = 0.00416929
+2025-07-29 20:10:00,509 - INFO - [Station_14_h40] Beta_x- = -0.00416929
+2025-07-29 20:10:00,509 - INFO - [Station_14_h40] Beta_y+ = -0.00611838
+2025-07-29 20:10:00,510 - INFO - [Station_14_h40] Beta_y- = 0.00611838
+2025-07-29 20:10:00,510 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
+2025-07-29 20:10:00,513 - INFO - [2/5] Meshing Station_14 with h = 10
+2025-07-29 20:10:00,514 - INFO - [Station_14_h10] Meshing with target h = 10 …
+2025-07-29 20:10:00,524 - WARNING - [Station_14_h10] 464 sliver triangles removed
+2025-07-29 20:10:00,525 - INFO - [Station_14_h10] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:10:00,606 - INFO - [Station_14_h10] Starting geometric analysis...
+2025-07-29 20:10:00,731 - INFO - [Station_14_h10] Area = 0.00017444
+2025-07-29 20:10:00,731 - INFO - [Station_14_h10] Perimeter = 0.0882077
+2025-07-29 20:10:00,732 - INFO - [Station_14_h10] Centroid cx = 0.000847
+2025-07-29 20:10:00,732 - INFO - [Station_14_h10] Centroid cy = -0.00243
+2025-07-29 20:10:00,733 - INFO - [Station_14_h10] Ixx = 4.1535e-10
+2025-07-29 20:10:00,734 - INFO - [Station_14_h10] Iyy = 1.57513e-08
+2025-07-29 20:10:00,734 - INFO - [Station_14_h10] Ixy = 4.44132e-10
+2025-07-29 20:10:00,735 - INFO - [Station_14_h10] Ip = 1.61667e-08
+2025-07-29 20:10:00,778 - INFO - [Station_14_h10] Principal I1 = 1.57642e-08
+2025-07-29 20:10:00,779 - INFO - [Station_14_h10] Principal I2 = 4.02498e-10
+2025-07-29 20:10:00,780 - INFO - [Station_14_h10] Radius rx = 0.00154306
+2025-07-29 20:10:00,780 - INFO - [Station_14_h10] Radius ry = 0.00950245
+2025-07-29 20:10:00,781 - WARNING - [Station_14_h10] Section modulus Sx returned None.
+2025-07-29 20:10:00,781 - WARNING - [Station_14_h10] Section modulus Sy returned None.
+2025-07-29 20:10:00,782 - ERROR - [Station_14_h10] Incomplete geometric properties.
+2025-07-29 20:10:00,783 - INFO - [Station_14_h10] Starting warping analysis...
+2025-07-29 20:10:01,671 - INFO - [Station_14_h10] J = 1.53645e-09
+2025-07-29 20:10:01,672 - INFO - [Station_14_h10] Asx = 0.000160077
+2025-07-29 20:10:01,673 - INFO - [Station_14_h10] Asy = 0.000113008
+2025-07-29 20:10:01,673 - INFO - [Station_14_h10] SCx = -0.000923524
+2025-07-29 20:10:01,674 - INFO - [Station_14_h10] SCy = -0.00223461
+2025-07-29 20:10:01,674 - INFO - [Station_14_h10] Beta_x+ = 0.00416929
+2025-07-29 20:10:01,674 - INFO - [Station_14_h10] Beta_x- = -0.00416929
+2025-07-29 20:10:01,675 - INFO - [Station_14_h10] Beta_y+ = -0.00611838
+2025-07-29 20:10:01,675 - INFO - [Station_14_h10] Beta_y- = 0.00611838
+2025-07-29 20:10:01,675 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
+2025-07-29 20:10:01,677 - INFO - [3/5] Meshing Station_14 with h = 2.5
+2025-07-29 20:10:01,678 - INFO - [Station_14_h2.5] Meshing with target h = 2.5 …
+2025-07-29 20:10:01,689 - WARNING - [Station_14_h2.5] 464 sliver triangles removed
+2025-07-29 20:10:01,690 - INFO - [Station_14_h2.5] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:10:01,773 - INFO - [Station_14_h2.5] Starting geometric analysis...
+2025-07-29 20:10:01,907 - INFO - [Station_14_h2.5] Area = 0.00017444
+2025-07-29 20:10:01,907 - INFO - [Station_14_h2.5] Perimeter = 0.0882077
+2025-07-29 20:10:01,908 - INFO - [Station_14_h2.5] Centroid cx = 0.000847
+2025-07-29 20:10:01,909 - INFO - [Station_14_h2.5] Centroid cy = -0.00243
+2025-07-29 20:10:01,910 - INFO - [Station_14_h2.5] Ixx = 4.1535e-10
+2025-07-29 20:10:01,910 - INFO - [Station_14_h2.5] Iyy = 1.57513e-08
+2025-07-29 20:10:01,911 - INFO - [Station_14_h2.5] Ixy = 4.44132e-10
+2025-07-29 20:10:01,911 - INFO - [Station_14_h2.5] Ip = 1.61667e-08
+2025-07-29 20:10:01,945 - INFO - [Station_14_h2.5] Principal I1 = 1.57642e-08
+2025-07-29 20:10:01,945 - INFO - [Station_14_h2.5] Principal I2 = 4.02498e-10
+2025-07-29 20:10:01,946 - INFO - [Station_14_h2.5] Radius rx = 0.00154306
+2025-07-29 20:10:01,946 - INFO - [Station_14_h2.5] Radius ry = 0.00950245
+2025-07-29 20:10:01,946 - WARNING - [Station_14_h2.5] Section modulus Sx returned None.
+2025-07-29 20:10:01,947 - WARNING - [Station_14_h2.5] Section modulus Sy returned None.
+2025-07-29 20:10:01,947 - ERROR - [Station_14_h2.5] Incomplete geometric properties.
+2025-07-29 20:10:01,947 - INFO - [Station_14_h2.5] Starting warping analysis...
+2025-07-29 20:10:02,785 - INFO - [Station_14_h2.5] J = 1.53645e-09
+2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] Asx = 0.000160077
+2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] Asy = 0.000113008
+2025-07-29 20:10:02,786 - INFO - [Station_14_h2.5] SCx = -0.000923524
+2025-07-29 20:10:02,787 - INFO - [Station_14_h2.5] SCy = -0.00223461
+2025-07-29 20:10:02,787 - INFO - [Station_14_h2.5] Beta_x+ = 0.00416929
+2025-07-29 20:10:02,788 - INFO - [Station_14_h2.5] Beta_x- = -0.00416929
+2025-07-29 20:10:02,788 - INFO - [Station_14_h2.5] Beta_y+ = -0.00611838
+2025-07-29 20:10:02,789 - INFO - [Station_14_h2.5] Beta_y- = 0.00611838
+2025-07-29 20:10:02,789 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 20:10:02,791 - INFO - [4/5] Meshing Station_14 with h = 0.625
+2025-07-29 20:10:02,793 - INFO - [Station_14_h0.625] Meshing with target h = 0.625 …
+2025-07-29 20:10:02,804 - WARNING - [Station_14_h0.625] 464 sliver triangles removed
+2025-07-29 20:10:02,805 - INFO - [Station_14_h0.625] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:10:02,965 - INFO - [Station_14_h0.625] Starting geometric analysis...
+2025-07-29 20:10:03,102 - INFO - [Station_14_h0.625] Area = 0.00017444
+2025-07-29 20:10:03,103 - INFO - [Station_14_h0.625] Perimeter = 0.0882077
+2025-07-29 20:10:03,103 - INFO - [Station_14_h0.625] Centroid cx = 0.000847
+2025-07-29 20:10:03,104 - INFO - [Station_14_h0.625] Centroid cy = -0.00243
+2025-07-29 20:10:03,105 - INFO - [Station_14_h0.625] Ixx = 4.1535e-10
+2025-07-29 20:10:03,106 - INFO - [Station_14_h0.625] Iyy = 1.57513e-08
+2025-07-29 20:10:03,106 - INFO - [Station_14_h0.625] Ixy = 4.44132e-10
+2025-07-29 20:10:03,107 - INFO - [Station_14_h0.625] Ip = 1.61667e-08
+2025-07-29 20:10:03,136 - INFO - [Station_14_h0.625] Principal I1 = 1.57642e-08
+2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Principal I2 = 4.02498e-10
+2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Radius rx = 0.00154306
+2025-07-29 20:10:03,137 - INFO - [Station_14_h0.625] Radius ry = 0.00950245
+2025-07-29 20:10:03,138 - WARNING - [Station_14_h0.625] Section modulus Sx returned None.
+2025-07-29 20:10:03,139 - WARNING - [Station_14_h0.625] Section modulus Sy returned None.
+2025-07-29 20:10:03,140 - ERROR - [Station_14_h0.625] Incomplete geometric properties.
+2025-07-29 20:10:03,140 - INFO - [Station_14_h0.625] Starting warping analysis...
+2025-07-29 20:10:03,892 - INFO - [Station_14_h0.625] J = 1.53645e-09
+2025-07-29 20:10:03,893 - INFO - [Station_14_h0.625] Asx = 0.000160077
+2025-07-29 20:10:03,894 - INFO - [Station_14_h0.625] Asy = 0.000113008
+2025-07-29 20:10:03,894 - INFO - [Station_14_h0.625] SCx = -0.000923524
+2025-07-29 20:10:03,895 - INFO - [Station_14_h0.625] SCy = -0.00223461
+2025-07-29 20:10:03,895 - INFO - [Station_14_h0.625] Beta_x+ = 0.00416929
+2025-07-29 20:10:03,896 - INFO - [Station_14_h0.625] Beta_x- = -0.00416929
+2025-07-29 20:10:03,896 - INFO - [Station_14_h0.625] Beta_y+ = -0.00611838
+2025-07-29 20:10:03,897 - INFO - [Station_14_h0.625] Beta_y- = 0.00611838
+2025-07-29 20:10:03,898 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 20:10:03,900 - INFO - [5/5] Meshing Station_14 with h = 0.1562
+2025-07-29 20:10:03,901 - INFO - [Station_14_h0.1562] Meshing with target h = 0.1562 …
+2025-07-29 20:10:03,912 - WARNING - [Station_14_h0.1562] 464 sliver triangles removed
+2025-07-29 20:10:03,914 - INFO - [Station_14_h0.1562] mesh ok | nodes=4042 elems=1345 | A[min=1e-08 max=1.11e-06 mean=1.29e-07 med=6.68e-08] | q[min=0.601 max=1.000 mean=0.878]
+2025-07-29 20:10:04,023 - INFO - [Station_14_h0.1562] Starting geometric analysis...
+2025-07-29 20:10:04,267 - INFO - [Station_14_h0.1562] Area = 0.00017444
+2025-07-29 20:10:04,271 - INFO - [Station_14_h0.1562] Perimeter = 0.0882077
+2025-07-29 20:10:04,271 - INFO - [Station_14_h0.1562] Centroid cx = 0.000847
+2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Centroid cy = -0.00243
+2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Ixx = 4.1535e-10
+2025-07-29 20:10:04,272 - INFO - [Station_14_h0.1562] Iyy = 1.57513e-08
+2025-07-29 20:10:04,273 - INFO - [Station_14_h0.1562] Ixy = 4.44132e-10
+2025-07-29 20:10:04,273 - INFO - [Station_14_h0.1562] Ip = 1.61667e-08
+2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Principal I1 = 1.57642e-08
+2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Principal I2 = 4.02498e-10
+2025-07-29 20:10:04,310 - INFO - [Station_14_h0.1562] Radius rx = 0.00154306
+2025-07-29 20:10:04,311 - INFO - [Station_14_h0.1562] Radius ry = 0.00950245
+2025-07-29 20:10:04,311 - WARNING - [Station_14_h0.1562] Section modulus Sx returned None.
+2025-07-29 20:10:04,312 - WARNING - [Station_14_h0.1562] Section modulus Sy returned None.
+2025-07-29 20:10:04,312 - ERROR - [Station_14_h0.1562] Incomplete geometric properties.
+2025-07-29 20:10:04,312 - INFO - [Station_14_h0.1562] Starting warping analysis...
+2025-07-29 20:10:05,061 - INFO - [Station_14_h0.1562] J = 1.53645e-09
+2025-07-29 20:10:05,062 - INFO - [Station_14_h0.1562] Asx = 0.000160077
+2025-07-29 20:10:05,062 - INFO - [Station_14_h0.1562] Asy = 0.000113008
+2025-07-29 20:10:05,063 - INFO - [Station_14_h0.1562] SCx = -0.000923524
+2025-07-29 20:10:05,063 - INFO - [Station_14_h0.1562] SCy = -0.00223461
+2025-07-29 20:10:05,064 - INFO - [Station_14_h0.1562] Beta_x+ = 0.00416929
+2025-07-29 20:10:05,065 - INFO - [Station_14_h0.1562] Beta_x- = -0.00416929
+2025-07-29 20:10:05,065 - INFO - [Station_14_h0.1562] Beta_y+ = -0.00611838
+2025-07-29 20:10:05,066 - INFO - [Station_14_h0.1562] Beta_y- = 0.00611838
+2025-07-29 20:10:05,066 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 20:10:05,068 - INFO - Convergence study completed: 5 valid results out of 5
+2025-07-29 20:10:05,877 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-29 20:10:06,845 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-29 20:10:07,446 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-29 20:10:08,075 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-29 20:10:08,929 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-07-29 20:10:09,850 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-07-29 20:10:10,434 - INFO - Global batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_global.png
+2025-07-29 20:10:11,146 - INFO - Local batch 2 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\Station_14\mesh_conv_Station_14_batch2_local.png
+2025-07-29 20:10:11,151 - INFO - Section analysis result set saved
