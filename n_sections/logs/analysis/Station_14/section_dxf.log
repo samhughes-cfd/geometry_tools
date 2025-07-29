@@ -28,3 +28,173 @@
 2025-07-28 19:19:11,182 - INFO - [Station_14_h0.1562] Starting geometric analysis...
 2025-07-28 19:19:11,331 - INFO - [Station_14_h0.1562] Starting warping analysis (required for J)...
 2025-07-28 19:19:12,148 - INFO - [Station_14_h0.1562] Success at h = 0.1562
+2025-07-29 15:03:47,550 - INFO - [Station_14_h40] Starting geometric analysis...
+2025-07-29 15:03:47,923 - ERROR - [Station_14_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:47,939 - INFO - [Station_14_h40] Starting warping analysis...
+2025-07-29 15:03:48,723 - ERROR - [Station_14_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:48,723 - ERROR - [Station_14_h40] Geometric analysis failed — skipping values.
+2025-07-29 15:03:48,723 - ERROR - [Station_14_h40] Warping analysis failed — skipping values.
+2025-07-29 15:03:48,723 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
+2025-07-29 15:03:48,816 - INFO - [Station_14_h10] Starting geometric analysis...
+2025-07-29 15:03:48,908 - ERROR - [Station_14_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:48,908 - INFO - [Station_14_h10] Starting warping analysis...
+2025-07-29 15:03:49,464 - ERROR - [Station_14_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:49,465 - ERROR - [Station_14_h10] Geometric analysis failed — skipping values.
+2025-07-29 15:03:49,465 - ERROR - [Station_14_h10] Warping analysis failed — skipping values.
+2025-07-29 15:03:49,465 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
+2025-07-29 15:03:49,544 - INFO - [Station_14_h2.5] Starting geometric analysis...
+2025-07-29 15:03:49,640 - ERROR - [Station_14_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:49,640 - INFO - [Station_14_h2.5] Starting warping analysis...
+2025-07-29 15:03:50,224 - ERROR - [Station_14_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:50,224 - ERROR - [Station_14_h2.5] Geometric analysis failed — skipping values.
+2025-07-29 15:03:50,225 - ERROR - [Station_14_h2.5] Warping analysis failed — skipping values.
+2025-07-29 15:03:50,225 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 15:03:50,319 - INFO - [Station_14_h0.625] Starting geometric analysis...
+2025-07-29 15:03:50,413 - ERROR - [Station_14_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:50,413 - INFO - [Station_14_h0.625] Starting warping analysis...
+2025-07-29 15:03:50,975 - ERROR - [Station_14_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:50,976 - ERROR - [Station_14_h0.625] Geometric analysis failed — skipping values.
+2025-07-29 15:03:50,976 - ERROR - [Station_14_h0.625] Warping analysis failed — skipping values.
+2025-07-29 15:03:50,976 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 15:03:51,100 - INFO - [Station_14_h0.1562] Starting geometric analysis...
+2025-07-29 15:03:51,198 - ERROR - [Station_14_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:51,199 - INFO - [Station_14_h0.1562] Starting warping analysis...
+2025-07-29 15:03:51,747 - ERROR - [Station_14_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:03:51,747 - ERROR - [Station_14_h0.1562] Geometric analysis failed — skipping values.
+2025-07-29 15:03:51,758 - ERROR - [Station_14_h0.1562] Warping analysis failed — skipping values.
+2025-07-29 15:03:51,758 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.
+2025-07-29 15:07:41,594 - INFO - [Station_14_h40] Starting geometric analysis...
+2025-07-29 15:07:41,973 - ERROR - [Station_14_h40] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:41,973 - INFO - [Station_14_h40] Starting warping analysis...
+2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Geometric analysis failed — skipping values.
+2025-07-29 15:07:42,772 - ERROR - [Station_14_h40] Warping analysis failed — skipping values.
+2025-07-29 15:07:42,772 - INFO - [Station_14_h40] SectionDXF row assembled with partial success.
+2025-07-29 15:07:42,844 - INFO - [Station_14_h10] Starting geometric analysis...
+2025-07-29 15:07:42,943 - ERROR - [Station_14_h10] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:42,943 - INFO - [Station_14_h10] Starting warping analysis...
+2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Geometric analysis failed — skipping values.
+2025-07-29 15:07:43,489 - ERROR - [Station_14_h10] Warping analysis failed — skipping values.
+2025-07-29 15:07:43,489 - INFO - [Station_14_h10] SectionDXF row assembled with partial success.
+2025-07-29 15:07:43,577 - INFO - [Station_14_h2.5] Starting geometric analysis...
+2025-07-29 15:07:43,663 - ERROR - [Station_14_h2.5] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:43,663 - INFO - [Station_14_h2.5] Starting warping analysis...
+2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Geometric analysis failed — skipping values.
+2025-07-29 15:07:44,231 - ERROR - [Station_14_h2.5] Warping analysis failed — skipping values.
+2025-07-29 15:07:44,231 - INFO - [Station_14_h2.5] SectionDXF row assembled with partial success.
+2025-07-29 15:07:44,309 - INFO - [Station_14_h0.625] Starting geometric analysis...
+2025-07-29 15:07:44,395 - ERROR - [Station_14_h0.625] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:44,395 - INFO - [Station_14_h0.625] Starting warping analysis...
+2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Geometric analysis failed — skipping values.
+2025-07-29 15:07:44,945 - ERROR - [Station_14_h0.625] Warping analysis failed — skipping values.
+2025-07-29 15:07:44,945 - INFO - [Station_14_h0.625] SectionDXF row assembled with partial success.
+2025-07-29 15:07:45,071 - INFO - [Station_14_h0.1562] Starting geometric analysis...
+2025-07-29 15:07:45,164 - ERROR - [Station_14_h0.1562] Geometric analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 97, in _geometric_analysis
+    sx * M3_TO_MM3, sy * M3_TO_MM3,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:45,164 - INFO - [Station_14_h0.1562] Starting warping analysis...
+2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Warping analysis failed: unsupported operand type(s) for *: 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 122, in _warping_analysis
+    cw * M6_TO_MM6,
+    ~~~^~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'
+2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Geometric analysis failed — skipping values.
+2025-07-29 15:07:45,718 - ERROR - [Station_14_h0.1562] Warping analysis failed — skipping values.
+2025-07-29 15:07:45,719 - INFO - [Station_14_h0.1562] SectionDXF row assembled with partial success.

@@ -18,19 +18,16 @@ class SectionDXF:
         "RunLabel", "Mesh_h_mm",
 
         # Geometric
-        "Area_mm2", "Perimeter_mm", "Mass_kg", "Axial_rigidity_N",
+        "Area_mm2", "Perimeter_mm",
         "Cx_mm", "Cy_mm",
         "Ixx_c_mm4", "Iyy_c_mm4", "Ixy_c_mm4", "Ip_c_mm4",
         "Principal_angle_deg", "I1_mm4", "I2_mm4",
         "rx_mm", "ry_mm",
         "Sx_mm3", "Sy_mm3",
 
-        # Plastic
-        "Zx_mm3", "Zy_mm3", "Z1_mm3", "Z2_mm3",
-        "Shape_factor_x", "Shape_factor_y", "Shape_factor_1", "Shape_factor_2",
-
         # Warping
-        "J_mm4", "Asx_mm2", "Asy_mm2", "SCx_mm", "SCy_mm", "Cw_mm6", "Beta_monosym"
+        "J_mm4", "Asx_mm2", "Asy_mm2", "SCx_mm", "SCy_mm", 
+        "Beta_x_plus", "Beta_x_minus", "Beta_y_plus", "Beta_y_minus"
     ]
 
     def __init__(self, run_label: str, mesh_h: float, section: Section, logs_dir: Path):
@@ -60,20 +57,16 @@ class SectionDXF:
         row = [self.run_label, self.h]
 
         geo = self._geometric_analysis()
-        pl = self._plastic_analysis()
         warp = self._warping_analysis()
 
         if geo is None:
             self.logger.error(f"[{self.run_label}] Geometric analysis failed — skipping values.")
             geo = [None] * 17
-        if pl is None:
-            self.logger.error(f"[{self.run_label}] Plastic analysis failed — skipping values.")
-            pl = [None] * 8
         if warp is None:
             self.logger.error(f"[{self.run_label}] Warping analysis failed — skipping values.")
-            warp = [None] * 7
+            warp = [None] * 0
 
-        self.row = row + geo + pl + warp
+        self.row = row + geo + warp
         self.logger.info(f"[{self.run_label}] SectionDXF row assembled with partial success.")
 
     def _geometric_analysis(self):
@@ -90,9 +83,8 @@ class SectionDXF:
             phi_deg = props.phi
             i1 = props.i11_c
             i2 = props.i22_c
-            rx, ry = self.sec.get_rc()
-            sx = self.sec.get_sx()
-            sy = self.sec.get_sy()
+            rx, ry = props.rx_c, props.ry_c
+            sx, sy = props.sxx, props.syy
 
             return [
                 area * M2_TO_MM2,
@@ -108,53 +100,25 @@ class SectionDXF:
             self.logger.error(f"[{self.run_label}] Geometric analysis failed: {e}", exc_info=True)
             return None
 
-    def _plastic_analysis(self):
-        try:
-            self.logger.info(f"[{self.run_label}] Starting plastic analysis...")
-            self.sec.calculate_plastic_properties()
-            props = self.sec.section_props
-
-            zx = self.sec.get_zx()
-            zy = self.sec.get_zy()
-            z1 = props.z11
-            z2 = props.z22
-            sx = self.sec.get_sx()
-            sy = self.sec.get_sy()
-            s1 = props.s11
-            s2 = props.s22
-
-            shape_factor_x = zx / sx if sx else float('nan')
-            shape_factor_y = zy / sy if sy else float('nan')
-            shape_factor_1 = z1 / s1 if s1 else float('nan')
-            shape_factor_2 = z2 / s2 if s2 else float('nan')
-
-            return [
-                zx * M3_TO_MM3, zy * M3_TO_MM3, z1 * M3_TO_MM3, z2 * M3_TO_MM3,
-                shape_factor_x, shape_factor_y,
-                shape_factor_1, shape_factor_2
-            ]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Plastic analysis failed: {e}", exc_info=True)
-            return None
-
     def _warping_analysis(self):
         try:
             self.logger.info(f"[{self.run_label}] Starting warping analysis...")
             self.sec.calculate_warping_properties()
-
+            props = self.sec.section_props
             j = self.sec.get_j()
             asx, asy = self.sec.get_as()
             scx, scy = self.sec.get_sc()
-            cw = self.sec.get_cw()
-        beta_vals = self.sec.get_beta()  # returns 4 values
+            beta_xp = props.beta_x_plus
+            beta_xm = props.beta_x_minus
+            beta_yp = props.beta_y_plus
+            beta_ym = props.beta_y_minus
 
 
             return [
                 j * M4_TO_MM4,
                 asx * M2_TO_MM2, asy * M2_TO_MM2,
                 scx * M_TO_MM, scy * M_TO_MM,
-                cw * M6_TO_MM6,
-                beta
+                beta_xp, beta_xm, beta_yp, beta_ym
             ]
         except Exception as e:
             self.logger.error(f"[{self.run_label}] Warping analysis failed: {e}", exc_info=True)

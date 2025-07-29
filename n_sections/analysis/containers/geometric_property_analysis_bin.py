@@ -21,10 +21,12 @@ class GeometricPropertyAnalysisBin:
     j_mm4: float
     rx_mm: float
     ry_mm: float
+    sx_mm3: float
+    sy_mm3: float
+
 
     @classmethod
     def from_row(cls, row: list) -> "GeometricPropertyAnalysisBin":
-        """Builds an instance from a section row list."""
         return cls(
             run_label=row[0],
             mesh_h=row[1],
@@ -42,4 +44,6 @@ class GeometricPropertyAnalysisBin:
             j_mm4=row[13],
             rx_mm=row[14],
             ry_mm=row[15],
+            sx_mm3=row[16],
+            sy_mm3=row[17],
         )
