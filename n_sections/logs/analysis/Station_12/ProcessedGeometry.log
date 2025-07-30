@@ -1,0 +1,11 @@
+2025-07-30 14:23:14,612 | INFO     | ProcessedGeometry.Station_12 | Logger initialized for ProcessedGeometry [Station_12]
+2025-07-30 14:23:14,612 | INFO     | ProcessedGeometry.Station_12 | Importing DXF geometry from C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
+2025-07-30 14:23:14,699 | INFO     | ProcessedGeometry.Station_12 | DXF import complete
+2025-07-30 14:23:14,700 | DEBUG    | ProcessedGeometry.Station_12 | Scaled single geometry to metres
+2025-07-30 14:23:14,700 | DEBUG    | ProcessedGeometry.Station_12 | Resampling polygon: 182 points, target=400 points, perimeter=0.105536
+2025-07-30 14:23:14,702 | DEBUG    | ProcessedGeometry.Station_12 | Resampled exterior generated with 400 points
+2025-07-30 14:23:14,702 | DEBUG    | ProcessedGeometry.Station_12 | Resampled polygon 0 with 400 exterior nodes
+2025-07-30 14:23:14,705 | INFO     | ProcessedGeometry.Station_12 | Resampling and geometry reconstruction complete
+2025-07-30 14:23:14,707 | INFO     | ProcessedGeometry.Station_12 | Applied twist rotation: 1.43°
+2025-07-30 14:23:15,117 | INFO     | ProcessedGeometry.Station_12 | Applied centroid translation to (0.001, -0.005)
+2025-07-30 14:23:15,117 | INFO     | ProcessedGeometry.Station_12 | Processed geometry completed for Station_12

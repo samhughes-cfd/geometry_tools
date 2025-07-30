@@ -23,36 +23,56 @@ class RawGeometry:
         self.n_poly = max(n_poly, 2)
         self._raw_pts: List[List[Tuple[float, float]]] = []
 
-        # ───── Set up logger ─────
+        # ───── Robust Logging Setup ─────
         self.logger = logging.getLogger(f"RawGeometry.{label}")
-        self.logger.setLevel(logging.INFO)
+        self.logger.setLevel(logging.DEBUG)
 
         if logs_dir:
             logs_dir.mkdir(parents=True, exist_ok=True)
-            log_path = logs_dir / f"raw_geometry_{label}.log"
-            file_handler = logging.FileHandler(log_path, mode="w", encoding="utf-8")
-            formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-            file_handler.setFormatter(formatter)
-            if not self.logger.handlers:
+            log_path = logs_dir / f"RawGeometry.log"
+
+            if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in self.logger.handlers):
+                file_handler = logging.FileHandler(log_path, mode="w", encoding="utf-8")
+                formatter = logging.Formatter(
+                    "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
+                )
+                file_handler.setFormatter(formatter)
                 self.logger.addHandler(file_handler)
 
-    def _densify(self, p0, p1, n) -> List[Tuple[float, float]]:
-        xs = np.linspace(p0[0], p1[0], n)
-        ys = np.linspace(p0[1], p1[1], n)
-        return list(zip(xs, ys))
+            # Optional: Add console handler for real-time debugging
+            if not any(isinstance(h, logging.StreamHandler) for h in self.logger.handlers):
+                console_handler = logging.StreamHandler()
+                console_handler.setFormatter(formatter)
+                self.logger.addHandler(console_handler)
+
+        self.logger.info("Logger initialized for RawGeometry %s", self.label)
+
+    def _densify(self, p0: Tuple[float, float], p1: Tuple[float, float], n: int) -> List[Tuple[float, float]]:
+        """Generate `n` evenly spaced points between p0 and p1, inclusive."""
+        if p0 == p1 or n <= 2:
+            return [p0, p1]
+        return [
+            (
+                p0[0] + i * (p1[0] - p0[0]) / (n - 1),
+                p0[1] + i * (p1[1] - p0[1]) / (n - 1)
+            )
+            for i in range(n)
+        ]
 
     def extract(self) -> List[List[Tuple[float, float]]]:
         if self._raw_pts:
+            self.logger.debug("Raw geometry already extracted, skipping.")
             return self._raw_pts
 
         self.logger.info("Reading DXF file: %s", self.filepath)
         try:
             doc = ezdxf.readfile(self.filepath)
         except Exception as e:
-            self.logger.error("Failed to read DXF file %s: %s", self.filepath, e)
+            self.logger.error("Failed to read DXF file %s: %s", self.filepath, e, exc_info=True)
             raise
 
         entity_count = 0
+        point_total = 0
         for ent in doc.modelspace():
             typ = ent.dxftype()
             if typ not in {"LINE", "LWPOLYLINE", "POLYLINE", "SPLINE", "ARC"}:
@@ -82,12 +102,15 @@ class RawGeometry:
 
                 self._raw_pts.append(pts)
                 entity_count += 1
+                point_total += len(pts)
+                self.logger.debug("Parsed %s entity with %d points", typ, len(pts))
 
             except Exception as exc:
-                self.logger.debug("Skipped malformed entity %s: %s", typ, exc)
+                self.logger.warning("Skipped malformed %s entity: %s", typ, exc, exc_info=True)
 
         if not self._raw_pts:
+            self.logger.error("No drawable entities found in DXF.")
             raise ValueError(f"No drawable entities in {self.filepath}")
 
-        self.logger.info("Raw geometry extraction complete. %d drawable entities parsed.", entity_count)
+        self.logger.info("Extraction complete: %d entities, %d total points.", entity_count, point_total)
         return self._raw_pts

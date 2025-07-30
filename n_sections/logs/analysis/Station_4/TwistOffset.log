@@ -1,0 +1,2 @@
+2025-07-30 14:23:07,063 | INFO     | TwistOffset.Station_4 | [Station_4] Current blade twist: -0.02°, Desired: 10.86°, Delta: 10.88°
+2025-07-30 14:23:07,065 | INFO     | TwistOffset.Station_4 | [Station_4] Section rotated by 10.88° (about origin, twist axis ratio was 33.30%).

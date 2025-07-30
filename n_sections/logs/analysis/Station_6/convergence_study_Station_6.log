@@ -1,0 +1,21 @@
+2025-07-30 14:23:10,143 - INFO - Logger initialized for ConvergenceStudy [Station_6]
+2025-07-30 14:23:10,143 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-07-30 14:23:10,144 - INFO - [1/3] Processing mesh size h = 40
+2025-07-30 14:23:10,144 - DEBUG - [Station_6_h40] Copying geometry and initiating meshing …
+2025-07-30 14:23:10,155 - INFO - [Station_6_h40] Mesh created successfully
+2025-07-30 14:23:10,155 - DEBUG - [Station_6_h40] Starting section property calculation …
+2025-07-30 14:23:10,221 - ERROR - [Station_6_h40] SectionDXF returned no data
+2025-07-30 14:23:10,223 - WARNING - [Station_6_h40] Skipped due to section analysis failure.
+2025-07-30 14:23:10,223 - INFO - [2/3] Processing mesh size h = 10
+2025-07-30 14:23:10,223 - DEBUG - [Station_6_h10] Copying geometry and initiating meshing …
+2025-07-30 14:23:10,231 - INFO - [Station_6_h10] Mesh created successfully
+2025-07-30 14:23:10,232 - DEBUG - [Station_6_h10] Starting section property calculation …
+2025-07-30 14:23:10,295 - ERROR - [Station_6_h10] SectionDXF returned no data
+2025-07-30 14:23:10,296 - WARNING - [Station_6_h10] Skipped due to section analysis failure.
+2025-07-30 14:23:10,296 - INFO - [3/3] Processing mesh size h = 2.5
+2025-07-30 14:23:10,297 - DEBUG - [Station_6_h2.5] Copying geometry and initiating meshing …
+2025-07-30 14:23:10,357 - INFO - [Station_6_h2.5] Mesh created successfully
+2025-07-30 14:23:10,357 - DEBUG - [Station_6_h2.5] Starting section property calculation …
+2025-07-30 14:23:10,417 - ERROR - [Station_6_h2.5] SectionDXF returned no data
+2025-07-30 14:23:10,419 - WARNING - [Station_6_h2.5] Skipped due to section analysis failure.
+2025-07-30 14:23:10,419 - INFO - Convergence study completed: 0 successful, 3 attempted

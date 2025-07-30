@@ -18,6 +18,7 @@ class MetadataBin:
         Cy (float): Y-coordinate of the section centroid [mm].
         hs (List[float]): Mesh sizes used for this section in the convergence study [mm].
         dxf_path (Path): Absolute path to the section geometry DXF file.
+        material_name (str): Name of the material used at this section.
     """
     label: str
     r: float
@@ -27,3 +28,4 @@ class MetadataBin:
     Cy: float
     hs: List[float]
     dxf_path: Path
+    material_name: str

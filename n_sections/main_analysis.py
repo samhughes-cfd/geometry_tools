@@ -56,14 +56,36 @@ def main():
             label = Path(filename).stem
             stations.append((dxf, label, r, r_over_R, B_r, Cx, Cy))
 
+    # ───── Load material definitions ─────
+    materials_csv = BLADE_DIR / "materials.csv"
+    material_dict = {}
+
+    with open(materials_csv, newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            filename = row["filename"].lower()
+            material_dict[filename] = {
+                "name": row["material_name"], 
+                "E": float(row["elastic_modulus"]),
+                "nu": float(row["poissons_ratio"]),
+                "fy": float(row["yield_strength"]),
+                "rho": float(row["density"]),
+                "color": row["color"],
+            }
+
     # ───── Mesh convergence parameters ─────
-    N = 5                         # Number of mesh refinement levels
+    N = 3                         # Number of mesh refinement levels
     h0 = 40.0                     # Base element area (coarsest) in mm²
     hs = h0 / (4 ** np.arange(N))  # e.g., [40, 10, 2.5, ...]
     logging.info("Mesh size targets: %s", hs)
 
     # ───── Process each blade station ─────
     for dxf, label, r, r_over_R, B_r, Cx, Cy in stations:
+        material = material_dict.get(dxf.name.lower())
+        if material is None:
+            logging.error(f"No material found for DXF file: {dxf.name}")
+            continue
+
         section = ProcessSectionAnalysis(
             dxf=dxf,
             label=label,
@@ -72,6 +94,7 @@ def main():
             B_r=B_r,
             Cx=Cx,
             Cy=Cy,
+            material=material,  # <-- Now includes "name" key
             hs=hs,
             results_dir=RESULTS,
             logs_dir=LOGS,

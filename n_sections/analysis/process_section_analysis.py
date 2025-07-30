@@ -30,6 +30,7 @@ class ProcessSectionAnalysis:
         B_r: float,
         Cx: float,
         Cy: float,
+        material: dict,
         hs: np.ndarray,
         results_dir: Path,
         logs_dir: Path,
@@ -41,12 +42,29 @@ class ProcessSectionAnalysis:
         self.B_r = B_r
         self.Cx = Cx
         self.Cy = Cy
+        self.material = material
         self.hs = hs
 
         self.section_dir = results_dir / label
         self.section_log_dir = logs_dir / label
         self.section_dir.mkdir(parents=True, exist_ok=True)
         self.section_log_dir.mkdir(parents=True, exist_ok=True)
+
+        self._init_logging()
+
+    def _init_logging(self) -> None:
+        log_path = self.section_log_dir / "ProcessSectionAnalysis.log"
+
+        # Avoid adding multiple handlers if logger already exists
+        logger = logging.getLogger()
+        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in logger.handlers):
+            handler = logging.FileHandler(log_path, mode='w')
+            formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(message)s')
+            handler.setFormatter(formatter)
+            logger.addHandler(handler)
+
+        logger.setLevel(logging.INFO)
+        logging.info("Logging initialized for ProcessSectionAnalysis")
 
     def run(self) -> SectionAnalysisResultSet:
         logging.info(
@@ -98,6 +116,14 @@ class ProcessSectionAnalysis:
             logging.error("Failed to extract and transform processed geometry: %s", str(e), exc_info=True)
             raise
 
+        # ───── Assign material ─────────────────────────────────────────────
+        try:
+            geom_aligned.assign_material(self.material)
+            logging.info("Material assigned for %s", self.label)
+        except Exception as e:
+            logging.warning("Material assignment failed for %s: %s", self.label, str(e), exc_info=True)
+
+        # ───── Visualisation ───────────────────────────────────────────────
         try:
             fig, _ = ProcessedGeometryVisualisation(geometry=geom_aligned, label=self.label).plot_te_zoom(
                 te_span_pct=8, figsize=(7, 6), outline_lw=1.0, cp_size=10, legend_loc="upper right"
@@ -149,7 +175,8 @@ class ProcessSectionAnalysis:
                 Cx=self.Cx,
                 Cy=self.Cy,
                 hs=self.hs.tolist(),
-                dxf_path=self.dxf
+                dxf_path=self.dxf,
+                material_name=self.material["name"]  # <-- inject material name here
             )
         except Exception as e:
             logging.error("MetadataBin construction failed: %s", str(e), exc_info=True)

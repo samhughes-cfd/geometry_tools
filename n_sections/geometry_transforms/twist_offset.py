@@ -15,7 +15,7 @@ class TwistOffset:
         desired_twist_deg: float,
         label: str = "Unnamed",
         logs_dir: Path | None = None,
-        twist_axis_ratio: float = 1 / 3  # 0.0 = leading edge, 1.0 = trailing edge
+        twist_axis_ratio: float = 1 / 3 # 0.0 = leading edge, 1.0 = trailing edge
     ):
         self.geometry = geometry
         self.desired_twist_deg = desired_twist_deg
@@ -23,21 +23,28 @@ class TwistOffset:
         self.logs_dir = logs_dir
         self.twist_axis_ratio = twist_axis_ratio
 
-        if self.logs_dir:
-            self._setup_logger()
-        else:
-            self.logger = logging.getLogger(__name__)
+        self._init_logging()
 
-    def _setup_logger(self):
-        self.logger = logging.getLogger(f"twist_offset.{self.label}")
+    def _init_logging(self):
+        self.logger = logging.getLogger(f"TwistOffset.{self.label}")
         self.logger.setLevel(logging.DEBUG)
-        log_file = Path(self.logs_dir) / f"twist_offset_{self.label.replace(' ', '_')}.log"
-        fh = logging.FileHandler(log_file, mode='w')
-        fh.setLevel(logging.DEBUG)
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        fh.setFormatter(formatter)
-        self.logger.addHandler(fh)
-        self.logger.propagate = False
+
+        if self.logs_dir:
+            self.logs_dir.mkdir(parents=True, exist_ok=True)
+            log_path = self.logs_dir / f"TwistOffset.log"
+
+            if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in self.logger.handlers):
+                fh = logging.FileHandler(log_path, mode='w', encoding='utf-8')
+                formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(name)s | %(message)s')
+                fh.setFormatter(formatter)
+                self.logger.addHandler(fh)
+
+        # Optional: also add console logging
+        if not any(isinstance(h, logging.StreamHandler) for h in self.logger.handlers):
+            sh = logging.StreamHandler()
+            formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(name)s | %(message)s')
+            sh.setFormatter(formatter)
+            self.logger
 
     def _get_exterior_coords(self) -> np.ndarray:
         """Extract the exterior coordinates of the geometry (largest polygon if MultiPolygon)."""

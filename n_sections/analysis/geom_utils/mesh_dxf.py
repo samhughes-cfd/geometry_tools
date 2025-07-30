@@ -24,17 +24,19 @@ class MeshDXF:
         self.min_q = self.max_q = None
         self._prev_elems = None
 
-        # Logger setup
-        self.logger = logging.getLogger(f"MeshDXF.{label}")
-        self.logger.setLevel(logging.INFO)
+        self._setup_logger()
+        self._mesh()
 
-        # Ensure log directory and attach file + stream handlers
+    def _setup_logger(self):
+        self.logger = logging.getLogger(f"MeshDXF.{self.label}")
+        self.logger.setLevel(logging.DEBUG)
+
         self.logs_dir.mkdir(parents=True, exist_ok=True)
-        mesh_log_file = self.logs_dir / "mesh.log"
+        log_file = self.logs_dir / f"mesh_{self.label.replace(' ', '_')}.log"
 
-        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(mesh_log_file)
+        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_file)
                    for h in self.logger.handlers):
-            fh = logging.FileHandler(mesh_log_file, mode="w")
+            fh = logging.FileHandler(log_file, mode="w")
             fh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
             self.logger.addHandler(fh)
 
@@ -43,37 +45,38 @@ class MeshDXF:
             sh.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
             self.logger.addHandler(sh)
 
-        # Trigger meshing immediately
-        self._mesh()
+        self.logger.info("Logger initialized for MeshDXF [%s]", self.label)
 
     def _mesh(self):
         """Generate mesh, refine (if possible), collect stats, log."""
         try:
-            self.logger.info("[%s] Meshing with target h = %.4g …", self.label, self.mesh_h)
+            self.logger.info("[%s] Meshing started with target h = %.4g", self.label, self.mesh_h)
             self.geometry_input.create_mesh(mesh_sizes=[self.mesh_h])
 
             if isinstance(self.geometry_input, Geometry) and hasattr(self.geometry_input, "refine_mesh"):
+                self.logger.debug("[%s] Refining mesh using cutoff_area = %.4g", self.label, self.mesh_h)
                 self.geometry_input.refine_mesh(cutoff_area=self.mesh_h, refine_num=2)
 
             self.mesh_generated = True
             self.geometry_meshed = self.geometry_input
             mesh = self.geometry_meshed.mesh
 
-            if hasattr(mesh, "points"):
-                verts, tris = mesh.points, mesh.triangles
-            elif isinstance(mesh, dict):
-                verts, tris = mesh.get("vertices"), mesh.get("triangles")
-            else:
-                verts = tris = None
+            # ───── Extract vertices and triangles ─────
+            verts = getattr(mesh, "points", None)
+            tris = getattr(mesh, "triangles", None)
+            if verts is None or tris is None:
+                self.logger.error("[%s] Mesh contains no points or triangles", self.label)
+                return
 
-            self.n_nodes = 0 if verts is None else verts.shape[0]
-            self.n_elems = 0 if tris is None else tris.shape[0]
+            self.n_nodes = verts.shape[0]
+            self.n_elems = tris.shape[0]
 
-            if verts is not None and tris is not None and len(tris):
+            # ───── Compute triangle stats ─────
+            if self.n_elems > 0:
                 p0, p1, p2 = verts[tris[:, 0]], verts[tris[:, 1]], verts[tris[:, 2]]
                 tri_area = 0.5 * np.abs(
-                    (p1[:, 0] - p0[:, 0]) * (p2[:, 1] - p0[:, 1])
-                    - (p1[:, 1] - p0[:, 1]) * (p2[:, 0] - p0[:, 0])
+                    (p1[:, 0] - p0[:, 0]) * (p2[:, 1] - p0[:, 1]) -
+                    (p1[:, 1] - p0[:, 1]) * (p2[:, 0] - p0[:, 0])
                 )
 
                 e0 = np.linalg.norm(p1 - p0, axis=1)
@@ -81,6 +84,7 @@ class MeshDXF:
                 e2 = np.linalg.norm(p0 - p2, axis=1)
                 tri_quality = (4 * np.sqrt(3) * tri_area) / (e0**2 + e1**2 + e2**2)
 
+                # ───── Remove slivers ─────
                 sliver = tri_area < 1e-8
                 if sliver.any():
                     removed = int(sliver.sum())
@@ -89,6 +93,7 @@ class MeshDXF:
                     self.n_elems -= removed
                     self.logger.warning("[%s] %d sliver triangles removed", self.label, removed)
 
+                # ───── Record stats ─────
                 self.min_a, self.max_a = float(tri_area.min()), float(tri_area.max())
                 mean_a = float(tri_area.mean())
                 med_a = float(np.median(tri_area))
@@ -101,19 +106,20 @@ class MeshDXF:
                     "q[min=%.3f max=%.3f mean=%.3f]",
                     self.label,
                     self.n_nodes, self.n_elems,
-                    self.min_a or 0, self.max_a or 0, mean_a or 0, med_a or 0,
-                    self.min_q or 0, self.max_q or 0, mean_q or 0,
+                    self.min_a, self.max_a, mean_a, med_a,
+                    self.min_q, self.max_q, mean_q
                 )
 
-                if getattr(self, "_prev_elems", None) == self.n_elems:
-                    self.logger.warning("[%s] element count unchanged (=%d elems)", self.label, self.n_elems)
+                if self._prev_elems == self.n_elems:
+                    self.logger.warning("[%s] Element count unchanged: %d elems", self.label, self.n_elems)
 
                 self._prev_elems = self.n_elems
+
             else:
-                self.logger.warning("[%s] Empty or invalid mesh", self.label)
+                self.logger.error("[%s] Mesh has no elements", self.label)
 
         except Exception as exc:
-            self.logger.error("[%s] mesh failed: %s", self.label, exc, exc_info=True)
+            self.logger.error("[%s] Meshing failed: %s", self.label, exc, exc_info=True)
             self.geometry_meshed = None
             self.mesh_generated = False
 
@@ -124,7 +130,7 @@ class MeshDXF:
 
         try:
             Section(self.geometry_meshed).plot_mesh(
-                ax=ax, materials=False, colormap="viridis", colorbar=True, show_nodes=False,
+                ax=ax, materials=False, colormap="viridis", colorbar=True, show_nodes=False
             )
 
             if zoom_te_pct is not None:
@@ -144,4 +150,4 @@ class MeshDXF:
 
         except Exception as exc:
             ax.text(0.5, 0.5, f"Plot Failed\n{exc}", ha="center", va="center")
-            self.logger.warning("[%s] mesh plotting failed: %s", self.label, exc)
+            self.logger.warning("[%s] Mesh plotting failed: %s", self.label, exc, exc_info=True)
