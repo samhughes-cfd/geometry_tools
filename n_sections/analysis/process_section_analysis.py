@@ -20,6 +20,7 @@ from n_sections.analysis.containers.section_analysis_results_set import SectionA
 from n_sections.analysis.containers.section_metadata_bin import MetadataBin
 from n_sections.analysis.containers.save_section_results import SaveSectionResults
 
+
 class ProcessSectionAnalysis:
     def __init__(
         self,
@@ -54,49 +55,54 @@ class ProcessSectionAnalysis:
 
     def _init_logging(self) -> None:
         log_path = self.section_log_dir / "ProcessSectionAnalysis.log"
+        self.logger = logging.getLogger(f"ProcessSectionAnalysis.{self.label}")
+        self.logger.propagate = False
 
-        # Avoid adding multiple handlers if logger already exists
-        logger = logging.getLogger()
-        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in logger.handlers):
-            handler = logging.FileHandler(log_path, mode='w')
+        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path)
+                   for h in self.logger.handlers):
+            handler = logging.FileHandler(log_path, mode='w', encoding='utf-8')
             formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(message)s')
             handler.setFormatter(formatter)
-            logger.addHandler(handler)
+            self.logger.addHandler(handler)
 
-        logger.setLevel(logging.INFO)
-        logging.info("Logging initialized for ProcessSectionAnalysis")
+        self.logger.setLevel(logging.INFO)
+        self.logger.info("Logging initialized for ProcessSectionAnalysis")
 
     def run(self) -> SectionAnalysisResultSet:
-        logging.info(
+        self.logger.info(
             "Station %s [Analysis]: DXF=%s, twist=%.1f°, centroid=(%.2f, %.2f)",
             self.label, self.dxf, self.B_r, self.Cx, self.Cy
         )
 
+        self.logger.info("Starting raw geometry processing …")
         self._process_raw_geometry()
+
+        self.logger.info("Processing and visualising aligned geometry …")
         geom_aligned = self._process_and_preview_geometry()
+
+        self.logger.info("Launching convergence study pipeline …")
         return self._grid_convergence_section_analysis(geom_aligned)
 
-    # ────────────────────────────────────────────────────────────────────────
-    # 1) RAW GEOMETRY OPERATIONS
-    # ────────────────────────────────────────────────────────────────────────
     def _process_raw_geometry(self) -> None:
         try:
+            self.logger.info("Instantiating RawGeometry for DXF: %s", self.dxf)
             raw_geometry = RawGeometry(self.dxf, self.label, logs_dir=self.section_log_dir)
+            self.logger.info("RawGeometry created successfully.")
         except Exception as e:
-            logging.error("Failed to initialise RawGeometry: %s", str(e), exc_info=True)
+            self.logger.error("Failed to initialise RawGeometry: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Generating raw geometry plot …")
             RawGeometryVisualisation(raw_geometry, self.section_dir).plot()
+            self.logger.info("Raw geometry visualisation completed and saved.")
         except Exception as e:
-            logging.error("Failed to plot raw geometry visualisation: %s", str(e), exc_info=True)
+            self.logger.error("Failed to plot raw geometry visualisation: %s", str(e), exc_info=True)
             raise
 
-    # ────────────────────────────────────────────────────────────────────────
-    # 2) PROCESSED GEOMETRY OPERATIONS
-    # ────────────────────────────────────────────────────────────────────────
     def _process_and_preview_geometry(self):
         try:
+            self.logger.info("Instantiating ProcessedGeometry with spline/segment settings …")
             proc = ProcessedGeometry(
                 filepath=self.dxf,
                 label=self.label,
@@ -105,44 +111,36 @@ class ProcessSectionAnalysis:
                 degrees_per_segment=0.5,
                 exterior_nodes=400,
             )
+            self.logger.info("ProcessedGeometry successfully instantiated.")
         except Exception as e:
-            logging.error("Failed to initialise ProcessedGeometry: %s", str(e), exc_info=True)
+            self.logger.error("Failed to initialise ProcessedGeometry: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Extracting and aligning geometry with twist=%.1f°, cx=%.2f, cy=%.2f", self.B_r, self.Cx, self.Cy)
             geom_aligned = proc.extract_and_transform(twist_deg=self.B_r, cx=self.Cx, cy=self.Cy)
-            logging.info("Processed and aligned geometry extracted for %s", self.label)
+            self.logger.info("Geometry aligned and transformed successfully.")
         except Exception as e:
-            logging.error("Failed to extract and transform processed geometry: %s", str(e), exc_info=True)
+            self.logger.error("Failed to extract and transform processed geometry: %s", str(e), exc_info=True)
             raise
 
-        # ───── Assign material ─────────────────────────────────────────────
         try:
-            geom_aligned.assign_material(self.material)
-            logging.info("Material assigned for %s", self.label)
-        except Exception as e:
-            logging.warning("Material assignment failed for %s: %s", self.label, str(e), exc_info=True)
-
-        # ───── Visualisation ───────────────────────────────────────────────
-        try:
+            self.logger.info("Generating processed geometry visualisation with trailing edge zoom …")
             fig, _ = ProcessedGeometryVisualisation(geometry=geom_aligned, label=self.label).plot_te_zoom(
                 te_span_pct=8, figsize=(7, 6), outline_lw=1.0, cp_size=10, legend_loc="upper right"
             )
             preview_path = self.section_dir / f"processed_{self.label}.png"
             fig.savefig(preview_path, dpi=300)
             plt.close(fig)
-            logging.info("Processed geometry preview saved -> %s", preview_path)
+            self.logger.info("Processed geometry preview saved -> %s", preview_path)
         except Exception as e:
-            logging.error("Failed to visualise or save processed geometry preview: %s", str(e), exc_info=True)
+            self.logger.error("Failed to visualise or save processed geometry preview: %s", str(e), exc_info=True)
             raise
 
         return geom_aligned
 
-    # ────────────────────────────────────────────────────────────────────────
-    # 3) SECTION ANALYSIS CONVERGENCE STUDY OPERATIONS
-    # ────────────────────────────────────────────────────────────────────────
     def _grid_convergence_section_analysis(self, geom_aligned) -> SectionAnalysisResultSet:
-        logging.info("Starting section convergence study …")
+        self.logger.info("Starting section convergence study using %d mesh sizes: %s", len(self.hs), self.hs)
 
         try:
             study = ConvergenceStudy(
@@ -152,21 +150,26 @@ class ProcessSectionAnalysis:
                 output_dir=self.section_dir,
                 logs_dir=self.section_log_dir
             )
+            self.logger.info("ConvergenceStudy instantiated. Running results computation …")
             property_bin, mesh_previews = study.results()
+            self.logger.info("Convergence study completed successfully.")
         except Exception as e:
-            logging.error("ConvergenceStudy execution failed: %s", str(e), exc_info=True)
+            self.logger.error("ConvergenceStudy execution failed: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Creating convergence visualisation …")
             ConvergenceVisualisation(
                 label=self.label,
                 output_dir=self.section_dir
             ).plot(mesh_previews)
+            self.logger.info("Convergence visualisation saved.")
         except Exception as e:
-            logging.error("ConvergenceVisualisation failed: %s", str(e), exc_info=True)
+            self.logger.error("ConvergenceVisualisation failed: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Building metadata container for section %s …", self.label)
             metadata = MetadataBin(
                 label=self.label,
                 r=self.r,
@@ -176,30 +179,33 @@ class ProcessSectionAnalysis:
                 Cy=self.Cy,
                 hs=self.hs.tolist(),
                 dxf_path=self.dxf,
-                material_name=self.material["name"]  # <-- inject material name here
+                material_name=self.material["name"]
             )
+            self.logger.info("MetadataBin created.")
         except Exception as e:
-            logging.error("MetadataBin construction failed: %s", str(e), exc_info=True)
+            self.logger.error("MetadataBin construction failed: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Composing SectionAnalysisResultSet …")
             results = SectionAnalysisResultSet(
                 metadata=metadata,
                 convergence=property_bin
             )
+            self.logger.info("SectionAnalysisResultSet successfully built.")
         except Exception as e:
-            logging.error("SectionAnalysisResultSet construction failed: %s", str(e), exc_info=True)
+            self.logger.error("SectionAnalysisResultSet construction failed: %s", str(e), exc_info=True)
             raise
 
         try:
+            self.logger.info("Saving results to directory: %s", self.section_dir)
             SaveSectionResults(
                 result_set=results,
                 output_dir=self.section_dir
             ).save()
-
-            logging.info("Section analysis result set saved")
+            self.logger.info("Section analysis results successfully saved.")
         except Exception as e:
-            logging.error("Failed to save results: %s", str(e), exc_info=True)
+            self.logger.error("Failed to save results: %s", str(e), exc_info=True)
             raise
 
         return results

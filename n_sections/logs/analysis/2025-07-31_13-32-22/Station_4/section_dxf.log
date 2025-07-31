@@ -1,0 +1,75 @@
+2025-07-31 13:32:28,940 - SectionDXF.Station_4_h40 - INFO - Starting analysis for section 'Station_4_h40'
+2025-07-31 13:32:28,940 - SectionDXF.Station_4_h40 - INFO - [Station_4_h40] Computing section bounds
+2025-07-31 13:32:28,940 - SectionDXF.Station_4_h40 - INFO - [Station_4_h40] Starting geometric analysis
+2025-07-31 13:32:29,259 - SectionDXF.Station_4_h40 - INFO - [Station_4_h40] Starting warping and shear analysis
+2025-07-31 13:32:30,034 - SectionDXF.Station_4_h40 - ERROR - [Station_4_h40] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 262, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:32:30,044 - SectionDXF.Station_4_h40 - INFO - [Station_4_h40] Calculating derived parameters
+2025-07-31 13:32:30,044 - SectionDXF.Station_4_h40 - ERROR - [Station_4_h40] Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 302, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:32:30,044 - SectionDXF.Station_4_h40 - CRITICAL - Fatal error during analysis: can only concatenate list (not "NoneType") to list
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 60, in __init__
+    self._extract_property_row()
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 119, in _extract_property_row
+    self.row = row + results["bounds"] + results["geometric"] + results["warping_shear"] + results["derived"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate list (not "NoneType") to list
+2025-07-31 13:32:30,118 - SectionDXF.Station_4_h10 - INFO - Starting analysis for section 'Station_4_h10'
+2025-07-31 13:32:30,118 - SectionDXF.Station_4_h10 - INFO - [Station_4_h10] Computing section bounds
+2025-07-31 13:32:30,118 - SectionDXF.Station_4_h10 - INFO - [Station_4_h10] Starting geometric analysis
+2025-07-31 13:32:30,214 - SectionDXF.Station_4_h10 - INFO - [Station_4_h10] Starting warping and shear analysis
+2025-07-31 13:32:30,744 - SectionDXF.Station_4_h10 - ERROR - [Station_4_h10] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 262, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:32:30,744 - SectionDXF.Station_4_h10 - INFO - [Station_4_h10] Calculating derived parameters
+2025-07-31 13:32:30,744 - SectionDXF.Station_4_h10 - ERROR - [Station_4_h10] Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 302, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:32:30,744 - SectionDXF.Station_4_h10 - CRITICAL - Fatal error during analysis: can only concatenate list (not "NoneType") to list
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 60, in __init__
+    self._extract_property_row()
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 119, in _extract_property_row
+    self.row = row + results["bounds"] + results["geometric"] + results["warping_shear"] + results["derived"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate list (not "NoneType") to list
+2025-07-31 13:32:30,829 - SectionDXF.Station_4_h2.5 - INFO - Starting analysis for section 'Station_4_h2.5'
+2025-07-31 13:32:30,829 - SectionDXF.Station_4_h2.5 - INFO - [Station_4_h2.5] Computing section bounds
+2025-07-31 13:32:30,829 - SectionDXF.Station_4_h2.5 - INFO - [Station_4_h2.5] Starting geometric analysis
+2025-07-31 13:32:30,924 - SectionDXF.Station_4_h2.5 - INFO - [Station_4_h2.5] Starting warping and shear analysis
+2025-07-31 13:32:31,504 - SectionDXF.Station_4_h2.5 - ERROR - [Station_4_h2.5] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 262, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:32:31,504 - SectionDXF.Station_4_h2.5 - INFO - [Station_4_h2.5] Calculating derived parameters
+2025-07-31 13:32:31,504 - SectionDXF.Station_4_h2.5 - ERROR - [Station_4_h2.5] Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 302, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:32:31,504 - SectionDXF.Station_4_h2.5 - CRITICAL - Fatal error during analysis: can only concatenate list (not "NoneType") to list
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 60, in __init__
+    self._extract_property_row()
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 119, in _extract_property_row
+    self.row = row + results["bounds"] + results["geometric"] + results["warping_shear"] + results["derived"]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate list (not "NoneType") to list

@@ -1,0 +1,57 @@
+2025-07-31 13:38:34,739 - SectionDXF.Station_10_h40 - INFO - Starting analysis for section 'Station_10_h40'
+2025-07-31 13:38:34,739 - SectionDXF.Station_10_h40 - INFO - Computing section bounds
+2025-07-31 13:38:34,739 - SectionDXF.Station_10_h40 - INFO - Starting geometric analysis
+2025-07-31 13:38:35,130 - SectionDXF.Station_10_h40 - INFO - Starting warping and shear analysis
+2025-07-31 13:38:36,075 - SectionDXF.Station_10_h40 - ERROR - [Station_10_h40] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 261, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:38:36,075 - SectionDXF.Station_10_h40 - INFO - Calculating derived parameters
+2025-07-31 13:38:36,075 - SectionDXF.Station_10_h40 - ERROR - Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 294, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:38:36,075 - SectionDXF.Station_10_h40 - INFO - Property row assembled with 55.8% completion
+2025-07-31 13:38:36,075 - SectionDXF.Station_10_h40 - INFO - Analysis completed in 1.34s
+2025-07-31 13:38:36,167 - SectionDXF.Station_10_h10 - INFO - Starting analysis for section 'Station_10_h10'
+2025-07-31 13:38:36,167 - SectionDXF.Station_10_h10 - INFO - Computing section bounds
+2025-07-31 13:38:36,167 - SectionDXF.Station_10_h10 - INFO - Starting geometric analysis
+2025-07-31 13:38:36,270 - SectionDXF.Station_10_h10 - INFO - Starting warping and shear analysis
+2025-07-31 13:38:36,926 - SectionDXF.Station_10_h10 - ERROR - [Station_10_h10] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 261, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:38:36,926 - SectionDXF.Station_10_h10 - INFO - Calculating derived parameters
+2025-07-31 13:38:36,926 - SectionDXF.Station_10_h10 - ERROR - Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 294, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:38:36,926 - SectionDXF.Station_10_h10 - INFO - Property row assembled with 55.8% completion
+2025-07-31 13:38:36,926 - SectionDXF.Station_10_h10 - INFO - Analysis completed in 0.76s
+2025-07-31 13:38:37,025 - SectionDXF.Station_10_h2.5 - INFO - Starting analysis for section 'Station_10_h2.5'
+2025-07-31 13:38:37,025 - SectionDXF.Station_10_h2.5 - INFO - Computing section bounds
+2025-07-31 13:38:37,025 - SectionDXF.Station_10_h2.5 - INFO - Starting geometric analysis
+2025-07-31 13:38:37,135 - SectionDXF.Station_10_h2.5 - INFO - Starting warping and shear analysis
+2025-07-31 13:38:37,815 - SectionDXF.Station_10_h2.5 - ERROR - [Station_10_h2.5] Shear properties failed: 'SectionProperties' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 261, in _shear_properties
+    self.asx = props.asx or 0.0
+               ^^^^^^^^^
+AttributeError: 'SectionProperties' object has no attribute 'asx'
+2025-07-31 13:38:37,815 - SectionDXF.Station_10_h2.5 - INFO - Calculating derived parameters
+2025-07-31 13:38:37,815 - SectionDXF.Station_10_h2.5 - ERROR - Derived parameters failed: 'SectionDXF' object has no attribute 'asx'
+Traceback (most recent call last):
+  File "C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\analysis\geom_utils\section_dxf.py", line 294, in _derived_parameters
+    self._safe_div(self.asx, self.area),
+                   ^^^^^^^^
+AttributeError: 'SectionDXF' object has no attribute 'asx'
+2025-07-31 13:38:37,815 - SectionDXF.Station_10_h2.5 - INFO - Property row assembled with 55.8% completion
+2025-07-31 13:38:37,815 - SectionDXF.Station_10_h2.5 - INFO - Analysis completed in 0.79s

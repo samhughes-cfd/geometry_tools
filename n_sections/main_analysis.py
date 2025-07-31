@@ -2,6 +2,7 @@
 
 import sys
 from pathlib import Path
+from datetime import datetime  # ⏱️ Added for timestamping
 
 # ───── Add project root to sys.path BEFORE any project imports ─────
 CURRENT_FILE = Path(__file__).resolve()
@@ -22,8 +23,13 @@ def main():
     # ───── Setup directories ─────
     BASE_DIR = PROJECT_ROOT / "n_sections"
     BLADE_DIR = BASE_DIR / "blade"
-    RESULTS = BASE_DIR / "results/analysis"
-    LOGS = BASE_DIR / "logs/analysis"
+
+    # ⏱️ Timestamp for this run
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+    # Timestamped subdirectories
+    RESULTS = BASE_DIR / "results/analysis" / timestamp
+    LOGS = BASE_DIR / "logs/analysis" / timestamp
 
     for d in (RESULTS, LOGS):
         d.mkdir(parents=True, exist_ok=True)
@@ -38,6 +44,7 @@ def main():
         ],
     )
     logging.info("🌀 DXF mesh-convergence pipeline started")
+    logging.info("⏱ Timestamped output directory: %s", timestamp)
 
     # ───── Load blade station metadata ─────
     stations_csv = BLADE_DIR / "blade_stations.csv"
@@ -65,7 +72,7 @@ def main():
         for row in reader:
             filename = row["filename"].lower()
             material_dict[filename] = {
-                "name": row["material_name"], 
+                "name": row["material_name"],
                 "E": float(row["elastic_modulus"]),
                 "nu": float(row["poissons_ratio"]),
                 "fy": float(row["yield_strength"]),

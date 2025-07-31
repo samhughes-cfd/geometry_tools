@@ -7,6 +7,7 @@ from shapely.geometry import Polygon
 from shapely.affinity import scale
 from sectionproperties.pre.geometry import Geometry, CompoundGeometry
 from sectionproperties.pre.pre import Material
+from material_utils.assign_material import AssignMaterial
 from typing import Union
 from geometry_transforms.twist_offset import TwistOffset
 from geometry_transforms.centroid_offset import CentroidOffset
@@ -33,22 +34,25 @@ class ProcessedGeometry:
         self._init_logging()
 
     def _init_logging(self) -> None:
-        log_path = self.logs_dir / "ProcessedGeometry.log"
+        log_path = self.logs_dir / "ProcessedGeometry.log"  # ✅ Corrected line
+
+        # Named logger per section
         self.logger = logging.getLogger(f"ProcessedGeometry.{self.label}")
-        self.logger.setLevel(logging.DEBUG)
+        self.logger.propagate = False  # ⛔ Prevent double logging
 
-        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in self.logger.handlers):
-            file_handler = logging.FileHandler(log_path, mode="w", encoding="utf-8")
-            formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(name)s | %(message)s')
-            file_handler.setFormatter(formatter)
-            self.logger.addHandler(file_handler)
+        # Only add handler if it doesn't already exist
+        if not any(
+            isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path)
+            for h in self.logger.handlers
+        ):
+            handler = logging.FileHandler(log_path, mode='w', encoding='utf-8')
+            formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(message)s')
+            handler.setFormatter(formatter)
+            self.logger.addHandler(handler)
 
-        if not any(isinstance(h, logging.StreamHandler) for h in self.logger.handlers):
-            console_handler = logging.StreamHandler()
-            console_handler.setFormatter(formatter)
-            self.logger.addHandler(console_handler)
+        self.logger.setLevel(logging.INFO)
+        self.logger.info("Logging initialized for ProcessedGeometry")
 
-        self.logger.info("Logger initialized for ProcessedGeometry [%s]", self.label)
 
     def _cosine_resample_exterior(self, poly: Polygon, n_total: int) -> Polygon:
         if n_total < 3:
@@ -91,7 +95,7 @@ class ProcessedGeometry:
             self.logger.exception("Cosine resampling failed: %s", str(e))
             raise
 
-    def extract_and_transform(self, twist_deg: float, cx: float, cy: float, material: Union[Material, list[Material], None] = None) -> Geometry | CompoundGeometry:
+    def extract_and_transform(self, twist_deg: float, cx: float, cy: float, material: Union[Material, dict[int, Material], None] = None) -> Geometry | CompoundGeometry:
         self.logger.info("Importing DXF geometry from %s", self.filepath)
 
         try:
@@ -181,31 +185,16 @@ class ProcessedGeometry:
 
         # ───── Assign Material(s) ─────
         try:
-            if material is not None:
-                if isinstance(geom_translated, Geometry):
-                    if not isinstance(material, Material):
-                        raise TypeError("Expected a single Material for Geometry instance.")
-                    geom_translated.material = material
-                    self.logger.info("Assigned material to single geometry: %s", material.name)
+            AssignMaterial(
+                geometry=geom_translated,
+                material=material,
+                logs_dir=self.logs_dir,
+                label=self.label
+            ).apply()
 
-                elif isinstance(geom_translated, CompoundGeometry):
-                    if not isinstance(material, list) or not all(isinstance(m, Material) for m in material):
-                        raise TypeError("Expected a list of Material objects for CompoundGeometry.")
-                    if len(material) != len(geom_translated.geoms):
-                        raise ValueError(
-                            f"Number of materials ({len(material)}) does not match number of regions ({len(geom_translated.geoms)})"
-                        )
-                    for i, (geom_i, mat_i) in enumerate(zip(geom_translated.geoms, material)):
-                        geom_i.material = mat_i
-                        self.logger.debug("Assigned material '%s' to region %d", mat_i.name, i)
-
-                    self.logger.info("Assigned %d materials to CompoundGeometry", len(material))
-                else:
-                    raise TypeError("Unknown geometry type when assigning materials.")
-            else:
-                self.logger.info("No material assignment provided.")
         except Exception as e:
             self.logger.error("Material assignment failed: %s", e, exc_info=True)
             raise
+
         
         return self.geometry
