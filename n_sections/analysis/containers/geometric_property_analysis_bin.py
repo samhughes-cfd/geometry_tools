@@ -1,140 +1,184 @@
 from dataclasses import dataclass
-from typing import Optional
+from typing import Optional, Dict, Any, List
+
 
 @dataclass
 class GeometricPropertyAnalysisBin:
+    # Identification
     run_label: str
     mesh_h: float
 
-    # Section Bounds
-    x_min_mm: float
-    x_max_mm: float
-    y_min_mm: float
-    y_max_mm: float
-    max_width_mm: float
-    max_height_mm: float
+    # ---- Section Bounds (touch points + bbox size; all in mm) ----
+    xmin_touch_x_mm: Optional[float]
+    xmin_touch_y_mm: Optional[float]
+    xmax_touch_x_mm: Optional[float]
+    xmax_touch_y_mm: Optional[float]
+    ymin_touch_x_mm: Optional[float]
+    ymin_touch_y_mm: Optional[float]
+    ymax_touch_x_mm: Optional[float]
+    ymax_touch_y_mm: Optional[float]
+    bbox_width_mm: Optional[float]
+    bbox_height_mm: Optional[float]
 
-    # Global Axis Properties
-    area_mm2: float
-    perimeter_mm: float
-    cx_mm: float
-    cy_mm: float
+    # ---- Global Axis Properties ----
+    area_mm2: Optional[float]
+    perimeter_mm: Optional[float]
+    cx_mm: Optional[float]
+    cy_mm: Optional[float]
 
-    # Centroidal Axis Properties
-    ixx_c_mm4: float
-    iyy_c_mm4: float
-    ixy_c_mm4: float
-    ip_c_mm4: float
-    rx_mm: float
-    ry_mm: float
-    sx_mm3: float  # Elastic section modulus x
-    sy_mm3: float  # Elastic section modulus y
+    # ---- Centroidal Axis Properties ----
+    ixx_c_mm4: Optional[float]
+    iyy_c_mm4: Optional[float]
+    ixy_c_mm4: Optional[float]
+    ip_c_mm4: Optional[float]
+    rx_mm: Optional[float]
+    ry_mm: Optional[float]
+    sx_mm3: Optional[float]  # Elastic section modulus x
+    sy_mm3: Optional[float]  # Elastic section modulus y
 
-    # Principal Axis Properties
-    phi_deg: float  # Principal axis angle
-    i1_mm4: float   # Major principal moment
-    i2_mm4: float   # Minor principal moment
+    # ---- Principal Axis Properties ----
+    phi_deg: Optional[float]   # Principal axis angle
+    i1_mm4: Optional[float]    # Major principal moment
+    i2_mm4: Optional[float]    # Minor principal moment
 
-    # Torsion Properties
-    j_mm4: float    # Torsion constant
+    # ---- Torsion ----
+    j_mm4: Optional[float]
 
-    # Shear Properties
-    asx_mm2: float  # Shear area x
-    asy_mm2: float  # Shear area y
-    scx_mm: float   # Shear center x
-    scy_mm: float   # Shear center y
-    beta_x_plus: float
-    beta_x_minus: float
-    beta_y_plus: float
-    beta_y_minus: float
+    # ---- Shear Areas (global) ----
+    asx_mm2: Optional[float]
+    asy_mm2: Optional[float]
 
-    # Derived Metrics
-    shape_factor_x: float
-    shape_factor_y: float
-    polar_r_mm: float
-    j_over_ip: float
-    asx_over_a: float
-    asy_over_a: float
-    compactness: float
-    shear_offset_ratio_x: float
-    shear_offset_ratio_y: float
-    vx: float  # Timoshenko coefficient x
-    vy: float  # Timoshenko coefficient y
+    # ---- Shear Centres ----
+    # Elastic approach (global axes)
+    scx_elastic_mm: Optional[float]  # x_se
+    scy_elastic_mm: Optional[float]  # y_se
+    # Trefftz approach (global axes)
+    scx_trefftz_mm: Optional[float]  # x_st
+    scy_trefftz_mm: Optional[float]  # y_st
+    # Principal-axis components
+    sc1_mm: Optional[float]          # x11_se
+    sc2_mm: Optional[float]          # y22_se
 
+    # ---- Monosymmetry ----
+    beta_x_plus: Optional[float]
+    beta_x_minus: Optional[float]
+    beta_y_plus: Optional[float]
+    beta_y_minus: Optional[float]
+
+    # ---- Derived Metrics ----
+    shape_factor_x: Optional[float]
+    shape_factor_y: Optional[float]
+    polar_r_mm: Optional[float]
+    j_over_ip: Optional[float]
+    asx_over_a: Optional[float]
+    asy_over_a: Optional[float]
+    compactness: Optional[float]
+    shear_offset_ratio_x: Optional[float]
+    shear_offset_ratio_y: Optional[float]
+    vx: Optional[float]  # convenience duplicate of asx_over_a
+    vy: Optional[float]  # convenience duplicate of asy_over_a
+
+    # -------------------------
+    # Factory / helpers
+    # -------------------------
     @classmethod
-    def from_row(cls, row: list) -> "GeometricPropertyAnalysisBin":
-        """Create instance from analysis results row with explicit grouping"""
+    def from_row(cls, row: List[Any]) -> "GeometricPropertyAnalysisBin":
+        """
+        Create instance from a SectionDXF row.
+        Index mapping matches the refactored SectionDXF header order:
+          [0] run_label, [1] mesh_h,
+          [2..11] bounds (touch points + bbox),
+          [12..26] geometric,
+          [27..39] warping/shear,
+          [40..50] derived
+        """
         return cls(
             # Identification
             run_label=row[0],
             mesh_h=row[1],
-            
-            # Section Bounds (6 fields)
-            x_min_mm=row[2],
-            x_max_mm=row[3],
-            y_min_mm=row[4],
-            y_max_mm=row[5],
-            max_width_mm=row[6],
-            max_height_mm=row[7],
 
-            # Global Axis Properties (4 fields)
-            area_mm2=row[8],
-            perimeter_mm=row[9],
-            cx_mm=row[10],
-            cy_mm=row[11],
+            # Section Bounds (10)
+            xmin_touch_x_mm=row[2],
+            xmin_touch_y_mm=row[3],
+            xmax_touch_x_mm=row[4],
+            xmax_touch_y_mm=row[5],
+            ymin_touch_x_mm=row[6],
+            ymin_touch_y_mm=row[7],
+            ymax_touch_x_mm=row[8],
+            ymax_touch_y_mm=row[9],
+            bbox_width_mm=row[10],
+            bbox_height_mm=row[11],
 
-            # Centroidal Axis Properties (8 fields)
-            ixx_c_mm4=row[12],
-            iyy_c_mm4=row[13],
-            ixy_c_mm4=row[14],
-            ip_c_mm4=row[15],
-            rx_mm=row[19],  # Note: Adjusted indices to match calculation order
-            ry_mm=row[20],
-            sx_mm3=row[21],
-            sy_mm3=row[22],
+            # Global Axis (4)
+            area_mm2=row[12],
+            perimeter_mm=row[13],
+            cx_mm=row[14],
+            cy_mm=row[15],
 
-            # Principal Axis Properties (3 fields)
-            phi_deg=row[16],
-            i1_mm4=row[17],
-            i2_mm4=row[18],
+            # Centroidal Axis (8)
+            ixx_c_mm4=row[16],
+            iyy_c_mm4=row[17],
+            ixy_c_mm4=row[18],
+            ip_c_mm4=row[19],
+            rx_mm=row[20],
+            ry_mm=row[21],
+            sx_mm3=row[22],
+            sy_mm3=row[23],
 
-            # Torsion Property (1 field)
-            j_mm4=row[23],
+            # Principal Axis (3)
+            phi_deg=row[24],
+            i1_mm4=row[25],
+            i2_mm4=row[26],
 
-            # Shear Properties (8 fields)
-            asx_mm2=row[24],
-            asy_mm2=row[25],
-            scx_mm=row[26],
-            scy_mm=row[27],
-            beta_x_plus=row[28],
-            beta_x_minus=row[29],
-            beta_y_plus=row[30],
-            beta_y_minus=row[31],
+            # Torsion (1)
+            j_mm4=row[27],
 
-            # Derived Metrics (11 fields)
-            shape_factor_x=row[32],
-            shape_factor_y=row[33],
-            polar_r_mm=row[34],
-            j_over_ip=row[35],
-            asx_over_a=row[36],
-            asy_over_a=row[37],
-            compactness=row[38],
-            shear_offset_ratio_x=row[39],
-            shear_offset_ratio_y=row[40],
-            vx=row[41],
-            vy=row[42],
+            # Shear Areas (2)
+            asx_mm2=row[28],
+            asy_mm2=row[29],
+
+            # Shear Centres (6)
+            scx_elastic_mm=row[30],
+            scy_elastic_mm=row[31],
+            scx_trefftz_mm=row[32],
+            scy_trefftz_mm=row[33],
+            sc1_mm=row[34],
+            sc2_mm=row[35],
+
+            # Monosymmetry (4)
+            beta_x_plus=row[36],
+            beta_x_minus=row[37],
+            beta_y_plus=row[38],
+            beta_y_minus=row[39],
+
+            # Derived (11)
+            shape_factor_x=row[40],
+            shape_factor_y=row[41],
+            polar_r_mm=row[42],
+            j_over_ip=row[43],
+            asx_over_a=row[44],
+            asy_over_a=row[45],
+            compactness=row[46],
+            shear_offset_ratio_x=row[47],
+            shear_offset_ratio_y=row[48],
+            vx=row[49],
+            vy=row[50],
         )
 
-    def get_property_groups(self) -> dict:
-        """Return properties organized by analysis category"""
+    def get_property_groups(self) -> Dict[str, Dict[str, Optional[float]]]:
+        """Return properties organized by analysis category (readable structure)."""
         return {
             "section_bounds": {
-                "x_min_mm": self.x_min_mm,
-                "x_max_mm": self.x_max_mm,
-                "y_min_mm": self.y_min_mm,
-                "y_max_mm": self.y_max_mm,
-                "max_width_mm": self.max_width_mm,
-                "max_height_mm": self.max_height_mm,
+                "xmin_touch_x_mm": self.xmin_touch_x_mm,
+                "xmin_touch_y_mm": self.xmin_touch_y_mm,
+                "xmax_touch_x_mm": self.xmax_touch_x_mm,
+                "xmax_touch_y_mm": self.xmax_touch_y_mm,
+                "ymin_touch_x_mm": self.ymin_touch_x_mm,
+                "ymin_touch_y_mm": self.ymin_touch_y_mm,
+                "ymax_touch_x_mm": self.ymax_touch_x_mm,
+                "ymax_touch_y_mm": self.ymax_touch_y_mm,
+                "bbox_width_mm": self.bbox_width_mm,
+                "bbox_height_mm": self.bbox_height_mm,
             },
             "global_axis": {
                 "area_mm2": self.area_mm2,
@@ -160,11 +204,19 @@ class GeometricPropertyAnalysisBin:
             "torsion": {
                 "j_mm4": self.j_mm4,
             },
-            "shear": {
+            "shear_areas": {
                 "asx_mm2": self.asx_mm2,
                 "asy_mm2": self.asy_mm2,
-                "scx_mm": self.scx_mm,
-                "scy_mm": self.scy_mm,
+            },
+            "shear_centres": {
+                "scx_elastic_mm": self.scx_elastic_mm,
+                "scy_elastic_mm": self.scy_elastic_mm,
+                "scx_trefftz_mm": self.scx_trefftz_mm,
+                "scy_trefftz_mm": self.scy_trefftz_mm,
+                "sc1_mm": self.sc1_mm,
+                "sc2_mm": self.sc2_mm,
+            },
+            "monosymmetry": {
                 "beta_x_plus": self.beta_x_plus,
                 "beta_x_minus": self.beta_x_minus,
                 "beta_y_plus": self.beta_y_plus,
@@ -182,5 +234,17 @@ class GeometricPropertyAnalysisBin:
                 "shear_offset_ratio_y": self.shear_offset_ratio_y,
                 "vx": self.vx,
                 "vy": self.vy,
-            }
+            },
         }
+
+    # Optional convenience:
+    def as_dict(self) -> Dict[str, Any]:
+        """Flatten to a single dict (useful for DataFrame construction)."""
+        out: Dict[str, Any] = {
+            "run_label": self.run_label,
+            "mesh_h": self.mesh_h,
+        }
+        for group, vals in self.get_property_groups().items():
+            for k, v in vals.items():
+                out[k] = v
+        return out

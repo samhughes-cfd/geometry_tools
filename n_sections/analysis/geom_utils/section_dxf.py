@@ -3,8 +3,11 @@
 import logging
 import math
 import time
-import numpy as np
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Callable, List, Optional, Tuple
+
+import numpy as np  # noqa: F401 (kept for downstream extensions)
 from sectionproperties.analysis.section import Section
 
 # --- Unit Conversion Constants ---
@@ -15,37 +18,36 @@ M6_TO_MM6 = 1e18
 M_TO_MM = 1e3
 
 
-class SectionDXF:
-    """Harvest every geometric, plastic, and warping result from a Section upon instantiation."""
+@dataclass
+class Field:
+    """Declarative field spec: name, getter(self) -> value in SI, and a scale to output units."""
+    name: str
+    getter: Callable[["SectionDXF"], Optional[float]]
+    scale: float = 1.0
 
-    header = [
-        "RunLabel", "Mesh_h_mm",
-        # Section bounds
-        "x_min_mm", "x_max_mm", "y_min_mm", "y_max_mm", "max_width_mm", "max_height_mm",
-        # Geometric (Global Axis)
-        "Area_mm2", "Perimeter_mm", "Cx_mm", "Cy_mm",
-        # Geometric (Centroidal Axis) 
-        "Ixx_c_mm4", "Iyy_c_mm4", "Ixy_c_mm4", "Ip_c_mm4",
-        "rx_mm", "ry_mm", "Sx_mm3", "Sy_mm3",
-        # Geometric (Principal Axis)
-        "Principal_angle_deg", "I1_mm4", "I2_mm4",
-        # Warping and Shear
-        "J_mm4", "Asx_mm2", "Asy_mm2", "SCx_mm", "SCy_mm",
-        "Beta_x_plus", "Beta_x_minus", "Beta_y_plus", "Beta_y_minus",
-        # Derived Metrics
-        "ShapeFactor_x", "ShapeFactor_y",
-        "PolarR_mm", "J_over_Ip",
-        "Asx_over_A", "Asy_over_A",
-        "Compactness", "ShearOffsetRatio_x", "ShearOffsetRatio_y",
-        "vx", "vy",
-    ]
+
+class SectionDXF:
+    """
+    Harvest geometric, warping, and shear results from a Section in a highly extendible way.
+
+    Design:
+      - Each stage returns (pre, fields) where `pre()` runs required analysis once,
+        and `fields` is a list of Field(name, getter, scale).
+      - Header and row are built automatically from field specs.
+      - To add properties later, just add Field(...) entries or a new stage method.
+    """
+
+    # Static leading columns
+    leading_names = ["RunLabel", "Mesh_h_mm"]
 
     def __init__(self, run_label: str, mesh_h: float, section: Section, logs_dir: Path):
         self.run_label = run_label
         self.mesh_h = mesh_h
         self.sec = section
         self.logs_dir = logs_dir
-        self.row = None
+
+        self.header: List[str] = []
+        self.row: List[Optional[float | str]] = []
         self.start_time = time.time()
 
         # Create logger instance
@@ -53,11 +55,11 @@ class SectionDXF:
         self.logger.setLevel(logging.INFO)
         self.logger.propagate = False
         self._init_logger(logs_dir)
-        
+
         try:
             self.logger.info(f"Starting analysis for section '{run_label}'")
             self._validate_inputs()
-            self._extract_property_row()
+            self._build_header_and_row()
             self._validate_unit_ranges()
             duration = time.time() - self.start_time
             self.logger.info(f"Analysis completed in {duration:.2f}s")
@@ -65,19 +67,20 @@ class SectionDXF:
             self.logger.critical(f"Fatal error during analysis: {str(e)}", exc_info=True)
             raise
 
+    # -----------------------
+    # Boilerplate & utilities
+    # -----------------------
     def _init_logger(self, logs_dir: Path):
-        """Initialize logger with file handler"""
         logs_dir.mkdir(parents=True, exist_ok=True)
         log_file = logs_dir / "section_dxf.log"
-        
-        if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_file)
+
+        if not any(isinstance(h, logging.FileHandler) and getattr(h, "baseFilename", "") == str(log_file)
                    for h in self.logger.handlers):
             fh = logging.FileHandler(log_file, mode="a")
             fh.setFormatter(logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s"))
             self.logger.addHandler(fh)
 
     def _validate_inputs(self):
-        """Validate constructor inputs with detailed errors"""
         if not isinstance(self.sec, Section):
             raise TypeError(f"Expected `section` to be of type `Section`, got {type(self.sec)}")
         if not isinstance(self.run_label, str) or not self.run_label.strip():
@@ -85,220 +88,389 @@ class SectionDXF:
         if not isinstance(self.logs_dir, Path):
             raise TypeError("`logs_dir` must be a Path object.")
 
+    @staticmethod
+    def _safe_div(numerator: Optional[float], denominator: Optional[float]) -> Optional[float]:
+        try:
+            if numerator is None or denominator in (None, 0.0):
+                return None
+            out = numerator / denominator
+            return out if not math.isnan(out) else None
+        except ZeroDivisionError:
+            return None
+
+    @staticmethod
+    def _safe_scale(val: Optional[float], scale: float) -> Optional[float]:
+        return None if val is None else val * scale
+
     def _validate_unit_ranges(self):
-        """Warn if any physical quantity is suspiciously large or small."""
-        area_mm2 = self._safe_mul(self.area, M2_TO_MM2)
-        ip_mm4 = self._safe_mul(self.ip, M4_TO_MM4)
+        """Warn if any physical quantity is suspiciously large or small (simple heuristics)."""
+        props = getattr(self.sec, "section_props", None)
+        if not props:
+            return
+        area = getattr(props, "area", None)
+        ip = None
+        if hasattr(props, "ixx_c") and hasattr(props, "iyy_c"):
+            ip = (props.ixx_c or 0.0) + (props.iyy_c or 0.0)
+
+        area_mm2 = self._safe_scale(area, M2_TO_MM2)
+        ip_mm4 = self._safe_scale(ip, M4_TO_MM4)
         if area_mm2 and area_mm2 > 1e9:
             self.logger.warning(f"[{self.run_label}] Area is unusually large ({area_mm2:.3e} mm²) — check units.")
         if ip_mm4 and ip_mm4 > 1e12:
             self.logger.warning(f"[{self.run_label}] Ip is unusually large ({ip_mm4:.3e} mm⁴) — check geometry scale.")
 
-    def _extract_property_row(self):
-        """Orchestrate property extraction with error handling"""
-        row = [self.run_label, self.mesh_h]
+    # -----------------------
+    # Declarative field sets
+    # -----------------------
+    def _bounds_fields(self) -> Tuple[Callable[[], None], List[Field]]:
+        """
+        Bounding-box touch points (x,y) where the axis-aligned bbox meets the section,
+        plus bbox dimensions. Uses shapely if available; falls back to mesh nodes, then corners.
 
-        # Define expected field counts for each analysis stage
-        analysis_stages = [
-            ("bounds", self._bounds_analysis, 6),
-            ("geometric", self._geometric_analysis, 17),  # 4 global + 8 centroidal + 5 principal
-            ("warping_shear", self._warping_shear_analysis, 9),  # 1 torsion + 8 shear
-            ("derived", self._derived_parameters, 11)
-        ]
-    
-        results = {}
-        for name, fn, field_count in analysis_stages:
-            try:
-                self.logger.debug(f"Starting {name} analysis")
-                result = fn()
-                results[name] = result if result is not None else [None] * field_count
-            except Exception as e:
-                self.logger.error(f"{name} analysis failed: {str(e)}", exc_info=True)
-                results[name] = [None] * field_count
-
-        # Assemble full row - now guaranteed to have lists
-        self.row = row + results["bounds"] + results["geometric"] + results["warping_shear"] + results["derived"]
-    
-        success_rate = sum(x is not None for x in self.row)/len(self.row)
-        self.logger.info(f"Property row assembled with {success_rate:.1%} completion")
-
-    @staticmethod
-    def _safe_mul(val, factor):
-        return val * factor if val is not None else None
-
-    @staticmethod
-    def _safe_div(numerator, denominator):
-        try:
-            if numerator is None or denominator in (None, 0.0):
-                return None
-            result = numerator / denominator
-            return result if not math.isnan(result) else None
-        except ZeroDivisionError:
-            return None
-
-    def _bounds_analysis(self):
-        """Compute section boundaries with detailed diagnostics"""
-        try:
-            self.logger.info("Computing section bounds")
+        Exposed names (mm):
+          - xmin_touch_x_mm, xmin_touch_y_mm
+          - xmax_touch_x_mm, xmax_touch_y_mm
+          - ymin_touch_x_mm, ymin_touch_y_mm
+          - ymax_touch_x_mm, ymax_touch_y_mm
+          - bbox_width_mm, bbox_height_mm
+        """
+        def pre():
             if not hasattr(self.sec, "geometry"):
                 raise AttributeError("Section missing geometry attribute")
-            
-            x_min, x_max, y_min, y_max = self.sec.geometry.calculate_extents()
-            return [
-                x_min * M_TO_MM,
-                x_max * M_TO_MM,
-                y_min * M_TO_MM,
-                y_max * M_TO_MM,
-                (x_max - x_min) * M_TO_MM,
-                (y_max - y_min) * M_TO_MM
-            ]
-        except Exception as e:
-            self.logger.error(f"Boundary calculation failed: {str(e)}", exc_info=True)
-            return [None] * 6  # Return 6 Nones for bounds fields
 
-    def _geometric_analysis(self):
-        """Orchestrate full geometric property analysis"""
-        try:
-            self.logger.info("Starting geometric analysis")
+            # cache extents
+            self._x_min, self._x_max, self._y_min, self._y_max = self.sec.geometry.calculate_extents()
+
+            # try cached centroid (if geometric stage ran), otherwise mid-extents fallback
+            try:
+                p = getattr(self.sec, "section_props", None)
+                self._cx = getattr(p, "cx", None)
+                self._cy = getattr(p, "cy", None)
+            except Exception:
+                self._cx = None
+                self._cy = None
+            if self._cx is None or self._cy is None:
+                self._cx = 0.5 * (self._x_min + self._x_max)
+                self._cy = 0.5 * (self._y_min + self._y_max)
+
+            # compute touch points once
+            (self._xmin_touch,
+             self._xmax_touch,
+             self._ymin_touch,
+             self._ymax_touch) = self._compute_bbox_touch_points()
+
+        fields = [
+            # x = xmin touch
+            Field("xmin_touch_x_mm", lambda s: s._xmin_touch[0], M_TO_MM),
+            Field("xmin_touch_y_mm", lambda s: s._xmin_touch[1], M_TO_MM),
+            # x = xmax touch
+            Field("xmax_touch_x_mm", lambda s: s._xmax_touch[0], M_TO_MM),
+            Field("xmax_touch_y_mm", lambda s: s._xmax_touch[1], M_TO_MM),
+            # y = ymin touch
+            Field("ymin_touch_x_mm", lambda s: s._ymin_touch[0], M_TO_MM),
+            Field("ymin_touch_y_mm", lambda s: s._ymin_touch[1], M_TO_MM),
+            # y = ymax touch
+            Field("ymax_touch_x_mm", lambda s: s._ymax_touch[0], M_TO_MM),
+            Field("ymax_touch_y_mm", lambda s: s._ymax_touch[1], M_TO_MM),
+            # bbox size
+            Field("bbox_width_mm",  lambda s: s._x_max - s._x_min, M_TO_MM),
+            Field("bbox_height_mm", lambda s: s._y_max - s._y_min, M_TO_MM),
+        ]
+        return pre, fields
+
+    def _geometric_fields(self) -> Tuple[Callable[[], None], List[Field]]:
+        """Geometric properties (global, centroidal, principal)."""
+        def pre():
             self.sec.calculate_geometric_properties()
-            props = self.sec.section_props
-        
-            global_results = self._global_axis_properties(props) or [None]*4
-            centroidal_results = self._centroidal_axis_properties(props) or [None]*8
-            principal_results = self._principal_axis_properties(props) or [None]*3
-        
-            return global_results + centroidal_results + principal_results
-        except Exception as e:
-            self.logger.error(f"Geometric analysis failed: {str(e)}", exc_info=True)
-            return [None] * 17  # 4 global + 8 centroidal + 5 principal
-        
-    def _global_axis_properties(self, props):
-        """Calculate global axis geometric properties"""
-        try:
-            self.area = props.area or 0.0
-            self.perimeter = props.perimeter or 0.0
-            self.cx, self.cy = props.cx or 0.0, props.cy or 0.0
-            
-            return [
-                self.area * M2_TO_MM2,
-                self.perimeter * M_TO_MM,
-                self.cx * M_TO_MM,
-                self.cy * M_TO_MM
-            ]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Global axis properties failed: {e}", exc_info=True)
-            return [None] * 4
 
-    def _centroidal_axis_properties(self, props):
-        """Calculate centroidal axis properties including section moduli Sx, Sy"""
-        try:
-            self.ixx = props.ixx_c or 0.0
-            self.iyy = props.iyy_c or 0.0
-            self.ixy = props.ixy_c or 0.0
-            self.ip = self.ixx + self.iyy
-            self.rx = props.rx_c or 0.0
-            self.ry = props.ry_c or 0.0
-            self.sx = props.sxx or 0.0  # Elastic section modulus x
-            self.sy = props.syy or 0.0  # Elastic section modulus y
-            
-            return [
-                self.ixx * M4_TO_MM4,
-                self.iyy * M4_TO_MM4,
-                self.ixy * M4_TO_MM4,
-                self.ip * M4_TO_MM4,
-                self.rx * M_TO_MM,
-                self.ry * M_TO_MM,
-                self.sx * M3_TO_MM3,
-                self.sy * M3_TO_MM3
-            ]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Centroidal axis properties failed: {e}", exc_info=True)
-            return [None] * 8
+        p = lambda: self.sec.section_props  # shorthand
 
-    def _principal_axis_properties(self, props):
-        """Calculate principal axis properties"""
-        try:
-            self.phi_deg = props.phi or 0.0
-            self.i1 = props.i11_c or 0.0
-            self.i2 = props.i22_c or 0.0
-            
-            return [
-                self.phi_deg,
-                self.i1 * M4_TO_MM4,
-                self.i2 * M4_TO_MM4
-            ]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Principal axis properties failed: {e}", exc_info=True)
-            return [None] * 3
+        fields = [
+            # Global axis
+            Field("Area_mm2",      lambda s: getattr(p(), "area", None),      M2_TO_MM2),
+            Field("Perimeter_mm",  lambda s: getattr(p(), "perimeter", None), M_TO_MM),
+            Field("Cx_mm",         lambda s: getattr(p(), "cx", None),        M_TO_MM),
+            Field("Cy_mm",         lambda s: getattr(p(), "cy", None),        M_TO_MM),
 
-    def _warping_shear_analysis(self):
-        """Orchestrate warping and shear property analysis"""
-        try:
-            self.logger.info("Starting warping and shear analysis")
+            # Centroidal axis
+            Field("Ixx_c_mm4",     lambda s: getattr(p(), "ixx_c", None),     M4_TO_MM4),
+            Field("Iyy_c_mm4",     lambda s: getattr(p(), "iyy_c", None),     M4_TO_MM4),
+            Field("Ixy_c_mm4",     lambda s: getattr(p(), "ixy_c", None),     M4_TO_MM4),
+            Field("Ip_c_mm4",      lambda s: (getattr(p(), "ixx_c", 0.0) or 0.0) +
+                                             (getattr(p(), "iyy_c", 0.0) or 0.0), M4_TO_MM4),
+            Field("rx_mm",         lambda s: getattr(p(), "rx_c", None),      M_TO_MM),
+            Field("ry_mm",         lambda s: getattr(p(), "ry_c", None),      M_TO_MM),
+            Field("Sx_mm3",        lambda s: getattr(p(), "sxx", None),       M3_TO_MM3),
+            Field("Sy_mm3",        lambda s: getattr(p(), "syy", None),       M3_TO_MM3),
+
+            # Principal axis
+            Field("Principal_angle_deg", lambda s: getattr(p(), "phi", None),    1.0),
+            Field("I1_mm4",              lambda s: getattr(p(), "i11_c", None),  M4_TO_MM4),
+            Field("I2_mm4",              lambda s: getattr(p(), "i22_c", None),  M4_TO_MM4),
+        ]
+        return pre, fields
+
+    def _warping_shear_fields(self) -> Tuple[Callable[[], None], List[Field]]:
+        """Warping & shear properties. Elastic + Trefftz shear centres exposed."""
+        def pre():
+            # Must follow geometric analysis
             self.sec.calculate_warping_properties()
-            props = self.sec.section_props
-        
-            torsion_results = self._torsion_properties(props) or [None]
-            shear_results = self._shear_properties(props) or [None]*8
-        
-            return torsion_results + shear_results
-        except Exception as e:
-            self.logger.error(f"Warping/shear analysis failed: {str(e)}", exc_info=True)
-            return [None] * 9  # 1 torsion + 8 shear
 
-    def _torsion_properties(self, props):
-        """Calculate torsion-specific properties"""
-        try:
-            self.j = props.j or 0.0
-            return [self.j * M4_TO_MM4]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Torsion properties failed: {e}", exc_info=True)
-            return [None]
+        p = lambda: self.sec.section_props
 
-    def _shear_properties(self, props):
-        """Calculate shear-specific properties"""
-        try:
-            self.asx = props.asx or 0.0
-            self.asy = props.asy or 0.0
-            self.scx = props.scx or 0.0
-            self.scy = props.scy or 0.0
-            self.beta_xp = props.beta_x_plus or 0.0
-            self.beta_xm = props.beta_x_minus or 0.0
-            self.beta_yp = props.beta_y_plus or 0.0
-            self.beta_ym = props.beta_y_minus or 0.0
-            
-            return [
-                self.asx * M2_TO_MM2,
-                self.asy * M2_TO_MM2,
-                self.scx * M_TO_MM,
-                self.scy * M_TO_MM,
-                self.beta_xp,
-                self.beta_xm,
-                self.beta_yp,
-                self.beta_ym
-            ]
-        except Exception as e:
-            self.logger.error(f"[{self.run_label}] Shear properties failed: {e}", exc_info=True)
-            return [None] * 8
+        fields = [
+            # Torsion
+            Field("J_mm4", lambda s: getattr(p(), "j", None), M4_TO_MM4),
 
-    def _derived_parameters(self):
-        """Calculate all derived parameters"""
+            # Shear areas (global)
+            Field("Asx_mm2", lambda s: getattr(p(), "a_sx", None), M2_TO_MM2),
+            Field("Asy_mm2", lambda s: getattr(p(), "a_sy", None), M2_TO_MM2),
+
+            # Shear centres (elastic method, global axes)
+            Field("SCx_elastic_mm", lambda s: getattr(p(), "x_se", None), M_TO_MM),
+            Field("SCy_elastic_mm", lambda s: getattr(p(), "y_se", None), M_TO_MM),
+
+            # Shear centres (Trefftz method, global axes)
+            Field("SCx_trefftz_mm", lambda s: getattr(p(), "x_st", None), M_TO_MM),
+            Field("SCy_trefftz_mm", lambda s: getattr(p(), "y_st", None), M_TO_MM),
+
+            # Shear centre components along principal axes
+            Field("SC1_mm", lambda s: getattr(p(), "x11_se", None), M_TO_MM),
+            Field("SC2_mm", lambda s: getattr(p(), "y22_se", None), M_TO_MM),
+
+            # Monosymmetry constants
+            Field("Beta_x_plus",  lambda s: getattr(p(), "beta_x_plus", None), 1.0),
+            Field("Beta_x_minus", lambda s: getattr(p(), "beta_x_minus", None), 1.0),
+            Field("Beta_y_plus",  lambda s: getattr(p(), "beta_y_plus", None), 1.0),
+            Field("Beta_y_minus", lambda s: getattr(p(), "beta_y_minus", None), 1.0),
+
+            # >>> Future easy additions:
+            # Field("As11_mm2", lambda s: getattr(p(), "a_s11", None), M2_TO_MM2),
+            # Field("As22_mm2", lambda s: getattr(p(), "a_s22", None), M2_TO_MM2),
+            # Field("Gamma_mm6", lambda s: getattr(p(), "gamma", None), M6_TO_MM6),
+            # Field("Delta_s",   lambda s: getattr(p(), "delta_s", None), 1.0),
+        ]
+        return pre, fields
+
+    def _derived_fields(self) -> Tuple[Callable[[], None], List[Field]]:
+        """Derived parameters built from previously computed props (no extra pre)."""
+        def pre():
+            # nothing to do; depends on geometric + warping having run
+            pass
+
+        def props():
+            return self.sec.section_props
+
+        # Helpers reading directly from props to avoid order coupling.
+        def polar_radius_m(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            area = getattr(p, "area", None)
+            ip = None
+            if hasattr(p, "ixx_c") and hasattr(p, "iyy_c"):
+                ip = (getattr(p, "ixx_c", 0.0) or 0.0) + (getattr(p, "iyy_c", 0.0) or 0.0)
+            return None if area in (None, 0.0) else math.sqrt(ip / area) if ip is not None else None
+
+        def shape_factor_x(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            i1, sx = getattr(p, "i11_c", None), getattr(p, "sxx", None)
+            return self._safe_div(sx, i1)
+
+        def shape_factor_y(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            i2, sy = getattr(p, "i22_c", None), getattr(p, "syy", None)
+            return self._safe_div(sy, i2)
+
+        def j_over_ip(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            j = getattr(p, "j", None)
+            ip = None
+            if hasattr(p, "ixx_c") and hasattr(p, "iyy_c"):
+                ip = (getattr(p, "ixx_c", 0.0) or 0.0) + (getattr(p, "iyy_c", 0.0) or 0.0)
+            return self._safe_div(j, ip)
+
+        def as_over_a_x(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            return self._safe_div(getattr(p, "a_sx", None), getattr(p, "area", None))
+
+        def as_over_a_y(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            return self._safe_div(getattr(p, "a_sy", None), getattr(p, "area", None))
+
+        def compactness(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            perim = getattr(p, "perimeter", None)
+            perim2 = None if perim is None else (perim ** 2)
+            return self._safe_div(perim2, getattr(p, "area", None))
+
+        def shear_offset_ratio_x(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            cx, scx = getattr(p, "cx", None), getattr(p, "x_se", None)  # elastic centre
+            return self._safe_div(abs(cx - scx) if (cx is not None and scx is not None) else None, cx)
+
+        def shear_offset_ratio_y(_: "SectionDXF") -> Optional[float]:
+            p = props()
+            cy, scy = getattr(p, "cy", None), getattr(p, "y_se", None)
+            return self._safe_div(abs(cy - scy) if (cy is not None and scy is not None) else None, cy)
+
+        fields = [
+            Field("ShapeFactor_x", shape_factor_x, 1.0),
+            Field("ShapeFactor_y", shape_factor_y, 1.0),
+            Field("PolarR_mm",     polar_radius_m, M_TO_MM),
+            Field("J_over_Ip",     j_over_ip, 1.0),
+            Field("Asx_over_A",    as_over_a_x, 1.0),
+            Field("Asy_over_A",    as_over_a_y, 1.0),
+            Field("Compactness",   compactness, 1.0),
+            Field("ShearOffsetRatio_x", shear_offset_ratio_x, 1.0),
+            Field("ShearOffsetRatio_y", shear_offset_ratio_y, 1.0),
+            # convenience duplicates:
+            Field("vx", as_over_a_x, 1.0),
+            Field("vy", as_over_a_y, 1.0),
+        ]
+        return pre, fields
+
+    # -----------------------
+    # Orchestration
+    # -----------------------
+    def _build_header_and_row(self):
+        """Run stages, auto-build header and row (stable order)."""
+        # Stages in execution order
+        stages: List[Tuple[str, Callable[[], None], List[Field]]] = []
+        for name, maker in [
+            ("bounds", self._bounds_fields),
+            ("geometric", self._geometric_fields),
+            ("warping_shear", self._warping_shear_fields),
+            ("derived", self._derived_fields),
+        ]:
+            pre, fields = maker()
+            stages.append((name, pre, fields))
+
+        # Build header
+        names: List[str] = list(self.leading_names)
+
+        # Start row with run label + mesh size
+        values: List[Optional[float | str]] = [self.run_label, self.mesh_h]
+
+        # Execute stages
+        for name, pre, fields in stages:
+            try:
+                self.logger.debug(f"Starting {name} stage")
+                pre()
+                for f in fields:
+                    names.append(f.name)
+                    raw = f.getter(self)
+                    values.append(self._safe_scale(raw, f.scale))
+            except Exception as e:
+                self.logger.error(f"{name} stage failed: {e}", exc_info=True)
+                for f in fields:
+                    names.append(f.name)
+                    values.append(None)
+
+        self.header = names
+        self.row = values
+        success_rate = sum(v is not None for v in self.row[2:]) / max(1, len(self.row) - 2)
+        self.logger.info(f"Property row assembled with {success_rate:.1%} completion")
+
+    # -----------------------
+    # Helpers
+    # -----------------------
+    def _compute_bbox_touch_points(self):
+        """
+        Returns four points as tuples (x, y) in metres:
+          - xmin_touch: point on boundary where x == x_min (y closest to centroid)
+          - xmax_touch: point on boundary where x == x_max
+          - ymin_touch: point on boundary where y == y_min
+          - ymax_touch: point on boundary where y == y_max
+        Strategy: shapely -> mesh nodes -> centroid-aligned fallback.
+        """
+        x_min, x_max, y_min, y_max = self._x_min, self._x_max, self._y_min, self._y_max
+        cx, cy = self._cx, self._cy
+
+        # --- 1) Shapely route if available ---
+        geom = getattr(self.sec.geometry, "geom", None)
         try:
-            self.logger.info("Calculating derived parameters")
-        
-            return [
-                self._safe_div(self.sx, self.i1),
-                self._safe_div(self.sy, self.i2),
-                self._safe_div(self.ip, self.area) ** 0.5 * M_TO_MM,
-                self._safe_div(self.j, self.ip),
-                self._safe_div(self.asx, self.area),
-                self._safe_div(self.asy, self.area),
-                self._safe_div(self.perimeter**2, self.area),
-                self._safe_div(abs(self.cx - self.scx), self.cx),
-                self._safe_div(abs(self.cy - self.scy), self.cy),
-                self._safe_div(self.asx, self.area),
-                self._safe_div(self.asy, self.area)
-            ]
+            from shapely.geometry import LineString  # type: ignore
+            if geom is not None and hasattr(geom, "boundary"):
+                # Vertical lines at x_min, x_max; horizontal lines at y_min, y_max
+                pad = max((x_max - x_min), (y_max - y_min)) * 2.0 or 1.0
+                vline_min = LineString([(x_min, y_min - pad), (x_min, y_max + pad)])
+                vline_max = LineString([(x_max, y_min - pad), (x_max, y_max + pad)])
+                hline_min = LineString([(x_min - pad, y_min), (x_max + pad, y_min)])
+                hline_max = LineString([(x_min - pad, y_max), (x_max + pad, y_max)])
+
+                def pick_point(intersection, prefer_y=None, prefer_x=None):
+                    # Normalize to list of points
+                    try:
+                        geoms = list(getattr(intersection, "geoms", [intersection]))
+                    except Exception:
+                        geoms = [intersection]
+                    pts = []
+                    for g in geoms:
+                        if hasattr(g, "x") and hasattr(g, "y"):
+                            pts.append((g.x, g.y))
+                        elif hasattr(g, "coords"):
+                            pts.extend(list(g.coords))
+                    if not pts:
+                        return None
+                    if prefer_y is not None:
+                        return min(pts, key=lambda p: abs(p[1] - prefer_y))
+                    if prefer_x is not None:
+                        return min(pts, key=lambda p: abs(p[0] - prefer_x))
+                    return pts[0]
+
+                xmin_touch = pick_point(geom.boundary.intersection(vline_min), prefer_y=cy)
+                xmax_touch = pick_point(geom.boundary.intersection(vline_max), prefer_y=cy)
+                ymin_touch = pick_point(geom.boundary.intersection(hline_min), prefer_x=cx)
+                ymax_touch = pick_point(geom.boundary.intersection(hline_max), prefer_x=cx)
+
+                if xmin_touch and xmax_touch and ymin_touch and ymax_touch:
+                    return xmin_touch, xmax_touch, ymin_touch, ymax_touch
         except Exception as e:
-            self.logger.error(f"Derived parameters failed: {str(e)}", exc_info=True)
-            return [None] * 11
+            self.logger.debug(f"Shapely intersection fallback: {e}")
+
+        # --- 2) Mesh nodes route ---
+        try:
+            # collect node coords from elements
+            nodes = []
+            for el in getattr(self.sec, "elements", []):
+                # el.coords shape (2, n_nodes), in metres
+                for i in range(el.coords.shape[1]):
+                    nodes.append((float(el.coords[0, i]), float(el.coords[1, i])))
+            if nodes:
+                xs = [p[0] for p in nodes]
+                ys = [p[1] for p in nodes]
+                tol_x = max(1e-9, 1e-6 * (max(xs) - min(xs) or 1.0))
+                tol_y = max(1e-9, 1e-6 * (max(ys) - min(ys) or 1.0))
+
+                xmin_candidates = [p for p in nodes if abs(p[0] - x_min) <= tol_x]
+                xmax_candidates = [p for p in nodes if abs(p[0] - x_max) <= tol_x]
+                ymin_candidates = [p for p in nodes if abs(p[1] - y_min) <= tol_y]
+                ymax_candidates = [p for p in nodes if abs(p[1] - y_max) <= tol_y]
+
+                def pick_closest(cands, target_y=None, target_x=None):
+                    if not cands:
+                        return None
+                    if target_y is not None:
+                        return min(cands, key=lambda p: abs(p[1] - target_y))
+                    if target_x is not None:
+                        return min(cands, key=lambda p: abs(p[0] - target_x))
+                    return cands[0]
+
+                xmin_touch = pick_closest(xmin_candidates, target_y=cy)
+                xmax_touch = pick_closest(xmax_candidates, target_y=cy)
+                ymin_touch = pick_closest(ymin_candidates, target_x=cx)
+                ymax_touch = pick_closest(ymax_candidates, target_x=cx)
+
+                if xmin_touch and xmax_touch and ymin_touch and ymax_touch:
+                    return xmin_touch, xmax_touch, ymin_touch, ymax_touch
+        except Exception as e:
+            self.logger.debug(f"Mesh-node fallback failed: {e}")
+
+        # --- 3) Centroid-aligned fallback (deterministic) ---
+        self.logger.warning(
+            "Falling back to bbox centroid-aligned touch points (no shapely geom or mesh boundary available)."
+        )
+        xmin_touch = (x_min, cy)
+        xmax_touch = (x_max, cy)
+        ymin_touch = (cx, y_min)
+        ymax_touch = (cx, y_max)
+        return xmin_touch, xmax_touch, ymin_touch, ymax_touch

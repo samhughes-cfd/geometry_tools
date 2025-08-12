@@ -1,0 +1,6 @@
+2025-08-12 00:36:11,522 | INFO     | Logging initialized for ProcessedGeometry
+2025-08-12 00:36:11,522 | INFO     | Importing DXF geometry from C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_2.dxf
+2025-08-12 00:36:11,783 | INFO     | DXF import complete
+2025-08-12 00:36:11,788 | INFO     | Resampling and geometry reconstruction complete
+2025-08-12 00:36:11,792 | INFO     | Applied twist rotation: 18.68°
+2025-08-12 00:36:12,322 | INFO     | Applied centroid translation to (0.006, -0.009)
