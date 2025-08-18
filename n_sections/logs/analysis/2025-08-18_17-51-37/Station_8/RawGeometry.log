@@ -1,0 +1,46 @@
+2025-08-18 17:51:50,880 | INFO     | RawGeometry.Station_8 | Logger initialized for RawGeometry Station_8
+2025-08-18 17:51:50,883 | INFO     | RawGeometry.Station_8 | Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_8.dxf
+2025-08-18 17:51:50,945 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,946 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,947 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,948 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,950 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,954 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,955 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,956 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,958 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,960 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,961 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,963 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,964 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,966 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,968 | DEBUG    | RawGeometry.Station_8 | Parsed ARC entity with 100 points
+2025-08-18 17:51:50,970 | DEBUG    | RawGeometry.Station_8 | Parsed ARC entity with 100 points
+2025-08-18 17:51:50,972 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,975 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,977 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,979 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,981 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,983 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,985 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,987 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,988 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,990 | DEBUG    | RawGeometry.Station_8 | Parsed ARC entity with 100 points
+2025-08-18 17:51:50,992 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,994 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,996 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,998 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:50,999 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,001 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,003 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,005 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,007 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,008 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,010 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,012 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,014 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,016 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,018 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,020 | DEBUG    | RawGeometry.Station_8 | Parsed LINE entity with 50 points
+2025-08-18 17:51:51,022 | DEBUG    | RawGeometry.Station_8 | Parsed ARC entity with 100 points
+2025-08-18 17:51:51,024 | INFO     | RawGeometry.Station_8 | Extraction complete: 43 entities, 2350 total points.

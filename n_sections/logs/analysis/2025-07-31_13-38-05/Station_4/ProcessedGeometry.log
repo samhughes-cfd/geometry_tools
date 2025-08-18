@@ -1,6 +1,0 @@
-2025-07-31 13:38:12,456 | INFO     | Logging initialized for ProcessedGeometry
-2025-07-31 13:38:12,456 | INFO     | Importing DXF geometry from C:\Users\Sam Hughes\Desktop\geometry_tools\n_sections\blade\Station_4.dxf
-2025-07-31 13:38:12,619 | INFO     | DXF import complete
-2025-07-31 13:38:12,622 | INFO     | Resampling and geometry reconstruction complete
-2025-07-31 13:38:12,625 | INFO     | Applied twist rotation: 10.86°
-2025-07-31 13:38:13,105 | INFO     | Applied centroid translation to (0.004, -0.010)

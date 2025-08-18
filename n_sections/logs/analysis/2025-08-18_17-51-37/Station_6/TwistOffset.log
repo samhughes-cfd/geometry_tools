@@ -1,0 +1,4 @@
+2025-08-18 17:51:46,889 | DEBUG    | TwistOffset.Station_6 | [Station_6] chord_len=8.943394e-02, chord_angle=-0.146°
+2025-08-18 17:51:46,891 | INFO     | TwistOffset.Station_6 | [Station_6] Current twist: -0.15°, Desired: 6.90°, Delta: 7.04° @ axis_ratio=0.333
+2025-08-18 17:51:46,892 | INFO     | TwistOffset.Station_6 | [Station_6] Twist center: (0.015518, 0.000292)
+2025-08-18 17:51:46,895 | INFO     | TwistOffset.Station_6 | [Station_6] Section rotated by 7.04° about twist center.

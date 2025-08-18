@@ -1,0 +1,23 @@
+2025-08-18 17:51:47,497 - INFO - Logger initialized for ConvergenceStudy [Station_6]
+2025-08-18 17:51:47,498 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:47,501 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:47,502 - DEBUG - [Station_6_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:47,521 - INFO - [Station_6_h40] Mesh created successfully
+2025-08-18 17:51:47,524 - DEBUG - [Station_6_h40] Starting section property calculation …
+2025-08-18 17:51:48,166 - DEBUG - [Station_6_h40] Section analysis row returned
+2025-08-18 17:51:48,168 - INFO - [Station_6_h40] Section analysis completed successfully.
+2025-08-18 17:51:48,170 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:48,174 - DEBUG - [Station_6_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:48,197 - INFO - [Station_6_h10] Mesh created successfully
+2025-08-18 17:51:48,199 - DEBUG - [Station_6_h10] Starting section property calculation …
+2025-08-18 17:51:48,644 - DEBUG - [Station_6_h10] Section analysis row returned
+2025-08-18 17:51:48,646 - INFO - [Station_6_h10] Section analysis completed successfully.
+2025-08-18 17:51:48,647 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:48,649 - DEBUG - [Station_6_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:48,668 - INFO - [Station_6_h2.5] Mesh created successfully
+2025-08-18 17:51:48,670 - DEBUG - [Station_6_h2.5] Starting section property calculation …
+2025-08-18 17:51:49,113 - DEBUG - [Station_6_h2.5] Section analysis row returned
+2025-08-18 17:51:49,115 - INFO - [Station_6_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:49,117 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:49,118 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:49,964 - INFO - Convergence visualisation completed.

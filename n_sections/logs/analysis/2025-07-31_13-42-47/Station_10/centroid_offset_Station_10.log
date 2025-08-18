@@ -1,6 +1,0 @@
-2025-07-31 13:43:15,659 - INFO - Logger initialized for CentroidOffset [Station_10]
-2025-07-31 13:43:15,726 - INFO - Geometry meshed with mesh_sizes = 0.5
-2025-07-31 13:43:16,148 - INFO - Actual centroid: (0.0154, 0.0012)
-2025-07-31 13:43:16,148 - INFO - Target centroid: (0.0014, -0.0051)
-2025-07-31 13:43:16,148 - INFO - Translation to apply: dx=-0.0140, dy=-0.0064
-2025-07-31 13:43:16,148 - INFO - Section successfully translated.

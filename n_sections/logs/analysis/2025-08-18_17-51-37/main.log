@@ -1,0 +1,813 @@
+2025-08-18 17:51:37,107 - INFO - 🌀 DXF mesh-convergence pipeline started
+2025-08-18 17:51:37,108 - INFO - ⏱ Timestamped output directory: 2025-08-18_17-51-37
+2025-08-18 17:51:37,109 - INFO - Origin mode: cop (fraction=0.33)
+2025-08-18 17:51:37,121 - INFO - Mesh size targets: [40.  10.   2.5]
+2025-08-18 17:51:37,122 - INFO - — Station Station_2: DXF=Station_2.dxf, twist=18.68°, r/R=0.250 —
+2025-08-18 17:51:37,147 - INFO - Logger initialized for RawGeometry Station_2
+2025-08-18 17:51:37,151 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_2.dxf
+2025-08-18 17:51:37,183 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:37,187 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:37,189 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:37,190 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:37,191 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,193 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,194 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,196 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,197 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,200 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,202 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,203 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,205 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,206 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,207 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,209 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,210 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,212 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,214 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,216 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,217 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,219 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,221 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,222 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,224 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,225 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,226 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,228 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,229 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,231 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,233 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,234 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,235 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,237 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,238 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,240 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,241 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,243 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,245 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,247 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,250 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,252 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,255 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,256 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,257 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,259 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,262 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,263 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,265 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,266 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,268 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,269 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,271 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,273 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,274 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,277 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,279 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,281 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,282 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,283 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,284 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,286 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,288 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,289 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,291 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,293 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,295 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,297 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,298 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:37,300 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:37,301 - INFO - Extraction complete: 66 entities, 3700 total points.
+2025-08-18 17:51:37,435 - INFO - Plotting 66 DXF entities for preview...
+2025-08-18 17:51:37,600 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_2\raw_Station_2.png
+2025-08-18 17:51:37,684 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:37,687 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:37,688 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:37,689 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:37,691 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:51:37,759 - INFO - Zipped 53 points
+2025-08-18 17:51:37,774 - DEBUG - [Station_2] chord_len=1.387801e-01, chord_angle=-1.161°
+2025-08-18 17:51:37,776 - INFO - [Station_2] Current twist: -1.16°, Desired: 18.68°, Delta: 19.84° @ axis_ratio=0.333
+2025-08-18 17:51:37,777 - INFO - [Station_2] Twist center: (0.024223, 0.000818)
+2025-08-18 17:51:37,779 - INFO - [Station_2] Section rotated by 19.84° about twist center.
+2025-08-18 17:51:37,789 - INFO - [Station_2] Origin -> 33.0% chord at (0.023829, 0.000685); LE=(-0.019556,-0.013985), TE=(0.111912,0.030470)
+2025-08-18 17:51:37,792 - INFO - [Station_2] Translation applied: dx=-0.023829, dy=-0.000685
+2025-08-18 17:51:38,422 - INFO - Logger initialized for ConvergenceStudy [Station_2]
+2025-08-18 17:51:38,423 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:38,425 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:38,427 - DEBUG - [Station_2_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:38,438 - INFO - Logger initialized for MeshDXF [Station_2_h40]
+2025-08-18 17:51:38,440 - INFO - [Station_2_h40] Meshing started with target h = 40
+2025-08-18 17:51:38,447 - ERROR - [Station_2_h40] Mesh contains no points or triangles
+2025-08-18 17:51:38,451 - INFO - [Station_2_h40] Mesh created successfully
+2025-08-18 17:51:38,453 - DEBUG - [Station_2_h40] Starting section property calculation …
+2025-08-18 17:51:39,194 - DEBUG - [Station_2_h40] Section analysis row returned
+2025-08-18 17:51:39,196 - INFO - [Station_2_h40] Section analysis completed successfully.
+2025-08-18 17:51:39,198 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:39,200 - DEBUG - [Station_2_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:39,210 - INFO - Logger initialized for MeshDXF [Station_2_h10]
+2025-08-18 17:51:39,212 - INFO - [Station_2_h10] Meshing started with target h = 10
+2025-08-18 17:51:39,219 - ERROR - [Station_2_h10] Mesh contains no points or triangles
+2025-08-18 17:51:39,221 - INFO - [Station_2_h10] Mesh created successfully
+2025-08-18 17:51:39,222 - DEBUG - [Station_2_h10] Starting section property calculation …
+2025-08-18 17:51:39,677 - DEBUG - [Station_2_h10] Section analysis row returned
+2025-08-18 17:51:39,680 - INFO - [Station_2_h10] Section analysis completed successfully.
+2025-08-18 17:51:39,681 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:39,685 - DEBUG - [Station_2_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:39,696 - INFO - Logger initialized for MeshDXF [Station_2_h2.5]
+2025-08-18 17:51:39,700 - INFO - [Station_2_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:51:39,706 - ERROR - [Station_2_h2.5] Mesh contains no points or triangles
+2025-08-18 17:51:39,709 - INFO - [Station_2_h2.5] Mesh created successfully
+2025-08-18 17:51:39,710 - DEBUG - [Station_2_h2.5] Starting section property calculation …
+2025-08-18 17:51:40,173 - DEBUG - [Station_2_h2.5] Section analysis row returned
+2025-08-18 17:51:40,175 - INFO - [Station_2_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:40,177 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:40,178 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:40,598 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_2\mesh_conv_Station_2_batch1_global.png
+2025-08-18 17:51:41,039 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_2\mesh_conv_Station_2_batch1_local.png
+2025-08-18 17:51:41,039 - INFO - Convergence visualisation completed.
+2025-08-18 17:51:41,404 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_2\mesh_conv_Station_2_batch1_global.png
+2025-08-18 17:51:41,818 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_2\mesh_conv_Station_2_batch1_local.png
+2025-08-18 17:51:41,847 - INFO - — Station Station_4: DXF=Station_4.dxf, twist=10.86°, r/R=0.375 —
+2025-08-18 17:51:41,869 - INFO - Logger initialized for RawGeometry Station_4
+2025-08-18 17:51:41,873 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_4.dxf
+2025-08-18 17:51:41,909 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:41,911 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:41,912 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:41,913 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:41,914 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,915 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,916 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,917 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,918 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,921 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,922 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,923 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,924 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,925 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,927 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,929 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,930 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,932 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,933 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,934 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,935 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,937 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,939 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,942 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,944 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,947 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,949 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,952 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,954 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,955 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,958 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,962 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:41,964 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,966 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,968 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,969 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,972 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,974 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,976 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,978 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,979 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,996 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:41,998 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,000 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:42,002 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,003 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,005 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,007 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,009 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,010 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,012 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,014 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,016 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,018 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,019 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,022 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:42,023 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:42,025 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,027 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,029 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,039 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,044 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,047 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,050 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,052 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,053 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,059 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,061 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:42,063 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:42,065 - INFO - Extraction complete: 65 entities, 3500 total points.
+2025-08-18 17:51:42,119 - INFO - Plotting 65 DXF entities for preview...
+2025-08-18 17:51:42,257 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_4\raw_Station_4.png
+2025-08-18 17:51:42,285 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:42,288 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:42,289 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:42,290 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:42,292 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:51:42,351 - INFO - Zipped 61 points
+2025-08-18 17:51:42,369 - DEBUG - [Station_4] chord_len=1.136007e-01, chord_angle=0.017°
+2025-08-18 17:51:42,370 - INFO - [Station_4] Current twist: 0.02°, Desired: 10.86°, Delta: 10.84° @ axis_ratio=0.333
+2025-08-18 17:51:42,372 - INFO - [Station_4] Twist center: (0.019792, 0.000599)
+2025-08-18 17:51:42,374 - INFO - [Station_4] Section rotated by 10.84° about twist center.
+2025-08-18 17:51:42,385 - INFO - [Station_4] Origin -> 33.0% chord at (0.019351, 0.001121); LE=(-0.017518,-0.005655), TE=(0.094206,0.014878)
+2025-08-18 17:51:42,388 - INFO - [Station_4] Translation applied: dx=-0.019351, dy=-0.001121
+2025-08-18 17:51:42,991 - INFO - Logger initialized for ConvergenceStudy [Station_4]
+2025-08-18 17:51:42,993 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:42,994 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:42,996 - DEBUG - [Station_4_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:43,007 - INFO - Logger initialized for MeshDXF [Station_4_h40]
+2025-08-18 17:51:43,009 - INFO - [Station_4_h40] Meshing started with target h = 40
+2025-08-18 17:51:43,017 - ERROR - [Station_4_h40] Mesh contains no points or triangles
+2025-08-18 17:51:43,018 - INFO - [Station_4_h40] Mesh created successfully
+2025-08-18 17:51:43,020 - DEBUG - [Station_4_h40] Starting section property calculation …
+2025-08-18 17:51:43,752 - DEBUG - [Station_4_h40] Section analysis row returned
+2025-08-18 17:51:43,754 - INFO - [Station_4_h40] Section analysis completed successfully.
+2025-08-18 17:51:43,755 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:43,758 - DEBUG - [Station_4_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:43,768 - INFO - Logger initialized for MeshDXF [Station_4_h10]
+2025-08-18 17:51:43,770 - INFO - [Station_4_h10] Meshing started with target h = 10
+2025-08-18 17:51:43,776 - ERROR - [Station_4_h10] Mesh contains no points or triangles
+2025-08-18 17:51:43,778 - INFO - [Station_4_h10] Mesh created successfully
+2025-08-18 17:51:43,779 - DEBUG - [Station_4_h10] Starting section property calculation …
+2025-08-18 17:51:44,253 - DEBUG - [Station_4_h10] Section analysis row returned
+2025-08-18 17:51:44,255 - INFO - [Station_4_h10] Section analysis completed successfully.
+2025-08-18 17:51:44,257 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:44,259 - DEBUG - [Station_4_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:44,269 - INFO - Logger initialized for MeshDXF [Station_4_h2.5]
+2025-08-18 17:51:44,270 - INFO - [Station_4_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:51:44,276 - ERROR - [Station_4_h2.5] Mesh contains no points or triangles
+2025-08-18 17:51:44,279 - INFO - [Station_4_h2.5] Mesh created successfully
+2025-08-18 17:51:44,281 - DEBUG - [Station_4_h2.5] Starting section property calculation …
+2025-08-18 17:51:44,746 - DEBUG - [Station_4_h2.5] Section analysis row returned
+2025-08-18 17:51:44,749 - INFO - [Station_4_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:44,750 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:44,752 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:45,123 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_4\mesh_conv_Station_4_batch1_global.png
+2025-08-18 17:51:45,564 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_4\mesh_conv_Station_4_batch1_local.png
+2025-08-18 17:51:45,565 - INFO - Convergence visualisation completed.
+2025-08-18 17:51:45,976 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_4\mesh_conv_Station_4_batch1_global.png
+2025-08-18 17:51:46,402 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_4\mesh_conv_Station_4_batch1_local.png
+2025-08-18 17:51:46,431 - INFO - — Station Station_6: DXF=Station_6.dxf, twist=6.90°, r/R=0.500 —
+2025-08-18 17:51:46,453 - INFO - Logger initialized for RawGeometry Station_6
+2025-08-18 17:51:46,456 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_6.dxf
+2025-08-18 17:51:46,512 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:46,514 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:46,515 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:46,516 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:46,517 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,519 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,520 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,522 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,523 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,528 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,529 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,531 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,532 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,534 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,536 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,537 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,539 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,541 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,542 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,544 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,545 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,546 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,548 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,549 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,551 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,553 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,554 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,555 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,557 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:46,559 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:46,560 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,562 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,563 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,565 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,566 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,567 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,570 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,571 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,572 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,574 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:46,575 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,577 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,578 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,580 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,581 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,583 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,584 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,586 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:46,587 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,588 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,590 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,591 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,593 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,594 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,596 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,597 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,598 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:46,599 - INFO - Extraction complete: 53 entities, 2850 total points.
+2025-08-18 17:51:46,657 - INFO - Plotting 53 DXF entities for preview...
+2025-08-18 17:51:46,798 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_6\raw_Station_6.png
+2025-08-18 17:51:46,827 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:46,830 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:46,831 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:46,832 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:46,833 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:51:46,873 - INFO - Zipped 30 points
+2025-08-18 17:51:46,889 - DEBUG - [Station_6] chord_len=8.943394e-02, chord_angle=-0.146°
+2025-08-18 17:51:46,891 - INFO - [Station_6] Current twist: -0.15°, Desired: 6.90°, Delta: 7.04° @ axis_ratio=0.333
+2025-08-18 17:51:46,892 - INFO - [Station_6] Twist center: (0.015518, 0.000292)
+2025-08-18 17:51:46,895 - INFO - [Station_6] Section rotated by 7.04° about twist center.
+2025-08-18 17:51:46,905 - INFO - [Station_6] Origin -> 33.0% chord at (0.015216, 0.000716); LE=(-0.014101,-0.002604), TE=(0.074738,0.007457)
+2025-08-18 17:51:46,908 - INFO - [Station_6] Translation applied: dx=-0.015216, dy=-0.000716
+2025-08-18 17:51:47,497 - INFO - Logger initialized for ConvergenceStudy [Station_6]
+2025-08-18 17:51:47,498 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:47,501 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:47,502 - DEBUG - [Station_6_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:47,512 - INFO - Logger initialized for MeshDXF [Station_6_h40]
+2025-08-18 17:51:47,514 - INFO - [Station_6_h40] Meshing started with target h = 40
+2025-08-18 17:51:47,520 - ERROR - [Station_6_h40] Mesh contains no points or triangles
+2025-08-18 17:51:47,521 - INFO - [Station_6_h40] Mesh created successfully
+2025-08-18 17:51:47,524 - DEBUG - [Station_6_h40] Starting section property calculation …
+2025-08-18 17:51:48,166 - DEBUG - [Station_6_h40] Section analysis row returned
+2025-08-18 17:51:48,168 - INFO - [Station_6_h40] Section analysis completed successfully.
+2025-08-18 17:51:48,170 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:48,174 - DEBUG - [Station_6_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:48,187 - INFO - Logger initialized for MeshDXF [Station_6_h10]
+2025-08-18 17:51:48,189 - INFO - [Station_6_h10] Meshing started with target h = 10
+2025-08-18 17:51:48,196 - ERROR - [Station_6_h10] Mesh contains no points or triangles
+2025-08-18 17:51:48,197 - INFO - [Station_6_h10] Mesh created successfully
+2025-08-18 17:51:48,199 - DEBUG - [Station_6_h10] Starting section property calculation …
+2025-08-18 17:51:48,644 - DEBUG - [Station_6_h10] Section analysis row returned
+2025-08-18 17:51:48,646 - INFO - [Station_6_h10] Section analysis completed successfully.
+2025-08-18 17:51:48,647 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:48,649 - DEBUG - [Station_6_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:48,659 - INFO - Logger initialized for MeshDXF [Station_6_h2.5]
+2025-08-18 17:51:48,661 - INFO - [Station_6_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:51:48,667 - ERROR - [Station_6_h2.5] Mesh contains no points or triangles
+2025-08-18 17:51:48,668 - INFO - [Station_6_h2.5] Mesh created successfully
+2025-08-18 17:51:48,670 - DEBUG - [Station_6_h2.5] Starting section property calculation …
+2025-08-18 17:51:49,113 - DEBUG - [Station_6_h2.5] Section analysis row returned
+2025-08-18 17:51:49,115 - INFO - [Station_6_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:49,117 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:49,118 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:49,520 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_6\mesh_conv_Station_6_batch1_global.png
+2025-08-18 17:51:49,963 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_6\mesh_conv_Station_6_batch1_local.png
+2025-08-18 17:51:49,964 - INFO - Convergence visualisation completed.
+2025-08-18 17:51:50,367 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_6\mesh_conv_Station_6_batch1_global.png
+2025-08-18 17:51:50,827 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_6\mesh_conv_Station_6_batch1_local.png
+2025-08-18 17:51:50,859 - INFO - — Station Station_8: DXF=Station_8.dxf, twist=4.40°, r/R=0.625 —
+2025-08-18 17:51:50,880 - INFO - Logger initialized for RawGeometry Station_8
+2025-08-18 17:51:50,883 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_8.dxf
+2025-08-18 17:51:50,940 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:50,942 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:50,943 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:50,944 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:50,945 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,946 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,947 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,948 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,950 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,954 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,955 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,956 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,958 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,960 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,961 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,963 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,964 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,966 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,968 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:50,970 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:50,972 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,975 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,977 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,979 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,981 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,983 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,985 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,987 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,988 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,990 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:50,992 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,994 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,996 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,998 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:50,999 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,001 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,003 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,005 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,007 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,008 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,010 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,012 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,014 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,016 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,018 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,020 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:51,022 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:51,024 - INFO - Extraction complete: 43 entities, 2350 total points.
+2025-08-18 17:51:51,081 - INFO - Plotting 43 DXF entities for preview...
+2025-08-18 17:51:51,215 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_8\raw_Station_8.png
+2025-08-18 17:51:51,292 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:51,295 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:51,296 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:51,296 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:51,298 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:51:51,326 - INFO - Zipped 26 points
+2025-08-18 17:51:51,340 - DEBUG - [Station_8] chord_len=7.289146e-02, chord_angle=-0.197°
+2025-08-18 17:51:51,343 - INFO - [Station_8] Current twist: -0.20°, Desired: 4.40°, Delta: 4.60° @ axis_ratio=0.333
+2025-08-18 17:51:51,345 - INFO - [Station_8] Twist center: (0.012544, 0.000335)
+2025-08-18 17:51:51,347 - INFO - [Station_8] Section rotated by 4.60° about twist center.
+2025-08-18 17:51:51,358 - INFO - [Station_8] Origin -> 33.0% chord at (0.012326, 0.000318); LE=(-0.011657,-0.001529), TE=(0.061020,0.004068)
+2025-08-18 17:51:51,361 - INFO - [Station_8] Translation applied: dx=-0.012326, dy=-0.000318
+2025-08-18 17:51:51,913 - INFO - Logger initialized for ConvergenceStudy [Station_8]
+2025-08-18 17:51:51,914 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:51,916 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:51,916 - DEBUG - [Station_8_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:51,928 - INFO - Logger initialized for MeshDXF [Station_8_h40]
+2025-08-18 17:51:51,929 - INFO - [Station_8_h40] Meshing started with target h = 40
+2025-08-18 17:51:51,936 - ERROR - [Station_8_h40] Mesh contains no points or triangles
+2025-08-18 17:51:51,937 - INFO - [Station_8_h40] Mesh created successfully
+2025-08-18 17:51:51,939 - DEBUG - [Station_8_h40] Starting section property calculation …
+2025-08-18 17:51:52,736 - DEBUG - [Station_8_h40] Section analysis row returned
+2025-08-18 17:51:52,743 - INFO - [Station_8_h40] Section analysis completed successfully.
+2025-08-18 17:51:52,745 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:52,747 - DEBUG - [Station_8_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:52,762 - INFO - Logger initialized for MeshDXF [Station_8_h10]
+2025-08-18 17:51:52,763 - INFO - [Station_8_h10] Meshing started with target h = 10
+2025-08-18 17:51:52,770 - ERROR - [Station_8_h10] Mesh contains no points or triangles
+2025-08-18 17:51:52,771 - INFO - [Station_8_h10] Mesh created successfully
+2025-08-18 17:51:52,772 - DEBUG - [Station_8_h10] Starting section property calculation …
+2025-08-18 17:51:53,264 - DEBUG - [Station_8_h10] Section analysis row returned
+2025-08-18 17:51:53,266 - INFO - [Station_8_h10] Section analysis completed successfully.
+2025-08-18 17:51:53,268 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:53,269 - DEBUG - [Station_8_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:53,280 - INFO - Logger initialized for MeshDXF [Station_8_h2.5]
+2025-08-18 17:51:53,282 - INFO - [Station_8_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:51:53,289 - ERROR - [Station_8_h2.5] Mesh contains no points or triangles
+2025-08-18 17:51:53,290 - INFO - [Station_8_h2.5] Mesh created successfully
+2025-08-18 17:51:53,291 - DEBUG - [Station_8_h2.5] Starting section property calculation …
+2025-08-18 17:51:53,775 - DEBUG - [Station_8_h2.5] Section analysis row returned
+2025-08-18 17:51:53,779 - INFO - [Station_8_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:53,779 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:53,781 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:54,164 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-08-18 17:51:54,661 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-08-18 17:51:54,662 - INFO - Convergence visualisation completed.
+2025-08-18 17:51:55,054 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_8\mesh_conv_Station_8_batch1_global.png
+2025-08-18 17:51:55,517 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_8\mesh_conv_Station_8_batch1_local.png
+2025-08-18 17:51:55,546 - INFO - — Station Station_10: DXF=Station_10.dxf, twist=2.69°, r/R=0.750 —
+2025-08-18 17:51:55,570 - INFO - Logger initialized for RawGeometry Station_10
+2025-08-18 17:51:55,573 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_10.dxf
+2025-08-18 17:51:55,620 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:55,623 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:55,624 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:55,625 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:55,626 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,628 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,629 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,631 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,632 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,635 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,636 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,637 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,639 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,640 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,641 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,642 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,643 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,645 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,646 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,648 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,649 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,651 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,653 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,654 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,656 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,658 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,660 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,663 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,666 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,668 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,670 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,672 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,674 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,676 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,679 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,681 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,683 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,685 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,687 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,688 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,691 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:55,692 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,694 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,696 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,698 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,699 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,701 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,702 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,704 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,707 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,708 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,710 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,711 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,713 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,715 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,716 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,718 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,719 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,720 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,722 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,724 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,726 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,728 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,730 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,731 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,733 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,734 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,736 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,738 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:55,740 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:55,741 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,743 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:51:55,745 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,747 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,749 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,750 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,753 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,755 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,756 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,758 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,760 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:51:55,762 - INFO - Extraction complete: 77 entities, 4050 total points.
+2025-08-18 17:51:55,824 - INFO - Plotting 77 DXF entities for preview...
+2025-08-18 17:51:55,975 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_10\raw_Station_10.png
+2025-08-18 17:51:56,006 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:51:56,009 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:51:56,010 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:51:56,010 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:51:56,012 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:51:56,101 - INFO - Zipped 208 points
+2025-08-18 17:51:56,116 - DEBUG - [Station_10] chord_len=6.095630e-02, chord_angle=-0.180°
+2025-08-18 17:51:56,118 - INFO - [Station_10] Current twist: -0.18°, Desired: 2.69°, Delta: 2.87° @ axis_ratio=0.333
+2025-08-18 17:51:56,120 - INFO - [Station_10] Twist center: (0.010462, 0.000610)
+2025-08-18 17:51:56,122 - INFO - [Station_10] Section rotated by 2.87° about twist center.
+2025-08-18 17:51:56,133 - INFO - [Station_10] Origin -> 33.0% chord at (0.010279, 0.000602); LE=(-0.009814,-0.000343), TE=(0.051075,0.002520)
+2025-08-18 17:51:56,136 - INFO - [Station_10] Translation applied: dx=-0.010279, dy=-0.000602
+2025-08-18 17:51:56,751 - INFO - Logger initialized for ConvergenceStudy [Station_10]
+2025-08-18 17:51:56,752 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:51:56,755 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:51:56,756 - DEBUG - [Station_10_h40] Copying geometry and initiating meshing …
+2025-08-18 17:51:56,769 - INFO - Logger initialized for MeshDXF [Station_10_h40]
+2025-08-18 17:51:56,771 - INFO - [Station_10_h40] Meshing started with target h = 40
+2025-08-18 17:51:56,778 - ERROR - [Station_10_h40] Mesh contains no points or triangles
+2025-08-18 17:51:56,780 - INFO - [Station_10_h40] Mesh created successfully
+2025-08-18 17:51:56,781 - DEBUG - [Station_10_h40] Starting section property calculation …
+2025-08-18 17:51:57,580 - DEBUG - [Station_10_h40] Section analysis row returned
+2025-08-18 17:51:57,582 - INFO - [Station_10_h40] Section analysis completed successfully.
+2025-08-18 17:51:57,585 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:51:57,587 - DEBUG - [Station_10_h10] Copying geometry and initiating meshing …
+2025-08-18 17:51:57,598 - INFO - Logger initialized for MeshDXF [Station_10_h10]
+2025-08-18 17:51:57,600 - INFO - [Station_10_h10] Meshing started with target h = 10
+2025-08-18 17:51:57,608 - ERROR - [Station_10_h10] Mesh contains no points or triangles
+2025-08-18 17:51:57,610 - INFO - [Station_10_h10] Mesh created successfully
+2025-08-18 17:51:57,611 - DEBUG - [Station_10_h10] Starting section property calculation …
+2025-08-18 17:51:58,131 - DEBUG - [Station_10_h10] Section analysis row returned
+2025-08-18 17:51:58,134 - INFO - [Station_10_h10] Section analysis completed successfully.
+2025-08-18 17:51:58,135 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:51:58,136 - DEBUG - [Station_10_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:51:58,147 - INFO - Logger initialized for MeshDXF [Station_10_h2.5]
+2025-08-18 17:51:58,148 - INFO - [Station_10_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:51:58,155 - ERROR - [Station_10_h2.5] Mesh contains no points or triangles
+2025-08-18 17:51:58,157 - INFO - [Station_10_h2.5] Mesh created successfully
+2025-08-18 17:51:58,158 - DEBUG - [Station_10_h2.5] Starting section property calculation …
+2025-08-18 17:51:58,679 - DEBUG - [Station_10_h2.5] Section analysis row returned
+2025-08-18 17:51:58,682 - INFO - [Station_10_h2.5] Section analysis completed successfully.
+2025-08-18 17:51:58,684 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:51:58,685 - INFO - Generating convergence visualisation …
+2025-08-18 17:51:59,090 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-08-18 17:51:59,549 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-08-18 17:51:59,550 - INFO - Convergence visualisation completed.
+2025-08-18 17:52:00,000 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_10\mesh_conv_Station_10_batch1_global.png
+2025-08-18 17:52:00,452 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_10\mesh_conv_Station_10_batch1_local.png
+2025-08-18 17:52:00,480 - INFO - — Station Station_12: DXF=Station_12.dxf, twist=1.43°, r/R=0.875 —
+2025-08-18 17:52:00,504 - INFO - Logger initialized for RawGeometry Station_12
+2025-08-18 17:52:00,508 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
+2025-08-18 17:52:00,557 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:52:00,559 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:52:00,560 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:52:00,561 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:52:00,562 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,564 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,566 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,569 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,571 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,575 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,577 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,579 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,580 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,581 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,583 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,585 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,587 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,589 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,591 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,593 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,595 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,597 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,599 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,601 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,603 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,605 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,607 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,608 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,610 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,612 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,614 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,616 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,618 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,621 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,622 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,624 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,626 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,628 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,630 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,632 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,634 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,635 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,637 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,639 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,641 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,643 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,645 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,647 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,649 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:00,650 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:00,652 - INFO - Extraction complete: 46 entities, 2600 total points.
+2025-08-18 17:52:00,708 - INFO - Plotting 46 DXF entities for preview...
+2025-08-18 17:52:00,888 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_12\raw_Station_12.png
+2025-08-18 17:52:00,920 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:52:00,922 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:52:00,923 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:52:00,924 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:52:00,926 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:52:00,962 - INFO - Zipped 91 points
+2025-08-18 17:52:00,979 - DEBUG - [Station_12] chord_len=5.193457e-02, chord_angle=-0.377°
+2025-08-18 17:52:00,981 - INFO - [Station_12] Current twist: -0.38°, Desired: 1.43°, Delta: 1.81° @ axis_ratio=0.333
+2025-08-18 17:52:00,982 - INFO - [Station_12] Twist center: (0.008914, 0.000371)
+2025-08-18 17:52:00,985 - INFO - [Station_12] Section rotated by 1.81° about twist center.
+2025-08-18 17:52:00,996 - INFO - [Station_12] Origin -> 33.0% chord at (0.008758, 0.000367); LE=(-0.008375,-0.000061), TE=(0.043543,0.001237)
+2025-08-18 17:52:00,999 - INFO - [Station_12] Translation applied: dx=-0.008758, dy=-0.000367
+2025-08-18 17:52:01,652 - INFO - Logger initialized for ConvergenceStudy [Station_12]
+2025-08-18 17:52:01,653 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:52:01,655 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:52:01,656 - DEBUG - [Station_12_h40] Copying geometry and initiating meshing …
+2025-08-18 17:52:01,669 - INFO - Logger initialized for MeshDXF [Station_12_h40]
+2025-08-18 17:52:01,670 - INFO - [Station_12_h40] Meshing started with target h = 40
+2025-08-18 17:52:01,678 - ERROR - [Station_12_h40] Mesh contains no points or triangles
+2025-08-18 17:52:01,680 - INFO - [Station_12_h40] Mesh created successfully
+2025-08-18 17:52:01,681 - DEBUG - [Station_12_h40] Starting section property calculation …
+2025-08-18 17:52:02,423 - DEBUG - [Station_12_h40] Section analysis row returned
+2025-08-18 17:52:02,427 - INFO - [Station_12_h40] Section analysis completed successfully.
+2025-08-18 17:52:02,430 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:52:02,431 - DEBUG - [Station_12_h10] Copying geometry and initiating meshing …
+2025-08-18 17:52:02,442 - INFO - Logger initialized for MeshDXF [Station_12_h10]
+2025-08-18 17:52:02,444 - INFO - [Station_12_h10] Meshing started with target h = 10
+2025-08-18 17:52:02,451 - ERROR - [Station_12_h10] Mesh contains no points or triangles
+2025-08-18 17:52:02,453 - INFO - [Station_12_h10] Mesh created successfully
+2025-08-18 17:52:02,455 - DEBUG - [Station_12_h10] Starting section property calculation …
+2025-08-18 17:52:02,989 - DEBUG - [Station_12_h10] Section analysis row returned
+2025-08-18 17:52:02,992 - INFO - [Station_12_h10] Section analysis completed successfully.
+2025-08-18 17:52:02,994 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:52:02,996 - DEBUG - [Station_12_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:52:03,007 - INFO - Logger initialized for MeshDXF [Station_12_h2.5]
+2025-08-18 17:52:03,009 - INFO - [Station_12_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:52:03,015 - ERROR - [Station_12_h2.5] Mesh contains no points or triangles
+2025-08-18 17:52:03,017 - INFO - [Station_12_h2.5] Mesh created successfully
+2025-08-18 17:52:03,019 - DEBUG - [Station_12_h2.5] Starting section property calculation …
+2025-08-18 17:52:03,505 - DEBUG - [Station_12_h2.5] Section analysis row returned
+2025-08-18 17:52:03,507 - INFO - [Station_12_h2.5] Section analysis completed successfully.
+2025-08-18 17:52:03,509 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:52:03,510 - INFO - Generating convergence visualisation …
+2025-08-18 17:52:03,895 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-08-18 17:52:04,343 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-08-18 17:52:04,344 - INFO - Convergence visualisation completed.
+2025-08-18 17:52:04,717 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_12\mesh_conv_Station_12_batch1_global.png
+2025-08-18 17:52:05,193 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_12\mesh_conv_Station_12_batch1_local.png
+2025-08-18 17:52:05,222 - INFO - — Station Station_14: DXF=Station_14.dxf, twist=0.32°, r/R=1.000 —
+2025-08-18 17:52:05,245 - INFO - Logger initialized for RawGeometry Station_14
+2025-08-18 17:52:05,247 - INFO - Reading DXF file: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_14.dxf
+2025-08-18 17:52:05,292 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:52:05,295 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:52:05,296 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:52:05,297 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:52:05,298 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,300 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,301 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,303 - DEBUG - Parsed ARC entity with 100 points
+2025-08-18 17:52:05,305 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,306 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,309 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,310 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,312 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,313 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,314 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,316 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,317 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,318 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,320 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,321 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,322 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,324 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,325 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,327 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,329 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,330 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,332 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,333 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,335 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,336 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,339 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,339 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,341 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,343 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,345 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,346 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,357 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,361 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,364 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,366 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,368 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,370 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,371 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,373 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,374 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,376 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,378 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,380 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,382 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,383 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,384 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,386 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,388 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,390 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,392 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,394 - DEBUG - Parsed LINE entity with 50 points
+2025-08-18 17:52:05,396 - INFO - Extraction complete: 52 entities, 2650 total points.
+2025-08-18 17:52:05,456 - INFO - Plotting 52 DXF entities for preview...
+2025-08-18 17:52:05,597 - INFO - Raw preview saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_14\raw_Station_14.png
+2025-08-18 17:52:05,626 - INFO - DXF version upgrade to DXF R2000.
+2025-08-18 17:52:05,629 - INFO - creating ACAD_COLOR dictionary
+2025-08-18 17:52:05,630 - INFO - creating ACAD_PLOTSTYLENAME dictionary
+2025-08-18 17:52:05,631 - INFO - creating ACAD_TABLESTYLE dictionary
+2025-08-18 17:52:05,633 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-18 17:52:05,674 - INFO - Zipped 73 points
+2025-08-18 17:52:05,688 - DEBUG - [Station_14] chord_len=4.307863e-02, chord_angle=0.363°
+2025-08-18 17:52:05,689 - INFO - [Station_14] Current twist: 0.36°, Desired: 0.32°, Delta: -0.05° @ axis_ratio=0.333
+2025-08-18 17:52:05,691 - INFO - [Station_14] Twist center: (0.014349, 0.000087)
+2025-08-18 17:52:05,692 - INFO - [Station_14] Twist offset negligible — no rotation applied.
+2025-08-18 17:52:05,702 - INFO - [Station_14] Origin -> 33.0% chord at (0.014219, 0.000086); LE=(0.000004,-0.000004), TE=(0.043081,0.000269)
+2025-08-18 17:52:05,704 - INFO - [Station_14] Translation applied: dx=-0.014219, dy=-0.000086
+2025-08-18 17:52:06,243 - INFO - Logger initialized for ConvergenceStudy [Station_14]
+2025-08-18 17:52:06,245 - INFO - Starting convergence study over 3 mesh sizes: [40.  10.   2.5]
+2025-08-18 17:52:06,247 - INFO - [1/3] Processing mesh size h = 40
+2025-08-18 17:52:06,248 - DEBUG - [Station_14_h40] Copying geometry and initiating meshing …
+2025-08-18 17:52:06,261 - INFO - Logger initialized for MeshDXF [Station_14_h40]
+2025-08-18 17:52:06,263 - INFO - [Station_14_h40] Meshing started with target h = 40
+2025-08-18 17:52:06,269 - ERROR - [Station_14_h40] Mesh contains no points or triangles
+2025-08-18 17:52:06,270 - INFO - [Station_14_h40] Mesh created successfully
+2025-08-18 17:52:06,272 - DEBUG - [Station_14_h40] Starting section property calculation …
+2025-08-18 17:52:07,076 - DEBUG - [Station_14_h40] Section analysis row returned
+2025-08-18 17:52:07,080 - INFO - [Station_14_h40] Section analysis completed successfully.
+2025-08-18 17:52:07,083 - INFO - [2/3] Processing mesh size h = 10
+2025-08-18 17:52:07,084 - DEBUG - [Station_14_h10] Copying geometry and initiating meshing …
+2025-08-18 17:52:07,095 - INFO - Logger initialized for MeshDXF [Station_14_h10]
+2025-08-18 17:52:07,097 - INFO - [Station_14_h10] Meshing started with target h = 10
+2025-08-18 17:52:07,104 - ERROR - [Station_14_h10] Mesh contains no points or triangles
+2025-08-18 17:52:07,106 - INFO - [Station_14_h10] Mesh created successfully
+2025-08-18 17:52:07,107 - DEBUG - [Station_14_h10] Starting section property calculation …
+2025-08-18 17:52:07,587 - DEBUG - [Station_14_h10] Section analysis row returned
+2025-08-18 17:52:07,589 - INFO - [Station_14_h10] Section analysis completed successfully.
+2025-08-18 17:52:07,590 - INFO - [3/3] Processing mesh size h = 2.5
+2025-08-18 17:52:07,592 - DEBUG - [Station_14_h2.5] Copying geometry and initiating meshing …
+2025-08-18 17:52:07,603 - INFO - Logger initialized for MeshDXF [Station_14_h2.5]
+2025-08-18 17:52:07,605 - INFO - [Station_14_h2.5] Meshing started with target h = 2.5
+2025-08-18 17:52:07,612 - ERROR - [Station_14_h2.5] Mesh contains no points or triangles
+2025-08-18 17:52:07,613 - INFO - [Station_14_h2.5] Mesh created successfully
+2025-08-18 17:52:07,614 - DEBUG - [Station_14_h2.5] Starting section property calculation …
+2025-08-18 17:52:08,095 - DEBUG - [Station_14_h2.5] Section analysis row returned
+2025-08-18 17:52:08,098 - INFO - [Station_14_h2.5] Section analysis completed successfully.
+2025-08-18 17:52:08,099 - INFO - Convergence study completed: 3 successful, 3 attempted
+2025-08-18 17:52:08,101 - INFO - Generating convergence visualisation …
+2025-08-18 17:52:08,490 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-08-18 17:52:08,993 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-08-18 17:52:08,994 - INFO - Convergence visualisation completed.
+2025-08-18 17:52:09,391 - INFO - Global batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_14\mesh_conv_Station_14_batch1_global.png
+2025-08-18 17:52:09,813 - INFO - Local batch 1 saved -> \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37\Station_14\mesh_conv_Station_14_batch1_local.png
+2025-08-18 17:52:09,845 - INFO - ✅ SECTION ANALYSIS pipeline complete — results saved in: \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\results\analysis\2025-08-18_17-51-37

@@ -4,6 +4,7 @@ import logging
 from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
+from typing import Literal  # <-- NEW
 
 # Geometry utilities
 from n_sections.geometry_utils.raw_geometry import RawGeometry
@@ -35,6 +36,14 @@ class ProcessSectionAnalysis:
         hs: np.ndarray,
         results_dir: Path,
         logs_dir: Path,
+        *,
+        # NEW: origin placement settings to match ProcessedGeometry
+        origin_mode: Literal["cop", "centroid"] = "cop",
+        cop_fraction: float = 0.25,
+        # Optional: pass-through knobs for processed geometry import (kept same defaults)
+        spline_delta: float = 0.05,
+        degrees_per_segment: float = 0.5,
+        exterior_nodes: int = 400,
     ):
         self.dxf = dxf
         self.label = label
@@ -45,6 +54,13 @@ class ProcessSectionAnalysis:
         self.Cy = Cy
         self.material = material
         self.hs = hs
+
+        # NEW
+        self.origin_mode = origin_mode
+        self.cop_fraction = cop_fraction
+        self.spline_delta = spline_delta
+        self.degrees_per_segment = degrees_per_segment
+        self.exterior_nodes = exterior_nodes
 
         self.section_dir = results_dir / label
         self.section_log_dir = logs_dir / label
@@ -69,9 +85,15 @@ class ProcessSectionAnalysis:
         self.logger.info("Logging initialized for ProcessSectionAnalysis")
 
     def run(self) -> SectionAnalysisResultSet:
+        # Updated summary line to reflect origin choice
+        if self.origin_mode == "cop":
+            origin_desc = f"origin: CP-proxy @ {100.0*self.cop_fraction:.1f}% chord"
+        else:
+            origin_desc = f"origin: centroid→({self.Cx:.2f}, {self.Cy:.2f})"
+
         self.logger.info(
-            "Station %s [Analysis]: DXF=%s, twist=%.1f°, centroid=(%.2f, %.2f)",
-            self.label, self.dxf, self.B_r, self.Cx, self.Cy
+            "Station %s [Analysis]: DXF=%s, twist=%.1f°, %s",
+            self.label, self.dxf, self.B_r, origin_desc
         )
 
         self.logger.info("Starting raw geometry processing …")
@@ -107,9 +129,9 @@ class ProcessSectionAnalysis:
                 filepath=self.dxf,
                 label=self.label,
                 logs_dir=self.section_log_dir,
-                spline_delta=0.05,
-                degrees_per_segment=0.5,
-                exterior_nodes=400,
+                spline_delta=self.spline_delta,
+                degrees_per_segment=self.degrees_per_segment,
+                exterior_nodes=self.exterior_nodes,
             )
             self.logger.info("ProcessedGeometry successfully instantiated.")
         except Exception as e:
@@ -117,17 +139,48 @@ class ProcessSectionAnalysis:
             raise
 
         try:
-            self.logger.info("Extracting and aligning geometry with twist=%.1f°, cx=%.2f, cy=%.2f", self.B_r, self.Cx, self.Cy)
-            geom_aligned = proc.extract_and_transform(twist_deg=self.B_r, cx=self.Cx, cy=self.Cy)
+            self.logger.info(
+                "Extracting + aligning: twist=%.1f°, origin_mode=%s, cop_fraction=%.3f, cx=%.2f, cy=%.2f",
+                self.B_r, self.origin_mode, self.cop_fraction, self.Cx, self.Cy
+            )
+            geom_aligned = proc.extract_and_transform(
+                twist_deg=self.B_r,
+                origin_mode=self.origin_mode,
+                cop_fraction=self.cop_fraction,
+                cx=self.Cx, cy=self.Cy,
+                material=self.material,
+            )
+
+            # NEW: robust fallback + clear error if needed
+            if geom_aligned is None:
+                self.logger.warning("extract_and_transform returned None; using proc.geometry attribute.")
+                geom_aligned = getattr(proc, "geometry", None)
+
+            if geom_aligned is None:
+                raise RuntimeError("Processed geometry is None after extraction/transform.")
+
             self.logger.info("Geometry aligned and transformed successfully.")
         except Exception as e:
             self.logger.error("Failed to extract and transform processed geometry: %s", str(e), exc_info=True)
             raise
 
+
         try:
             self.logger.info("Generating processed geometry visualisation with trailing edge zoom …")
-            fig, _ = ProcessedGeometryVisualisation(geometry=geom_aligned, label=self.label).plot_te_zoom(
-                te_span_pct=8, figsize=(7, 6), outline_lw=1.0, cp_size=10, legend_loc="upper right"
+            fig, _ = ProcessedGeometryVisualisation(
+                geometry=geom_aligned,
+                label=self.label,
+                cop_fraction=self.cop_fraction,   # ← show CoP at your chosen chord fraction
+                show_centroid=True,
+                show_cop=True,
+                show_chord=True,
+                show_zoom_box=True,
+            ).plot_te_zoom(
+                te_span_pct=8,
+                figsize=(7, 6),
+                outline_lw=1.0,
+                cp_size=10,
+                legend_loc="upper right",
             )
             preview_path = self.section_dir / f"processed_{self.label}.png"
             fig.savefig(preview_path, dpi=300)

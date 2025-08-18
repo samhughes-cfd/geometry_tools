@@ -1,0 +1,2 @@
+2025-08-18 17:52:00,996 | INFO     | CopOffset.Station_12 | [Station_12] Origin -> 33.0% chord at (0.008758, 0.000367); LE=(-0.008375,-0.000061), TE=(0.043543,0.001237)
+2025-08-18 17:52:00,999 | INFO     | CopOffset.Station_12 | [Station_12] Translation applied: dx=-0.008758, dy=-0.000367

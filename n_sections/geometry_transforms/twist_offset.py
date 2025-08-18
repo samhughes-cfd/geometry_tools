@@ -1,121 +1,142 @@
-# section_calc_n\geometry_transforms\twist_offset.py
+# section_calc_n/geometry_transforms/twist_offset.py
 
 import numpy as np
 import logging
-from sectionproperties.pre.geometry import Geometry
 from pathlib import Path
+from typing import Tuple
 from shapely.geometry import Polygon, MultiPolygon
+from sectionproperties.pre.geometry import Geometry, CompoundGeometry  # <-- add CompoundGeometry
 
 class TwistOffset:
     """Apply twist alignment to a section based on blade twist and a defined twist axis."""
 
     def __init__(
         self,
-        geometry: Geometry,
+        geometry: Geometry | CompoundGeometry,
         desired_twist_deg: float,
         label: str = "Unnamed",
         logs_dir: Path | None = None,
-        twist_axis_ratio: float = 1 / 3 # 0.0 = leading edge, 1.0 = trailing edge
+        twist_axis_ratio: float = 1 / 3  # 0.0 = leading edge, 1.0 = trailing edge
     ):
         self.geometry = geometry
         self.desired_twist_deg = desired_twist_deg
         self.label = label
         self.logs_dir = logs_dir
         self.twist_axis_ratio = twist_axis_ratio
-
         self._init_logging()
 
     def _init_logging(self):
         self.logger = logging.getLogger(f"TwistOffset.{self.label}")
         self.logger.setLevel(logging.DEBUG)
-
         if self.logs_dir:
             self.logs_dir.mkdir(parents=True, exist_ok=True)
-            log_path = self.logs_dir / f"TwistOffset.log"
-
-            if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path) for h in self.logger.handlers):
+            log_path = self.logs_dir / "TwistOffset.log"
+            if not any(isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path)
+                       for h in self.logger.handlers):
                 fh = logging.FileHandler(log_path, mode='w', encoding='utf-8')
                 formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(name)s | %(message)s')
                 fh.setFormatter(formatter)
                 self.logger.addHandler(fh)
-
-        # Optional: also add console logging
         if not any(isinstance(h, logging.StreamHandler) for h in self.logger.handlers):
             sh = logging.StreamHandler()
             formatter = logging.Formatter('%(asctime)s | %(levelname)-8s | %(name)s | %(message)s')
             sh.setFormatter(formatter)
-            self.logger
+            self.logger.addHandler(sh)
 
-    def _get_exterior_coords(self) -> np.ndarray:
-        """Extract the exterior coordinates of the geometry (largest polygon if MultiPolygon)."""
-        geom = self.geometry.geom
+    # --- NEW: robust outer polygon getter (handles CompoundGeometry, MultiPolygon, Polygon)
+    def _largest_outer_polygon(self) -> Polygon:
+        g = getattr(self.geometry, "geom", None)
+        if isinstance(g, Polygon):
+            return g
+        if isinstance(g, MultiPolygon):
+            return max(g.geoms, key=lambda p: p.area)
+        # CompoundGeometry path: collect outer polygons from sub-geometries
+        if hasattr(self.geometry, "geoms"):  # sectionproperties.CompoundGeometry
+            polys = []
+            for sub in self.geometry.geoms:
+                s = sub.geom
+                if isinstance(s, Polygon):
+                    polys.append(s)
+                elif isinstance(s, MultiPolygon):
+                    polys.extend(list(s.geoms))
+            if not polys:
+                raise TypeError(f"[{self.label}] No polygonal geometry available for twist computation.")
+            return max(polys, key=lambda p: p.area)
+        raise TypeError(f"[{self.label}] Unsupported geometry type for twist: {type(self.geometry)}")
 
-        if isinstance(geom, MultiPolygon):
-            largest = max(geom.geoms, key=lambda g: g.area)
-            return np.asarray(largest.exterior.coords)
-        elif isinstance(geom, Polygon):
-            return np.asarray(geom.exterior.coords)
-        else:
-            raise TypeError(f"Unsupported geometry type: {type(geom)}")
+    def _chord_endpoints(self) -> Tuple[np.ndarray, np.ndarray]:
+        outer = self._largest_outer_polygon()
+        coords = np.asarray(outer.exterior.coords)
+        i_le = np.argmin(coords[:, 0])
+        i_te = np.argmax(coords[:, 0])
+        if i_le == i_te:
+            raise ValueError(f"[{self.label}] Degenerate chord: LE and TE coincide.")
+        LE = coords[i_le]
+        TE = coords[i_te]
+        return LE, TE
 
     def compute_blade_twist(self) -> float:
         """
-        Compute the blade twist angle in degrees:
-        Angle between the rotor plane (horizontal axis) and the chord line.
-        Positive if the trailing edge is above the leading edge.
+        Compute chord angle (deg) between LE→TE and +x axis.
+        Positive if TE is above LE (right-hand system).
         """
         try:
-            coords = self._get_exterior_coords()
-            x_min_idx = np.argmin(coords[:, 0])
-            x_max_idx = np.argmax(coords[:, 0])
-
-            if x_min_idx == x_max_idx:
-                raise ValueError(f"[{self.label}] Chord points degenerate — cannot compute twist.")
-
-            dx = coords[x_max_idx, 0] - coords[x_min_idx, 0]
-            dy = coords[x_max_idx, 1] - coords[x_min_idx, 1]
+            LE, TE = self._chord_endpoints()
+            dx = float(TE[0] - LE[0])
+            dy = float(TE[1] - LE[1])
+            chord_len = np.hypot(dx, dy)
+            if chord_len < 1e-9:
+                raise ValueError(f"[{self.label}] Chord length ~ 0; cannot compute twist.")
             chord_angle = np.degrees(np.arctan2(dy, dx))
-
-            # Blade twist is negative of chord angle from LE to TE
-            blade_twist = -chord_angle
-            return blade_twist
-
-        except Exception as e:
+            self.logger.debug(f"[{self.label}] chord_len={chord_len:.6e}, chord_angle={chord_angle:.3f}°")
+            return chord_angle
+        except Exception:
             self.logger.exception(f"[{self.label}] Failed to compute blade twist.")
             raise
 
-    def compute_chord_length(self) -> float:
-        """Compute length of the chord from leading to trailing edge."""
+    def compute_twist_center(self) -> tuple[float, float]:
+        """Compute the twist center at `twist_axis_ratio` of chord from LE (e.g., 0.333 ≈ 33% chord)."""
         try:
-            coords = self._get_exterior_coords()
-            x_le = np.min(coords[:, 0])
-            x_te = np.max(coords[:, 0])
-            return x_te - x_le
-        except Exception as e:
-            self.logger.exception(f"[{self.label}] Failed to compute chord length.")
+            LE, TE = self._chord_endpoints()
+            chord_vec = TE - LE
+            center = LE + self.twist_axis_ratio * chord_vec
+            return (float(center[0]), float(center[1]))
+        except Exception:
+            self.logger.exception(f"[{self.label}] Failed to compute twist center.")
             raise
 
-    def apply(self) -> Geometry:
-        """Rotate the geometry to align with the desired blade twist about the origin."""
+    def apply(self) -> Geometry | CompoundGeometry:
+        """
+        Rotate the geometry to align with the desired chord angle
+        about the twist center (ratio along LE→TE).
+        """
         try:
             current_twist = self.compute_blade_twist()
+            twist_center = self.compute_twist_center()
             delta_twist = self.desired_twist_deg - current_twist
 
-            self.logger.info(f"[{self.label}] Current blade twist: {current_twist:.2f}°, "
-                             f"Desired: {self.desired_twist_deg:.2f}°, "
-                             f"Delta: {delta_twist:.2f}°")
+            self.logger.info(
+                f"[{self.label}] Current twist: {current_twist:.2f}°, "
+                f"Desired: {self.desired_twist_deg:.2f}°, "
+                f"Delta: {delta_twist:.2f}° @ axis_ratio={self.twist_axis_ratio:.3f}"
+            )
+            self.logger.info(
+                f"[{self.label}] Twist center: ({twist_center[0]:.6f}, {twist_center[1]:.6f})"
+            )
 
             if abs(delta_twist) < 0.1:
                 self.logger.info(f"[{self.label}] Twist offset negligible — no rotation applied.")
                 return self.geometry
 
-            rotated = self.geometry.rotate_section(angle=delta_twist)
-
-            self.logger.info(f"[{self.label}] Section rotated by {delta_twist:.2f}° "
-                             f"(about origin, twist axis ratio was {self.twist_axis_ratio:.2%}).")
-
+            rotated = self.geometry.rotate_section(
+                angle=delta_twist,
+                rot_point=twist_center
+            )
+            self.logger.info(
+                f"[{self.label}] Section rotated by {delta_twist:.2f}° about twist center."
+            )
             return rotated
 
-        except Exception as e:
+        except Exception:
             self.logger.exception(f"[{self.label}] Twist offset application failed.")
             raise

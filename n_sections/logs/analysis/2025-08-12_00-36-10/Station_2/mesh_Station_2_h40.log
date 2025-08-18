@@ -1,3 +1,0 @@
-2025-08-12 00:36:13,303 - INFO - Logger initialized for MeshDXF [Station_2_h40]
-2025-08-12 00:36:13,303 - INFO - [Station_2_h40] Meshing started with target h = 40
-2025-08-12 00:36:13,373 - ERROR - [Station_2_h40] Mesh contains no points or triangles
