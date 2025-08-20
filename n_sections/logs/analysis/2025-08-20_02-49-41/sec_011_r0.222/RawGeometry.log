@@ -1,0 +1,4 @@
+2025-08-20 02:50:32,229 | INFO     | RawGeometry.sec_011_r0.222 | Logger initialized for RawGeometry sec_011_r0.222
+2025-08-20 02:50:32,231 | INFO     | RawGeometry.sec_011_r0.222 | Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_011_r0.222.dxf
+2025-08-20 02:50:32,260 | DEBUG    | RawGeometry.sec_011_r0.222 | Parsed LWPOLYLINE entity with 6481 points
+2025-08-20 02:50:32,260 | INFO     | RawGeometry.sec_011_r0.222 | Extraction complete: 1 entities, 6481 total points.

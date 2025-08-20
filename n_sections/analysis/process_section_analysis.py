@@ -139,19 +139,27 @@ class ProcessSectionAnalysis:
             raise
 
         try:
+            # Using the new toggles from ProcessedGeometry:
+            # - apply_twist=False  → keep your DXF orientation as-is
+            # - apply_origin=False → do not re-place the origin
+            # - resample_exterior=True keeps your cosine exterior densification
             self.logger.info(
-                "Extracting + aligning: twist=%.1f°, origin_mode=%s, cop_fraction=%.3f, cx=%.2f, cy=%.2f",
-                self.B_r, self.origin_mode, self.cop_fraction, self.Cx, self.Cy
+                "Extracting (pass-through orientation & origin): twist=%.1f°, origin_mode=%s, "
+                "cop_fraction=%.3f, cx=%.2f, cy=%.2f, resample_exterior=%s",
+                self.B_r, self.origin_mode, self.cop_fraction, self.Cx, self.Cy, True
             )
             geom_aligned = proc.extract_and_transform(
                 twist_deg=self.B_r,
+                apply_twist=False,
+                apply_origin=False,
                 origin_mode=self.origin_mode,
                 cop_fraction=self.cop_fraction,
-                cx=self.Cx, cy=self.Cy,
+                cx=self.Cx,
+                cy=self.Cy,
                 material=self.material,
+                resample_exterior=True,
             )
 
-            # NEW: robust fallback + clear error if needed
             if geom_aligned is None:
                 self.logger.warning("extract_and_transform returned None; using proc.geometry attribute.")
                 geom_aligned = getattr(proc, "geometry", None)
@@ -159,21 +167,20 @@ class ProcessSectionAnalysis:
             if geom_aligned is None:
                 raise RuntimeError("Processed geometry is None after extraction/transform.")
 
-            self.logger.info("Geometry aligned and transformed successfully.")
+            self.logger.info("Geometry extracted (no twist/origin applied).")
         except Exception as e:
             self.logger.error("Failed to extract and transform processed geometry: %s", str(e), exc_info=True)
             raise
-
 
         try:
             self.logger.info("Generating processed geometry visualisation with trailing edge zoom …")
             fig, _ = ProcessedGeometryVisualisation(
                 geometry=geom_aligned,
                 label=self.label,
-                cop_fraction=self.cop_fraction,   # ← show CoP at your chosen chord fraction
+                cop_fraction=self.cop_fraction,   # purely for visual reference
                 show_centroid=True,
                 show_cop=True,
-                show_chord=True,
+                show_chord=False,
                 show_zoom_box=True,
             ).plot_te_zoom(
                 te_span_pct=8,
@@ -191,6 +198,7 @@ class ProcessSectionAnalysis:
             raise
 
         return geom_aligned
+
 
     def _grid_convergence_section_analysis(self, geom_aligned) -> SectionAnalysisResultSet:
         self.logger.info("Starting section convergence study using %d mesh sizes: %s", len(self.hs), self.hs)

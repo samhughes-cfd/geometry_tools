@@ -25,27 +25,33 @@ if PROJECT_ROOT is None:
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-# Containers + assembler + sampling
+# ───── Project imports ─────
 from n_slicer.containers.units import SectionUnits, length_scale
+from n_slicer.containers.geometry import BladeGeometryBin
 from n_slicer.containers.sampling import DiscretisationSpec, FittingSpec
 from n_slicer.parsers.distribution_parsers import DistributionParser
 from n_slicer.sampling.discretise import make_rR_grid
 from n_slicer.sampling.fitters import sample_distribution_df
 from n_slicer.assembly.sections import build_section_bin_from_dataframe
+from n_slicer.viz.blade_viz import BladeVisualizer
 
-# ---- user inputs -------------------------------------------------------------
+
+# =============================================================================
+# User inputs / configuration
+# =============================================================================
 AIRFOIL_CSV      = "n_slicer/blade_input/NACA_63-415.csv"
 DISTRIBUTION_CSV = "n_slicer/blade_input/chord_and_twist_profile.csv"
 
 BASE_OUTDIR      = Path("n_slicer/blade_output")   # timestamped run folders will be created here
-LABEL            = "N"                              # optional free-form tag
+LABEL            = "N"                             # optional free-form tag
 BLADE_NAME       = "Blade01"
-BLADE_LENGTH     = 0.7
+BLADE_LENGTH     = 0.7  # z/L ∈ [0,1] maps to [0, L]
+ROTOR_RADIUS     = 0.8  # r/R ∈ [0,1] maps to [0, R]
 COP_FRACTION     = 0.33
 
 UNITS = SectionUnits(
-    rR="-", xL="-",
-    c="m", L="m",
+    rR="-", zL="-",
+    c="m", L="m", R="m",
     XY="mm",
     beta_deg="deg",
 )
@@ -59,20 +65,36 @@ KEEP_PIVOT = False
 UNITS_SCALE = length_scale(UNITS.c, UNITS.XY)
 
 # ---- sampling/discretisation controls ---------------------------------------
-N_SECTIONS = 40
+N_SECTIONS = 10
 SCHEME     = "power_root"        # 'uniform' | 'cosine' | 'power_root' | 'power_tip'
-POWER_EXP  = 2.5
-CUSTOM_MAPPING = None            # def CUSTOM_MAPPING(u: np.ndarray) -> np.ndarray: ...
+POWER_EXP  = 2.2
+CUSTOM_MAPPING = None         # def CUSTOM_MAPPING(u: np.ndarray) -> np.ndarray: ...
 
 # ---- fit controls ------------------------------------------------------------
-CHORD_FIT = "pchip"              # 'pchip' | 'akima' | 'spline' | 'linear'
+CHORD_FIT = "pchip"           # 'pchip' | 'akima' | 'spline' | 'linear'
 TWIST_FIT = "pchip"
 SPLINE_S  = None
 
+# ---- output controls ---------------------------------------------------------
+WRITE_DXFS = True
+FILENAME_TEMPLATE = lambda i, rR, name: f"{(name or f'sec_{i:03d}')}_r{rR:.3f}.dxf"
 
-# ---------------------------- helpers for run name ----------------------------
+# ---- materials.csv defaults --------------------------------------------------
+# All rows use the same properties; only the filename changes.
+MATERIAL_DEFAULTS = {
+    "material_name": "Al_7075_T6",
+    "elastic_modulus": 71700000000,   # Pa
+    "poissons_ratio": 0.33,
+    "yield_strength": 503000000,      # Pa
+    "density": 2810000000,            # kg/m^3
+    "color": "lightskyblue",
+}
+
+
+# =============================================================================
+# Helpers
+# =============================================================================
 def _slug(s: str) -> str:
-    """Safe, compact token for folder names."""
     return (
         s.strip()
          .replace(" ", "")
@@ -85,7 +107,6 @@ def _slug(s: str) -> str:
     )
 
 def _fmt_num(v: float, dp: int = 2) -> str:
-    """Compact numeric token: 0.70 -> '0p70', 2.5 -> '2p5' (no trailing zeros)."""
     txt = f"{v:.{dp}f}".rstrip("0").rstrip(".")
     return txt.replace(".", "p")
 
@@ -110,13 +131,13 @@ def build_run_name(
     L_unit: str,
     cp_frac: float,
     airfoil_csv: str,
-    tz: str = "Europe/London",
+    tz: str = "GMT",
 ) -> tuple[str, Path, Path, str]:
     """
-    Returns (run_name, RUN_ROOT, SECTIONS_DIR, timestamp) using timestamp + meta tokens:
+    Returns (run_name, RUN_ROOT, SECTIONS_DIR, timestamp):
       <Blade>_<label?>_<Airfoil>_n<N>_<schemeAbbr>_L<X><unit>_cp<Y>pc_<timestamp>
     """
-    airfoil_tag = _slug(Path(airfoil_csv).stem)  # e.g. 'NACA_63-415'
+    airfoil_tag = _slug(Path(airfoil_csv).stem)
     sch = _abbr_scheme(scheme, power, mapping_name)
     L_tok = f"L{_fmt_num(L, 3)}{_slug(L_unit)}"
     cp_tok = f"cp{_fmt_num(cp_frac*100, 0)}pc"
@@ -129,14 +150,175 @@ def build_run_name(
 
     ts = datetime.now(ZoneInfo(tz)).strftime("%Y%m%d-%H%M%S")
     parts = [blade_name, label_clean, airfoil_tag, n_tok, sch, L_tok, cp_tok, ts]
-    parts = [p for p in parts if p]  # drop empties
+    parts = [p for p in parts if p]
 
     run_name = "_".join(parts)
     RUN_ROOT = BASE_OUTDIR / run_name
     SECTIONS_DIR = RUN_ROOT / "sections"
     return run_name, RUN_ROOT, SECTIONS_DIR, ts
-# -----------------------------------------------------------------------------
 
+
+def _write_manifest_csv(RUN_ROOT: Path, bin_, manifest_cols: list[str]) -> Path:
+    rows = []
+    for r in bin_.rows:
+        gp = (r.scaled.geom if r.scaled and r.scaled.geom else None)
+        fp = (r.scaled.from_norm if r.scaled and r.scaled.from_norm else None)
+        rows.append({
+            "station_idx": r.station_idx,
+            "name": r.name,
+            "rR": r.rR,
+            "zL": r.zL,
+            "c": r.c,
+            "beta_deg": r.beta_deg,
+            "dxf_path": r.dxf_path,
+            "x_cp": (gp.x_cp if gp and gp.x_cp is not None else (fp.x_cp if fp else None)),
+            "y_cp": (gp.y_cp if gp and gp.y_cp is not None else (fp.y_cp if fp else None)),
+            "P":   (gp.P if gp else (fp.P if fp else None)),
+            "A":   (gp.A if gp else (fp.A if fp else None)),
+            "xmin": (gp.xmin if gp else None),
+            "xmax": (gp.xmax if gp else None),
+            "ymin": (gp.ymin if gp else None),
+            "ymax": (gp.ymax if gp else None),
+            "n_vertices": (gp.n_vertices if gp else r.norm.n_vertices if r.norm else None),
+        })
+    manifest_path = RUN_ROOT / "manifest.csv"
+    pd.DataFrame(rows)[manifest_cols].to_csv(manifest_path, index=False)
+    return manifest_path
+
+
+def _write_blade_csv(RUN_ROOT: Path, bin_, zL_grid: np.ndarray, units: SectionUnits,
+                     blade_length: float) -> Path:
+    XY_to_mm = length_scale(units.XY, "mm")   # e.g. mm->mm = 1, m->mm = 1000
+    L_to_mm  = length_scale(units.L,  "mm")   # convert z from L-units to mm
+
+    blade_rows = []
+    for r, zL in zip(bin_.rows, zL_grid):
+        gp = (r.scaled.geom if r.scaled and r.scaled.geom else None)
+        fp = (r.scaled.from_norm if r.scaled and r.scaled.from_norm else None)
+
+        # prefer exact centroid if available, else analytic-from-normalised
+        cx = gp.cx if (gp and gp.cx is not None) else (fp.cx if fp else None)
+        cy = gp.cy if (gp and gp.cy is not None) else (fp.cy if fp else None)
+
+        cx_mm = float(cx) * XY_to_mm if cx is not None else None
+        cy_mm = float(cy) * XY_to_mm if cy is not None else None
+        cz_mm = float(zL) * float(blade_length) * L_to_mm
+
+        blade_rows.append({
+            "r/R [-]": r.rR,
+            "Cx [mm]": cx_mm,
+            "Cy [mm]": cy_mm,
+            "Cz [mm]": cz_mm,
+            "B [deg]": r.beta_deg,
+            "filename": os.path.basename(r.dxf_path) if r.dxf_path else "",
+        })
+
+    blade_csv_path = RUN_ROOT / "blade_stations.csv"
+    pd.DataFrame(blade_rows).to_csv(blade_csv_path, index=False)
+    return blade_csv_path
+
+
+def _write_materials_csv(RUN_ROOT: Path, bin_, material_defaults: dict) -> Path:
+    """
+    Writes materials.csv with one row per section DXF.
+    Columns: filename, material_name, elastic_modulus, poissons_ratio,
+             yield_strength, density, color
+    """
+    rows = []
+    for r in bin_.rows:
+        # Use actual DXF filename emitted for this section (basename only).
+        # If missing (e.g., WRITE_DXFS=False), reconstruct from the same template.
+        if r.dxf_path:
+            fname = os.path.basename(r.dxf_path)
+        else:
+            fname = FILENAME_TEMPLATE(r.station_idx, r.rR, r.name)
+
+        row = {"filename": fname}
+        row.update(material_defaults)
+        rows.append(row)
+
+    cols = [
+        "filename",
+        "material_name",
+        "elastic_modulus",
+        "poissons_ratio",
+        "yield_strength",
+        "density",
+        "color",
+    ]
+    materials_csv_path = RUN_ROOT / "materials.csv"
+    pd.DataFrame(rows, columns=cols).to_csv(materials_csv_path, index=False)
+    return materials_csv_path
+
+
+def _make_plots(RUN_ROOT: Path, bin_) -> dict[str, str]:
+    PLOTS_DIR = RUN_ROOT / "plots"
+    PLOTS_DIR.mkdir(parents=True, exist_ok=True)
+    viz = BladeVisualizer(bin_, str(PLOTS_DIR))
+    stack_path = viz.plot_stack_3d()
+    chord_path = viz.plot_chord_vs_z()
+    beta_path  = viz.plot_beta_vs_z()
+    return {
+        "stack_3d": str(stack_path),
+        "chord_vs_z": str(chord_path),
+        "beta_vs_z": str(beta_path),
+    }
+
+
+def _write_run_meta(
+    RUN_ROOT: Path,
+    run_name: str,
+    ts: str,
+    blade_name: str,
+    label: str,
+    units: SectionUnits,
+    geom: BladeGeometryBin,
+    sampling_spec: DiscretisationSpec,
+    fitting_spec: FittingSpec,
+    bin_,
+    manifest_path: Path,
+    blade_csv_path: Path,
+    plots: dict[str, str],
+    sections_dir: Path,
+) -> None:
+    run_meta = {
+        "run_name": run_name,
+        "timestamp": ts,
+        "blade_name": blade_name,
+        "label": label,
+        "units": {
+            "rR": units.rR, "zL": units.zL, "c": units.c, "L": units.L, "R": units.R, "XY": units.XY, "beta_deg": units.beta_deg,
+        },
+        "geometry": {
+            "R": geom.R,
+            "L": geom.L,
+            "R_hub": geom.R_hub,
+            "rR_locii": geom.rR_locii,
+            "zL_locii": geom.zL_locii,
+        },
+        "transform": {
+            "pivot_chord_frac": PIVOT_CHORD_FRAC,
+            "twist_sign": TWIST_SIGN,
+            "keep_pivot_in_place": KEEP_PIVOT,
+            "units_scale": UNITS_SCALE,
+        },
+        "sampling": sampling_spec.to_dict(),
+        "fitting": fitting_spec.to_dict(),
+        "summary": bin_.summary(),
+        "outputs": {
+            "manifest_csv": str(manifest_path),
+            "blade_sections_csv": str(blade_csv_path),
+            "plots": plots,
+            "sections_dir": str(sections_dir),
+        },
+    }
+    with open(RUN_ROOT / "run.json", "w", encoding="utf-8") as f:
+        json.dump(run_meta, f, indent=2)
+
+
+# =============================================================================
+# Main
+# =============================================================================
 def main() -> None:
     # 1) Read the original (source) distribution — robust to '#' headers
     df_src = DistributionParser(DISTRIBUTION_CSV, assume_no_header=False).parse_dataframe()
@@ -153,6 +335,10 @@ def main() -> None:
         scheme_used = "custom"
         mapping_name = CUSTOM_MAPPING.__name__
         power_used = None
+
+    # 2a) Geometry container: convert r/R → z/L via R_hub = R - L
+    geom = BladeGeometryBin(R=float(ROTOR_RADIUS), L=float(BLADE_LENGTH))
+    zL_grid = np.clip(geom.zL_from_rR(rR_grid), 0.0, 1.0)
 
     # 2b) Build a self-describing run folder name and create dirs
     run_name, RUN_ROOT, SECTIONS_DIR, ts = build_run_name(
@@ -211,20 +397,23 @@ def main() -> None:
         df=df_used,
         label=LABEL,
         blade_name=BLADE_NAME,
-        L=BLADE_LENGTH,
+        L=geom.L,
+        R=geom.R,
         units=UNITS,
         pivot_chord_frac=PIVOT_CHORD_FRAC,
-        twist_sign=TWIST_SIGN,
+        twist_sign=TWIST_FIT and TWIST_SIGN,  # truthy fitter name -> TWIST_SIGN
         keep_pivot_in_place=KEEP_PIVOT,
         units_scale=UNITS_SCALE,
         cp_default_frac=COP_FRACTION,
-        write_dxfs=True,
+        write_dxfs=WRITE_DXFS,
         outdir=str(SECTIONS_DIR),  # DXFs → timestamped + meta-labelled folder
-        filename=lambda i, rR, name: f"{(name or f'sec_{i:03d}')}_r{rR:.3f}.dxf",
+        filename=FILENAME_TEMPLATE,
         # provenance:
         df_source=df_src,
         sampling_spec=sampling_spec,
         fitting_spec=fitting_spec,
+        # spanwise blade-axis positions aligned to rR_grid:
+        zL_grid=zL_grid,
     )
 
     # ---- text summary
@@ -232,62 +421,38 @@ def main() -> None:
     for k, v in bin_.summary().items():
         print(f"  {k}: {v}")
 
-    # ---- persist provenance + manifest at run root ---------------------------
-    # Save distributions and grid used
-    df_src.to_csv(RUN_ROOT / "source_distribution.csv", index=False)
-    df_used.to_csv(RUN_ROOT / "used_distribution.csv", index=False)
-    pd.DataFrame({"r_over_R": rR_grid}).to_csv(RUN_ROOT / "rR_grid.csv", index=False)
+    # ---- manifest (metadata + a few key scaled properties)
+    manifest_cols = [
+        "station_idx", "name", "rR", "zL", "c", "beta_deg", "dxf_path",
+        "x_cp", "y_cp", "P", "A", "xmin", "xmax", "ymin", "ymax", "n_vertices",
+    ]
+    manifest_path = _write_manifest_csv(RUN_ROOT, bin_, manifest_cols)
 
-    # Manifest (metadata + a few key scaled properties)
-    rows = []
-    for r in bin_.rows:
-        gp = (r.scaled.geom if r.scaled and r.scaled.geom else None)
-        fp = (r.scaled.from_norm if r.scaled and r.scaled.from_norm else None)
-        rows.append({
-            "station_idx": r.station_idx,
-            "name": r.name,
-            "rR": r.rR,
-            "c": r.c,
-            "beta_deg": r.beta_deg,
-            "dxf_path": r.dxf_path,
-            "x_cp": (gp.x_cp if gp and gp.x_cp is not None else (fp.x_cp if fp else None)),
-            "y_cp": (gp.y_cp if gp and gp.y_cp is not None else (fp.y_cp if fp else None)),
-            "P":   (gp.P if gp else (fp.P if fp else None)),
-            "A":   (gp.A if gp else (fp.A if fp else None)),
-            "xmin": (gp.xmin if gp else None),
-            "xmax": (gp.xmax if gp else None),
-            "ymin": (gp.ymin if gp else None),
-            "ymax": (gp.ymax if gp else None),
-            "n_vertices": (gp.n_vertices if gp else r.norm.n_vertices if r.norm else None),
-        })
-    manifest_path = RUN_ROOT / "manifest.csv"
-    pd.DataFrame(rows).to_csv(manifest_path, index=False)
+    # ---- blade CSV (r/R, centroid mm, Cz mm, twist deg, filename)
+    blade_csv_path = _write_blade_csv(RUN_ROOT, bin_, zL_grid, UNITS, BLADE_LENGTH)
+    print(f"[OK] Blade CSV:     {blade_csv_path}")
 
-    # Minimal run metadata (nice for bookkeeping)
-    run_meta = {
-        "run_name": run_name,
-        "timestamp": ts,
-        "blade_name": BLADE_NAME,
-        "label": LABEL,
-        "units": {
-            "rR": UNITS.rR, "xL": UNITS.xL, "c": UNITS.c, "L": UNITS.L, "XY": UNITS.XY, "beta_deg": UNITS.beta_deg,
-        },
-        "transform": {
-            "pivot_chord_frac": PIVOT_CHORD_FRAC,
-            "twist_sign": TWIST_SIGN,
-            "keep_pivot_in_place": KEEP_PIVOT,
-            "units_scale": UNITS_SCALE,
-        },
-        "sampling": sampling_spec.to_dict(),
-        "fitting": fitting_spec.to_dict(),
-        "summary": bin_.summary(),
-    }
-    with open(RUN_ROOT / "run.json", "w", encoding="utf-8") as f:
-        json.dump(run_meta, f, indent=2)
+    # ---- materials CSV (constant material per section)
+    materials_csv_path = _write_materials_csv(RUN_ROOT, bin_, MATERIAL_DEFAULTS)
+    print(f"[OK] Materials CSV: {materials_csv_path}")
+
+    # ---- plots
+    plots = _make_plots(RUN_ROOT, bin_)
+    print(f"[OK] 3D stack:      {plots['stack_3d']}")
+    print(f"[OK] Chord vs z:    {plots['chord_vs_z']}")
+    print(f"[OK] Beta  vs z:    {plots['beta_vs_z']}")
+
+    # ---- run metadata
+    _write_run_meta(
+        RUN_ROOT, run_name, ts, BLADE_NAME, LABEL, UNITS, geom,
+        sampling_spec, fitting_spec, bin_,
+        manifest_path, blade_csv_path, plots, SECTIONS_DIR,
+    )
 
     print(f"\n[OK] Wrote DXFs to: {SECTIONS_DIR}")
     print(f"[OK] Manifest:      {manifest_path}")
-    print(f"[OK] Run folder:     {RUN_ROOT}")
+    print(f"[OK] Run folder:    {RUN_ROOT}")
+
 
 if __name__ == "__main__":
     main()

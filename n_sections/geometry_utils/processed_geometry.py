@@ -20,7 +20,18 @@ from geometry_transforms.cop_offset import CopOffset
 MM_to_M: float = 1e-3
 # ─────────────────────────────────────────────────────────────────────────────
 
+
 class ProcessedGeometry:
+    """
+    Import a DXF airfoil section, scale (mm→m), optionally resample the exterior,
+    optionally apply twist and/or origin placement, then (optionally) assign material(s).
+
+    Toggle behaviour per-call via:
+      - apply_twist: bool = False
+      - apply_origin: bool = False     (ignored if False)
+      - origin_mode: 'cop' | 'centroid'
+    """
+
     def __init__(
         self,
         filepath: Path,
@@ -42,12 +53,14 @@ class ProcessedGeometry:
         self.geometry: Geometry | CompoundGeometry | None = None
         self._init_logging()
 
+    # ─────────────────────────────────────────────────────────────────────────
+
     def _init_logging(self) -> None:
         log_path = self.logs_dir / "ProcessedGeometry.log"
         self.logger = logging.getLogger(f"ProcessedGeometry.{self.label}")
         self.logger.propagate = False
         if not any(
-            isinstance(h, logging.FileHandler) and h.baseFilename == str(log_path)
+            isinstance(h, logging.FileHandler) and getattr(h, "baseFilename", None) == str(log_path)
             for h in self.logger.handlers
         ):
             handler = logging.FileHandler(log_path, mode="w", encoding="utf-8")
@@ -57,6 +70,8 @@ class ProcessedGeometry:
         self.logger.setLevel(logging.INFO)
         self.logger.info("Logging initialized for ProcessedGeometry")
         self.logger.info("Units scale set to %.6f (mm → m)", MM_to_M)
+
+    # ─────────────────────────────────────────────────────────────────────────
 
     def _cosine_resample_exterior(self, poly: Polygon, n_total: int) -> Polygon:
         if n_total < 3:
@@ -86,6 +101,7 @@ class ProcessedGeometry:
             raise ValueError("Polygon has non-positive perimeter length; cannot resample.")
 
         try:
+            # Cosine-spaced arclength targets
             t = 0.5 * (1 - np.cos(np.linspace(0.0, np.pi, n_total)))
             s_targets = t * length
 
@@ -114,13 +130,14 @@ class ProcessedGeometry:
             raise
 
     # --- material helpers -------------------------------------------------
+
     def _to_material(self, mdict: dict) -> Material:
         """Build a sectionproperties Material from a CSV-style dict."""
         name = mdict.get("name", mdict.get("material_name", "material"))
-        E    = float(mdict.get("E",  mdict.get("elastic_modulus")))
-        nu   = float(mdict.get("nu", mdict.get("poissons_ratio")))
-        fy   = float(mdict.get("fy", mdict.get("yield_strength")))
-        rho  = float(mdict.get("rho", mdict.get("density")))
+        E = float(mdict.get("E", mdict.get("elastic_modulus")))
+        nu = float(mdict.get("nu", mdict.get("poissons_ratio")))
+        fy = float(mdict.get("fy", mdict.get("yield_strength")))
+        rho = float(mdict.get("rho", mdict.get("density")))
         color = mdict.get("color", "lightgrey")
         return Material(
             name=name,
@@ -151,20 +168,32 @@ class ProcessedGeometry:
             return self._to_material(dict(material))
         raise TypeError(f"Unsupported material argument type: {type(material)}")
 
+    # ─────────────────────────────────────────────────────────────────────────
+
     def extract_and_transform(
         self,
         twist_deg: float,
         *,
+        # New toggles (default OFF)
+        apply_twist: bool = False,
+        apply_origin: bool = False,
+        # Origin options (used only if apply_origin=True)
         origin_mode: Literal["cop", "centroid"] = "cop",
         cop_fraction: float = 0.25,
         cx: float = 0.0,
         cy: float = 0.0,
+        # Material (optional)
         material: Union[Material, dict[int, Material], None] = None,
+        # Resampling toggle (kept on by default)
+        resample_exterior: bool = True,
     ) -> Geometry | CompoundGeometry:
-        """Import + scale + resample + twist; then place origin by CP-proxy or centroid; assign material(s)."""
+        """
+        Import + scale + (optional) resample + (optional) twist + (optional) origin placement; assign material(s).
+        Returns a Geometry or CompoundGeometry in metres.
+        """
         self.logger.info("Importing DXF geometry from %s", self.filepath)
 
-        if origin_mode == "cop" and not (0.0 <= cop_fraction <= 1.0):
+        if apply_origin and origin_mode == "cop" and not (0.0 <= cop_fraction <= 1.0):
             raise ValueError(f"cop_fraction must be in [0,1]; got {cop_fraction}")
 
         # ── Import DXF
@@ -198,77 +227,92 @@ class ProcessedGeometry:
             self.logger.error("Scaling geometry failed: %s", e, exc_info=True)
             raise
 
-        # ── Resample exterior
-        raw_polys = []
-        if isinstance(geom_raw, Geometry):
-            polys = geom_raw.geom.geoms if geom_raw.geom.geom_type == "MultiPolygon" else [geom_raw.geom]
-            raw_polys.extend(polys)
-        else:
-            for g in geom_raw.geoms:
-                polys = g.geom.geoms if g.geom.geom_type == "MultiPolygon" else [g.geom]
+        # ── Optional exterior resample
+        if resample_exterior:
+            raw_polys = []
+            if isinstance(geom_raw, Geometry):
+                polys = geom_raw.geom.geoms if geom_raw.geom.geom_type == "MultiPolygon" else [geom_raw.geom]
                 raw_polys.extend(polys)
+            else:
+                for g in geom_raw.geoms:
+                    polys = g.geom.geoms if g.geom.geom_type == "MultiPolygon" else [g.geom]
+                    raw_polys.extend(polys)
 
-        dense_polys = []
-        for i, p in enumerate(raw_polys):
+            dense_polys = []
+            for i, p in enumerate(raw_polys):
+                try:
+                    dense = self._cosine_resample_exterior(p, self.exterior_nodes)
+                    dense_polys.append(dense)
+                    self.logger.debug("Resampled polygon %d with %d exterior nodes", i, self.exterior_nodes)
+                except Exception as e:
+                    self.logger.warning("Resampling polygon %d failed: %s", i, e, exc_info=True)
+
             try:
-                dense = self._cosine_resample_exterior(p, self.exterior_nodes)
-                dense_polys.append(dense)
-                self.logger.debug("Resampled polygon %d with %d exterior nodes", i, self.exterior_nodes)
+                geom_list = [Geometry(geom=p) for p in dense_polys]
+                if not geom_list:
+                    self.logger.warning("All resamples failed; falling back to scaled input geometry.")
+                    geom = geom_raw
+                else:
+                    geom = geom_list[0] if len(geom_list) == 1 else CompoundGeometry(geom_list)
+                self.logger.info("Resampling and geometry reconstruction complete")
             except Exception as e:
-                self.logger.warning("Resampling polygon %d failed: %s", i, e, exc_info=True)
+                self.logger.error("Failed to reconstruct geometry from resampled polygons: %s", e, exc_info=True)
+                raise
+        else:
+            geom = geom_raw
+            self.logger.info("Exterior resampling disabled; using scaled input geometry.")
 
-        try:
-            geom_list = [Geometry(geom=p) for p in dense_polys]
-            if not geom_list:
-                self.logger.warning("All resamples failed; falling back to scaled input geometry.")
-                geom = geom_raw
-            else:
-                geom = geom_list[0] if len(geom_list) == 1 else CompoundGeometry(geom_list)
-            self.logger.info("Resampling and geometry reconstruction complete")
-        except Exception as e:
-            self.logger.error("Failed to reconstruct geometry from resampled polygons: %s", e, exc_info=True)
-            raise
-
-        # ── Twist alignment
-        try:
-            geom_rotated = TwistOffset(
-                geometry=geom,
-                desired_twist_deg=twist_deg,
-                label=self.label,
-                logs_dir=self.logs_dir,
-                twist_axis_ratio=self.twist_axis_ratio,
-            ).apply()
-            self.logger.info("Applied twist rotation: %.2f°", twist_deg)
-        except Exception as e:
-            self.logger.error("Twist transformation failed: %s", e, exc_info=True)
-            raise
-
-        # ── Origin placement
-        try:
-            if origin_mode == "cop":
-                geom_translated = CopOffset(
-                    geometry=geom_rotated,
-                    fraction=cop_fraction,
+        # ── Twist alignment (toggle)
+        if apply_twist:
+            try:
+                geom_rotated = TwistOffset(
+                    geometry=geom,
+                    desired_twist_deg=twist_deg,
                     label=self.label,
                     logs_dir=self.logs_dir,
+                    twist_axis_ratio=self.twist_axis_ratio,
                 ).apply()
-                self.logger.info("Origin set to %.1f%% chord (centre-of-pressure proxy).", 100.0 * cop_fraction)
-            elif origin_mode == "centroid":
-                geom_translated = CentroidOffset(
-                    geometry=geom_rotated,
-                    cx_target=cx,
-                    cy_target=cy,
-                    label=self.label,
-                    logs_dir=self.logs_dir,
-                ).apply()
-                self.logger.info("Applied centroid translation to (%.3f, %.3f)", cx, cy)
-            else:
-                raise ValueError(f"Unsupported origin_mode='{origin_mode}'")
-        except Exception as e:
-            self.logger.error("Origin placement failed: %s", e, exc_info=True)
-            raise
+                self.logger.info("Applied twist rotation: %.2f°", twist_deg)
+            except Exception as e:
+                self.logger.error("Twist transformation failed: %s", e, exc_info=True)
+                raise
+        else:
+            geom_rotated = geom
+            self.logger.info("Twist step disabled; passing geometry through unchanged.")
 
-        # ── Material assignment
+        # ── Origin placement (toggle)
+        if apply_origin:
+            try:
+                if origin_mode == "cop":
+                    geom_translated = CopOffset(
+                        geometry=geom_rotated,
+                        fraction=cop_fraction,
+                        label=self.label,
+                        logs_dir=self.logs_dir,
+                    ).apply()
+                    self.logger.info(
+                        "Origin set to %.1f%% chord (centre-of-pressure proxy).",
+                        100.0 * cop_fraction,
+                    )
+                elif origin_mode == "centroid":
+                    geom_translated = CentroidOffset(
+                        geometry=geom_rotated,
+                        cx_target=cx,
+                        cy_target=cy,
+                        label=self.label,
+                        logs_dir=self.logs_dir,
+                    ).apply()
+                    self.logger.info("Applied centroid translation to (%.3f, %.3f)", cx, cy)
+                else:
+                    raise ValueError(f"Unsupported origin_mode='{origin_mode}'")
+            except Exception as e:
+                self.logger.error("Origin placement failed: %s", e, exc_info=True)
+                raise
+        else:
+            geom_translated = geom_rotated
+            self.logger.info("Origin step disabled; passing geometry through unchanged.")
+
+        # ── Material assignment (optional)
         try:
             material_norm = self._normalise_material_arg(geom_translated, material)
             AssignMaterial(

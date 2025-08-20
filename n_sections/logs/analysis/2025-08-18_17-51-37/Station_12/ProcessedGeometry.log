@@ -1,8 +1,0 @@
-2025-08-18 17:52:00,899 | INFO     | Logging initialized for ProcessedGeometry
-2025-08-18 17:52:00,900 | INFO     | Units scale set to 0.001000 (mm → m)
-2025-08-18 17:52:00,903 | INFO     | Importing DXF geometry from \\mull.sms.ed.ac.uk\home\s1834431\Win7\Desktop\geometry_tools\n_sections\blade\Station_12.dxf
-2025-08-18 17:52:00,964 | INFO     | DXF import complete
-2025-08-18 17:52:00,968 | INFO     | Resampling and geometry reconstruction complete
-2025-08-18 17:52:00,987 | INFO     | Applied twist rotation: 1.43°
-2025-08-18 17:52:01,001 | INFO     | Origin set to 33.0% chord (centre-of-pressure proxy).
-2025-08-18 17:52:01,013 | INFO     | Material assigned: Al_7075_T6

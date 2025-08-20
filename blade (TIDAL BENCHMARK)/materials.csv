@@ -1,0 +1,8 @@
+filename,material_name,elastic_modulus,poissons_ratio,yield_strength,density,color
+station_2.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_4.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_6.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_8.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_10.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_12.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue
+station_14.dxf,Al_7075_T6,71700000000,0.33,503000000,2810000000,lightskyblue

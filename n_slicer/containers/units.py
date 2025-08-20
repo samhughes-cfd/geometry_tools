@@ -4,9 +4,10 @@ from dataclasses import dataclass
 @dataclass
 class SectionUnits:
     rR: str = "-"        # r/R (dimensionless)
-    xL: str = "-"        # x/L (dimensionless)
+    zL: str = "-"        # z/L (dimensionless)
     c: str = "m"         # chord length unit
     L: str = "m"         # blade length unit
+    R: str = "m"         # blade radius unit
     XY: str = "m"        # output geometry unit (DXF coordinates)
     beta_deg: str = "deg"  # "deg" or "rad" for input twist
 

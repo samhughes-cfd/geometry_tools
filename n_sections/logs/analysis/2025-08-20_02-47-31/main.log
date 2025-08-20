@@ -1,0 +1,11 @@
+2025-08-20 02:47:31,415 - INFO - 🌀 DXF mesh-convergence pipeline started
+2025-08-20 02:47:31,415 - INFO - ⏱ Timestamped output directory: 2025-08-20_02-47-31
+2025-08-20 02:47:31,415 - INFO - Origin mode: cop (fraction=0.33)
+2025-08-20 02:47:31,432 - INFO - Mesh size targets: [40.]
+2025-08-20 02:47:31,432 - INFO - — Station sec_000_r0.125: DXF=sec_000_r0.125.dxf, twist=34.11°, r/R=0.125 —
+2025-08-20 02:47:31,432 - INFO - Logger initialized for RawGeometry sec_000_r0.125
+2025-08-20 02:47:31,432 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_000_r0.125.dxf
+2025-08-20 02:47:31,455 - DEBUG - Parsed LWPOLYLINE entity with 6481 points
+2025-08-20 02:47:31,455 - INFO - Extraction complete: 1 entities, 6481 total points.
+2025-08-20 02:47:31,651 - INFO - Plotting 1 DXF entities for preview...
+2025-08-20 02:47:31,866 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-20_02-47-31\sec_000_r0.125\raw_sec_000_r0.125.png

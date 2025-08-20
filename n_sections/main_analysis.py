@@ -90,7 +90,7 @@ def main():
             }
 
     # ───── Mesh convergence parameters ─────
-    N = 3                           # Number of mesh refinement levels
+    N = 1                           # Number of mesh refinement levels
     h0 = 40.0                       # Base element "size" (your convention)
     hs = h0 / (4 ** np.arange(N))   # e.g., [40, 10, 2.5]
     logging.info("Mesh size targets: %s", hs)

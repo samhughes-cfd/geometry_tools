@@ -5,7 +5,7 @@ SectionRow
 One fully self-descriptive blade section.
 
 Stores:
-- Spanwise coordinates (rR/xL) and local properties (c, beta_deg).
+- Spanwise coordinates (rR/zL) and local properties (c, beta_deg).
 - Transform settings that produced XY from XY_in.
 - Geometry arrays (XY_in normalised, XY transformed).
 - Properties:
@@ -29,10 +29,11 @@ class SectionRow:
     rR: float
     c: float
     beta_deg: float
+    R: float
 
     # ---------- optional (defaulted) ----------
     name: Optional[str] = None
-    xL: Optional[float] = None
+    zL: Optional[float] = None
 
     # blade context & units
     L: Optional[float] = None
