@@ -1,0 +1,136 @@
+{
+  "run_name": "Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200",
+  "timestamp": "20250821-024200",
+  "blade_name": "Blade01",
+  "label": "N",
+  "units": {
+    "rR": "-",
+    "zL": "-",
+    "c": "m",
+    "L": "m",
+    "R": "m",
+    "XY": "mm",
+    "beta_deg": "deg"
+  },
+  "geometry": {
+    "R": 0.8,
+    "L": 0.7,
+    "R_hub": 0.10000000000000009,
+    "rR_locii": {
+      "rotor_origin": 0.0,
+      "rotor_hub": 0.1250000000000001,
+      "rotor_tip": 1.0
+    },
+    "zL_locii": {
+      "blade_root": 0.0,
+      "blade_tip": 1.0
+    }
+  },
+  "transform": {
+    "pivot_chord_frac": 0.33,
+    "twist_sign": 1,
+    "keep_pivot_in_place": false,
+    "units_scale": 1000.0
+  },
+  "sampling": {
+    "n": 8,
+    "scheme": "power_root",
+    "rR_min": 0.125,
+    "rR_max": 1.0,
+    "power": 2,
+    "mapping_name": null,
+    "rR_grid": [
+      0.125,
+      0.14285714285714285,
+      0.19642857142857142,
+      0.2857142857142857,
+      0.4107142857142857,
+      0.5714285714285714,
+      0.7678571428571428,
+      1.0
+    ]
+  },
+  "fitting": {
+    "chord_fit": "pchip",
+    "twist_fit": "pchip",
+    "spline_smoothing": null
+  },
+  "summary": {
+    "label": "N",
+    "blade_name": "Blade01",
+    "L": 0.7,
+    "units": {
+      "rR": "-",
+      "zL": "-",
+      "c": "m",
+      "L": "m",
+      "R": "m",
+      "XY": "mm",
+      "beta_deg": "deg"
+    },
+    "n_sections": 8,
+    "rR_range": [
+      0.125,
+      1.0
+    ],
+    "zL_range": [
+      0.0,
+      1.0
+    ],
+    "c_range": [
+      0.043089963807692,
+      0.147221646796614
+    ],
+    "beta_range_deg": [
+      0.315909961538458,
+      34.1104050834199
+    ],
+    "rR_src_range": [
+      0.125,
+      1.0
+    ],
+    "c_src_range": [
+      0.043089963807692,
+      0.14746542983329
+    ],
+    "beta_src_range_deg": [
+      0.315909961538458,
+      34.1104050834199
+    ],
+    "cp_default_frac": 0.33,
+    "sampling": {
+      "n": 8,
+      "scheme": "power_root",
+      "rR_min": 0.125,
+      "rR_max": 1.0,
+      "power": 2,
+      "mapping_name": null,
+      "rR_grid": [
+        0.125,
+        0.14285714285714285,
+        0.19642857142857142,
+        0.2857142857142857,
+        0.4107142857142857,
+        0.5714285714285714,
+        0.7678571428571428,
+        1.0
+      ]
+    },
+    "fitting": {
+      "chord_fit": "pchip",
+      "twist_fit": "pchip",
+      "spline_smoothing": null
+    }
+  },
+  "outputs": {
+    "manifest_csv": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\manifest.csv",
+    "blade_sections_csv": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\blade_stations.csv",
+    "plots": {
+      "stack_3d": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\plots\\blade_stack_3d.png",
+      "chord_vs_z": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\plots\\chord_vs_z.png",
+      "beta_vs_z": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\plots\\beta_vs_z.png",
+      "sections_2d": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\plots\\sections_grid.png"
+    },
+    "sections_dir": "n_slicer\\blade_output\\Blade01_N_NACA_63-415_n8_pr2_L0p7m_cp33pc_20250821-024200\\sections"
+  }
+}

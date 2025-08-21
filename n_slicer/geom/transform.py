@@ -26,6 +26,17 @@ def chord_pivot_norm(XY_in: np.ndarray, frac: float) -> tuple[float, float]:
     y_p = y_le + f * (y_te - y_le)
     return float(x_p), float(y_p)
 
+def _ensure_closed(poly: np.ndarray, tol: float = 1e-9) -> np.ndarray:
+    """Append first vertex at the end if needed; ignore if already closed."""
+    poly = np.asarray(poly, dtype=float)
+    if np.isnan(poly).any():
+        poly = poly[~np.isnan(poly).any(axis=1)]
+    if len(poly) < 3:
+        return poly
+    if not np.allclose(poly[0], poly[-1], atol=tol, rtol=0):
+        poly = np.vstack([poly, poly[0]])
+    return poly
+
 def transform_xy(
     XY_in: np.ndarray,
     *,
@@ -36,9 +47,12 @@ def transform_xy(
     units_scale: float = 1.0,
     keep_pivot_in_place: bool = False,
     twist_sign: int = 1,
+    close_loop: bool = True,        # NEW: close by default
+    close_tol: float = 1e-9,        # NEW: tolerance for closure
 ) -> np.ndarray:
     """
     Scale + twist about a *given* pivot in normalised coords (x_c,y_c).
+    Returns a closed polyline if close_loop=True.
     """
     if XY_in is None or XY_in.ndim != 2 or XY_in.shape[1] != 2:
         raise ValueError("XY_in must be an (N,2) array.")
@@ -53,17 +67,21 @@ def transform_xy(
     # 3) place shape (pivot at origin or kept in place)
     P_final = P_rot + (pivot if keep_pivot_in_place else 0.0)
     # 4) units scaling
-    return P_final * units_scale
+    P_final = P_final * units_scale
+    # 5) ensure closed if requested
+    return _ensure_closed(P_final, tol=close_tol) if close_loop else P_final
 
 def transform_xy_pivot_frac(
     XY_in: np.ndarray,
     *,
     chord: float,
     twist_deg: float,
-    pivot_chord_frac: float,      # NEW: fraction along LE→TE chord line in normalised coords
+    pivot_chord_frac: float,
     units_scale: float = 1.0,
     keep_pivot_in_place: bool = False,
     twist_sign: int = 1,
+    close_loop: bool = True,        # NEW
+    close_tol: float = 1e-9,        # NEW
 ) -> np.ndarray:
     """
     Scale + twist about the *chord-line* pivot at fraction 'pivot_chord_frac' from LE→TE.
@@ -78,4 +96,6 @@ def transform_xy_pivot_frac(
         units_scale=units_scale,
         keep_pivot_in_place=keep_pivot_in_place,
         twist_sign=twist_sign,
+        close_loop=close_loop,
+        close_tol=close_tol,
     )

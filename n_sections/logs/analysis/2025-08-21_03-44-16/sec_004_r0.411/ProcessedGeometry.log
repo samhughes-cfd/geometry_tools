@@ -1,0 +1,8 @@
+2025-08-21 03:44:36,175 | INFO     | Logging initialized for ProcessedGeometry
+2025-08-21 03:44:36,175 | INFO     | Units scale set to 0.001000 (mm → m)
+2025-08-21 03:44:36,175 | INFO     | Importing DXF geometry from C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_004_r0.411.dxf
+2025-08-21 03:44:36,194 | INFO     | DXF import complete
+2025-08-21 03:44:36,200 | INFO     | Resampling and geometry reconstruction complete
+2025-08-21 03:44:36,200 | INFO     | Twist step disabled; passing geometry through unchanged.
+2025-08-21 03:44:36,200 | INFO     | Origin step disabled; passing geometry through unchanged.
+2025-08-21 03:44:36,202 | INFO     | Material assigned: Al_7075_T6

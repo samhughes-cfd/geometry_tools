@@ -1,8 +1,0 @@
-2025-08-20 02:31:10,638 | INFO     | Logging initialized for ProcessedGeometry
-2025-08-20 02:31:10,638 | INFO     | Units scale set to 0.001000 (mm → m)
-2025-08-20 02:31:10,638 | INFO     | Importing DXF geometry from C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_009_r0.205.dxf
-2025-08-20 02:31:10,660 | INFO     | DXF import complete
-2025-08-20 02:31:10,672 | INFO     | Resampling and geometry reconstruction complete
-2025-08-20 02:31:10,676 | INFO     | Applied twist rotation: 23.70°
-2025-08-20 02:31:10,679 | INFO     | Origin set to 33.0% chord (centre-of-pressure proxy).
-2025-08-20 02:31:10,680 | INFO     | Material assigned: Al_7075_T6

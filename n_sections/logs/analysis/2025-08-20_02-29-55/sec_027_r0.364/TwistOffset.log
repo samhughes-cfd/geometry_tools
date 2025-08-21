@@ -1,4 +1,0 @@
-2025-08-20 02:33:38,356 | DEBUG    | TwistOffset.sec_027_r0.364 | [sec_027_r0.364] chord_len=1.195243e-01, chord_angle=10.566°
-2025-08-20 02:33:38,356 | INFO     | TwistOffset.sec_027_r0.364 | [sec_027_r0.364] Current twist: 10.57°, Desired: 11.33°, Delta: 0.77° @ axis_ratio=0.333
-2025-08-20 02:33:38,356 | INFO     | TwistOffset.sec_027_r0.364 | [sec_027_r0.364] Twist center: (0.000356, 0.000655)
-2025-08-20 02:33:38,370 | INFO     | TwistOffset.sec_027_r0.364 | [sec_027_r0.364] Section rotated by 0.77° about twist center.

@@ -1,0 +1,221 @@
+2025-08-21 03:44:16,887 - INFO - 🌀 DXF mesh-convergence pipeline started
+2025-08-21 03:44:16,888 - INFO - ⏱ Timestamped output directory: 2025-08-21_03-44-16
+2025-08-21 03:44:16,889 - INFO - Origin mode: cop (fraction=0.33)
+2025-08-21 03:44:16,890 - INFO - Mesh size targets: [40.]
+2025-08-21 03:44:16,892 - INFO - — Station sec_000_r0.125: DXF=sec_000_r0.125.dxf, twist=34.11°, r/R=0.125 —
+2025-08-21 03:44:16,895 - INFO - Logger initialized for RawGeometry sec_000_r0.125
+2025-08-21 03:44:16,896 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_000_r0.125.dxf
+2025-08-21 03:44:16,918 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:16,918 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:17,586 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:17,832 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_000_r0.125\raw_sec_000_r0.125.png
+2025-08-21 03:44:17,919 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:17,920 - INFO - Zipped 0 points
+2025-08-21 03:44:19,043 - INFO - Logger initialized for ConvergenceStudy [sec_000_r0.125]
+2025-08-21 03:44:19,043 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:19,044 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:19,044 - DEBUG - [sec_000_r0.125_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:19,048 - INFO - Logger initialized for MeshDXF [sec_000_r0.125_h40]
+2025-08-21 03:44:19,048 - INFO - [sec_000_r0.125_h40] Meshing started with target h = 40
+2025-08-21 03:44:19,056 - ERROR - [sec_000_r0.125_h40] Mesh contains no points or triangles
+2025-08-21 03:44:19,057 - INFO - [sec_000_r0.125_h40] Mesh created successfully
+2025-08-21 03:44:19,057 - DEBUG - [sec_000_r0.125_h40] Starting section property calculation …
+2025-08-21 03:44:20,640 - DEBUG - [sec_000_r0.125_h40] Section analysis row returned
+2025-08-21 03:44:20,642 - INFO - [sec_000_r0.125_h40] Section analysis completed successfully.
+2025-08-21 03:44:20,643 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:20,643 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:21,060 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_000_r0.125\mesh_conv_sec_000_r0.125_batch1_global.png
+2025-08-21 03:44:21,449 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_000_r0.125\mesh_conv_sec_000_r0.125_batch1_local.png
+2025-08-21 03:44:21,450 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:21,792 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_000_r0.125\mesh_conv_sec_000_r0.125_batch1_global.png
+2025-08-21 03:44:22,139 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_000_r0.125\mesh_conv_sec_000_r0.125_batch1_local.png
+2025-08-21 03:44:22,143 - INFO - — Station sec_001_r0.143: DXF=sec_001_r0.143.dxf, twist=32.57°, r/R=0.143 —
+2025-08-21 03:44:22,146 - INFO - Logger initialized for RawGeometry sec_001_r0.143
+2025-08-21 03:44:22,147 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_001_r0.143.dxf
+2025-08-21 03:44:22,171 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:22,171 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:22,293 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:22,553 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_001_r0.143\raw_sec_001_r0.143.png
+2025-08-21 03:44:22,576 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:22,576 - INFO - Zipped 0 points
+2025-08-21 03:44:23,685 - INFO - Logger initialized for ConvergenceStudy [sec_001_r0.143]
+2025-08-21 03:44:23,686 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:23,688 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:23,688 - DEBUG - [sec_001_r0.143_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:23,691 - INFO - Logger initialized for MeshDXF [sec_001_r0.143_h40]
+2025-08-21 03:44:23,692 - INFO - [sec_001_r0.143_h40] Meshing started with target h = 40
+2025-08-21 03:44:23,700 - ERROR - [sec_001_r0.143_h40] Mesh contains no points or triangles
+2025-08-21 03:44:23,701 - INFO - [sec_001_r0.143_h40] Mesh created successfully
+2025-08-21 03:44:23,701 - DEBUG - [sec_001_r0.143_h40] Starting section property calculation …
+2025-08-21 03:44:25,160 - DEBUG - [sec_001_r0.143_h40] Section analysis row returned
+2025-08-21 03:44:25,163 - INFO - [sec_001_r0.143_h40] Section analysis completed successfully.
+2025-08-21 03:44:25,164 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:25,165 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:25,461 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_001_r0.143\mesh_conv_sec_001_r0.143_batch1_global.png
+2025-08-21 03:44:25,829 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_001_r0.143\mesh_conv_sec_001_r0.143_batch1_local.png
+2025-08-21 03:44:25,829 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:26,182 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_001_r0.143\mesh_conv_sec_001_r0.143_batch1_global.png
+2025-08-21 03:44:26,581 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_001_r0.143\mesh_conv_sec_001_r0.143_batch1_local.png
+2025-08-21 03:44:26,584 - INFO - — Station sec_002_r0.196: DXF=sec_002_r0.196.dxf, twist=24.71°, r/R=0.196 —
+2025-08-21 03:44:26,587 - INFO - Logger initialized for RawGeometry sec_002_r0.196
+2025-08-21 03:44:26,588 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_002_r0.196.dxf
+2025-08-21 03:44:26,610 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:26,610 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:26,723 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:26,948 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_002_r0.196\raw_sec_002_r0.196.png
+2025-08-21 03:44:26,968 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:26,968 - INFO - Zipped 0 points
+2025-08-21 03:44:28,080 - INFO - Logger initialized for ConvergenceStudy [sec_002_r0.196]
+2025-08-21 03:44:28,081 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:28,081 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:28,082 - DEBUG - [sec_002_r0.196_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:28,084 - INFO - Logger initialized for MeshDXF [sec_002_r0.196_h40]
+2025-08-21 03:44:28,085 - INFO - [sec_002_r0.196_h40] Meshing started with target h = 40
+2025-08-21 03:44:28,094 - ERROR - [sec_002_r0.196_h40] Mesh contains no points or triangles
+2025-08-21 03:44:28,095 - INFO - [sec_002_r0.196_h40] Mesh created successfully
+2025-08-21 03:44:28,095 - DEBUG - [sec_002_r0.196_h40] Starting section property calculation …
+2025-08-21 03:44:29,521 - DEBUG - [sec_002_r0.196_h40] Section analysis row returned
+2025-08-21 03:44:29,523 - INFO - [sec_002_r0.196_h40] Section analysis completed successfully.
+2025-08-21 03:44:29,523 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:29,523 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:29,826 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_002_r0.196\mesh_conv_sec_002_r0.196_batch1_global.png
+2025-08-21 03:44:30,195 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_002_r0.196\mesh_conv_sec_002_r0.196_batch1_local.png
+2025-08-21 03:44:30,196 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:30,497 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_002_r0.196\mesh_conv_sec_002_r0.196_batch1_global.png
+2025-08-21 03:44:30,968 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_002_r0.196\mesh_conv_sec_002_r0.196_batch1_local.png
+2025-08-21 03:44:30,973 - INFO - — Station sec_003_r0.286: DXF=sec_003_r0.286.dxf, twist=15.72°, r/R=0.286 —
+2025-08-21 03:44:30,976 - INFO - Logger initialized for RawGeometry sec_003_r0.286
+2025-08-21 03:44:30,978 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_003_r0.286.dxf
+2025-08-21 03:44:31,030 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:31,030 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:31,181 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:31,416 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_003_r0.286\raw_sec_003_r0.286.png
+2025-08-21 03:44:31,439 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:31,439 - INFO - Zipped 0 points
+2025-08-21 03:44:32,825 - INFO - Logger initialized for ConvergenceStudy [sec_003_r0.286]
+2025-08-21 03:44:32,826 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:32,826 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:32,827 - DEBUG - [sec_003_r0.286_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:32,830 - INFO - Logger initialized for MeshDXF [sec_003_r0.286_h40]
+2025-08-21 03:44:32,830 - INFO - [sec_003_r0.286_h40] Meshing started with target h = 40
+2025-08-21 03:44:32,838 - ERROR - [sec_003_r0.286_h40] Mesh contains no points or triangles
+2025-08-21 03:44:32,839 - INFO - [sec_003_r0.286_h40] Mesh created successfully
+2025-08-21 03:44:32,839 - DEBUG - [sec_003_r0.286_h40] Starting section property calculation …
+2025-08-21 03:44:34,432 - DEBUG - [sec_003_r0.286_h40] Section analysis row returned
+2025-08-21 03:44:34,435 - INFO - [sec_003_r0.286_h40] Section analysis completed successfully.
+2025-08-21 03:44:34,435 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:34,436 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:34,748 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_003_r0.286\mesh_conv_sec_003_r0.286_batch1_global.png
+2025-08-21 03:44:35,116 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_003_r0.286\mesh_conv_sec_003_r0.286_batch1_local.png
+2025-08-21 03:44:35,116 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:35,450 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_003_r0.286\mesh_conv_sec_003_r0.286_batch1_global.png
+2025-08-21 03:44:35,812 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_003_r0.286\mesh_conv_sec_003_r0.286_batch1_local.png
+2025-08-21 03:44:35,815 - INFO - — Station sec_004_r0.411: DXF=sec_004_r0.411.dxf, twist=9.52°, r/R=0.411 —
+2025-08-21 03:44:35,818 - INFO - Logger initialized for RawGeometry sec_004_r0.411
+2025-08-21 03:44:35,819 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_004_r0.411.dxf
+2025-08-21 03:44:35,847 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:35,848 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:35,990 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:36,174 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_004_r0.411\raw_sec_004_r0.411.png
+2025-08-21 03:44:36,190 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:36,191 - INFO - Zipped 0 points
+2025-08-21 03:44:37,631 - INFO - Logger initialized for ConvergenceStudy [sec_004_r0.411]
+2025-08-21 03:44:37,631 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:37,632 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:37,632 - DEBUG - [sec_004_r0.411_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:37,635 - INFO - Logger initialized for MeshDXF [sec_004_r0.411_h40]
+2025-08-21 03:44:37,635 - INFO - [sec_004_r0.411_h40] Meshing started with target h = 40
+2025-08-21 03:44:37,645 - ERROR - [sec_004_r0.411_h40] Mesh contains no points or triangles
+2025-08-21 03:44:37,646 - INFO - [sec_004_r0.411_h40] Mesh created successfully
+2025-08-21 03:44:37,646 - DEBUG - [sec_004_r0.411_h40] Starting section property calculation …
+2025-08-21 03:44:39,228 - DEBUG - [sec_004_r0.411_h40] Section analysis row returned
+2025-08-21 03:44:39,231 - INFO - [sec_004_r0.411_h40] Section analysis completed successfully.
+2025-08-21 03:44:39,232 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:39,232 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:39,559 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_004_r0.411\mesh_conv_sec_004_r0.411_batch1_global.png
+2025-08-21 03:44:39,900 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_004_r0.411\mesh_conv_sec_004_r0.411_batch1_local.png
+2025-08-21 03:44:39,901 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:40,228 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_004_r0.411\mesh_conv_sec_004_r0.411_batch1_global.png
+2025-08-21 03:44:40,591 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_004_r0.411\mesh_conv_sec_004_r0.411_batch1_local.png
+2025-08-21 03:44:40,595 - INFO - — Station sec_005_r0.571: DXF=sec_005_r0.571.dxf, twist=5.35°, r/R=0.571 —
+2025-08-21 03:44:40,598 - INFO - Logger initialized for RawGeometry sec_005_r0.571
+2025-08-21 03:44:40,599 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_005_r0.571.dxf
+2025-08-21 03:44:40,619 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:40,620 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:40,743 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:40,956 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_005_r0.571\raw_sec_005_r0.571.png
+2025-08-21 03:44:40,976 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:40,976 - INFO - Zipped 0 points
+2025-08-21 03:44:42,121 - INFO - Logger initialized for ConvergenceStudy [sec_005_r0.571]
+2025-08-21 03:44:42,122 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:42,123 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:42,123 - DEBUG - [sec_005_r0.571_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:42,126 - INFO - Logger initialized for MeshDXF [sec_005_r0.571_h40]
+2025-08-21 03:44:42,127 - INFO - [sec_005_r0.571_h40] Meshing started with target h = 40
+2025-08-21 03:44:42,209 - ERROR - [sec_005_r0.571_h40] Mesh contains no points or triangles
+2025-08-21 03:44:42,210 - INFO - [sec_005_r0.571_h40] Mesh created successfully
+2025-08-21 03:44:42,210 - DEBUG - [sec_005_r0.571_h40] Starting section property calculation …
+2025-08-21 03:44:43,780 - DEBUG - [sec_005_r0.571_h40] Section analysis row returned
+2025-08-21 03:44:43,783 - INFO - [sec_005_r0.571_h40] Section analysis completed successfully.
+2025-08-21 03:44:43,783 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:43,783 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:44,109 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_005_r0.571\mesh_conv_sec_005_r0.571_batch1_global.png
+2025-08-21 03:44:44,467 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_005_r0.571\mesh_conv_sec_005_r0.571_batch1_local.png
+2025-08-21 03:44:44,467 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:44,776 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_005_r0.571\mesh_conv_sec_005_r0.571_batch1_global.png
+2025-08-21 03:44:45,121 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_005_r0.571\mesh_conv_sec_005_r0.571_batch1_local.png
+2025-08-21 03:44:45,123 - INFO - — Station sec_006_r0.768: DXF=sec_006_r0.768.dxf, twist=2.49°, r/R=0.768 —
+2025-08-21 03:44:45,126 - INFO - Logger initialized for RawGeometry sec_006_r0.768
+2025-08-21 03:44:45,127 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_006_r0.768.dxf
+2025-08-21 03:44:45,149 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:45,149 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:45,273 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:45,453 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_006_r0.768\raw_sec_006_r0.768.png
+2025-08-21 03:44:45,472 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:45,473 - INFO - Zipped 0 points
+2025-08-21 03:44:46,551 - INFO - Logger initialized for ConvergenceStudy [sec_006_r0.768]
+2025-08-21 03:44:46,551 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:46,552 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:46,552 - DEBUG - [sec_006_r0.768_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:46,556 - INFO - Logger initialized for MeshDXF [sec_006_r0.768_h40]
+2025-08-21 03:44:46,560 - INFO - [sec_006_r0.768_h40] Meshing started with target h = 40
+2025-08-21 03:44:46,569 - ERROR - [sec_006_r0.768_h40] Mesh contains no points or triangles
+2025-08-21 03:44:46,570 - INFO - [sec_006_r0.768_h40] Mesh created successfully
+2025-08-21 03:44:46,570 - DEBUG - [sec_006_r0.768_h40] Starting section property calculation …
+2025-08-21 03:44:48,318 - DEBUG - [sec_006_r0.768_h40] Section analysis row returned
+2025-08-21 03:44:48,322 - INFO - [sec_006_r0.768_h40] Section analysis completed successfully.
+2025-08-21 03:44:48,322 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:48,322 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:48,647 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_006_r0.768\mesh_conv_sec_006_r0.768_batch1_global.png
+2025-08-21 03:44:48,984 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_006_r0.768\mesh_conv_sec_006_r0.768_batch1_local.png
+2025-08-21 03:44:48,985 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:49,295 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_006_r0.768\mesh_conv_sec_006_r0.768_batch1_global.png
+2025-08-21 03:44:49,626 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_006_r0.768\mesh_conv_sec_006_r0.768_batch1_local.png
+2025-08-21 03:44:49,628 - INFO - — Station sec_007_r1.000: DXF=sec_007_r1.000.dxf, twist=0.32°, r/R=1.000 —
+2025-08-21 03:44:49,631 - INFO - Logger initialized for RawGeometry sec_007_r1.000
+2025-08-21 03:44:49,631 - INFO - Reading DXF file: C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_007_r1.000.dxf
+2025-08-21 03:44:49,652 - DEBUG - Parsed LWPOLYLINE entity with 6490 points
+2025-08-21 03:44:49,652 - INFO - Extraction complete: 1 entities, 6490 total points.
+2025-08-21 03:44:49,773 - INFO - Plotting 1 DXF entities for preview...
+2025-08-21 03:44:49,953 - INFO - Raw preview saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_007_r1.000\raw_sec_007_r1.000.png
+2025-08-21 03:44:49,979 - INFO - cleanup is depreciated BTW. Use the polygonize function instead
+2025-08-21 03:44:49,980 - INFO - Zipped 0 points
+2025-08-21 03:44:51,160 - INFO - Logger initialized for ConvergenceStudy [sec_007_r1.000]
+2025-08-21 03:44:51,160 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:51,161 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:51,161 - DEBUG - [sec_007_r1.000_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:51,164 - INFO - Logger initialized for MeshDXF [sec_007_r1.000_h40]
+2025-08-21 03:44:51,164 - INFO - [sec_007_r1.000_h40] Meshing started with target h = 40
+2025-08-21 03:44:51,172 - ERROR - [sec_007_r1.000_h40] Mesh contains no points or triangles
+2025-08-21 03:44:51,172 - INFO - [sec_007_r1.000_h40] Mesh created successfully
+2025-08-21 03:44:51,173 - DEBUG - [sec_007_r1.000_h40] Starting section property calculation …
+2025-08-21 03:44:52,745 - DEBUG - [sec_007_r1.000_h40] Section analysis row returned
+2025-08-21 03:44:52,748 - INFO - [sec_007_r1.000_h40] Section analysis completed successfully.
+2025-08-21 03:44:52,748 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:52,748 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:53,137 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_007_r1.000\mesh_conv_sec_007_r1.000_batch1_global.png
+2025-08-21 03:44:53,491 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_007_r1.000\mesh_conv_sec_007_r1.000_batch1_local.png
+2025-08-21 03:44:53,491 - INFO - Convergence visualisation completed.
+2025-08-21 03:44:53,803 - INFO - Global batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_007_r1.000\mesh_conv_sec_007_r1.000_batch1_global.png
+2025-08-21 03:44:54,135 - INFO - Local batch 1 saved -> C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16\sec_007_r1.000\mesh_conv_sec_007_r1.000_batch1_local.png
+2025-08-21 03:44:54,139 - INFO - ✅ SECTION ANALYSIS pipeline complete — results saved in: C:\Users\samea\Desktop\geometry_tools\n_sections\results\analysis\2025-08-21_03-44-16

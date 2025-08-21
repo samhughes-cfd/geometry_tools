@@ -1,5 +1,3 @@
-# n_slicer\parsers\naca_parser.py
-
 from __future__ import annotations
 import numpy as np
 import pandas as pd
@@ -32,10 +30,14 @@ class NormalisedNACAParser(BaseCSVParser):
                     raise ValueError("Airfoil CSV must have at least two columns for x,y.")
                 df.columns = ["x", "y"] + [f"extra_{i}" for i in range(df.shape[1]-2)]
                 xcol, ycol = "x", "y"
-
             df = df[[xcol, ycol]]
 
         xy = df.to_numpy(dtype=float)
+
+        # Defensive clean-up: drop any rows with NaNs and verify shape.
         if xy.ndim != 2 or xy.shape[1] != 2:
             raise ValueError("Airfoil CSV must yield an Nx2 array (x,y).")
+        if not np.isfinite(xy).all():
+            xy = xy[np.isfinite(xy).all(axis=1)]
+
         return xy

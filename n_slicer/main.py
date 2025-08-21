@@ -65,9 +65,9 @@ KEEP_PIVOT = False
 UNITS_SCALE = length_scale(UNITS.c, UNITS.XY)
 
 # ---- sampling/discretisation controls ---------------------------------------
-N_SECTIONS = 10
+N_SECTIONS = 8
 SCHEME     = "power_root"        # 'uniform' | 'cosine' | 'power_root' | 'power_tip'
-POWER_EXP  = 2.2
+POWER_EXP  = 2
 CUSTOM_MAPPING = None         # def CUSTOM_MAPPING(u: np.ndarray) -> np.ndarray: ...
 
 # ---- fit controls ------------------------------------------------------------
@@ -180,6 +180,7 @@ def _write_manifest_csv(RUN_ROOT: Path, bin_, manifest_cols: list[str]) -> Path:
             "ymin": (gp.ymin if gp else None),
             "ymax": (gp.ymax if gp else None),
             "n_vertices": (gp.n_vertices if gp else r.norm.n_vertices if r.norm else None),
+
         })
     manifest_path = RUN_ROOT / "manifest.csv"
     pd.DataFrame(rows)[manifest_cols].to_csv(manifest_path, index=False)
@@ -255,13 +256,15 @@ def _make_plots(RUN_ROOT: Path, bin_) -> dict[str, str]:
     PLOTS_DIR = RUN_ROOT / "plots"
     PLOTS_DIR.mkdir(parents=True, exist_ok=True)
     viz = BladeVisualizer(bin_, str(PLOTS_DIR))
-    stack_path = viz.plot_stack_3d()
+    station_stack_path = viz.plot_stack_3d()
     chord_path = viz.plot_chord_vs_z()
     beta_path  = viz.plot_beta_vs_z()
+    station_path = viz.plot_sections_2d()
     return {
-        "stack_3d": str(stack_path),
+        "stack_3d": str(station_stack_path),
         "chord_vs_z": str(chord_path),
         "beta_vs_z": str(beta_path),
+        "sections_2d": str(station_path),
     }
 
 

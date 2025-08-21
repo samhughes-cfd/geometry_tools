@@ -1,0 +1,11 @@
+2025-08-21 03:44:32,825 - INFO - Logger initialized for ConvergenceStudy [sec_003_r0.286]
+2025-08-21 03:44:32,826 - INFO - Starting convergence study over 1 mesh sizes: [40.]
+2025-08-21 03:44:32,826 - INFO - [1/1] Processing mesh size h = 40
+2025-08-21 03:44:32,827 - DEBUG - [sec_003_r0.286_h40] Copying geometry and initiating meshing …
+2025-08-21 03:44:32,839 - INFO - [sec_003_r0.286_h40] Mesh created successfully
+2025-08-21 03:44:32,839 - DEBUG - [sec_003_r0.286_h40] Starting section property calculation …
+2025-08-21 03:44:34,432 - DEBUG - [sec_003_r0.286_h40] Section analysis row returned
+2025-08-21 03:44:34,435 - INFO - [sec_003_r0.286_h40] Section analysis completed successfully.
+2025-08-21 03:44:34,435 - INFO - Convergence study completed: 1 successful, 1 attempted
+2025-08-21 03:44:34,436 - INFO - Generating convergence visualisation …
+2025-08-21 03:44:35,116 - INFO - Convergence visualisation completed.

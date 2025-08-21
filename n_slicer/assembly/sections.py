@@ -46,6 +46,50 @@ from n_slicer.geom.transform import transform_xy, chord_pivot_norm
 
 
 # --------------------------------------------------------------------------- #
+# Helper: robustly write a visually and logically closed profile to DXF.
+# Creates an LWPOLYLINE, sets the closed flag, and adds an explicit LINE
+# from the last vertex to the first to guarantee a closing edge in picky viewers.
+# --------------------------------------------------------------------------- #
+def _write_closed_lwpolyline_with_line(msp, XY: np.ndarray, tol: float = 1e-9):
+    """
+    Robustly write a closed profile:
+    - Create LWPOLYLINE (do not rely on 'close' kwarg for rendering).
+    - Set the entity's closed flag (helps HATCH/booleans).
+    - Add an explicit LINE from last -> first vertex when needed.
+    """
+    poly = np.asarray(XY, dtype=float)
+
+    # Defensive clean-up
+    if np.isnan(poly).any():
+        poly = poly[~np.isnan(poly).any(axis=1)]
+    if len(poly) < 3:
+        raise ValueError("Polyline must have at least 3 vertices.")
+
+    pts = [tuple(p) for p in poly]
+
+    # 1) Add LWPOLYLINE (version-tolerant call signature)
+    try:
+        ent = msp.add_lwpolyline(pts, format="xy", close=False)
+    except TypeError:
+        ent = msp.add_lwpolyline(pts)
+
+    # 2) Mark as closed (DXF flag)
+    try:
+        ent.closed = True
+    except Exception:
+        try:
+            ent.dxf.flags |= 1
+        except Exception:
+            pass
+
+    # 3) Belt-and-braces: explicit closing EDGE (for viewers that ignore flags)
+    if not np.allclose(poly[-1], poly[0], atol=tol, rtol=0):
+        msp.add_line(tuple(poly[-1]), tuple(poly[0]))
+
+    return ent
+
+
+# --------------------------------------------------------------------------- #
 # Core builder: build from a *DataFrame* that already represents the sampled
 # distribution to use (columns: r_over_R, twist_deg, chord, optional name).
 # This function does no sampling/fitting.
@@ -135,10 +179,12 @@ def build_section_bin_from_dataframe(
         rR = float(row["r_over_R"])
         c  = float(row["chord"])
         b  = float(row["twist_deg"])
-        name = str(row["name"]) if "name" in df.columns and isinstance(row["name"], str) else None
+        # Robust name extraction (preserve None for NaN/empty)
+        raw_name = row["name"] if "name" in df.columns else None
+        name = None if (raw_name is None or (isinstance(raw_name, float) and np.isnan(raw_name))) else str(raw_name)
         zL_val = None if zL_arr is None else float(zL_arr[i])
 
-        # Transform geometry once for this station
+        # Transform geometry once for this station and ensure it's CLOSED
         XY = transform_xy(
             XY_in,
             chord=c,
@@ -148,6 +194,8 @@ def build_section_bin_from_dataframe(
             units_scale=units_scale,
             keep_pivot_in_place=keep_pivot_in_place,
             twist_sign=twist_sign,
+            close_loop=True,    # <<--- make the polyline explicitly closed
+            close_tol=1e-9,
         )
 
         # Optional DXF
@@ -155,11 +203,11 @@ def build_section_bin_from_dataframe(
         if write_dxfs:
             from ezdxf import new as _dxf_new
             doc = _dxf_new(dxfversion="R2018"); msp = doc.modelspace()
-            msp.add_lwpolyline(XY.tolist(), format="xy", close=True)
+            _write_closed_lwpolyline_with_line(msp, XY, tol=1e-9)
             dxf_path = os.path.join(outdir, filename(i, rR, name))
             doc.saveas(dxf_path)
 
-        # Assemble row (store resolved pivot)
+        # Assemble row (store resolved pivot) — use CLOSED XY
         sec = SectionRow(
             station_idx=int(i),
             rR=rR, c=c, beta_deg=b, R=R,
@@ -189,6 +237,7 @@ def build_section_bin_from_dataframe(
         sec.scaled = ScaledProperties.from_normalised(
             norm=norm_props, map_point=_map_point, scale=scale_total, cp_frac=cp_default_frac
         )
+        # Use CLOSED geometry for polyline-derived metrics
         sec.scaled.compute_geom(XY, cp_frac=cp_default_frac)
         bin_.add(sec)
 
