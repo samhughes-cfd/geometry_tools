@@ -2,6 +2,7 @@
 
 import sys
 from pathlib import Path
+from datetime import datetime  # ⬅ for timestamping
 
 # ───── Add project root to sys.path BEFORE any project imports ─────
 CURRENT_FILE = Path(__file__).resolve()
@@ -23,11 +24,14 @@ def main():
     # ───── Setup directories ─────
     BASE_DIR = PROJECT_ROOT / "n_sections"
     BLADE_DIR = BASE_DIR / "blade"
-    LIMIT_DIR = BASE_DIR / "blade_optimisation_limit"
+    LIMIT_DIR = BASE_DIR / "blade_optimisation_limits"  # plural for consistency
     RESULTS = BASE_DIR / "results"
     LOGS = BASE_DIR / "logs"
-    RESULTS_DIR = RESULTS / "optimisation"
-    LOGS_DIR = LOGS / "optimisation"
+
+    # Create timestamped results directory
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    RESULTS_DIR = RESULTS / "optimisation" / timestamp
+    LOGS_DIR = LOGS / "optimisation" / timestamp
 
     for d in (RESULTS_DIR, LOGS_DIR):
         d.mkdir(parents=True, exist_ok=True)
@@ -42,6 +46,7 @@ def main():
         ],
     )
     logging.info("🚀 Starting section optimisation pipeline")
+    logging.info("🗂 Results stored in: %s", RESULTS_DIR)
 
     # ───── Load blade station metadata ─────
     stations_csv = BLADE_DIR / "blade_stations.csv"
@@ -77,6 +82,7 @@ def main():
     logging.info("Void scale factor sweep: exponential from 0.6 to 0.995 → %d values", len(scale_factors))
 
     # ───── Process each station ─────
+    all_results = []
     for row in stations:
         try:
             filename = row["filename"]
@@ -107,17 +113,27 @@ def main():
                 Cx=Cx,
                 Cy=Cy,
                 h=hs[0],
-                results_dir=RESULTS,
-                logs_dir=LOGS,
+                results_dir=RESULTS_DIR,  # ⬅ store results in timestamped folder
+                logs_dir=LOGS_DIR,
                 scale_factors=scale_factors,
                 target_Jt_mm4=target_Jt,
                 target_Iz_mm4=target_Iz,
             )
 
             result_set = section.run()
+            all_results.append(result_set)
 
         except Exception as e:
             logging.exception("❌ Failed to process station %s: %s", label, str(e))
+
+    # ───── Save summary across all stations ─────
+    if all_results:
+        try:
+            df = pd.DataFrame(all_results)
+            df.to_csv(RESULTS_DIR / "summary.csv", index=False)
+            logging.info("📊 Saved summary of results to: %s", RESULTS_DIR / "summary.csv")
+        except Exception as e:
+            logging.exception("❌ Failed to save results summary: %s", e)
 
     logging.info("✅ Section optimisation process complete — results in: %s", RESULTS_DIR)
 

@@ -1,0 +1,7 @@
+2025-08-21 19:06:43,296 | INFO     | Logging initialized for ProcessedGeometry
+2025-08-21 19:06:43,296 | INFO     | Importing DXF geometry from C:\Users\samea\Desktop\geometry_tools\n_sections\blade\Station_2.dxf
+2025-08-21 19:06:43,490 | INFO     | DXF import complete
+2025-08-21 19:06:43,494 | INFO     | Resampling and geometry reconstruction complete
+2025-08-21 19:06:43,494 | INFO     | Twist step disabled; passing geometry through unchanged.
+2025-08-21 19:06:43,494 | INFO     | Origin step disabled; passing geometry through unchanged.
+2025-08-21 19:06:43,495 | INFO     | No material assigned.

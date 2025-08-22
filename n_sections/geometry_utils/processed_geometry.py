@@ -17,7 +17,7 @@ from geometry_transforms.cop_offset import CopOffset
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CAD files are always in millimetres → convert to metres
-MM_to_M: float = 1e-3
+# MM_to_M: float = 1e-3
 # ─────────────────────────────────────────────────────────────────────────────
 
 
@@ -69,7 +69,7 @@ class ProcessedGeometry:
             self.logger.addHandler(handler)
         self.logger.setLevel(logging.INFO)
         self.logger.info("Logging initialized for ProcessedGeometry")
-        self.logger.info("Units scale set to %.6f (mm → m)", MM_to_M)
+        #self.logger.info("Units scale set to %.6f (mm → m)", MM_to_M)
 
     # ─────────────────────────────────────────────────────────────────────────
 
@@ -208,24 +208,24 @@ class ProcessedGeometry:
             self.logger.error("DXF import failed: %s", e, exc_info=True)
             raise
 
-        # ── Scale to metres (mm → m via global MM_to_M)
-        try:
-            if isinstance(geom_raw, Geometry):
-                scaled_geom = scale(geom_raw.geom, xfact=MM_to_M, yfact=MM_to_M, origin=(0, 0))
-                geom_raw = Geometry(geom=scaled_geom)
-                self.logger.debug("Scaled single geometry by %.6f", MM_to_M)
-            elif isinstance(geom_raw, CompoundGeometry):
-                scaled_geoms = []
-                for g in geom_raw.geoms:
-                    scaled = scale(g.geom, xfact=MM_to_M, yfact=MM_to_M, origin=(0, 0))
-                    scaled_geoms.append(Geometry(geom=scaled))
-                geom_raw = CompoundGeometry(scaled_geoms)
-                self.logger.debug("Scaled compound geometry by %.6f", MM_to_M)
-            else:
-                raise TypeError("Unexpected geometry type when scaling.")
-        except Exception as e:
-            self.logger.error("Scaling geometry failed: %s", e, exc_info=True)
-            raise
+        ## ── Scale to metres (mm → m via global MM_to_M)
+        #try:
+            #if isinstance(geom_raw, Geometry):
+                #scaled_geom = scale(geom_raw.geom, xfact=MM_to_M, yfact=MM_to_M, origin=(0, 0))
+                #geom_raw = Geometry(geom=scaled_geom)
+                #self.logger.debug("Scaled single geometry by %.6f", MM_to_M)
+            #elif isinstance(geom_raw, CompoundGeometry):
+                #scaled_geoms = []
+                #for g in geom_raw.geoms:
+                    #scaled = scale(g.geom, xfact=MM_to_M, yfact=MM_to_M, origin=(0, 0))
+                    #scaled_geoms.append(Geometry(geom=scaled))
+                #geom_raw = CompoundGeometry(scaled_geoms)
+                #self.logger.debug("Scaled compound geometry by %.6f", MM_to_M)
+            #else:
+                #raise TypeError("Unexpected geometry type when scaling.")
+        #except Exception as e:
+            #self.logger.error("Scaling geometry failed: %s", e, exc_info=True)
+            #raise
 
         # ── Optional exterior resample
         if resample_exterior:

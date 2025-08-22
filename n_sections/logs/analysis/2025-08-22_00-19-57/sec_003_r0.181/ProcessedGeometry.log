@@ -1,0 +1,7 @@
+2025-08-22 00:20:11,424 | INFO     | Logging initialized for ProcessedGeometry
+2025-08-22 00:20:11,425 | INFO     | Importing DXF geometry from C:\Users\samea\Desktop\geometry_tools\n_sections\blade\sec_003_r0.181.dxf
+2025-08-22 00:20:11,444 | INFO     | DXF import complete
+2025-08-22 00:20:11,444 | INFO     | Resampling and geometry reconstruction complete
+2025-08-22 00:20:11,444 | INFO     | Twist step disabled; passing geometry through unchanged.
+2025-08-22 00:20:11,444 | INFO     | Origin step disabled; passing geometry through unchanged.
+2025-08-22 00:20:11,444 | INFO     | Material assigned: Al_7075_T6
