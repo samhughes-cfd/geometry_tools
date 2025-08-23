@@ -65,9 +65,9 @@ KEEP_PIVOT = False
 UNITS_SCALE = length_scale(UNITS.c, UNITS.XY)
 
 # ---- sampling/discretisation controls ---------------------------------------
-N_SECTIONS = 10
+N_SECTIONS = 16
 SCHEME     = "power_root"        # 'uniform' | 'cosine' | 'power_root' | 'power_tip'
-POWER_EXP  = 2.5
+POWER_EXP  = 1.5
 CUSTOM_MAPPING = None         # def CUSTOM_MAPPING(u: np.ndarray) -> np.ndarray: ...
 
 # ---- fit controls ------------------------------------------------------------
